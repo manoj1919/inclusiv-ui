@@ -79,6 +79,21 @@
         "lre_separate_setting_autism": { "$ref": "#/$defs/SourcedNumber" }
       }
     },
+    "outcome_metrics": {
+      "type": "object",
+      "description": "District outcomes from the California School Dashboard, primarily for the Students with Disabilities (SWD) subgroup. Percentages on 0.0-1.0 scale; academic distance-from-standard (DFS) in raw points (negative = below standard).",
+      "additionalProperties": false,
+      "properties": {
+        "chronic_absenteeism_rate_swd": { "$ref": "#/$defs/SourcedNumber" },
+        "chronic_absenteeism_rate_all": { "$ref": "#/$defs/SourcedNumber" },
+        "suspension_rate_swd": { "$ref": "#/$defs/SourcedNumber" },
+        "suspension_rate_all": { "$ref": "#/$defs/SourcedNumber" },
+        "ela_distance_from_standard_swd": { "$ref": "#/$defs/SourcedNumber" },
+        "ela_distance_from_standard_all": { "$ref": "#/$defs/SourcedNumber" },
+        "math_distance_from_standard_swd": { "$ref": "#/$defs/SourcedNumber" },
+        "math_distance_from_standard_all": { "$ref": "#/$defs/SourcedNumber" }
+      }
+    },
     "programs": {
       "type": "object",
       "additionalProperties": false,

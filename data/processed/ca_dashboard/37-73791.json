@@ -1,0 +1,64 @@
+{
+  "_academic_year": "2024-25",
+  "_partial": true,
+  "_source": "ca_dashboard",
+  "cds_code": "37-73791",
+  "outcome_metrics": {
+    "chronic_absenteeism_rate_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:37:48Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.129
+    },
+    "chronic_absenteeism_rate_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:37:48Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.198
+    },
+    "ela_distance_from_standard_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:37:48Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 14.0
+    },
+    "ela_distance_from_standard_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:37:48Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -78.2
+    },
+    "math_distance_from_standard_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:37:48Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -18.1
+    },
+    "math_distance_from_standard_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:37:48Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -104.9
+    },
+    "suspension_rate_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:37:48Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.021
+    },
+    "suspension_rate_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:37:48Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.043
+    }
+  }
+}
