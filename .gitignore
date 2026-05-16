@@ -15,6 +15,7 @@ node_modules/
 .turbo/
 dist/
 build/
+out/
 *.tsbuildinfo
 
 # Env / secrets — NEVER commit. Use Doppler (see docs/SECURITY.md).
