@@ -1,0 +1,149 @@
+{
+  "build_provenance": {
+    "built_at": "2026-05-16T06:55:54Z",
+    "pipeline_version": "0.1.0",
+    "raw_snapshots": [
+      {
+        "path": "data/raw/ca_dashboard/2026-05-16/chronicdownload2025.txt",
+        "sha256": "81ef3fe82b8bf486ab9e014c77a12c1e6e86879264132993af9be3faf369d15d",
+        "source": "ca_dashboard"
+      },
+      {
+        "path": "data/raw/ca_dashboard/2026-05-16/eladownload2025.txt",
+        "sha256": "3ed9b3f9af3f55bc8ba5390ef0532b0bf594e1c835d655520c0f0ab76c66fd04",
+        "source": "ca_dashboard"
+      },
+      {
+        "path": "data/raw/ca_dashboard/2026-05-16/mathdownload2025.txt",
+        "sha256": "5e9137a1698f645a511f4b1bf23fbfe64782df87af8aabeecc4f4552bdb2332b",
+        "source": "ca_dashboard"
+      },
+      {
+        "path": "data/raw/ca_dashboard/2026-05-16/suspdownload2025.txt",
+        "sha256": "7f670baff136aa79ed797cfa13de7bb824ef09e496d306410e36ae1055571e43",
+        "source": "ca_dashboard"
+      },
+      {
+        "path": "data/raw/cde_spedps/2026-05-16/spedps.tsv",
+        "sha256": "0ff89ec8eaa97afc2eea71543b5454f18ba5e857a5289357a697ccbfb1e53d22",
+        "source": "cde_spedps"
+      }
+    ]
+  },
+  "cds_code": "37-68379",
+  "county": "San Diego",
+  "county_code": "37",
+  "data_sources_used": [
+    "cde_spedps",
+    "ca_dashboard"
+  ],
+  "district_type": "Elementary K-6",
+  "enrollment": {
+    "students_with_autism": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-16T06:55:46Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 265
+    },
+    "students_with_iep": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-16T06:55:46Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 770
+    }
+  },
+  "inclusion_metrics": {
+    "lre_80pct_plus_gen_ed_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-16T06:55:46Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.431
+    },
+    "lre_80pct_plus_gen_ed_autism": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-16T06:55:46Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.196
+    },
+    "lre_separate_setting_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-16T06:55:46Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.005
+    },
+    "lre_separate_setting_autism": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-16T06:55:46Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.011
+    }
+  },
+  "last_updated": "2026-05-16",
+  "name": "San Ysidro Elementary",
+  "outcome_metrics": {
+    "chronic_absenteeism_rate_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:55:46Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.287
+    },
+    "chronic_absenteeism_rate_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:55:46Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.363
+    },
+    "ela_distance_from_standard_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:55:46Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -36.0
+    },
+    "ela_distance_from_standard_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:55:46Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -113.5
+    },
+    "math_distance_from_standard_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:55:46Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -62.4
+    },
+    "math_distance_from_standard_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:55:46Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -135.3
+    },
+    "suspension_rate_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:55:46Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.023
+    },
+    "suspension_rate_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-16T06:55:46Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.033
+    }
+  },
+  "region": "South",
+  "schema_version": "0.1.0"
+}

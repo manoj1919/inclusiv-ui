@@ -1,65 +1,23 @@
 {
-  "_comment": "Phase 1 pilot district list (San Diego County). CDS codes verified against the CDE public districts master file (cde.ca.gov SchoolDirectory, downloadable data id=dl2) on 2026-05-16.",
-  "phase": 1,
+  "_comment": "Phase 2 list (all San Diego County traditional districts). Districts with `auto_added: true` were generated from the CDE SPED-PS file with heuristic region/type classification \u2014 review and correct as needed. State-Board-authorized charters and the County Office of Education are excluded.",
+  "phase": 2,
   "county": "San Diego",
   "county_code": "37",
   "approved_date": "2026-05-16",
   "districts": [
     {
-      "name": "San Diego Unified",
-      "region": "Central",
-      "type": "Unified K-12",
-      "cds_code": "37-68338",
-      "rationale": "Largest district in county; user's current district"
-    },
-    {
-      "name": "Poway Unified",
-      "region": "North Inland",
-      "type": "Unified K-12",
-      "cds_code": "37-68296",
-      "rationale": "Award-winning special education; benchmark district"
-    },
-    {
-      "name": "Sweetwater Union High",
-      "region": "South",
-      "type": "High School Only",
-      "cds_code": "37-68411",
-      "rationale": "Tests HS-only district handling in pipeline"
-    },
-    {
-      "name": "Chula Vista Elementary",
-      "region": "South",
+      "name": "Alpine Union Elementary",
+      "region": "East",
       "type": "Elementary K-6",
-      "cds_code": "37-68023",
-      "rationale": "Tests K-6 elementary district handling"
+      "cds_code": "37-67967",
+      "auto_added": true
     },
     {
-      "name": "Carlsbad Unified",
-      "region": "North Coast",
+      "name": "Borrego Springs Unified",
+      "region": "East",
       "type": "Unified K-12",
-      "cds_code": "37-73551",
-      "rationale": "Affluent coastal suburban"
-    },
-    {
-      "name": "San Marcos Unified",
-      "region": "North Inland",
-      "type": "Unified K-12",
-      "cds_code": "37-73791",
-      "rationale": "Mid-size suburban"
-    },
-    {
-      "name": "Vista Unified",
-      "region": "North Inland",
-      "type": "Unified K-12",
-      "cds_code": "37-68452",
-      "rationale": "Working-class suburban"
-    },
-    {
-      "name": "Escondido Union",
-      "region": "North Inland",
-      "type": "Elementary K-8",
-      "cds_code": "37-68098",
-      "rationale": "Tests K-8 elementary district handling"
+      "cds_code": "37-67983",
+      "auto_added": true
     },
     {
       "name": "Cajon Valley Union",
@@ -69,11 +27,277 @@
       "rationale": "East county K-8"
     },
     {
+      "name": "Cardiff Elementary",
+      "region": "North Coast",
+      "type": "Elementary K-6",
+      "cds_code": "37-68007",
+      "auto_added": true
+    },
+    {
+      "name": "Chula Vista Elementary",
+      "region": "South",
+      "type": "Elementary K-6",
+      "cds_code": "37-68023",
+      "rationale": "Tests K-6 elementary district handling"
+    },
+    {
+      "name": "Coronado Unified",
+      "region": "South Coast",
+      "type": "Unified K-12",
+      "cds_code": "37-68031",
+      "auto_added": true
+    },
+    {
+      "name": "Dehesa Elementary",
+      "region": "East",
+      "type": "Elementary K-6",
+      "cds_code": "37-68049",
+      "auto_added": true
+    },
+    {
+      "name": "Del Mar Union Elementary",
+      "region": "North Coast",
+      "type": "Elementary K-6",
+      "cds_code": "37-68056",
+      "auto_added": true
+    },
+    {
+      "name": "Encinitas Union Elementary",
+      "region": "North Coast",
+      "type": "Elementary K-6",
+      "cds_code": "37-68080",
+      "auto_added": true
+    },
+    {
+      "name": "Escondido Union",
+      "region": "North Inland",
+      "type": "Elementary K-8",
+      "cds_code": "37-68098",
+      "rationale": "Tests K-8 elementary district handling"
+    },
+    {
+      "name": "Escondido Union High",
+      "region": "North Inland",
+      "type": "High School Only",
+      "cds_code": "37-68106",
+      "auto_added": true
+    },
+    {
+      "name": "Fallbrook Union Elementary",
+      "region": "North Inland",
+      "type": "Elementary K-6",
+      "cds_code": "37-68114",
+      "auto_added": true
+    },
+    {
+      "name": "Fallbrook Union High",
+      "region": "North Inland",
+      "type": "High School Only",
+      "cds_code": "37-68122",
+      "auto_added": true
+    },
+    {
       "name": "Grossmont Union High",
       "region": "East",
       "type": "High School Only",
       "cds_code": "37-68130",
       "rationale": "East county HS only"
+    },
+    {
+      "name": "Jamul-Dulzura Union Elementary",
+      "region": "East",
+      "type": "Elementary K-6",
+      "cds_code": "37-68155",
+      "auto_added": true
+    },
+    {
+      "name": "Julian Union Elementary",
+      "region": "East",
+      "type": "Elementary K-6",
+      "cds_code": "37-68163",
+      "auto_added": true
+    },
+    {
+      "name": "Julian Union High",
+      "region": "East",
+      "type": "High School Only",
+      "cds_code": "37-68171",
+      "auto_added": true
+    },
+    {
+      "name": "Lakeside Union Elementary",
+      "region": "East",
+      "type": "Elementary K-6",
+      "cds_code": "37-68189",
+      "auto_added": true
+    },
+    {
+      "name": "La Mesa-Spring Valley",
+      "region": "East",
+      "type": "Other",
+      "cds_code": "37-68197",
+      "auto_added": true
+    },
+    {
+      "name": "Lemon Grove",
+      "region": "East",
+      "type": "Other",
+      "cds_code": "37-68205",
+      "auto_added": true
+    },
+    {
+      "name": "Mountain Empire Unified",
+      "region": "East",
+      "type": "Unified K-12",
+      "cds_code": "37-68213",
+      "auto_added": true
+    },
+    {
+      "name": "National Elementary",
+      "region": "South",
+      "type": "Elementary K-6",
+      "cds_code": "37-68221",
+      "auto_added": true
+    },
+    {
+      "name": "Poway Unified",
+      "region": "North Inland",
+      "type": "Unified K-12",
+      "cds_code": "37-68296",
+      "rationale": "Award-winning special education; benchmark district"
+    },
+    {
+      "name": "Ramona City Unified",
+      "region": "North Inland",
+      "type": "Unified K-12",
+      "cds_code": "37-68304",
+      "auto_added": true
+    },
+    {
+      "name": "Rancho Santa Fe Elementary",
+      "region": "North Coast",
+      "type": "Elementary K-6",
+      "cds_code": "37-68312",
+      "auto_added": true
+    },
+    {
+      "name": "San Diego Unified",
+      "region": "Central",
+      "type": "Unified K-12",
+      "cds_code": "37-68338",
+      "rationale": "Largest district in county; user's current district"
+    },
+    {
+      "name": "San Dieguito Union High",
+      "region": "North Coast",
+      "type": "High School Only",
+      "cds_code": "37-68346",
+      "auto_added": true
+    },
+    {
+      "name": "San Pasqual Union Elementary",
+      "region": "North Inland",
+      "type": "Elementary K-6",
+      "cds_code": "37-68353",
+      "auto_added": true
+    },
+    {
+      "name": "Santee",
+      "region": "East",
+      "type": "Other",
+      "cds_code": "37-68361",
+      "auto_added": true
+    },
+    {
+      "name": "San Ysidro Elementary",
+      "region": "South",
+      "type": "Elementary K-6",
+      "cds_code": "37-68379",
+      "auto_added": true
+    },
+    {
+      "name": "Solana Beach Elementary",
+      "region": "North Coast",
+      "type": "Elementary K-6",
+      "cds_code": "37-68387",
+      "auto_added": true
+    },
+    {
+      "name": "South Bay Union",
+      "region": "South",
+      "type": "Elementary K-6",
+      "cds_code": "37-68395",
+      "auto_added": true
+    },
+    {
+      "name": "Spencer Valley Elementary",
+      "region": "East",
+      "type": "Elementary K-6",
+      "cds_code": "37-68403",
+      "auto_added": true
+    },
+    {
+      "name": "Sweetwater Union High",
+      "region": "South",
+      "type": "High School Only",
+      "cds_code": "37-68411",
+      "rationale": "Tests HS-only district handling in pipeline"
+    },
+    {
+      "name": "Vallecitos Elementary",
+      "region": "East",
+      "type": "Elementary K-6",
+      "cds_code": "37-68437",
+      "auto_added": true
+    },
+    {
+      "name": "Vista Unified",
+      "region": "North Inland",
+      "type": "Unified K-12",
+      "cds_code": "37-68452",
+      "rationale": "Working-class suburban"
+    },
+    {
+      "name": "Carlsbad Unified",
+      "region": "North Coast",
+      "type": "Unified K-12",
+      "cds_code": "37-73551",
+      "rationale": "Affluent coastal suburban"
+    },
+    {
+      "name": "Oceanside Unified",
+      "region": "North Coast",
+      "type": "Unified K-12",
+      "cds_code": "37-73569",
+      "auto_added": true
+    },
+    {
+      "name": "San Marcos Unified",
+      "region": "North Inland",
+      "type": "Unified K-12",
+      "cds_code": "37-73791",
+      "rationale": "Mid-size suburban"
+    },
+    {
+      "name": "Warner Unified",
+      "region": "North Inland",
+      "type": "Unified K-12",
+      "cds_code": "37-75416",
+      "auto_added": true
+    },
+    {
+      "name": "Valley Center-Pauma Unified",
+      "region": "North Inland",
+      "type": "Unified K-12",
+      "cds_code": "37-75614",
+      "auto_added": true
+    },
+    {
+      "name": "Bonsall Unified",
+      "region": "North Inland",
+      "type": "Unified K-12",
+      "cds_code": "37-76851",
+      "auto_added": true
     }
   ]
 }

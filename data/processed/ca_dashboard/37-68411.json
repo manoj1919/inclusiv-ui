@@ -6,56 +6,56 @@
   "outcome_metrics": {
     "chronic_absenteeism_rate_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:37:48Z",
+      "fetched_at": "2026-05-16T06:55:46Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.186
     },
     "chronic_absenteeism_rate_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:37:48Z",
+      "fetched_at": "2026-05-16T06:55:46Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.26
     },
     "ela_distance_from_standard_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:37:48Z",
+      "fetched_at": "2026-05-16T06:55:46Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -1.0
     },
     "ela_distance_from_standard_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:37:48Z",
+      "fetched_at": "2026-05-16T06:55:46Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -102.5
     },
     "math_distance_from_standard_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:37:48Z",
+      "fetched_at": "2026-05-16T06:55:46Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -62.9
     },
     "math_distance_from_standard_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:37:48Z",
+      "fetched_at": "2026-05-16T06:55:46Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -159.5
     },
     "suspension_rate_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:37:48Z",
+      "fetched_at": "2026-05-16T06:55:46Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.042
     },
     "suspension_rate_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:37:48Z",
+      "fetched_at": "2026-05-16T06:55:46Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.068
