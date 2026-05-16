@@ -168,7 +168,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["cde_dataquest", "ca_dashboard", "oah", "ocr_crdc", "selpa_report", "zillow", "manual"]
+        "enum": ["cde_spedps", "ca_dashboard", "oah", "ocr_crdc", "selpa_report", "zillow", "manual"]
       }
     },
     "build_provenance": {
