@@ -1,0 +1,36 @@
+name: Annual data refresh
+
+on:
+  schedule:
+    # Run once a year on December 15, 09:00 UTC — after CDE typically releases prior school year data
+    - cron: "0 9 15 12 *"
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Run pipeline (placeholder)
+        run: |
+          echo "Pipeline runner not yet implemented."
+          # python -m pipeline.run --all
+
+      - name: Open PR with data diffs
+        if: false  # disabled until pipeline exists
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "data: annual refresh"
+          title: "Annual data refresh"
+          body: "Auto-generated PR from yearly pipeline run. Human review required before merge."
+          branch: data-refresh

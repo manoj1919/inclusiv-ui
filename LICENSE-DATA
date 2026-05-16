@@ -1,0 +1,22 @@
+Creative Commons CC0 1.0 Universal Public Domain Dedication
+
+The person who associated a work with this deed has dedicated the work to the
+public domain by waiving all of his or her rights to the work worldwide under
+copyright law, including all related and neighboring rights, to the extent
+allowed by law.
+
+You can copy, modify, distribute and perform the work, even for commercial
+purposes, all without asking permission.
+
+Full text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+---
+
+Scope: This dedication applies to data files under `data/` in this repository.
+Source data originates from public records published by U.S. federal and
+California state agencies (CDE, OAH, OCR, SELPAs). Republication and
+enrichment in this repo are released to the public domain under CC0.
+
+AI-generated summary fields are likewise released under CC0, but readers
+should note they are model outputs (see `ai_generated: true` flags in the
+data) and may contain inaccuracies.
