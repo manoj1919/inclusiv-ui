@@ -18,7 +18,7 @@ Per-source transformers parse the raw output into a common shape. Each district 
 
 ### 3. Merge
 
-The transformer pipeline joins normalized records across sources into one profile per district. Conflicting fields (e.g., enrollment from CDE vs. Dashboard differing by 1–2%) are resolved by source priority documented in `pipeline/transformers/priority.py`.
+The transformer pipeline joins normalized records across sources into one profile per district. Conflicting fields (e.g., enrollment from CDE vs. Dashboard differing by 1–2%) are resolved by the `SOURCE_PRIORITY` list at the top of `pipeline/transformers/merge.py` — earlier source wins. In practice sources rarely overlap, so the priority order is a tiebreaker rather than a routine arbiter.
 
 ### 4. AI enrichment
 
@@ -30,15 +30,19 @@ Every AI-generated field is tagged `ai_generated: true` and accompanied by an `a
 
 ### 5. Validate
 
-`pipeline/validators/` runs schema validation (`data/schema/district.schema.json`) plus business-rule checks:
-- Enrollment > 0
-- LRE percentages in [0, 1]
-- Required fields present
-- Provenance: every numeric field has a `source` and `as_of` timestamp
+`pipeline/validators/` runs two layers of checks:
+
+- `validate_schema.py` enforces structure against `data/schema/district.schema.json` (JSON Schema Draft 2020-12).
+- `validate_data.py` enforces semantics the schema can't:
+  - Provenance hygiene (every `Sourced*` field has `fetched_at` and `url`)
+  - Freshness (warn when `as_of` is more than ~3 years old)
+  - Plausibility (autism count ≤ IEP count; rates in [0,1]; LRE buckets sum to ≤ 1.0; DFS within a sane range)
+  - AI hygiene (every entry under `ai_summaries` carries `ai_generated: true` + disclaimer)
+  - Cross-consistency (`data_sources_used` matches the sources in `build_provenance.raw_snapshots`)
 
 ### 6. Publish
 
-Validated profiles land in `data/processed/<cds-code>.json` and feed the FastAPI backend / Next.js frontend.
+Validated profiles land in `data/processed/districts/<cds-code>.json`. The Next.js site under `web/frontend/` reads them at build time via `generateStaticParams` and produces a fully static export — no backend or database is needed at the current data scale (yearly refresh, small district counts).
 
 ## Things we deliberately do not do
 

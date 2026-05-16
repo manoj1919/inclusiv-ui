@@ -12,10 +12,10 @@ Open-source data platform comparing California school districts on autism / spec
 
 - **Disability focus:** Autism spectrum disorder (ASD) — first
 - **Geographic phasing:**
-  - Phase 1: ~10 pilot districts in San Diego County (validation)
-  - Phase 2: All ~42 San Diego County districts
-  - Phase 3: All ~226 Southern California districts (LA, San Diego, Orange, Riverside, San Bernardino, Ventura)
-  - Phase 4: California statewide + additional disability categories
+  - Phase 1 ✅ — 10 pilot districts in San Diego County (validation set)
+  - Phase 2 ✅ — All 42 traditional SD County districts
+  - Phase 3 — All ~226 Southern California districts (LA, San Diego, Orange, Riverside, San Bernardino, Ventura, Imperial)
+  - Phase 4 — California statewide + additional disability categories
 
 ## Data sources
 
@@ -41,11 +41,32 @@ Government source data is public. The project republishes and enriches it under 
 ## Repo layout
 
 ```
-data/         # raw scraped data + normalized district profiles + schema
-pipeline/     # scrapers, transformers, AI enrichers, validators
-web/          # Next.js frontend + FastAPI backend
-docs/         # methodology, data sources, contribution guide
-.github/      # CI + scheduled annual refresh
+data/             # raw snapshots + processed per-source partials + final district profiles + schema
+pipeline/         # scrapers, transformers, AI enrichers, validators, admin scripts
+  scrapers/       # one module per source (CDE SPED-PS, CA Dashboard, ...)
+  transformers/   # merge per-source partials into one profile per district
+  enrichers/      # AI summary generation (gated on ANTHROPIC_API_KEY)
+  validators/     # schema + semantic checks
+  admin/          # operational scripts (pilot list builder, etc.)
+web/frontend/     # Next.js 16 static-site frontend (no backend at current scale)
+docs/             # methodology, data sources, security, contributing
+.github/          # CI workflow + scheduled annual refresh
+```
+
+## Running locally
+
+```bash
+# Pipeline (data)
+.venv/bin/python -m pipeline.scrapers.cde.spedps
+.venv/bin/python -m pipeline.scrapers.dashboard.cdashboard
+.venv/bin/python -m pipeline.transformers.merge
+.venv/bin/python -m pipeline.validators.validate_data
+# AI summaries — needs an Anthropic key; we use Doppler for this (see docs/SECURITY.md)
+doppler run -- .venv/bin/python -m pipeline.enrichers.summarize
+
+# Frontend (reads data/processed/districts/*.json at build time)
+cd web/frontend && npm install && npm run dev    # http://localhost:3000
+cd web/frontend && npm run build                  # static export to web/frontend/out/
 ```
 
 ## Contributing
