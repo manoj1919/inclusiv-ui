@@ -1,0 +1,257 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/manoj1919/inclusiv-ui/blob/main/data/schema/district.schema.json",
+  "title": "District Profile",
+  "description": "California school district profile focused on autism and special education data. Every numeric or factual field carries provenance (source, as_of date, fetched_at, URL). AI-generated fields are explicitly flagged.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "cds_code",
+    "name",
+    "county",
+    "county_code",
+    "district_type",
+    "last_updated"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "0.1.0"
+    },
+    "cds_code": {
+      "type": "string",
+      "pattern": "^\\d{2}-\\d{5}$",
+      "description": "California County-District-School code at the district level. Format: '37-68338'."
+    },
+    "name": { "type": "string" },
+    "county": { "type": "string" },
+    "county_code": {
+      "type": "string",
+      "pattern": "^\\d{2}$"
+    },
+    "district_type": {
+      "type": "string",
+      "enum": [
+        "Unified K-12",
+        "Elementary K-8",
+        "Elementary K-6",
+        "High School Only",
+        "Other"
+      ]
+    },
+    "region": {
+      "type": "string",
+      "description": "Free-form within-county region label, e.g. 'North Coast', 'East'."
+    },
+    "website": { "type": "string", "format": "uri" },
+    "selpa": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": ["single-district", "multi-district", "regional", "unknown"]
+        },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "enrollment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "total": { "$ref": "#/$defs/SourcedInt" },
+        "students_with_iep": { "$ref": "#/$defs/SourcedInt" },
+        "students_with_autism": { "$ref": "#/$defs/SourcedInt" },
+        "pct_iep": { "$ref": "#/$defs/SourcedNumber" },
+        "pct_autism": { "$ref": "#/$defs/SourcedNumber" }
+      }
+    },
+    "inclusion_metrics": {
+      "type": "object",
+      "description": "Least-restrictive-environment placement rates. All percentages expressed as 0.0–1.0.",
+      "additionalProperties": false,
+      "properties": {
+        "lre_80pct_plus_gen_ed_all_disabilities": { "$ref": "#/$defs/SourcedNumber" },
+        "lre_80pct_plus_gen_ed_autism": { "$ref": "#/$defs/SourcedNumber" },
+        "lre_separate_setting_all_disabilities": { "$ref": "#/$defs/SourcedNumber" },
+        "lre_separate_setting_autism": { "$ref": "#/$defs/SourcedNumber" }
+      }
+    },
+    "programs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "autism_specific_classrooms": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name"],
+            "properties": {
+              "name": { "type": "string" },
+              "grade_range": { "type": "string" },
+              "site": { "type": "string", "description": "School site if known" }
+            }
+          }
+        },
+        "bcba_on_staff": { "$ref": "#/$defs/SourcedBool" },
+        "aac_support_level": {
+          "$ref": "#/$defs/SourcedEnum",
+          "description": "Value should be one of: 'none', 'limited', 'standard', 'robust', 'unknown'"
+        },
+        "transition_18_22_program": { "$ref": "#/$defs/SourcedBool" },
+        "reverse_inclusion": { "$ref": "#/$defs/SourcedBool" }
+      }
+    },
+    "compliance": {
+      "type": "object",
+      "description": "Legal and regulatory record. Counts are 5-year rolling unless noted.",
+      "additionalProperties": false,
+      "properties": {
+        "oah_cases_5yr_total": { "$ref": "#/$defs/SourcedInt" },
+        "oah_cases_5yr_autism": { "$ref": "#/$defs/SourcedInt" },
+        "ocr_complaints_5yr": { "$ref": "#/$defs/SourcedInt" },
+        "state_audit_findings_5yr": { "$ref": "#/$defs/SourcedInt" }
+      }
+    },
+    "related_services": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "slp_caseload_ratio": {
+          "$ref": "#/$defs/SourcedNumber",
+          "description": "Students per SLP. Lower is generally better."
+        },
+        "ot_available": { "$ref": "#/$defs/SourcedBool" },
+        "pt_available": { "$ref": "#/$defs/SourcedBool" },
+        "social_skills_groups": { "$ref": "#/$defs/SourcedBool" }
+      }
+    },
+    "housing_context": {
+      "type": "object",
+      "description": "Optional housing cost reference data. Updated more frequently than core data.",
+      "additionalProperties": false,
+      "properties": {
+        "median_home_price_usd": { "$ref": "#/$defs/SourcedInt" },
+        "median_rent_usd": { "$ref": "#/$defs/SourcedInt" }
+      }
+    },
+    "ai_summaries": {
+      "type": "object",
+      "description": "AI-generated plain-language summaries. Every entry is flagged as ai_generated.",
+      "additionalProperties": false,
+      "properties": {
+        "overview": { "$ref": "#/$defs/AIGenerated" },
+        "compliance_explained": { "$ref": "#/$defs/AIGenerated" },
+        "programs_explained": { "$ref": "#/$defs/AIGenerated" },
+        "what_this_means_for_parents": { "$ref": "#/$defs/AIGenerated" }
+      }
+    },
+    "data_sources_used": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["cde_dataquest", "ca_dashboard", "oah", "ocr_crdc", "selpa_report", "zillow", "manual"]
+      }
+    },
+    "build_provenance": {
+      "type": "object",
+      "description": "Audit trail for how this profile was constructed.",
+      "additionalProperties": false,
+      "required": ["pipeline_version", "built_at"],
+      "properties": {
+        "pipeline_version": { "type": "string" },
+        "built_at": { "type": "string", "format": "date-time" },
+        "raw_snapshots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["source", "path", "sha256"],
+            "properties": {
+              "source": { "type": "string" },
+              "path": { "type": "string" },
+              "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+            }
+          }
+        }
+      }
+    },
+    "last_updated": { "type": "string", "format": "date" }
+  },
+  "$defs": {
+    "SourcedInt": {
+      "type": "object",
+      "required": ["value", "source", "as_of"],
+      "additionalProperties": false,
+      "properties": {
+        "value": { "type": ["integer", "null"] },
+        "source": { "type": "string" },
+        "as_of": { "type": "string", "format": "date" },
+        "fetched_at": { "type": "string", "format": "date-time" },
+        "url": { "type": "string", "format": "uri" },
+        "note": { "type": "string" }
+      }
+    },
+    "SourcedNumber": {
+      "type": "object",
+      "required": ["value", "source", "as_of"],
+      "additionalProperties": false,
+      "properties": {
+        "value": { "type": ["number", "null"] },
+        "source": { "type": "string" },
+        "as_of": { "type": "string", "format": "date" },
+        "fetched_at": { "type": "string", "format": "date-time" },
+        "url": { "type": "string", "format": "uri" },
+        "note": { "type": "string" }
+      }
+    },
+    "SourcedBool": {
+      "type": "object",
+      "required": ["value", "source", "as_of"],
+      "additionalProperties": false,
+      "properties": {
+        "value": { "type": ["boolean", "null"] },
+        "source": { "type": "string" },
+        "as_of": { "type": "string", "format": "date" },
+        "fetched_at": { "type": "string", "format": "date-time" },
+        "url": { "type": "string", "format": "uri" },
+        "note": { "type": "string" }
+      }
+    },
+    "SourcedEnum": {
+      "type": "object",
+      "required": ["value", "source", "as_of"],
+      "additionalProperties": false,
+      "properties": {
+        "value": { "type": ["string", "null"] },
+        "source": { "type": "string" },
+        "as_of": { "type": "string", "format": "date" },
+        "fetched_at": { "type": "string", "format": "date-time" },
+        "url": { "type": "string", "format": "uri" },
+        "note": { "type": "string" }
+      }
+    },
+    "AIGenerated": {
+      "type": "object",
+      "required": ["value", "ai_generated", "ai_model", "ai_generated_at", "ai_disclaimer"],
+      "additionalProperties": false,
+      "properties": {
+        "value": { "type": "string" },
+        "ai_generated": { "const": true },
+        "ai_model": { "type": "string" },
+        "ai_generated_at": { "type": "string", "format": "date-time" },
+        "ai_disclaimer": {
+          "type": "string",
+          "description": "Human-readable disclaimer shown alongside this text on the website."
+        },
+        "based_on_sources": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

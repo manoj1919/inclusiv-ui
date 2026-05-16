@@ -17,13 +17,21 @@ dist/
 build/
 *.tsbuildinfo
 
-# Env / secrets
+# Env / secrets — NEVER commit. Use Doppler (see docs/SECURITY.md).
 .env
+.env.*
+*.env
 .env.local
-.env.*.local
 *.key
 *.pem
+*.pfx
+*.p12
 .anthropic_key
+.openai_key
+.doppler/
+doppler.yaml.local
+secrets/
+credentials/
 
 # Editor / OS
 .DS_Store
