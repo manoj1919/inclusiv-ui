@@ -1,5 +1,5 @@
 {
-  "_comment": "Phase 1 pilot district list (San Diego County). CDS codes will be verified against authoritative CDE source on first scraper run; placeholders here are best-effort.",
+  "_comment": "Phase 1 pilot district list (San Diego County). CDS codes verified against the CDE public districts master file (cde.ca.gov SchoolDirectory, downloadable data id=dl2) on 2026-05-16.",
   "phase": 1,
   "county": "San Diego",
   "county_code": "37",
@@ -9,70 +9,70 @@
       "name": "San Diego Unified",
       "region": "Central",
       "type": "Unified K-12",
-      "cds_code_unverified": "37-68338",
+      "cds_code": "37-68338",
       "rationale": "Largest district in county; user's current district"
     },
     {
       "name": "Poway Unified",
       "region": "North Inland",
       "type": "Unified K-12",
-      "cds_code_unverified": "37-68262",
+      "cds_code": "37-68296",
       "rationale": "Award-winning special education; benchmark district"
     },
     {
       "name": "Sweetwater Union High",
       "region": "South",
       "type": "High School Only",
-      "cds_code_unverified": "37-68130",
+      "cds_code": "37-68411",
       "rationale": "Tests HS-only district handling in pipeline"
     },
     {
       "name": "Chula Vista Elementary",
       "region": "South",
       "type": "Elementary K-6",
-      "cds_code_unverified": "37-67967",
+      "cds_code": "37-68023",
       "rationale": "Tests K-6 elementary district handling"
     },
     {
       "name": "Carlsbad Unified",
       "region": "North Coast",
       "type": "Unified K-12",
-      "cds_code_unverified": "37-67882",
+      "cds_code": "37-73551",
       "rationale": "Affluent coastal suburban"
     },
     {
       "name": "San Marcos Unified",
       "region": "North Inland",
       "type": "Unified K-12",
-      "cds_code_unverified": "37-68106",
+      "cds_code": "37-73791",
       "rationale": "Mid-size suburban"
     },
     {
       "name": "Vista Unified",
       "region": "North Inland",
       "type": "Unified K-12",
-      "cds_code_unverified": "37-68197",
+      "cds_code": "37-68452",
       "rationale": "Working-class suburban"
     },
     {
       "name": "Escondido Union",
       "region": "North Inland",
       "type": "Elementary K-8",
-      "cds_code_unverified": "37-67991",
+      "cds_code": "37-68098",
       "rationale": "Tests K-8 elementary district handling"
     },
     {
       "name": "Cajon Valley Union",
       "region": "East",
       "type": "Elementary K-8",
-      "cds_code_unverified": "37-67876",
+      "cds_code": "37-67991",
       "rationale": "East county K-8"
     },
     {
       "name": "Grossmont Union High",
       "region": "East",
       "type": "High School Only",
-      "cds_code_unverified": "37-68023",
+      "cds_code": "37-68130",
       "rationale": "East county HS only"
     }
   ]

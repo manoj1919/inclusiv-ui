@@ -40,8 +40,10 @@ credentials/
 *.swp
 *~
 
-# Local data caches (raw downloads, large)
-data/raw/_cache/
+# Raw scraped snapshots are large and reproducible from source URLs.
+# Keep them local; the SHA-256 in processed profiles is the durable fingerprint.
+data/raw/*/
+!data/raw/.gitkeep
 
 # Logs
 *.log

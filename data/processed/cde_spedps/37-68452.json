@@ -1,0 +1,54 @@
+{
+  "_academic_year": "2024-25",
+  "_partial": true,
+  "_source": "cde_spedps",
+  "cds_code": "37-68452",
+  "county": "San Diego",
+  "enrollment": {
+    "students_with_autism": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-16T06:34:32Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 41
+    },
+    "students_with_iep": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-16T06:34:32Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 537
+    }
+  },
+  "inclusion_metrics": {
+    "lre_80pct_plus_gen_ed_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-16T06:34:32Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.905
+    },
+    "lre_80pct_plus_gen_ed_autism": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-16T06:34:32Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.829
+    },
+    "lre_separate_setting_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-16T06:34:32Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.0
+    },
+    "lre_separate_setting_autism": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-16T06:34:32Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.0
+    }
+  },
+  "name": "Vista Unified"
+}
