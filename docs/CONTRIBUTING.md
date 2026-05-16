@@ -4,7 +4,7 @@ The project is in pre-launch alpha and not yet open for external contributions. 
 
 ## Reporting data errors
 
-If you spot a number that looks wrong — particularly if you're a parent, teacher, or special ed administrator with direct knowledge — please [open an issue](https://github.com/manoj1919/asd-schools-ca/issues) with:
+If you spot a number that looks wrong — particularly if you're a parent, teacher, or special ed administrator with direct knowledge — please [open an issue](https://github.com/manoj1919/inclusiv-ui/issues) with:
 
 - The district and field in question
 - The current displayed value

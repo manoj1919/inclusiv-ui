@@ -1,5 +1,5 @@
 [project]
-name = "asd-schools-ca"
+name = "inclusiv-ui"
 version = "0.1.0"
 description = "Open-source data pipeline for California special-education / ASD school district information."
 requires-python = ">=3.10"
