@@ -43,10 +43,12 @@ jobs:
       - name: Merge per-source partials into final profiles
         run: python -m pipeline.transformers.merge
 
-      - name: Generate AI summaries
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python -m pipeline.enrichers.summarize
+      # AI summaries are NOT generated automatically — they're written by
+      # Claude in a Claude Code session (free, in-session) and committed
+      # separately by the maintainer. This step would no-op without a staged
+      # summaries file, which is the intended behavior in CI.
+      - name: Stamp any staged AI summaries (no-op if none staged)
+        run: python -m pipeline.enrichers.summarize || true
 
       - name: Validate (schema + semantic checks)
         run: python -m pipeline.validators.validate_data

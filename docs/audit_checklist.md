@@ -26,9 +26,9 @@ Local-only until this is fully signed off. Public push is gated on completing ev
 
 ## Security
 
-- [ ] No `ANTHROPIC_API_KEY`, Doppler tokens, or other secrets anywhere under git tracking. Run `git ls-files | xargs grep -lE 'sk-ant|sk_live|api[_-]?key'` and resolve hits.
+- [ ] No API keys, Doppler tokens, or other secrets anywhere under git tracking. Run `git ls-files | xargs grep -lE 'sk-ant|sk_live|AIza|api[_-]?key'` and resolve hits.
 - [ ] `.gitignore` excludes `.env*`, `.doppler/`, `secrets/`, `credentials/`, raw snapshots.
-- [ ] GitHub repo secret `ANTHROPIC_API_KEY` set on the repo (consumed by `.github/workflows/annual-refresh.yml`).
+- [ ] If any future on-the-fly AI feature uses Gemini Flash, `GEMINI_API_KEY` is set as a GitHub repo secret — never committed.
 - [ ] No personally identifiable information anywhere (we collect district-level aggregates only — verify there is no stray student-level record).
 
 ## Frontend

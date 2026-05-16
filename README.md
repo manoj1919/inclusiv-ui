@@ -61,8 +61,9 @@ docs/             # methodology, data sources, security, contributing
 .venv/bin/python -m pipeline.scrapers.dashboard.cdashboard
 .venv/bin/python -m pipeline.transformers.merge
 .venv/bin/python -m pipeline.validators.validate_data
-# AI summaries — needs an Anthropic key; we use Doppler for this (see docs/SECURITY.md)
-doppler run -- .venv/bin/python -m pipeline.enrichers.summarize
+# AI summaries — written by Claude in a Claude Code session (no API key, no cost).
+# Ask Claude to populate data/processed/_ai_summaries.json, then:
+.venv/bin/python -m pipeline.enrichers.summarize
 
 # Frontend (reads data/processed/districts/*.json at build time)
 cd web/frontend && npm install && npm run dev    # http://localhost:3000

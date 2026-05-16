@@ -15,10 +15,14 @@ dependencies = [
     "jsonschema>=4.22",
     "tenacity>=8.4",
     "python-slugify>=8.0",
-    "anthropic>=0.34",
     "rich>=13.7",
     "typer>=0.12",
 ]
+
+# No `anthropic` dependency: yearly static summaries are written by Claude
+# in a Claude Code session (no paid API). On-the-fly AI on the web app (if
+# ever added) will use Google Gemini Flash via `google-generativeai`. See
+# pipeline/enrichers/summarize.py and the AI provider policy memo.
 
 [project.optional-dependencies]
 dev = [
