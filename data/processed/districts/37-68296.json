@@ -1,4 +1,28 @@
 {
+  "ai_summaries": {
+    "overview": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-17T18:35:20Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "Poway Unified is a very large K-12 district in the North Inland region of San Diego County. About 5,511 of its students have an IEP, and 1,314 of them \u2014 roughly 24% \u2014 have an autism (ASD) eligibility. Around 43% of those autistic students spend most of the school day in a general-education classroom."
+    },
+    "what_this_means_for_parents": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-17T18:35:20Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "About 43% of autistic students in this district are in a general-education classroom for most of the day, while about 4% are in a fully separate setting. Among all students with disabilities, a broader group than autism alone, 66% are in general-education classrooms most of the day. On 2024-25 state tests, students overall scored above standard \u2014 56 points above in English and 40 above in math \u2014 while students with disabilities scored 44 points below in English and 66 below in math. Students with disabilities were chronically absent at about 15% (compared with 8% for all students) and suspended at about 3% (compared with 1%)."
+    }
+  },
   "build_provenance": {
     "built_at": "2026-05-17T18:26:54Z",
     "pipeline_version": "0.1.0",

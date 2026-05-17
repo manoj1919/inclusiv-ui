@@ -1,4 +1,28 @@
 {
+  "ai_summaries": {
+    "overview": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-17T18:35:20Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "Spencer Valley Elementary is an elementary (K-6) district in the rural eastern part of San Diego County. Its full reported special-education population is 644 students with an IEP, of whom 161 \u2014 about 25% \u2014 have an autism (ASD) eligibility. Around 74% of those autistic students spend most of the school day in a general-education classroom."
+    },
+    "what_this_means_for_parents": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-17T18:35:20Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "About 74% of autistic students in this district are in a general-education classroom for most of the day, with around 3% in a fully separate setting. Among all students with disabilities, a broader group than autism alone, 84% are in general-education classrooms most of the day. State distance-from-standard test scores were not separately reported for students with disabilities in this district. No students were suspended in 2024-25 in either group, and chronic absenteeism was about 19% for students with disabilities and 16% for all students."
+    }
+  },
   "build_provenance": {
     "built_at": "2026-05-17T18:26:54Z",
     "pipeline_version": "0.1.0",

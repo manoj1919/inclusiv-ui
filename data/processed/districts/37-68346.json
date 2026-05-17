@@ -1,4 +1,28 @@
 {
+  "ai_summaries": {
+    "overview": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-17T18:35:20Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "San Dieguito Union High is a high school district on the North Coast of San Diego County, with about 1,368 students who have an IEP. Of those, 232 \u2014 roughly 17% \u2014 have an autism (ASD) eligibility. Around 50% of those autistic students spend most of the school day in a general-education classroom."
+    },
+    "what_this_means_for_parents": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-17T18:35:20Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "About 50% of autistic students here are in a general-education classroom for most of the day, while about 6% are in a fully separate setting. Among all students with disabilities, a broader group than autism alone, 71% are in general-education classrooms most of the day. On 2024-25 state tests, students overall scored above standard \u2014 80 points above in English and 57 above in math \u2014 while students with disabilities scored 51 points below in English and 93 below in math. Students with disabilities were chronically absent at about 15% (compared with 8% for all students) and suspended at about 6% (compared with 2%)."
+    }
+  },
   "build_provenance": {
     "built_at": "2026-05-17T18:26:54Z",
     "pipeline_version": "0.1.0",

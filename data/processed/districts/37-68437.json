@@ -1,4 +1,28 @@
 {
+  "ai_summaries": {
+    "overview": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-17T18:35:20Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "Vallecitos Elementary is a very small elementary (K-6) district in eastern San Diego County, serving about 32 students with an IEP. The number of autistic students is small enough that the state does not report it separately, so this profile describes all students with disabilities rather than autism specifically. About 78% of students with disabilities spend most of the school day in a general-education classroom."
+    },
+    "what_this_means_for_parents": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-17T18:35:20Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "Autism-specific counts are not separately reported for a district this small, so the figures here describe all students with disabilities together. About 78% are in a general-education classroom for most of the school day. On 2024-25 state tests, students with disabilities scored about 63 points below standard in English and 112 below in math, compared with 1 and 54 points below for students overall. Students with disabilities were chronically absent at about 3% \u2014 lower than the 9% rate for all students \u2014 and were suspended at about 5%."
+    }
+  },
   "build_provenance": {
     "built_at": "2026-05-17T18:26:54Z",
     "pipeline_version": "0.1.0",

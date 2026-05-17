@@ -1,4 +1,28 @@
 {
+  "ai_summaries": {
+    "overview": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-17T18:35:20Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "Encinitas Union Elementary is a mid-sized elementary (K-6) district on the North Coast of San Diego County. About 669 of its students have an IEP, and 102 of them \u2014 roughly 15% \u2014 have an autism (ASD) eligibility. Around 54% of those autistic students spend most of the school day in a general-education classroom."
+    },
+    "what_this_means_for_parents": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-17T18:35:20Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "About 54% of autistic students here are in a general-education classroom for most of the day, and none are reported in a fully separate setting. Among all students with disabilities, a broader group than autism alone, 73% are in general-education classrooms most of the day. On 2024-25 state tests, students overall scored above standard \u2014 47 points above in English and 32 above in math \u2014 while students with disabilities scored 25 points below in English and 39 below in math. Students with disabilities were chronically absent at about 11% (compared with 8% for all students) and suspended at about 1%."
+    }
+  },
   "build_provenance": {
     "built_at": "2026-05-17T18:26:54Z",
     "pipeline_version": "0.1.0",

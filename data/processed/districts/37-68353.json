@@ -1,4 +1,28 @@
 {
+  "ai_summaries": {
+    "overview": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-17T18:35:20Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "San Pasqual Union Elementary is a very small elementary (K-6) district in the North Inland region of San Diego County. About 57 of its students have an IEP, and 12 of them \u2014 roughly 21% \u2014 have an autism (ASD) eligibility. Around 58% of those autistic students spend most of the school day in a general-education classroom."
+    },
+    "what_this_means_for_parents": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-17T18:35:20Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "About 58% of autistic students here are in a general-education classroom for most of the day, and none are reported in a fully separate setting. Among all students with disabilities, a broader group than autism alone, 74% are in general-education classrooms most of the day. On 2024-25 state tests, students with disabilities scored about 14 points below standard in English and 60 below in math, while students overall were 32 points above in English and at standard in math. Students with disabilities were chronically absent at about 10% (compared with 4% for all students) and suspended at about 5%."
+    }
+  },
   "build_provenance": {
     "built_at": "2026-05-17T18:26:54Z",
     "pipeline_version": "0.1.0",

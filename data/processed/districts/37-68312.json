@@ -1,4 +1,28 @@
 {
+  "ai_summaries": {
+    "overview": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-17T18:35:20Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "Rancho Santa Fe Elementary is a very small elementary (K-6) district on the North Coast of San Diego County. About 94 of its students have an IEP, and 16 of them \u2014 roughly 17% \u2014 have an autism (ASD) eligibility. Around 50% of those autistic students spend most of the school day in a general-education classroom."
+    },
+    "what_this_means_for_parents": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-17T18:35:20Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "About 50% of autistic students here are in a general-education classroom for most of the day, and none are reported in a fully separate setting. Among all students with disabilities, a broader group than autism alone, 77% are in general-education classrooms most of the day. On 2024-25 state tests both groups scored above standard: students overall were 85 points above in English and 85 above in math, and students with disabilities were 19 points above in English and 20 above in math. Students with disabilities were chronically absent at about 11%, close to the 13% rate for all students, and were suspended at about 2%."
+    }
+  },
   "build_provenance": {
     "built_at": "2026-05-17T18:26:54Z",
     "pipeline_version": "0.1.0",
