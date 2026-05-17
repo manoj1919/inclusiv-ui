@@ -134,14 +134,14 @@
     {
       "name": "La Mesa-Spring Valley",
       "region": "East",
-      "type": "Other",
+      "type": "Elementary K-8",
       "cds_code": "37-68197",
       "auto_added": true
     },
     {
       "name": "Lemon Grove",
       "region": "East",
-      "type": "Other",
+      "type": "Elementary K-8",
       "cds_code": "37-68205",
       "auto_added": true
     },
@@ -204,7 +204,7 @@
     {
       "name": "Santee",
       "region": "East",
-      "type": "Other",
+      "type": "Elementary K-8",
       "cds_code": "37-68361",
       "auto_added": true
     },
