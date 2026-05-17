@@ -1,26 +1,135 @@
 @import "tailwindcss";
 
+/*
+  inclusiv·ui — Pulse design tokens.
+  Pale lavender surface · violet focal · amber baseline · hot-pink marker.
+  Color-blind safe (protan/deutan/tritan). Strict neutrality: color encodes
+  category, never quality. No good/bad coloring.
+*/
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Surface */
+  --bg: #f6f4fc;
+  --card: #ffffff;
+  --subtle-bg: #efeafb;
+  --tint: #f1eafe;
+  --track-bg: #efeafb;
+  --rule: #eae6f3;
+  --card-border: #e6e2f2;
+
+  /* Ink */
+  --ink: #181232;
+  --ink-mid: #564e7b;
+  --ink-soft: #8e89ae;
+
+  /* Data series */
+  --focal: #7c3aed;       /* SWD / autism — violet */
+  --baseline: #f59e0b;    /* all students — amber */
+  --marker: #ec4899;      /* this district — hot pink */
+  --band: #f0e9fe;        /* Q1–Q3 peer band */
+  --peer-dot: #c5bedb;
+  --median: #181232;
+
+  /* Brand */
+  --accent: #7c3aed;
+
+  /* Geometry */
+  --radius: 14px;
+  --radius-sm: 10px;
+  --radius-bar: 6px;
+
+  /* Elevation — one shadow, applied uniformly to all cards */
+  --shadow: 0 1px 2px rgba(24, 18, 50, 0.04), 0 6px 20px -14px rgba(124, 58, 237, 0.20);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--bg);
+  --color-foreground: var(--ink);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --bg: #0f0b1e;
+    --card: #1a1530;
+    --subtle-bg: #211a3d;
+    --tint: #2a1f4a;
+    --track-bg: #211a3d;
+    --rule: #2a2347;
+    --card-border: #2e2752;
+    --ink: #f3f0ff;
+    --ink-mid: #b3acd9;
+    --ink-soft: #8079a8;
+    --focal: #a78bfa;
+    --baseline: #fbbf24;
+    --marker: #f472b6;
+    --band: #2a1f4a;
+    --peer-dot: #4a3f6e;
+    --median: #f3f0ff;
+    --accent: #a78bfa;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 20px -14px rgba(167, 139, 250, 0.25);
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  font-feature-settings: "kern", "ss01";
+}
+
+/* Tabular numerals — apply to numeric columns + chart labels */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Inline glossary term — dotted underline + hover affordance */
+.gloss {
+  border-bottom: 1px dotted currentColor;
+  cursor: help;
+  text-decoration: none;
+}
+
+/* Pulse "card" — applied via class for chart and KPI surfaces */
+.card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* Interactive cards (directory entries): hover lifts shadow + translates 1px */
+.district-card {
+  transition: box-shadow 150ms ease-out, transform 150ms ease-out, border-color 150ms ease-out;
+}
+.district-card:hover {
+  box-shadow:
+    0 1px 2px rgba(24, 18, 50, 0.04),
+    0 14px 28px -10px rgba(124, 58, 237, 0.28);
+  transform: translateY(-1px);
+}
+
+/* Mono eyebrow — uppercase, .08em tracking, 11px */
+.eyebrow {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+/* Micro mono — axis ticks, 10px */
+.micro {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+}
+
+/* Selection */
+::selection {
+  background: var(--accent);
+  color: var(--card);
 }

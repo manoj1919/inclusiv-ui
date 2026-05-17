@@ -1,27 +1,52 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { SiteFooter, SiteHeader } from "@/components/SiteHeader";
+import { CompareProvider } from "@/components/CompareProvider";
+import { CompareTray } from "@/components/CompareTray";
+import { loadAllDistricts } from "@/lib/districts";
 
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+const sans = Plus_Jakarta_Sans({
+  variable: "--font-sans",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+});
+const mono = JetBrains_Mono({
+  variable: "--font-mono",
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
-  title: "inclusiv-ui — California school districts for autism & special ed",
+  title: "inclusiv·ui — California school districts for autism & special ed",
   description:
     "Open data on autism inclusion, special education outcomes, and compliance across California school districts.",
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  // District names for the compare tray — pinned state stores only CDS codes.
+  const profiles = await loadAllDistricts();
+  const districtNames = Object.fromEntries(
+    profiles.map((p) => [p.cds_code, p.name]),
+  );
+
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      suppressHydrationWarning
+      className={`${sans.variable} ${mono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
-        <SiteHeader />
-        <main className="mx-auto w-full max-w-5xl flex-1 px-6 py-8">{children}</main>
-        <SiteFooter />
+      <body className="min-h-full bg-[var(--bg)] text-[var(--ink)] font-sans">
+        <CompareProvider>
+          <div className="mx-auto flex min-h-screen max-w-[1120px] flex-col">
+            <SiteHeader />
+            <main className="flex-1 px-[30px] py-[26px]">{children}</main>
+            <SiteFooter />
+          </div>
+          <CompareTray names={districtNames} />
+        </CompareProvider>
       </body>
     </html>
   );
