@@ -20,9 +20,9 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "inclusiv·ui — California school districts for autism & special ed",
+  title: "inclusiv·ui — San Diego County school districts for autism & special ed",
   description:
-    "Open data on autism inclusion, special education outcomes, and compliance across California school districts.",
+    "Open data on autism inclusion, special education outcomes, and compliance across San Diego County school districts.",
 };
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

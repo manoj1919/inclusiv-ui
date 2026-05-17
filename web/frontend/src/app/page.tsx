@@ -24,7 +24,7 @@ export default async function Home() {
           <span style={{ color: "var(--ink)", fontWeight: 600 }}>San Diego County · {profiles.length} districts</span>
         </div>
         <h1 className="text-[56px] font-bold leading-[0.95] tracking-[-0.035em] text-[var(--ink)]">
-          California school districts, indexed for autism &amp; special education.
+          San Diego County school districts, indexed for autism &amp; special education.
         </h1>
         <p className="max-w-[640px] text-[16px] leading-[1.55] text-[var(--ink-mid)]">
           A neutral, open-data directory. Every number on this site is sourced from a public
