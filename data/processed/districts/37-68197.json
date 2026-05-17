@@ -1,6 +1,6 @@
 {
   "build_provenance": {
-    "built_at": "2026-05-16T06:55:54Z",
+    "built_at": "2026-05-17T18:26:54Z",
     "pipeline_version": "0.1.0",
     "raw_snapshots": [
       {
@@ -24,7 +24,7 @@
         "source": "ca_dashboard"
       },
       {
-        "path": "data/raw/cde_spedps/2026-05-16/spedps.tsv",
+        "path": "data/raw/cde_spedps/2026-05-17/spedps.tsv",
         "sha256": "0ff89ec8eaa97afc2eea71543b5454f18ba5e857a5289357a697ccbfb1e53d22",
         "source": "cde_spedps"
       }
@@ -41,50 +41,50 @@
   "enrollment": {
     "students_with_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": null
+      "value": 541
     },
     "students_with_iep": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 24
+      "value": 2212
     }
   },
   "inclusion_metrics": {
     "lre_80pct_plus_gen_ed_all_disabilities": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 1.0
+      "value": 0.487
     },
     "lre_80pct_plus_gen_ed_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": null
+      "value": 0.248
     },
     "lre_separate_setting_all_disabilities": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.0
+      "value": 0.007
     },
     "lre_separate_setting_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": null
+      "value": 0.009
     }
   },
-  "last_updated": "2026-05-16",
+  "last_updated": "2026-05-17",
   "name": "La Mesa-Spring Valley",
   "outcome_metrics": {
     "chronic_absenteeism_rate_all": {

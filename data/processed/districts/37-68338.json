@@ -1,30 +1,6 @@
 {
-  "ai_summaries": {
-    "overview": {
-      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
-      "ai_generated": true,
-      "ai_generated_at": "2026-05-16T07:19:45Z",
-      "ai_model": "claude-opus (via Claude Code session)",
-      "based_on_sources": [
-        "cde_spedps",
-        "ca_dashboard"
-      ],
-      "value": "San Diego Unified is a large K-12 unified district serving 3,484 students with active IEPs, including 560 autistic students. About 85% of autistic students spend 80% or more of the school day in general-education settings, slightly below the 92% rate across all disability categories. Only 1.3% of autistic students are placed in fully separate special-education settings."
-    },
-    "what_this_means_for_parents": {
-      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
-      "ai_generated": true,
-      "ai_generated_at": "2026-05-16T07:19:45Z",
-      "ai_model": "claude-opus (via Claude Code session)",
-      "based_on_sources": [
-        "cde_spedps",
-        "ca_dashboard"
-      ],
-      "value": "For an autistic child, the data shows inclusion-leaning placement is typical, with roughly 85 of every 100 autistic students learning alongside general-education peers for at least 80% of the school day. Academic outcomes for Students with Disabilities \u2014 a broader group that includes autism but is not autism-specific \u2014 sit 68 points below standard in English and 96 points below in math, while the all-students baseline is 12 points above standard in English and 19 points below in math. Chronic absenteeism and suspension rates for SWD (28% and 4%) run higher than the all-students baseline (19% and 2%). Because this is the largest district in the county, district-wide averages don't capture variation between individual schools."
-    }
-  },
   "build_provenance": {
-    "built_at": "2026-05-16T06:55:54Z",
+    "built_at": "2026-05-17T18:26:54Z",
     "pipeline_version": "0.1.0",
     "raw_snapshots": [
       {
@@ -48,7 +24,7 @@
         "source": "ca_dashboard"
       },
       {
-        "path": "data/raw/cde_spedps/2026-05-16/spedps.tsv",
+        "path": "data/raw/cde_spedps/2026-05-17/spedps.tsv",
         "sha256": "0ff89ec8eaa97afc2eea71543b5454f18ba5e857a5289357a697ccbfb1e53d22",
         "source": "cde_spedps"
       }
@@ -65,50 +41,50 @@
   "enrollment": {
     "students_with_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 560
+      "value": 4904
     },
     "students_with_iep": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 3484
+      "value": 20358
     }
   },
   "inclusion_metrics": {
     "lre_80pct_plus_gen_ed_all_disabilities": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.921
+      "value": 0.736
     },
     "lre_80pct_plus_gen_ed_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.85
+      "value": 0.491
     },
     "lre_separate_setting_all_disabilities": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.006
+      "value": 0.04
     },
     "lre_separate_setting_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.013
+      "value": 0.063
     }
   },
-  "last_updated": "2026-05-16",
+  "last_updated": "2026-05-17",
   "name": "San Diego Unified",
   "outcome_metrics": {
     "chronic_absenteeism_rate_all": {

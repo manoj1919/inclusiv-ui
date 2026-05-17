@@ -1,30 +1,6 @@
 {
-  "ai_summaries": {
-    "overview": {
-      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
-      "ai_generated": true,
-      "ai_generated_at": "2026-05-16T07:19:45Z",
-      "ai_model": "claude-opus (via Claude Code session)",
-      "based_on_sources": [
-        "cde_spedps",
-        "ca_dashboard"
-      ],
-      "value": "Borrego Springs Unified is a small K-12 rural district serving 614 students with active IEPs, including 15 autistic students. All 15 autistic students and the entire SWD population are reported to spend 80% or more of the school day in general-education settings, with no students in fully separate special-education placements."
-    },
-    "what_this_means_for_parents": {
-      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
-      "ai_generated": true,
-      "ai_generated_at": "2026-05-16T07:19:45Z",
-      "ai_model": "claude-opus (via Claude Code session)",
-      "based_on_sources": [
-        "cde_spedps",
-        "ca_dashboard"
-      ],
-      "value": "With only 15 autistic students reported district-wide, the 100% general-education inclusion rate reflects a very small enrollment \u2014 a single placement change can shift the percentage substantially, so this number should be interpreted with caution. Academic outcomes are below standard across all measured groups: all students are 47 points below in English and 85 points below in math, and Students with Disabilities (a broader group that includes autism but is not autism-specific) sit 132 points below standard in English and 182 points below in math. Chronic absenteeism is 25% for SWD versus 24% overall, and SWD suspensions (3%) are similar to the all-students rate (4%). These numbers reflect the 2024-25 school year for academic and attendance data and the prior school year for special-education placement."
-    }
-  },
   "build_provenance": {
-    "built_at": "2026-05-16T06:55:54Z",
+    "built_at": "2026-05-17T18:26:54Z",
     "pipeline_version": "0.1.0",
     "raw_snapshots": [
       {
@@ -48,7 +24,7 @@
         "source": "ca_dashboard"
       },
       {
-        "path": "data/raw/cde_spedps/2026-05-16/spedps.tsv",
+        "path": "data/raw/cde_spedps/2026-05-17/spedps.tsv",
         "sha256": "0ff89ec8eaa97afc2eea71543b5454f18ba5e857a5289357a697ccbfb1e53d22",
         "source": "cde_spedps"
       }
@@ -65,50 +41,50 @@
   "enrollment": {
     "students_with_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 15
+      "value": 23
     },
     "students_with_iep": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 614
+      "value": 667
     }
   },
   "inclusion_metrics": {
     "lre_80pct_plus_gen_ed_all_disabilities": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 1.0
+      "value": 0.978
     },
     "lre_80pct_plus_gen_ed_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 1.0
+      "value": 0.913
     },
     "lre_separate_setting_all_disabilities": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 0.0
     },
     "lre_separate_setting_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 0.0
     }
   },
-  "last_updated": "2026-05-16",
+  "last_updated": "2026-05-17",
   "name": "Borrego Springs Unified",
   "outcome_metrics": {
     "chronic_absenteeism_rate_all": {

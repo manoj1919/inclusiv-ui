@@ -7,47 +7,47 @@
   "enrollment": {
     "students_with_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 101
+      "value": 579
     },
     "students_with_iep": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 646
+      "value": 3807
     }
   },
   "inclusion_metrics": {
     "lre_80pct_plus_gen_ed_all_disabilities": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.885
+      "value": 0.603
     },
     "lre_80pct_plus_gen_ed_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.792
+      "value": 0.394
     },
     "lre_separate_setting_all_disabilities": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.002
+      "value": 0.053
     },
     "lre_separate_setting_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-17T18:26:49Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.0
+      "value": 0.135
     }
   },
   "name": "Grossmont Union High"

@@ -41,6 +41,16 @@ SOURCE_ID = "cde_spedps"
 CAT_AUTISM = "DC_AUT"
 CAT_TOTAL = "TA"
 
+# The CDE file reports every district THREE times, distinguished by the
+# `Charter School` column:
+#   'All' — the district plus every charter school it authorizes
+#   'N'   — district-operated schools only
+#   'Y'   — authorized charter schools only
+# A district profile keys to the official full CDE district aggregate ('All').
+# Without this filter the three rows collide and the last one wins, which
+# silently corrupts counts for any charter-authorizing district.
+CHARTER_AGGREGATE = "All"
+
 
 def load_pilot_cds_codes() -> set[str]:
     data = json.loads(PILOT_FILE.read_text())
@@ -60,6 +70,8 @@ def normalize(rows: Iterable[dict], pilot_cds: set[str]) -> dict[str, dict]:
     out: dict[str, dict] = {}
     for row in rows:
         if row.get("Aggregate Level") != "D":
+            continue
+        if row.get("Charter School") != CHARTER_AGGREGATE:
             continue
         county_code = row["County Code"].zfill(2)
         district_code = row["District Code"].zfill(5)
