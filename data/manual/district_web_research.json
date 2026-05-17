@@ -1,0 +1,846 @@
+{
+  "_comment": "Hand-collected, web-sourced programs / related-services data and other findings for SD County districts. BEST-EFFORT and incomplete by nature: this is NOT government-dataset data. Each district carries source URLs + a research date. Booleans are `true` only when a source explicitly states it; unconfirmed fields are left null (never guessed). `additional_findings` is free-text for anything useful that does not map to the current schema \u2014 display decisions are deferred. A later pipeline step will fold the schema-mapped subset into profiles as a `district_web` source.",
+  "_researched_on": "2026-05-17",
+  "_progress": "42 of 42 districts",
+  "37-67967": {
+    "name": "Alpine Union Elementary",
+    "district_website": "https://www.alpineschools.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Special-education page exists (alpineschools.net) but no program detail retrievable. NOTE: general web search collided heavily with Alpine School District, Utah \u2014 needs a targeted fetch of the California district's page before any field is filled. K-6 district.",
+    "sources": [
+      "https://www.alpineschools.net/page/special-education"
+    ]
+  },
+  "37-67983": {
+    "name": "Borrego Springs Unified",
+    "district_website": "https://www.bsusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Very small rural unified district. Special education runs under the Educational Services department; no autism-specific program or related-services detail published online. Likely relies on regional/SELPA placements for higher-needs students.",
+    "sources": [
+      "https://www.bsusd.net/departments/educational_services"
+    ]
+  },
+  "37-68007": {
+    "name": "Cardiff Elementary",
+    "district_website": "https://www.cardiffschools.com",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Member of the North Coastal Consortium for Special Education (NCCSE) SELPA. Two-school K-6 district (Cardiff, Ada Harris). In-district models: co-teaching consultation, push-in support, separate reteaching, modified curriculum. Higher-needs students served via regional programs in neighboring districts. (Search collided with Cardiff, Wales \u2014 only CA content used.)",
+    "sources": [
+      "https://www.cardiffschools.com/departments/special-education"
+    ]
+  },
+  "37-68031": {
+    "name": "Coronado Unified",
+    "district_website": "https://coronadousd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Runs an Adult Transition Program for young adults with disabilities ages 18-22 (basis for transition_18_22_program = true), plus a Transition Education program and WorkAbility I. Staffs an Adult Transition Program Educational Specialist and a WorkAbility Coach. No autism-specific classroom named online.",
+    "sources": [
+      "https://coronadousd.net/Departments/Student-Services/Special-Education/Transition-Education-and-Workability-Program/Adult-Transition-Program/index.html"
+    ]
+  },
+  "37-68049": {
+    "name": "Dehesa Elementary",
+    "district_website": "https://www.dehesasd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Very small district with a Special Education page and an Extended School Services page but no published autism-specific program or related-services detail. NOTE: Dehesa authorizes large charter schools; its CDE special-ed counts are dominated by those charters (see methodology).",
+    "sources": [
+      "https://www.dehesasd.net/District/738-Special-Education.html"
+    ]
+  },
+  "37-68056": {
+    "name": "Del Mar Union Elementary",
+    "district_website": "https://www.dmusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": true,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Employs Autism Behavior Specialists \u2014 registered behavior technicians (RBTs) who collect data, give direct support, and lead crisis interventions district-wide \u2014 plus behavior support interventionists. Occupational therapy provided. RBT-level behavior staffing present; a BCBA is not explicitly named. K-6 district.",
+    "sources": [
+      "https://www.dmusd.org/Departments/Student-Services/Special-Education/index.html"
+    ]
+  },
+  "37-68080": {
+    "name": "Encinitas Union Elementary",
+    "district_website": "https://www.eusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Full continuum: Learning Resource Centers at every school plus a variety of Special Day Classes. Autism Behavior Specialists on staff (Master's-degree holders get a 10% stipend). Runs an 'Inclusion in Action' initiative. SDCs are need-based, not autism-named. K-6 district.",
+    "sources": [
+      "https://www.eusd.net/departments/student-services-special-education"
+    ]
+  },
+  "37-68098": {
+    "name": "Escondido Union",
+    "district_website": "https://www.eusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 district. Special-ed Preschool Diagnostic Team (from age 2y10m). Partners with Vista Hill to deliver early mental-health intervention to at-risk children ages 3-8 across 12 elementary schools, and provides school-based mental-health treatment to special-ed students. CARE Youth Project. No autism-named classroom published.",
+    "sources": [
+      "https://www.eusd.org/page/special-education",
+      "https://www.eusd.org/page/special-education-child-find/"
+    ]
+  },
+  "37-68106": {
+    "name": "Escondido Union High",
+    "district_website": "https://www.euhsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Member of the NISER SELPA (North Inland Special Education Region). Special Education Services department; no autism-specific classroom or transition program detail published in search results (a targeted page fetch would be needed). High school district.",
+    "sources": [
+      "https://www.euhsd.org/departments/educational-services/student-services-programs/special-education-services/"
+    ]
+  },
+  "37-68114": {
+    "name": "Fallbrook Union Elementary",
+    "district_website": "https://www.fuesd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-6 district, member of the North Coastal Consortium for Special Education (NCCSE) SELPA. Regional services (deaf/hard-of-hearing, severe disabilities, social-emotional) are provided across the consortium rather than in-district. Recruits Education Specialist teachers with Autism authorization. Runs a Parent Partners program.",
+    "sources": [
+      "https://www.fuesd.org/parent-partners/"
+    ]
+  },
+  "37-68122": {
+    "name": "Fallbrook Union High",
+    "district_website": "https://www.fuhsd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "WorkAbility 1 \u2014 pre-employment / work-readiness / transition program for special-ed students ages 14-22, one of the more established WA1 projects in the state \u2014 plus adult transition classes (basis for transition_18_22_program = true). SEAS program; a Paraprofessional III, Severely Handicapped role supports autistic, multi-handicapped, blind, deaf and orthopedically impaired students. NCCSE SELPA member.",
+    "sources": [
+      "https://www.fallbrookhs.org/fallbrook/work-ability1",
+      "https://www.fuhsd.net/district/special-education-district"
+    ]
+  },
+  "37-68130": {
+    "name": "Grossmont Union High",
+    "district_website": "https://www.guhsd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Substantial transition offering for ages 18-22: Individual Transition Programs delivered at the student's school of residence, WorkAbility I, and the Transition Partnership Project (TPP, a CDE / Dept. of Rehabilitation collaborative). Community businesses and agencies partner on independence and employment. No autism-named classroom surfaced in search (note: this district reports a comparatively high separate-setting share in the CDE data).",
+    "sources": [
+      "https://www.guhsd.net/Departments/Educational-Services/Special-Education/Transition/index.html"
+    ]
+  },
+  "37-68155": {
+    "name": "Jamul-Dulzura Union Elementary",
+    "district_website": "https://www.jdusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Small K-6 district, member of the East County SELPA. Runs a developmental preschool for children ages 2-5. Speech and language therapy and inclusion in mainstream classrooms with added resources. No autism-specific program published.",
+    "sources": [
+      "https://www.jdusd.net/"
+    ]
+  },
+  "37-68163": {
+    "name": "Julian Union Elementary",
+    "district_website": "https://juesd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Small rural K-6 district. Publishes a general 'full continuum of programs and related services per IEP' statement and ADA-accessible facilities, but no autism-specific program detail. NOTE: Julian Union authorizes Julian Charter School, so its CDE special-ed counts include charter students (see methodology).",
+    "sources": [
+      "https://juesd.net/en-US"
+    ]
+  },
+  "37-68338": {
+    "name": "San Diego Unified",
+    "district_website": "https://www.sandiegounified.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": true,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": true,
+      "pt_available": true,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Special-ed site lists: Adapted PE, Assistive Technology, Audiology, Early Childhood Special Education, OT & PT, School Psychology, Speech & Language, plus programs named 'STARS', 'PPPSS', 'Pathways to Graduation' (none confirmed as an autism classroom from the homepage \u2014 needs a deeper page). bcba_on_staff = true based on a district 'Applied Behavior Analysis Supervisor' job posting; not a roster confirmation.",
+    "sources": [
+      "https://sites.google.com/sandi.net/special-education-public/home",
+      "https://www.edjoin.org/Home/JobPosting/1259473"
+    ]
+  },
+  "37-68296": {
+    "name": "Poway Unified",
+    "district_website": "https://www.powayusd.com",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "Moderate/Severe Autism Special Day Class"
+        },
+        {
+          "name": "Critical Skills Special Day Class"
+        }
+      ],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Transition Partnership Program (career exploration / post-secondary counseling, ages 16-21) and a WorkAbility program. ~4,830 students on IEPs/504 plans. Continuum: Resource Specialist Program and Special Day Classes; moderate/severe autism SDCs emphasize push-in over pullout. Speech, adapted PE, counseling, audiology offered.",
+    "sources": [
+      "https://www.powayusd.com/apps/pages/transition-partnership-program"
+    ]
+  },
+  "37-67991": {
+    "name": "Cajon Valley Union",
+    "district_website": "https://www.cajonvalley.net",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "Behavior Intervention Class"
+        }
+      ],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Education Specialist roles require Mild/Moderate with Autism Authorization. Operates a Behavior Intervention Class. Preschool special education birth-5. Programs sited at Sevick School plus several elementary schools. K-8 district.",
+    "sources": [
+      "https://www.cajonvalley.net/Page/12045",
+      "https://www.edjoin.org/Home/JobPosting/2202166"
+    ]
+  },
+  "37-68023": {
+    "name": "Chula Vista Elementary",
+    "district_website": "https://www.cvesd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": true,
+      "pt_available": true,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Classroom staff trained in autism strategies (positive behavior supports, visual supports, prompting, discrete trial). Uses an 'Autism and Behavior Support Assistant' role. Member of the South County SELPA, whose specialists provide assistive tech, speech, OT, PT, music therapy and mental-health/behavioral services (basis for ot/pt = true). Parent Handbook in English and Spanish. K-6 district.",
+    "sources": [
+      "https://www.cvesd.org/departments/student-services/special-education"
+    ]
+  },
+  "37-68411": {
+    "name": "Sweetwater Union High",
+    "district_website": "https://specialservices.sweetwaterschools.org",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "Autism Team Moderate Program"
+        },
+        {
+          "name": "Autism Team Moderate/Severe Program"
+        }
+      ],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Dedicated Autism Support Team with TOSAs running Moderate and Moderate/Severe programs at all sites. Serves students 3-22. Transition: an employment development specialist; East Hills Academy (district-operated) serves grades 7-12, moderate/severe disabilities incl. autism, ages 13-22.",
+    "sources": [
+      "https://specialservices.sweetwaterschools.org/programs-services/autism-team/",
+      "https://eha.sweetwaterschools.org/about-us"
+    ]
+  },
+  "37-68452": {
+    "name": "Vista Unified",
+    "district_website": "https://www.vistausd.org",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "Autism Program"
+        }
+      ],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": true,
+      "pt_available": true,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Continuum from full general-ed integration to separate programs; serves ~3,000+ students ages 3-22. Named autism supports: autism program, sensory room, intensive language & behavior clinic, canine companions. OT, PT, speech, adapted PE, nursing, HoH/vision confirmed at California Avenue School. Member of the NCCSE SELPA.",
+    "sources": [
+      "https://www.vistausd.org/departments/educationalexcellence/specialeducation"
+    ]
+  },
+  "37-73551": {
+    "name": "Carlsbad Unified",
+    "district_website": "https://carlsbadusd.net",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "Hope Autism Program",
+          "grade_range": "TK-5",
+          "site": "Hope Elementary School"
+        },
+        {
+          "name": "ASPIRE Program (Academic and Social Pragmatic Independence for Readiness in Education)"
+        }
+      ],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Two named autism programs: Hope Autism Program (Hope Elementary, TK-5), a structured visual language-enriched setting; and ASPIRE, targeting academic/social-pragmatic readiness. Both explicitly use ABA, Discrete Trial Training, Pivotal Response Training and visual supports. Stated goal: mainstream students into general education where appropriate.",
+    "sources": [
+      "https://carlsbadusd.net/sped-home"
+    ]
+  },
+  "37-68171": {
+    "name": "Julian Union High",
+    "district_website": "https://www.juhsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Very small rural high school district. Publishes only a general statement that IEP teams provide required transition services and resource-specialist support; no distinct named transition program or autism classroom.",
+    "sources": [
+      "https://www.juhsd.org/"
+    ]
+  },
+  "37-68189": {
+    "name": "Lakeside Union Elementary",
+    "district_website": "https://www.lsusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Member of the East County SELPA. Pupil Services department with Special Education Program Specialists. Runs an Early Start Infant Program (birth-3) for children with significant developmental delays. No autism-specific program published.",
+    "sources": [
+      "https://www.lsusd.net/pupil-services/"
+    ]
+  },
+  "37-68197": {
+    "name": "La Mesa-Spring Valley",
+    "district_website": "https://www.lmsvschools.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 district (CDE district_type currently mislabeled 'Other'). Member of the East County SELPA. Continuum of program options incl. Special Day Classes staffed with teams for students with significant needs; has experience supporting autism. Early Start program (birth-3) located at Rancho Elementary.",
+    "sources": [
+      "https://www.lmsvschools.org/special-education/"
+    ]
+  },
+  "37-68205": {
+    "name": "Lemon Grove",
+    "district_website": "https://www.lemongrovesd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 district (CDE district_type currently mislabeled 'Other'). Birth-3 served through a SELPA-wide regional program; preschool-8 served in-district. Adapted Physical Education provided. Social workers deliver counseling, family support, social-emotional learning and mental-health services. No autism-specific program published.",
+    "sources": [
+      "https://www.lemongrovesd.net/apps/pages/index.jsp?uREC_ID=1217854&type=d&pREC_ID=1452182"
+    ]
+  },
+  "37-68213": {
+    "name": "Mountain Empire Unified",
+    "district_website": "https://www.meusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": true,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Rural unified district. A registered occupational therapist provides individual and group therapy (basis for ot_available=true). Speech & Language Program and an Adapted Physical Education program. Transition planning is handled in the IEP from age 16 (community experiences, employment objectives, independent-living skills) but no distinct named 18-22 program is published.",
+    "sources": [
+      "https://www.meusd.org/Departments/Special-Education/Programs/index.html"
+    ]
+  },
+  "37-68221": {
+    "name": "National Elementary",
+    "district_website": "https://nsd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "PreK-6 district in National City, ~4,000 students across 10 elementary sites plus a preschool center that partners with the San Diego County Office of Education for birth-3 services. Special education sits under Student Support Services; no autism-specific program detail published.",
+    "sources": [
+      "https://www.nsd.us/apps/pages/index.jsp?uREC_ID=605821&type=d"
+    ]
+  },
+  "37-68304": {
+    "name": "Ramona City Unified",
+    "district_website": "https://www.ramonausd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Member of the North Inland Special Education Region (NISER). Runs the Lee Wilkerson Adult Transition Program, based at Ramona High, for transition-age students (basis for transition_18_22_program=true). No autism-specific classroom named.",
+    "sources": [
+      "https://rhs.ramonausd.net/en-US/special-education-ff97f524",
+      "https://www.ramonausd.net/en-US/pupil-services-special-education-32a3e6ef"
+    ]
+  },
+  "37-68312": {
+    "name": "Rancho Santa Fe Elementary",
+    "district_website": "https://www.rsfschool.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Small K-8 district, member of the North Coastal Consortium for Special Education (NCCSE) SELPA. Child Find covers ages 0-21. A Parent Advisory Council (established 2024) collaborates with the special-education department. No autism-specific program published.",
+    "sources": [
+      "https://www.rsfschool.net/district/departments/revised-sped"
+    ]
+  },
+  "37-68346": {
+    "name": "San Dieguito Union High",
+    "district_website": "https://www.sduhsd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Transition Partnership Program (cooperative with the CA Dept. of Rehabilitation) and WorkAbility (pre-employment / worksite training, ages 12-22) \u2014 basis for transition_18_22_program=true. Named supports: Learning Academy supports, Seaside Prep Program, Targeted Academic Instruction. Specialized supports explicitly address behavior, pragmatics, executive functioning and self-regulation.",
+    "sources": [
+      "https://www.sduhsd.net/Departments/Administrative-Services/Special-Education/Transition-Partnership-Program/",
+      "https://www.sduhsd.net/Departments/Administrative-Services/Special-Education/WorkAbility-Program/index.html"
+    ]
+  },
+  "37-68353": {
+    "name": "San Pasqual Union Elementary",
+    "district_website": "https://www.sanpasqualunion.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Single-school K-6 district. Services under Section 504 and IDEA. Notably, the district maintains and publishes records of restraint and seclusion incidents per CA Education Code \u2014 a possible future data field for the site. No autism-specific program published.",
+    "sources": [
+      "https://www.sanpasqualunion.net/programs-services/special-education"
+    ]
+  },
+  "37-68361": {
+    "name": "Santee",
+    "district_website": "https://www.santeesd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 district (CDE district_type currently mislabeled 'Other'). Full continuum of special-education services per IEP. The CDE directory lists a 'Santee Success Program' site. Director and Coordinator of Special Education on staff. No autism-specific program detail published.",
+    "sources": [
+      "https://www.santeesd.net/district/department/educational_services/special_education"
+    ]
+  },
+  "37-68379": {
+    "name": "San Ysidro Elementary",
+    "district_website": "https://www.sysdschools.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-6 district, member of the South County SELPA. District-reported ~582 students on IEPs/504 plans (~13.6%) \u2014 note this is lower than the CDE charter-inclusive count. Offers 'a variety of programs, services and supports' but none autism-named online.",
+    "sources": [
+      "https://www.sysdschools.org/domain/44",
+      "https://www.sysdschools.org/departments/special-education/selpa"
+    ]
+  },
+  "37-68387": {
+    "name": "Solana Beach Elementary",
+    "district_website": "https://www.sbsd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-6 district. Services delivered both in the general-education environment and in separate settings per IEP. Early Childhood Special Education (ages 3-5) and a Child Development Center. A Parent Advisory Council with representatives from every school site collaborates with the department. No autism-specific program published.",
+    "sources": [
+      "https://www.sbsd.k12.ca.us/departments/special-education"
+    ]
+  },
+  "37-68395": {
+    "name": "South Bay Union",
+    "district_website": "https://www.sbusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-6 district in Imperial Beach, member of the South County SELPA. Points families to the Exceptional Family Resource Center (EFRC) for support and information. No autism-specific program detail published.",
+    "sources": [
+      "https://www.sbusd.org/apps/pages/index.jsp?uREC_ID=2158022&type=d&pREC_ID=2171308"
+    ]
+  },
+  "37-68403": {
+    "name": "Spencer Valley Elementary",
+    "district_website": "https://www.svesd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny single-school district. Has a special-education teacher; a school annex project aims to add dedicated spaces for the special-ed teacher, school psychologist and speech pathologist. No autism-specific program published. NOTE: Spencer Valley's CDE special-ed counts are dominated by authorized charter schools (see methodology).",
+    "sources": [
+      "https://www.svesd.net/",
+      "https://www.svesd.net/staff"
+    ]
+  },
+  "37-68437": {
+    "name": "Vallecitos Elementary",
+    "district_website": "https://www.vallecitossd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Very small single-school district near Fallbrook. A Special Education department is listed among district departments but no program, staffing or related-services detail is published online.",
+    "sources": [
+      "https://www.vallecitossd.net/"
+    ]
+  },
+  "37-73569": {
+    "name": "Oceanside Unified",
+    "district_website": "https://www.oside.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Runs an Adult Transition Program (ATP) for students ages 18-22 across academic, vocational/pre-employment, community-based and independent-living domains (basis for transition_18_22_program=true). Member of the NCCSE SELPA, which partners with CAPTAIN (California Autism Professional Training and Information Network) to promote evidence-based autism practices. District-reported ~2,344 students on IEPs/504 plans (~14.4%).",
+    "sources": [
+      "https://www.oside.us/departments/special-education/adult-transition-program",
+      "https://www.oside.us/departments/special-education"
+    ]
+  },
+  "37-73791": {
+    "name": "San Marcos Unified",
+    "district_website": "https://www.smusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Runs an Adult Transition Program (ATP) providing training and instruction toward adult programs and supported work placements, eligibility set by the IEP team (basis for transition_18_22_program=true). Special-education staff provide specialized academic and behavior support.",
+    "sources": [
+      "https://www.smusd.org/departments/special_education/adult_transition_program",
+      "https://www.smusd.org/special-education-home"
+    ]
+  },
+  "37-75416": {
+    "name": "Warner Unified",
+    "district_website": "https://www.warnerusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Very small, remote rural unified district (Warner Springs). A Special Education Program page exists but publishes no program, staffing or related-services detail. NOTE: Warner authorizes charter schools, which influence its CDE special-ed counts (see methodology).",
+    "sources": [
+      "https://www.warnerusd.net/page/special-education-program"
+    ]
+  },
+  "37-75614": {
+    "name": "Valley Center-Pauma Unified",
+    "district_website": "https://www.vcpusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Special education sits under Student Support Services and serves all 13 federal disability categories including autism. The CDE directory lists a separate 'Valley Center-Pauma Adult' site, which may indicate an adult/transition program, but no 18-22 special-ed transition program is confirmed by name online.",
+    "sources": [
+      "https://www.vcpusd.org/page/student-support-services"
+    ]
+  },
+  "37-76851": {
+    "name": "Bonsall Unified",
+    "district_website": "https://www.bonsallusd.com",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Runs an Adult Transition Program (ATP) that supports young adults with disabilities moving from high school to adult life, with a dedicated ATP teacher (basis for transition_18_22_program=true). Program continuum spans Mild/Moderate to Moderate/Severe; district frames general-education access from Pre-K through Adult Transition.",
+    "sources": [
+      "https://sites.google.com/bonsallusd.com/busd-adult-transition-program/home",
+      "https://www.bonsallusd.com/apps/pages/index.jsp?uREC_ID=1672382&type=d&pREC_ID=1341624"
+    ]
+  }
+}
