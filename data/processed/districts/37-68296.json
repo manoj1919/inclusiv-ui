@@ -1,4 +1,28 @@
 {
+  "ai_summaries": {
+    "overview": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-16T07:19:45Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "Poway Unified is a K-12 unified district serving 5,511 students with active IEPs, including 1,314 autistic students. About 43% of autistic students spend 80% or more of the school day in general-education settings, lower than the 66% rate across all disability categories. Around 3.5% of autistic students are placed in fully separate special-education environments."
+    },
+    "what_this_means_for_parents": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-16T07:19:45Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "ca_dashboard"
+      ],
+      "value": "For an autistic child, the data shows full-day general-education placement is less common than partial-day or specialized placement, with under half of autistic students in general-education settings 80% or more of the school day. District-wide academic performance is strong \u2014 56 points above standard in English and 40 points above in math for all students \u2014 though Students with Disabilities (a broader group that includes autism but is not autism-specific) sit 44 points below standard in English and 66 points below in math. Chronic absenteeism for SWD is 15%, roughly double the 9% rate for all students, and SWD suspensions are 3% compared to 1% district-wide. Inclusion rates are noticeably lower for autistic students (43%) than for the broader SWD group (66%), so placement patterns appear to differ by disability category."
+    }
+  },
   "build_provenance": {
     "built_at": "2026-05-16T06:55:54Z",
     "pipeline_version": "0.1.0",
