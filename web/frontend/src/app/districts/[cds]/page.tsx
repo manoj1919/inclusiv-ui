@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AISummary } from "@/components/AISummary";
+import { CompliancePanel } from "@/components/CompliancePanel";
 import { SectionHead } from "@/components/SectionHead";
 import { SectionNav, type Chapter } from "@/components/SectionNav";
 import { SourcesPanel } from "@/components/SourcesPanel";
@@ -80,8 +81,9 @@ export default async function DistrictPage({
     { n: "02", id: "inclusion", label: "Inclusion", count: "1 chart · 2 stats" },
     { n: "03", id: "academic", label: "Academics", count: "ELA + Math" },
     { n: "04", id: "behavior", label: "Discipline", count: "2 charts" },
-    { n: "05", id: "summary", label: "Summary", count: "AI summary" },
-    { n: "06", id: "sources", label: "Sources", count: "Datasets" },
+    { n: "05", id: "compliance", label: "Disputes", count: "OAH + OCR" },
+    { n: "06", id: "summary", label: "Summary", count: "AI summary" },
+    { n: "07", id: "sources", label: "Sources", count: "Datasets" },
   ];
 
   // Peer scaling — PeerDistribution expects natural-scale values.
@@ -345,10 +347,27 @@ export default async function DistrictPage({
         </div>
       </section>
 
-      {/* 05 — Summary */}
-      <section id="summary" className="scroll-mt-24 space-y-5">
+      {/* 05 — Compliance */}
+      <section id="compliance" className="scroll-mt-24 space-y-5">
         <SectionHead
           num="05"
+          title="Formal disputes &amp; civil-rights investigations"
+          sub={
+            <>
+              This district&apos;s record of special-education due-process decisions
+              (<Term>OAH</Term>) and open federal civil-rights investigations (<Term>OCR</Term>).
+              Read the caveats below — these counts track district size, not quality, and the
+              directory does not rank districts on them.
+            </>
+          }
+        />
+        <CompliancePanel profile={profile} />
+      </section>
+
+      {/* 06 — Summary */}
+      <section id="summary" className="scroll-mt-24 space-y-5">
+        <SectionHead
+          num="06"
           title="What this might mean for parents"
           sub="Always labeled, always paired with a verification note. Editorial review is recommended before quoting."
         />
@@ -362,10 +381,10 @@ export default async function DistrictPage({
         )}
       </section>
 
-      {/* 06 — Sources */}
+      {/* 07 — Sources */}
       <section id="sources" className="scroll-mt-24 space-y-5">
         <SectionHead
-          num="06"
+          num="07"
           title="Sources & dates"
           sub="Every number on this page traces to a public California or federal dataset. Click to expand full provenance with as-of dates."
         />
