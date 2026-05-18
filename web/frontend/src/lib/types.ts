@@ -92,3 +92,43 @@ export type DistrictProfile = {
     raw_snapshots?: { source: string; path: string; sha256: string }[];
   };
 };
+
+/**
+ * A single school within a pilot district. School-level data is
+ * all-students-with-disabilities only — CDE publishes no autism split below
+ * district level — so there are no autism, compliance, or AI-summary fields.
+ */
+export type SchoolProfile = {
+  schema_version: string;
+  level: "school";
+  cds_code: string;
+  school_code: string;
+  name: string;
+  district_cds: string;
+  district_name: string;
+  county: string;
+  charter: boolean;
+  enrollment?: {
+    total?: Sourced<number>;
+    students_with_iep?: Sourced<number>;
+    pct_iep?: Sourced<number>;
+  };
+  inclusion_metrics?: {
+    lre_80pct_plus_gen_ed_all_disabilities?: Sourced<number>;
+    lre_separate_setting_all_disabilities?: Sourced<number>;
+  };
+  outcome_metrics?: {
+    ela_distance_from_standard_all?: Sourced<number>;
+    ela_distance_from_standard_swd?: Sourced<number>;
+    math_distance_from_standard_all?: Sourced<number>;
+    math_distance_from_standard_swd?: Sourced<number>;
+    chronic_absenteeism_rate_all?: Sourced<number>;
+    chronic_absenteeism_rate_swd?: Sourced<number>;
+    suspension_rate_all?: Sourced<number>;
+    suspension_rate_swd?: Sourced<number>;
+  };
+  data_sources_used?: string[];
+  build_provenance?: { built_at: string };
+  last_updated: string;
+};
+

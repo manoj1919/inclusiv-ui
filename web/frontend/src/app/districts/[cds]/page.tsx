@@ -11,6 +11,7 @@ import { DFSDivergence } from "@/components/charts/DFSDivergence";
 import { MetricBars } from "@/components/charts/MetricBars";
 import { PeerDistribution } from "@/components/charts/PeerDistribution";
 import { listDistrictCdsCodes, loadAllDistricts, loadDistrict } from "@/lib/districts";
+import { loadSchoolsForDistrict } from "@/lib/schools";
 import { num } from "@/lib/format";
 import { buildPeerSummary } from "@/lib/peers";
 
@@ -31,6 +32,7 @@ export default async function DistrictPage({
   if (!profile) notFound();
 
   const all = await loadAllDistricts();
+  const schools = await loadSchoolsForDistrict(cds);
   const peers = buildPeerSummary(all);
 
   const enroll = profile.enrollment ?? {};
@@ -86,6 +88,7 @@ export default async function DistrictPage({
     { n: "05", id: "compliance", label: "Disputes", count: "OAH + OCR" },
     { n: "06", id: "summary", label: "Summary", count: "AI summary" },
     { n: "07", id: "sources", label: "Sources", count: "Datasets" },
+    { n: "08", id: "schools", label: "Schools", count: `${schools.length} schools` },
   ];
 
   // Peer scaling — PeerDistribution expects natural-scale values.
@@ -391,6 +394,45 @@ export default async function DistrictPage({
           sub="Every number on this page traces to a public California or federal dataset. Click to expand full provenance with as-of dates."
         />
         <SourcesPanel profile={profile} />
+      </section>
+
+      {/* 08 — Schools */}
+      <section id="schools" className="scroll-mt-24 space-y-5">
+        <SectionHead
+          num="08"
+          title="Schools in this district"
+          sub={
+            <>
+              Each school&apos;s profile covers all students with disabilities
+              (<Term>SWD</Term>) — inclusion, outcomes, enrollment. Autism-specific data is
+              reported at the district level only (above).
+            </>
+          }
+        />
+        {schools.length === 0 ? (
+          <EmptyCard>No school-level records for this district.</EmptyCard>
+        ) : (
+          <ul className="grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
+            {schools.map((sc) => (
+              <li key={sc.cds_code}>
+                <Link
+                  href={`/schools/${sc.cds_code}`}
+                  className="card district-card block px-4 py-3"
+                >
+                  <div className="text-[14px] font-semibold leading-[1.3] text-[var(--ink)]">
+                    {sc.name}
+                  </div>
+                  <div className="mt-1 text-[11.5px] leading-[1.4] text-[var(--ink-soft)]">
+                    {sc.enrollment?.students_with_iep?.value != null
+                      ? `${sc.enrollment.students_with_iep.value.toLocaleString()} students with disabilities`
+                      : "—"}
+                    {sc.charter && " · charter"}
+                  </div>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        )}
       </section>
     </article>
   );
