@@ -29,12 +29,15 @@ import sys
 from pathlib import Path
 from typing import Iterable
 
+from jsonschema import Draft202012Validator
+
 from pipeline.utils import parse_int, parse_pct, sourced, utc_now_iso
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 RAW = REPO_ROOT / "data" / "raw"
 OUT_DIR = REPO_ROOT / "data" / "processed" / "schools"
 PILOT_FILE = REPO_ROOT / "data" / "pilot_districts.json"
+SCHEMA_PATH = REPO_ROOT / "data" / "schema" / "school.schema.json"
 
 SPEDPS_AS_OF = "2024-10-02"
 ENROLL_AS_OF = "2024-10-02"
@@ -219,25 +222,37 @@ def main() -> int:
     print(f"SPED-PS schools (anchor): {len(schools)}")
     print(f"Dashboard school records: {len(dashboard)}  |  Enrollment school records: {len(enrollment)}")
 
+    schema = json.loads(SCHEMA_PATH.read_text())
+    Draft202012Validator.check_schema(schema)
+    validator = Draft202012Validator(schema)
+
     fetched_at = utc_now_iso()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     for stale in OUT_DIR.glob("*.json"):  # full rewrite each run
         stale.unlink()
-    with_dash = with_enroll = 0
+    with_dash = with_enroll = failed = 0
     for cds, s in sorted(schools.items()):
         dash = dashboard.get(cds, {})
         enroll = enrollment.get(cds)
+        profile = build_profile(s, dash, enroll, fetched_at)
+        errors = list(validator.iter_errors(profile))
+        if errors:
+            failed += 1
+            loc = "/".join(str(p) for p in errors[0].absolute_path) or "<root>"
+            print(f"  FAIL  {cds}  {loc}: {errors[0].message}")
+            continue
         if dash:
             with_dash += 1
         if enroll is not None:
             with_enroll += 1
-        profile = build_profile(s, dash, enroll, fetched_at)
         (OUT_DIR / f"{cds}.json").write_text(json.dumps(profile, indent=2, sort_keys=True))
 
-    print(f"\nWrote {len(schools)} school profiles to {OUT_DIR.relative_to(REPO_ROOT)}")
-    print(f"  with Dashboard outcomes: {with_dash}/{len(schools)}")
-    print(f"  with total enrollment:   {with_enroll}/{len(schools)}")
-    return 0
+    written = len(schools) - failed
+    print(f"\nWrote {written} school profiles to {OUT_DIR.relative_to(REPO_ROOT)}")
+    print(f"  schema-valid: {written}/{len(schools)}")
+    print(f"  with Dashboard outcomes: {with_dash}/{written}")
+    print(f"  with total enrollment:   {with_enroll}/{written}")
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":

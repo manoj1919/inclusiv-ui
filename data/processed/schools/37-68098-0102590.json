@@ -1,6 +1,6 @@
 {
   "build_provenance": {
-    "built_at": "2026-05-18T19:33:11Z"
+    "built_at": "2026-05-18T19:35:34Z"
   },
   "cds_code": "37-68098-0102590",
   "charter": false,
@@ -21,14 +21,14 @@
     },
     "students_with_iep": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-18T19:33:11Z",
+      "fetched_at": "2026-05-18T19:35:34Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 183
     },
     "total": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-18T19:33:11Z",
+      "fetched_at": "2026-05-18T19:35:34Z",
       "source": "cde_enrollment",
       "url": "https://www.cde.ca.gov/ds/ad/filesenrcensus.asp",
       "value": 923
@@ -37,14 +37,14 @@
   "inclusion_metrics": {
     "lre_80pct_plus_gen_ed_all_disabilities": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-18T19:33:11Z",
+      "fetched_at": "2026-05-18T19:35:34Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 0.546
     },
     "lre_separate_setting_all_disabilities": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-18T19:33:11Z",
+      "fetched_at": "2026-05-18T19:35:34Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 0.005
@@ -56,56 +56,56 @@
   "outcome_metrics": {
     "chronic_absenteeism_rate_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-18T19:33:11Z",
+      "fetched_at": "2026-05-18T19:35:34Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.229
     },
     "chronic_absenteeism_rate_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-18T19:33:11Z",
+      "fetched_at": "2026-05-18T19:35:34Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.304
     },
     "ela_distance_from_standard_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-18T19:33:11Z",
+      "fetched_at": "2026-05-18T19:35:34Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -11.3
     },
     "ela_distance_from_standard_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-18T19:33:11Z",
+      "fetched_at": "2026-05-18T19:35:34Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -84.5
     },
     "math_distance_from_standard_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-18T19:33:11Z",
+      "fetched_at": "2026-05-18T19:35:34Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -54.7
     },
     "math_distance_from_standard_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-18T19:33:11Z",
+      "fetched_at": "2026-05-18T19:35:34Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -112.8
     },
     "suspension_rate_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-18T19:33:11Z",
+      "fetched_at": "2026-05-18T19:35:34Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.028
     },
     "suspension_rate_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-18T19:33:11Z",
+      "fetched_at": "2026-05-18T19:35:34Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.035

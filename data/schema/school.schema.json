@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://inclusiv-ui/schema/school.schema.json",
+  "title": "School profile",
+  "description": "An individual school within a pilot district. School-level data is all-students-with-disabilities only — CDE publishes no autism / disability-category split below district level — so a school profile has no autism, compliance, or AI-summary fields. Those remain on the parent district profile (see district_cds).",
+  "type": "object",
+  "required": [
+    "schema_version", "level", "cds_code", "school_code", "name",
+    "district_cds", "district_name", "county", "charter",
+    "data_sources_used", "build_provenance", "last_updated"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "string" },
+    "level": { "const": "school" },
+    "cds_code": { "type": "string", "pattern": "^[0-9]{2}-[0-9]{5}-[0-9]{7}$" },
+    "school_code": { "type": "string", "pattern": "^[0-9]{7}$" },
+    "name": { "type": "string" },
+    "district_cds": { "type": "string", "pattern": "^[0-9]{2}-[0-9]{5}$" },
+    "district_name": { "type": "string" },
+    "county": { "type": "string" },
+    "charter": { "type": "boolean" },
+    "enrollment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "total": { "$ref": "#/$defs/SourcedInt" },
+        "students_with_iep": { "$ref": "#/$defs/SourcedInt" },
+        "pct_iep": { "$ref": "#/$defs/SourcedNumber" }
+      }
+    },
+    "inclusion_metrics": {
+      "type": "object",
+      "description": "Least Restrictive Environment placement, all students with disabilities.",
+      "additionalProperties": false,
+      "properties": {
+        "lre_80pct_plus_gen_ed_all_disabilities": { "$ref": "#/$defs/SourcedNumber" },
+        "lre_separate_setting_all_disabilities": { "$ref": "#/$defs/SourcedNumber" }
+      }
+    },
+    "outcome_metrics": {
+      "type": "object",
+      "description": "CA Dashboard indicators; 'all' = all students, 'swd' = students with disabilities.",
+      "additionalProperties": false,
+      "properties": {
+        "ela_distance_from_standard_all": { "$ref": "#/$defs/SourcedNumber" },
+        "ela_distance_from_standard_swd": { "$ref": "#/$defs/SourcedNumber" },
+        "math_distance_from_standard_all": { "$ref": "#/$defs/SourcedNumber" },
+        "math_distance_from_standard_swd": { "$ref": "#/$defs/SourcedNumber" },
+        "chronic_absenteeism_rate_all": { "$ref": "#/$defs/SourcedNumber" },
+        "chronic_absenteeism_rate_swd": { "$ref": "#/$defs/SourcedNumber" },
+        "suspension_rate_all": { "$ref": "#/$defs/SourcedNumber" },
+        "suspension_rate_swd": { "$ref": "#/$defs/SourcedNumber" }
+      }
+    },
+    "data_sources_used": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["cde_spedps", "cde_enrollment", "ca_dashboard"]
+      }
+    },
+    "build_provenance": {
+      "type": "object",
+      "required": ["built_at"],
+      "additionalProperties": false,
+      "properties": {
+        "built_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "last_updated": { "type": "string", "format": "date" }
+  },
+  "$defs": {
+    "SourcedInt": {
+      "type": "object",
+      "required": ["value", "source", "as_of"],
+      "additionalProperties": false,
+      "properties": {
+        "value": { "type": ["integer", "null"] },
+        "source": { "type": "string" },
+        "as_of": { "type": "string", "format": "date" },
+        "fetched_at": { "type": "string", "format": "date-time" },
+        "url": { "type": "string", "format": "uri" },
+        "note": { "type": "string" }
+      }
+    },
+    "SourcedNumber": {
+      "type": "object",
+      "required": ["value", "source", "as_of"],
+      "additionalProperties": false,
+      "properties": {
+        "value": { "type": ["number", "null"] },
+        "source": { "type": "string" },
+        "as_of": { "type": "string", "format": "date" },
+        "fetched_at": { "type": "string", "format": "date-time" },
+        "url": { "type": "string", "format": "uri" },
+        "note": { "type": "string" }
+      }
+    }
+  }
+}
