@@ -40,10 +40,12 @@ export default async function DistrictPage({
   const totalEnroll = enroll.total?.value ?? null;
   const iepValue = enroll.students_with_iep?.value ?? null;
   const autismValue = enroll.students_with_autism?.value ?? null;
+  // Percentages come from the pipeline's derived enrollment.pct_* fields
+  // (sourced + documented) — stored as 0-1 fractions, shown as percentages.
   const iepPct =
-    iepValue !== null && totalEnroll ? (iepValue / totalEnroll) * 100 : null;
+    enroll.pct_iep?.value != null ? enroll.pct_iep.value * 100 : null;
   const autismPct =
-    autismValue !== null && totalEnroll ? (autismValue / totalEnroll) * 100 : null;
+    enroll.pct_autism?.value != null ? enroll.pct_autism.value * 100 : null;
   const autismShareOfIep =
     autismValue !== null && iepValue ? (autismValue / iepValue) * 100 : null;
 

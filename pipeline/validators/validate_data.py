@@ -66,10 +66,13 @@ def check_sourced_hygiene(profile: dict) -> list[Finding]:
     for path, node in walk(profile):
         if not is_sourced(node):
             continue
-        if "fetched_at" not in node:
-            out.append(("WARN", path, "missing fetched_at"))
-        if "url" not in node:
-            out.append(("WARN", path, "missing url"))
+        # `derived` fields are computed from other fields, not fetched from a
+        # URL — `fetched_at`/`url` don't apply to them.
+        if node.get("source") != "derived":
+            if "fetched_at" not in node:
+                out.append(("WARN", path, "missing fetched_at"))
+            if "url" not in node:
+                out.append(("WARN", path, "missing url"))
         as_of = node.get("as_of")
         if isinstance(as_of, str):
             try:

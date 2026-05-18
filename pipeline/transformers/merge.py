@@ -90,6 +90,43 @@ def collect_raw_snapshots() -> list[dict]:
     return snapshots
 
 
+_PCT_NOTE = (
+    "Derived: special-education / autism enrollment (CDE SPED-PS, ages 3-22) "
+    "as a share of TK-12 census enrollment (CDE Census Day Enrollment). Both "
+    "are district aggregates that include authorized charter schools."
+)
+
+
+def derive_enrollment_percentages(profile: dict) -> None:
+    """Compute enrollment.pct_iep / pct_autism from the merged counts.
+
+    Stored as 0-1 fractions (matching the LRE and rate fields), sourced as
+    `derived` with a note — both ratios share one basis (charter-`All`,
+    census day) so they reconcile exactly with the counts shown on the page.
+    """
+    enr = profile.get("enrollment")
+    if not enr:
+        return
+    total = (enr.get("total") or {}).get("value")
+    as_of = (enr.get("total") or {}).get("as_of")
+    if not total or not as_of:
+        return
+
+    def pct(count_field: str, out_field: str) -> None:
+        count = (enr.get(count_field) or {}).get("value")
+        if count is None:
+            return
+        enr[out_field] = {
+            "value": round(count / total, 4),
+            "source": "derived",
+            "as_of": as_of,
+            "note": _PCT_NOTE,
+        }
+
+    pct("students_with_iep", "pct_iep")
+    pct("students_with_autism", "pct_autism")
+
+
 def build_profile(district: dict, partials: list[tuple[str, dict]],
                   raw_snapshots: list[dict]) -> dict:
     """Construct the final profile from district metadata + per-source partials."""
@@ -105,6 +142,8 @@ def build_profile(district: dict, partials: list[tuple[str, dict]],
 
     for source, partial in partials:
         profile = deep_merge_priority(profile, partial)
+
+    derive_enrollment_percentages(profile)
 
     profile["data_sources_used"] = [s for s, _ in partials]
     profile["build_provenance"] = {

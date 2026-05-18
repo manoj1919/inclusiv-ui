@@ -3,7 +3,7 @@
     "overview": {
       "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
       "ai_generated": true,
-      "ai_generated_at": "2026-05-18T15:28:00Z",
+      "ai_generated_at": "2026-05-18T18:47:16Z",
       "ai_model": "claude-opus (via Claude Code session)",
       "based_on_sources": [
         "cde_spedps",
@@ -17,7 +17,7 @@
     "what_this_means_for_parents": {
       "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
       "ai_generated": true,
-      "ai_generated_at": "2026-05-18T15:28:00Z",
+      "ai_generated_at": "2026-05-18T18:47:16Z",
       "ai_model": "claude-opus (via Claude Code session)",
       "based_on_sources": [
         "cde_spedps",
@@ -30,7 +30,7 @@
     }
   },
   "build_provenance": {
-    "built_at": "2026-05-18T15:28:00Z",
+    "built_at": "2026-05-18T18:47:16Z",
     "pipeline_version": "0.1.0",
     "raw_snapshots": [
       {
@@ -124,6 +124,18 @@
   ],
   "district_type": "Unified K-12",
   "enrollment": {
+    "pct_autism": {
+      "as_of": "2024-10-02",
+      "note": "Derived: special-education / autism enrollment (CDE SPED-PS, ages 3-22) as a share of TK-12 census enrollment (CDE Census Day Enrollment). Both are district aggregates that include authorized charter schools.",
+      "source": "derived",
+      "value": 0.0275
+    },
+    "pct_iep": {
+      "as_of": "2024-10-02",
+      "note": "Derived: special-education / autism enrollment (CDE SPED-PS, ages 3-22) as a share of TK-12 census enrollment (CDE Census Day Enrollment). Both are district aggregates that include authorized charter schools.",
+      "source": "derived",
+      "value": 0.1466
+    },
     "students_with_autism": {
       "as_of": "2024-10-02",
       "fetched_at": "2026-05-17T18:26:49Z",
