@@ -122,12 +122,13 @@
     },
     "compliance": {
       "type": "object",
-      "description": "Legal and regulatory record. Counts are 5-year rolling unless noted.",
+      "description": "Legal and regulatory record. OAH counts are 5-year rolling; OCR figures are a point-in-time snapshot of investigations currently open as of the source's as_of date.",
       "additionalProperties": false,
       "properties": {
         "oah_cases_5yr_total": { "$ref": "#/$defs/SourcedInt" },
         "oah_cases_5yr_autism": { "$ref": "#/$defs/SourcedInt" },
-        "ocr_complaints_5yr": { "$ref": "#/$defs/SourcedInt" },
+        "ocr_open_investigations": { "$ref": "#/$defs/SourcedInt" },
+        "ocr_open_investigations_disability": { "$ref": "#/$defs/SourcedInt" },
         "state_audit_findings_5yr": { "$ref": "#/$defs/SourcedInt" }
       }
     },
@@ -168,7 +169,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["cde_spedps", "ca_dashboard", "oah", "ocr_crdc", "selpa_report", "zillow", "manual"]
+        "enum": ["cde_spedps", "ca_dashboard", "oah", "ocr", "district_web", "selpa_report", "zillow", "manual"]
       }
     },
     "build_provenance": {

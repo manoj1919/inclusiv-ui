@@ -3,28 +3,30 @@
     "overview": {
       "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
       "ai_generated": true,
-      "ai_generated_at": "2026-05-17T21:27:27Z",
+      "ai_generated_at": "2026-05-18T03:25:32Z",
       "ai_model": "claude-opus (via Claude Code session)",
       "based_on_sources": [
         "cde_spedps",
-        "ca_dashboard"
+        "ca_dashboard",
+        "ocr"
       ],
       "value": "Coronado Unified is a small K-12 district on the coast of San Diego County. About 405 of its students have an IEP, and 76 of them \u2014 roughly 19% \u2014 have an autism (ASD) eligibility. Around 55% of those autistic students spend most of the school day in a general-education classroom."
     },
     "what_this_means_for_parents": {
       "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
       "ai_generated": true,
-      "ai_generated_at": "2026-05-17T21:27:27Z",
+      "ai_generated_at": "2026-05-18T03:25:32Z",
       "ai_model": "claude-opus (via Claude Code session)",
       "based_on_sources": [
         "cde_spedps",
-        "ca_dashboard"
+        "ca_dashboard",
+        "ocr"
       ],
       "value": "About 55% of autistic students here are in a general-education classroom for most of the day, while about 5% are in a fully separate setting. Among all students with disabilities, a broader group than autism alone, 75% are in general-education classrooms most of the day. On 2024-25 state tests, students overall scored above standard \u2014 56 points above in English and 25 above in math \u2014 while students with disabilities scored 29 points below in English and 48 below in math. Students with disabilities were chronically absent at about 15% (compared with 10% for all students) and suspended at about 6% (compared with 3%)."
     }
   },
   "build_provenance": {
-    "built_at": "2026-05-17T21:27:27Z",
+    "built_at": "2026-05-18T03:25:32Z",
     "pipeline_version": "0.1.0",
     "raw_snapshots": [
       {
@@ -51,15 +53,37 @@
         "path": "data/raw/cde_spedps/2026-05-17/spedps.tsv",
         "sha256": "0ff89ec8eaa97afc2eea71543b5454f18ba5e857a5289357a697ccbfb1e53d22",
         "source": "cde_spedps"
+      },
+      {
+        "path": "data/raw/ocr/2026-05-18/open_investigations_ca_ese.html",
+        "sha256": "aa17c6f06d5da6cea824710bec96778e45c4722bc2e864a7c2a79b6847109555",
+        "source": "ocr"
       }
     ]
   },
   "cds_code": "37-68031",
+  "compliance": {
+    "ocr_open_investigations": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-18T03:24:29Z",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 0
+    },
+    "ocr_open_investigations_disability": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-18T03:24:29Z",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 0
+    }
+  },
   "county": "San Diego",
   "county_code": "37",
   "data_sources_used": [
     "cde_spedps",
-    "ca_dashboard"
+    "ca_dashboard",
+    "ocr"
   ],
   "district_type": "Unified K-12",
   "enrollment": {
@@ -108,7 +132,7 @@
       "value": 0.053
     }
   },
-  "last_updated": "2026-05-17",
+  "last_updated": "2026-05-18",
   "name": "Coronado Unified",
   "outcome_metrics": {
     "chronic_absenteeism_rate_all": {

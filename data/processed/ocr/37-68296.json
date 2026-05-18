@@ -1,0 +1,22 @@
+{
+  "_partial": true,
+  "_source": "ocr",
+  "cds_code": "37-68296",
+  "compliance": {
+    "ocr_open_investigations": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-18T03:24:29Z",
+      "note": "Disability - Accessibility (opened 12/03/2024); Disability - Denial of Benefits (opened 06/16/2023); Disability - Denial of Benefits (opened 09/23/2022); Disability - FAPE (opened 06/16/2023); Disability - FAPE (opened 09/23/2022); Title VI - Racial Harassment (opened 06/11/2024); Title VI - Racial Harassment (opened 08/03/2023)",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 7
+    },
+    "ocr_open_investigations_disability": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-18T03:24:29Z",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 5
+    }
+  }
+}

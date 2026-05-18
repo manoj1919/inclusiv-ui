@@ -34,7 +34,7 @@ PILOT_FILE = REPO_ROOT / "data" / "pilot_districts.json"
 SCHEMA_PATH = REPO_ROOT / "data" / "schema" / "district.schema.json"
 
 # Sources in priority order (earlier wins on conflict)
-SOURCE_PRIORITY = ["cde_spedps", "ca_dashboard", "oah", "ocr_crdc"]
+SOURCE_PRIORITY = ["cde_spedps", "ca_dashboard", "ocr", "oah"]
 
 # Markers stripped from partial profiles during merge
 PARTIAL_MARKERS = {"_source", "_partial", "_academic_year"}

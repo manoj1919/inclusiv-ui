@@ -25,7 +25,8 @@ const SOURCE_LABELS: Record<string, string> = {
   ca_dashboard:
     "California School Dashboard — annual indicator files (ELA, math, absenteeism, suspension)",
   oah: "Office of Administrative Hearings — special-education due-process decisions",
-  ocr_crdc: "US Department of Education Office for Civil Rights — Civil Rights Data Collection",
+  ocr: "US Department of Education Office for Civil Rights — pending investigations list",
+  district_web: "District websites, SELPA pages and public job postings (hand-collected)",
 };
 
 export function SourcesPanel({ profile }: { profile: DistrictProfile }) {

@@ -3,28 +3,30 @@
     "overview": {
       "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
       "ai_generated": true,
-      "ai_generated_at": "2026-05-17T21:27:27Z",
+      "ai_generated_at": "2026-05-18T03:25:32Z",
       "ai_model": "claude-opus (via Claude Code session)",
       "based_on_sources": [
         "cde_spedps",
-        "ca_dashboard"
+        "ca_dashboard",
+        "ocr"
       ],
       "value": "Grossmont Union High is a large high school district in eastern San Diego County. About 3,807 of its students have an IEP, and 579 of them \u2014 roughly 15% \u2014 have an autism (ASD) eligibility. Around 39% of those autistic students spend most of the school day in a general-education classroom."
     },
     "what_this_means_for_parents": {
       "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
       "ai_generated": true,
-      "ai_generated_at": "2026-05-17T21:27:27Z",
+      "ai_generated_at": "2026-05-18T03:25:32Z",
       "ai_model": "claude-opus (via Claude Code session)",
       "based_on_sources": [
         "cde_spedps",
-        "ca_dashboard"
+        "ca_dashboard",
+        "ocr"
       ],
       "value": "About 39% of autistic students in this district are in a general-education classroom for most of the day, and about 14% are in a fully separate setting \u2014 a larger separate-setting share than most districts in this directory report. Among all students with disabilities, a broader group than autism alone, 60% are in general-education classrooms most of the day. On 2024-25 state tests, students with disabilities scored about 108 points below standard in English and 195 below in math, while students overall were 2 and 87 points below. The suspension rate was about 8% for students with disabilities and 4% for all students."
     }
   },
   "build_provenance": {
-    "built_at": "2026-05-17T21:27:27Z",
+    "built_at": "2026-05-18T03:25:32Z",
     "pipeline_version": "0.1.0",
     "raw_snapshots": [
       {
@@ -51,15 +53,38 @@
         "path": "data/raw/cde_spedps/2026-05-17/spedps.tsv",
         "sha256": "0ff89ec8eaa97afc2eea71543b5454f18ba5e857a5289357a697ccbfb1e53d22",
         "source": "cde_spedps"
+      },
+      {
+        "path": "data/raw/ocr/2026-05-18/open_investigations_ca_ese.html",
+        "sha256": "aa17c6f06d5da6cea824710bec96778e45c4722bc2e864a7c2a79b6847109555",
+        "source": "ocr"
       }
     ]
   },
   "cds_code": "37-68130",
+  "compliance": {
+    "ocr_open_investigations": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-18T03:24:29Z",
+      "note": "Title VI - Denial of Benefits (opened 08/27/2024)",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 1
+    },
+    "ocr_open_investigations_disability": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-18T03:24:29Z",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 0
+    }
+  },
   "county": "San Diego",
   "county_code": "37",
   "data_sources_used": [
     "cde_spedps",
-    "ca_dashboard"
+    "ca_dashboard",
+    "ocr"
   ],
   "district_type": "High School Only",
   "enrollment": {
@@ -108,7 +133,7 @@
       "value": 0.135
     }
   },
-  "last_updated": "2026-05-17",
+  "last_updated": "2026-05-18",
   "name": "Grossmont Union High",
   "outcome_metrics": {
     "ela_distance_from_standard_all": {

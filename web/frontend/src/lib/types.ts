@@ -68,7 +68,10 @@ export type DistrictProfile = {
   compliance?: {
     oah_cases_5yr_total?: Sourced<number>;
     oah_cases_5yr_autism?: Sourced<number>;
-    ocr_complaints_5yr?: Sourced<number>;
+    /** Count of OCR civil-rights investigations open as of `as_of` (snapshot, not a 5-year total). */
+    ocr_open_investigations?: Sourced<number>;
+    /** Subset of `ocr_open_investigations` that are disability-related. */
+    ocr_open_investigations_disability?: Sourced<number>;
     state_audit_findings_5yr?: Sourced<number>;
   };
   related_services?: {

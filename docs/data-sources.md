@@ -33,15 +33,20 @@ All data in this project comes from public records. This document tracks the sou
 - **Pipeline module:** *not yet built*
 - **Status — DEFERRED to Phase 2+:** District attribution requires PDF text extraction from unstructured legal documents — material effort for limited immediate ROI while the pilot scope is small. Revisit when Phase 3 scope expands.
 
-## US Department of Education Office for Civil Rights (OCR) — Civil Rights Data Collection
+## US Department of Education Office for Civil Rights (OCR) — pending investigations
 
-- **URL:** https://ocrdata.ed.gov
-- **Coverage:** Federal civil rights data including discipline disparities, IDEA-related complaints, district-level demographics
+- **URL:** https://ocrcas.ed.gov/open-investigations
+- **Coverage:** Civil-rights investigations OCR currently has open at K-12 ("ESE") institutions — discrimination type and the date the investigation opened. A point-in-time snapshot, **not** a historical complaint count.
 - **License:** Public records (federal)
-- **Refresh:** Biennial (every 2 years)
-- **Format:** API + bulk CSV
-- **Pipeline module:** *not yet built*
-- **Status — DEFERRED to Phase 2+:** The interactive frontend is a JavaScript SPA (hard to scrape) and the most recent collection year is now several cycles stale. Revisit if/when CRDC publishes a fresh bulk download.
+- **Refresh:** OCR updates the list weekly; we re-snapshot per data refresh.
+- **Format:** Server-rendered HTML table.
+- **Source identifier:** `ocr`
+- **Pipeline module:** `pipeline/scrapers/ocr/openinvestigations.py`
+- **Manual step required:** The site is behind an AWS WAF CAPTCHA — it cannot be fetched by script or headless browser. Export it by hand once per refresh: open the page in a normal browser, filter State = California / Institution Type = ESE / items per page = 1000, and save the HTML to `data/raw/ocr/<YYYY-MM-DD>/open_investigations_ca_ese.html`. The pipeline module parses that snapshot.
+- **Fields populated:** `compliance.ocr_open_investigations`, `compliance.ocr_open_investigations_disability`.
+- **Limitation:** Rows are attributed to districts by institution name; investigations filed against an individual school (rather than the district LEA) are not attributed.
+
+> Note: the OCR *Civil Rights Data Collection* (CRDC, the biennial survey at ocrdata.ed.gov) is a separate dataset — not used here. The metric above is the open-investigations list.
 
 ## SELPA Annual Performance Reports
 
