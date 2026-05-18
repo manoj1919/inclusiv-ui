@@ -163,13 +163,17 @@ function Chip({
       aria-pressed={selected}
       className="rounded-full transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
       style={{
-        padding: "8px 14px",
+        display: "inline-flex",
+        alignItems: "center",
+        minHeight: 44,
+        padding: "10px 16px",
         background: selected ? "var(--accent)" : "var(--card)",
         color: selected ? "#FFFFFF" : "var(--ink-mid)",
         border: `1px solid ${selected ? "var(--accent)" : "var(--card-border)"}`,
         font: '500 12.5px/1 var(--font-sans)',
         letterSpacing: "-0.005em",
         cursor: "pointer",
+        touchAction: "manipulation",
       }}
     >
       {children}
