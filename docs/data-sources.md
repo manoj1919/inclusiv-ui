@@ -26,12 +26,15 @@ All data in this project comes from public records. This document tracks the sou
 ## Office of Administrative Hearings (OAH) — Special Education Decisions
 
 - **URL:** https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions
-- **Coverage:** Due process hearing decisions involving CA school districts. ~1,576 PDFs across 64 pages of server-rendered search results.
+- **Coverage:** Special-education due-process decisions involving CA school districts — ~1,576 PDFs spanning 2005–2026, listed (case number only) across ~64 server-rendered index pages.
 - **License:** Public records
-- **Refresh:** Annual (decisions accumulate continuously; we'd snapshot yearly)
+- **Refresh:** Annual (decisions accumulate continuously; we re-snapshot per refresh)
 - **Format:** Individual PDF decisions
-- **Pipeline module:** *not yet built*
-- **Status — DEFERRED to Phase 2+:** District attribution requires PDF text extraction from unstructured legal documents — material effort for limited immediate ROI while the pilot scope is small. Revisit when Phase 3 scope expands.
+- **Source identifier:** `oah`
+- **Pipeline module:** `pipeline/scrapers/oah/decisions.py`
+- **How it works:** The index lists case numbers only, so attribution requires opening every PDF. The module walks the index pages, downloads all decision PDFs (browser-honest User-Agent, ~1.5s spacing, resumable), extracts each caption with `pdfplumber`, and matches the named respondent district to a pilot district. The district name must be a contiguous suffix of a "<…> School District" phrase, so partial names (e.g. "Vista" inside "Chula Vista") do not false-match.
+- **Fields populated:** `compliance.oah_cases_5yr_total`, `compliance.oah_cases_5yr_autism`.
+- **Limitations:** (1) `oah_cases_5yr_autism` is a keyword heuristic — the decision text mentions autism/ASD — not a verified eligibility classification. (2) Only published decisions appear here; most due-process filings settle without a published decision, so counts undercount total disputes. (3) Decisions naming an individual school rather than the district LEA are not attributed.
 
 ## US Department of Education Office for Civil Rights (OCR) — pending investigations
 

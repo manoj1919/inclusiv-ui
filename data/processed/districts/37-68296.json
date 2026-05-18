@@ -3,30 +3,32 @@
     "overview": {
       "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
       "ai_generated": true,
-      "ai_generated_at": "2026-05-18T03:25:32Z",
+      "ai_generated_at": "2026-05-18T05:52:05Z",
       "ai_model": "claude-opus (via Claude Code session)",
       "based_on_sources": [
         "cde_spedps",
         "ca_dashboard",
-        "ocr"
+        "ocr",
+        "oah"
       ],
       "value": "Poway Unified is a very large K-12 district in the North Inland region of San Diego County. About 5,511 of its students have an IEP, and 1,314 of them \u2014 roughly 24% \u2014 have an autism (ASD) eligibility. Around 43% of those autistic students spend most of the school day in a general-education classroom."
     },
     "what_this_means_for_parents": {
       "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
       "ai_generated": true,
-      "ai_generated_at": "2026-05-18T03:25:32Z",
+      "ai_generated_at": "2026-05-18T05:52:05Z",
       "ai_model": "claude-opus (via Claude Code session)",
       "based_on_sources": [
         "cde_spedps",
         "ca_dashboard",
-        "ocr"
+        "ocr",
+        "oah"
       ],
       "value": "About 43% of autistic students in this district are in a general-education classroom for most of the day, while about 4% are in a fully separate setting. Among all students with disabilities, a broader group than autism alone, 66% are in general-education classrooms most of the day. On 2024-25 state tests, students overall scored above standard \u2014 56 points above in English and 40 above in math \u2014 while students with disabilities scored 44 points below in English and 66 below in math. Students with disabilities were chronically absent at about 15% (compared with 8% for all students) and suspended at about 3% (compared with 1%)."
     }
   },
   "build_provenance": {
-    "built_at": "2026-05-18T03:25:32Z",
+    "built_at": "2026-05-18T05:52:04Z",
     "pipeline_version": "0.1.0",
     "raw_snapshots": [
       {
@@ -55,6 +57,16 @@
         "source": "cde_spedps"
       },
       {
+        "path": "data/raw/oah/2026-05-18/manifest.json",
+        "sha256": "6582b633f46aecd61fb3d2412ec6b519ec8b666b0d4d7b647e00ead4572d7716",
+        "source": "oah"
+      },
+      {
+        "path": "data/raw/oah/2026-05-18/text_cache.json",
+        "sha256": "6de7bcd61537a6687fbc1ab840ca8d5cdbe0d9c97449cd8b386571f98c6d5597",
+        "source": "oah"
+      },
+      {
         "path": "data/raw/ocr/2026-05-18/open_investigations_ca_ese.html",
         "sha256": "aa17c6f06d5da6cea824710bec96778e45c4722bc2e864a7c2a79b6847109555",
         "source": "ocr"
@@ -63,6 +75,22 @@
   },
   "cds_code": "37-68296",
   "compliance": {
+    "oah_cases_5yr_autism": {
+      "as_of": "2026-05-18",
+      "fetched_at": "2026-05-18T05:51:20Z",
+      "note": "Keyword heuristic \u2014 see oah_cases_5yr_total note.",
+      "source": "oah",
+      "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
+      "value": 0
+    },
+    "oah_cases_5yr_total": {
+      "as_of": "2026-05-18",
+      "fetched_at": "2026-05-18T05:51:20Z",
+      "note": "OAH special-education decisions naming this district, 2022-2026. All-time published total: 20. Autism count is a keyword heuristic (decision text mentions autism/ASD).",
+      "source": "oah",
+      "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
+      "value": 0
+    },
     "ocr_open_investigations": {
       "as_of": "2025-01-14",
       "fetched_at": "2026-05-18T03:24:29Z",
@@ -84,7 +112,8 @@
   "data_sources_used": [
     "cde_spedps",
     "ca_dashboard",
-    "ocr"
+    "ocr",
+    "oah"
   ],
   "district_type": "Unified K-12",
   "enrollment": {
