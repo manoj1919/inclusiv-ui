@@ -11,13 +11,10 @@ import { useCompare } from "./CompareProvider";
  * States: unpinned · pinned (accent fill) · disabled (compare set is full).
  */
 export function PinButton({ cds }: { cds: string }) {
-  const { isPinned, toggle, canPin, hydrated } = useCompare();
+  const { isPinned, toggle, canPin } = useCompare();
   const pinned = isPinned(cds);
   const disabled = !pinned && !canPin;
-
-  // Before hydration the pinned set is unknown — render the neutral state so
-  // the server and first client paint agree.
-  const label = !hydrated ? "Compare" : pinned ? "Pinned" : "Compare";
+  const label = pinned ? "Pinned" : "Compare";
 
   return (
     <button

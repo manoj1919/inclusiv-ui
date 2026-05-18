@@ -13,10 +13,10 @@ import { useCompare } from "./CompareProvider";
  * /compare page (the page itself carries the same controls there).
  */
 export function CompareTray({ names }: { names: Record<string, string> }) {
-  const { pinned, hydrated, remove, clear } = useCompare();
+  const { pinned, remove, clear } = useCompare();
   const pathname = usePathname() ?? "/";
 
-  if (!hydrated || pinned.length === 0 || pathname.startsWith("/compare")) {
+  if (pinned.length === 0 || pathname.startsWith("/compare")) {
     return null;
   }
 

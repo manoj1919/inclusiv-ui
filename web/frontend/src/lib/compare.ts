@@ -39,7 +39,7 @@ export function parseCompareParam(d: string | null | undefined): string[] {
 }
 
 /** Build a `/compare?d=…` href from a list of CDS codes. */
-export function buildCompareHref(codes: string[]): string {
+export function buildCompareHref(codes: readonly string[]): string {
   const capped = codes.slice(0, MAX_COMPARE);
   return capped.length ? `/compare?d=${capped.join(",")}` : "/compare";
 }
