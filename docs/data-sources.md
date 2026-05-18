@@ -13,6 +13,18 @@ All data in this project comes from public records. This document tracks the sou
 - **Pipeline module:** `pipeline/scrapers/cde/spedps.py`
 - **Source identifier:** `cde_spedps`
 
+## California Department of Education (CDE) — Census Day Enrollment
+
+- **URL:** https://www.cde.ca.gov/ds/ad/filesenrcensus.asp
+- **Direct file:** `https://www3.cde.ca.gov/demo-downloads/census/cdenroll2425.txt` (tab-separated, Latin-1)
+- **Coverage:** Total TK/K–12 enrollment (the whole student body) at state / county / district / school levels. SPED-PS carries only special-education counts, so this file supplies `enrollment.total` and lets the `% of total` figures be computed.
+- **License:** Public records; no restriction on republication
+- **Refresh:** Annual (Census Day = first Wednesday in October)
+- **Format:** Tab-separated text file
+- **Pipeline module:** `pipeline/scrapers/cde/enrollment.py`
+- **Source identifier:** `cde_enrollment`
+- **Note:** Same structure as SPED-PS — district rows split by the `Charter` column. We take `Charter = ALL` / `ReportingCategory = TA`, consistent with the SPED-PS aggregate, so enrollment and the SWD counts share one basis.
+
 ## California School Dashboard
 
 - **URL:** https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp

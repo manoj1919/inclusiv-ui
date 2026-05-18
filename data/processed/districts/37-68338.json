@@ -3,10 +3,11 @@
     "overview": {
       "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
       "ai_generated": true,
-      "ai_generated_at": "2026-05-18T05:52:05Z",
+      "ai_generated_at": "2026-05-18T15:28:00Z",
       "ai_model": "claude-opus (via Claude Code session)",
       "based_on_sources": [
         "cde_spedps",
+        "cde_enrollment",
         "ca_dashboard",
         "ocr",
         "oah"
@@ -16,10 +17,11 @@
     "what_this_means_for_parents": {
       "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
       "ai_generated": true,
-      "ai_generated_at": "2026-05-18T05:52:05Z",
+      "ai_generated_at": "2026-05-18T15:28:00Z",
       "ai_model": "claude-opus (via Claude Code session)",
       "based_on_sources": [
         "cde_spedps",
+        "cde_enrollment",
         "ca_dashboard",
         "ocr",
         "oah"
@@ -28,7 +30,7 @@
     }
   },
   "build_provenance": {
-    "built_at": "2026-05-18T05:52:04Z",
+    "built_at": "2026-05-18T15:28:00Z",
     "pipeline_version": "0.1.0",
     "raw_snapshots": [
       {
@@ -50,6 +52,11 @@
         "path": "data/raw/ca_dashboard/2026-05-16/suspdownload2025.txt",
         "sha256": "7f670baff136aa79ed797cfa13de7bb824ef09e496d306410e36ae1055571e43",
         "source": "ca_dashboard"
+      },
+      {
+        "path": "data/raw/cde_enrollment/2026-05-18/cdenroll2425.txt",
+        "sha256": "ff65bf6e2c4a0928dc1533106af29716a2cefb71e2e521e5c0e174fa737f8bbc",
+        "source": "cde_enrollment"
       },
       {
         "path": "data/raw/cde_spedps/2026-05-17/spedps.tsv",
@@ -111,6 +118,7 @@
   "county_code": "37",
   "data_sources_used": [
     "cde_spedps",
+    "cde_enrollment",
     "ca_dashboard",
     "ocr",
     "oah"
@@ -130,6 +138,13 @@
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 20358
+    },
+    "total": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-18T15:27:59Z",
+      "source": "cde_enrollment",
+      "url": "https://www.cde.ca.gov/ds/ad/filesenrcensus.asp",
+      "value": 113787
     }
   },
   "inclusion_metrics": {

@@ -1,0 +1,17 @@
+{
+  "_academic_year": "2024-25",
+  "_partial": true,
+  "_source": "cde_enrollment",
+  "cds_code": "37-68171",
+  "county": "San Diego",
+  "enrollment": {
+    "total": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-18T15:27:59Z",
+      "source": "cde_enrollment",
+      "url": "https://www.cde.ca.gov/ds/ad/filesenrcensus.asp",
+      "value": 112
+    }
+  },
+  "name": "Julian Union High"
+}
