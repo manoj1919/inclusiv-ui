@@ -80,7 +80,7 @@ export function SectionNav({
 
   return (
     <nav
-      className="sticky top-0 z-10 my-[22px] flex gap-1"
+      className="z-10 my-[22px] flex flex-wrap gap-1 sm:sticky sm:top-0 sm:flex-nowrap"
       style={{
         background: "var(--subtle-bg)",
         borderRadius: "var(--radius)",
@@ -98,6 +98,7 @@ export function SectionNav({
             aria-current={isActive ? "true" : undefined}
             className="flex-1"
             style={{
+              minWidth: 104,
               padding: "10px 14px",
               background: isActive ? "var(--card)" : "transparent",
               border: `1px solid ${isActive ? "var(--card-border)" : "transparent"}`,
