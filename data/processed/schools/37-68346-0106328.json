@@ -1,0 +1,102 @@
+{
+  "build_provenance": {
+    "built_at": "2026-05-18T19:33:11Z"
+  },
+  "cds_code": "37-68346-0106328",
+  "charter": false,
+  "county": "San Diego",
+  "data_sources_used": [
+    "cde_spedps",
+    "cde_enrollment",
+    "ca_dashboard"
+  ],
+  "district_cds": "37-68346",
+  "district_name": "San Dieguito Union High",
+  "enrollment": {
+    "pct_iep": {
+      "as_of": "2024-10-02",
+      "note": "Derived: all students with disabilities as a share of total school enrollment. School-level data has no autism breakdown \u2014 autism figures are district-level only.",
+      "source": "derived",
+      "value": 0.0517
+    },
+    "students_with_iep": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-18T19:33:11Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 111
+    },
+    "total": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-18T19:33:11Z",
+      "source": "cde_enrollment",
+      "url": "https://www.cde.ca.gov/ds/ad/filesenrcensus.asp",
+      "value": 2147
+    }
+  },
+  "inclusion_metrics": {
+    "lre_80pct_plus_gen_ed_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-18T19:33:11Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.514
+    },
+    "lre_separate_setting_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-18T19:33:11Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.0
+    }
+  },
+  "last_updated": "2026-05-18",
+  "level": "school",
+  "name": "Canyon Crest Academy",
+  "outcome_metrics": {
+    "ela_distance_from_standard_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-18T19:33:11Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 141.7
+    },
+    "ela_distance_from_standard_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-18T19:33:11Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -18.5
+    },
+    "math_distance_from_standard_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-18T19:33:11Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 128.7
+    },
+    "math_distance_from_standard_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-18T19:33:11Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -74.1
+    },
+    "suspension_rate_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-18T19:33:11Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.004
+    },
+    "suspension_rate_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-18T19:33:11Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.017
+    }
+  },
+  "schema_version": "0.1.0",
+  "school_code": "0106328"
+}
