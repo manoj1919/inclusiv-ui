@@ -5,10 +5,13 @@ data/manual/
 data/schema/
 
 # Python pipeline + venv — Vercel only runs the Next.js build.
+# pyproject.toml MUST be excluded too: Vercel's auto-detection sees it and
+# tries to deploy as FastAPI ("No FastAPI entrypoint found" error).
 .venv/
 pipeline/
 tests/
 inclusiv_ui.egg-info/
+pyproject.toml
 *.pyc
 __pycache__/
 
