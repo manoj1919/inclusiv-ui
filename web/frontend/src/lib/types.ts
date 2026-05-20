@@ -80,6 +80,18 @@ export type DistrictProfile = {
     pt_available?: Sourced<boolean>;
     social_skills_groups?: Sourced<boolean>;
   };
+  /**
+   * Hand-collected, web-sourced research about programs/services. Not
+   * government data; every fact is sourced to a specific district webpage
+   * or job posting. Absence of a structured field above means "not stated
+   * in public sources," not "does not exist."
+   */
+  district_web_research?: {
+    researched_at: string;
+    district_website?: string;
+    additional_findings: string;
+    sources: string[];
+  };
   ai_summaries?: {
     overview?: AIGenerated;
     compliance_explained?: AIGenerated;

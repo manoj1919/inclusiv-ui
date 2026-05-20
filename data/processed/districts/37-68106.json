@@ -121,9 +121,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "High School Only",
+  "district_web_research": {
+    "additional_findings": "Member of the NISER SELPA (North Inland Special Education Region). Special Education Services department; no autism-specific classroom or transition program detail published in search results (a targeted page fetch would be needed). High school district.",
+    "district_website": "https://www.euhsd.org",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.euhsd.org/departments/educational-services/student-services-programs/special-education-services/"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Small K-6 district, member of the East County SELPA. Runs a developmental preschool for children ages 2-5. Speech and language therapy and inclusion in mainstream classrooms with added resources. No autism-specific program published.",
+    "district_website": "https://www.jdusd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.jdusd.net/"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

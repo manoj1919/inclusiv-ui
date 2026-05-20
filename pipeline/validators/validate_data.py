@@ -156,7 +156,9 @@ def check_sources_match_provenance(profile: dict) -> list[Finding]:
     if extra_in_snapshots:
         out.append(("WARN", "/build_provenance",
                     f"snapshot sources not declared in data_sources_used: {sorted(extra_in_snapshots)}"))
-    declared_missing = declared - snapshot_sources - {"manual"}
+    # Hand-curated sources legitimately have no raw_snapshot in data/raw/ —
+    # they're tracked manual files under data/manual/.
+    declared_missing = declared - snapshot_sources - {"manual", "district_web"}
     if declared_missing:
         out.append(("WARN", "/data_sources_used",
                     f"declared sources with no snapshot recorded: {sorted(declared_missing)}"))

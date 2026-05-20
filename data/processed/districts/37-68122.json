@@ -120,9 +120,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "High School Only",
+  "district_web_research": {
+    "additional_findings": "WorkAbility 1 \u2014 pre-employment / work-readiness / transition program for special-ed students ages 14-22, one of the more established WA1 projects in the state \u2014 plus adult transition classes (basis for transition_18_22_program = true). SEAS program; a Paraprofessional III, Severely Handicapped role supports autistic, multi-handicapped, blind, deaf and orthopedically impaired students. NCCSE SELPA member.",
+    "district_website": "https://www.fuhsd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.fallbrookhs.org/fallbrook/work-ability1",
+      "https://www.fuhsd.net/district/special-education-district"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -232,6 +242,15 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.07
+    }
+  },
+  "programs": {
+    "transition_18_22_program": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://www.fallbrookhs.org/fallbrook/work-ability1",
+      "value": true
     }
   },
   "region": "North Inland",

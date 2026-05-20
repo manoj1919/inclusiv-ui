@@ -121,9 +121,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "PreK-6 district in National City, ~4,000 students across 10 elementary sites plus a preschool center that partners with the San Diego County Office of Education for birth-3 services. Special education sits under Student Support Services; no autism-specific program detail published.",
+    "district_website": "https://nsd.us",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.nsd.us/apps/pages/index.jsp?uREC_ID=605821&type=d"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

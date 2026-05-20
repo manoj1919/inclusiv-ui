@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Very small district with a Special Education page and an Extended School Services page but no published autism-specific program or related-services detail. NOTE: Dehesa authorizes large charter schools; its CDE special-ed counts are dominated by those charters (see methodology).",
+    "district_website": "https://www.dehesasd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.dehesasd.net/District/738-Special-Education.html"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

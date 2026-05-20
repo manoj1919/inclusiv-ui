@@ -121,9 +121,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "K-6 district, member of the South County SELPA. District-reported ~582 students on IEPs/504 plans (~13.6%) \u2014 note this is lower than the CDE charter-inclusive count. Offers 'a variety of programs, services and supports' but none autism-named online.",
+    "district_website": "https://www.sysdschools.org",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.sysdschools.org/domain/44",
+      "https://www.sysdschools.org/departments/special-education/selpa"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

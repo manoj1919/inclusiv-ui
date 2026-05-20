@@ -121,9 +121,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Two named autism programs: Hope Autism Program (Hope Elementary, TK-5), a structured visual language-enriched setting; and ASPIRE, targeting academic/social-pragmatic readiness. Both explicitly use ABA, Discrete Trial Training, Pivotal Response Training and visual supports. Stated goal: mainstream students into general education where appropriate.",
+    "district_website": "https://carlsbadusd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://carlsbadusd.net/sped-home"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -248,6 +257,18 @@
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.035
     }
+  },
+  "programs": {
+    "autism_specific_classrooms": [
+      {
+        "grade_range": "TK-5",
+        "name": "Hope Autism Program",
+        "site": "Hope Elementary School"
+      },
+      {
+        "name": "ASPIRE Program (Academic and Social Pragmatic Independence for Readiness in Education)"
+      }
+    ]
   },
   "region": "North Coast",
   "schema_version": "0.1.0"

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AISummary } from "@/components/AISummary";
 import { CompliancePanel } from "@/components/CompliancePanel";
+import { ProgramsPanel } from "@/components/ProgramsPanel";
 import { SectionHead } from "@/components/SectionHead";
 import { SectionNav, type Chapter } from "@/components/SectionNav";
 import { SourcesPanel } from "@/components/SourcesPanel";
@@ -83,12 +84,13 @@ export default async function DistrictPage({
   const chapters: Chapter[] = [
     { n: "01", id: "overview", label: "Overview", count: "AI summary" },
     { n: "02", id: "inclusion", label: "Inclusion", count: "1 chart · 2 stats" },
-    { n: "03", id: "academic", label: "Academics", count: "ELA + Math" },
-    { n: "04", id: "behavior", label: "Discipline", count: "2 charts" },
-    { n: "05", id: "compliance", label: "Disputes", count: "OAH + OCR" },
-    { n: "06", id: "summary", label: "Summary", count: "AI summary" },
-    { n: "07", id: "sources", label: "Sources", count: "Datasets" },
-    { n: "08", id: "schools", label: "Schools", count: `${schools.length} schools` },
+    { n: "03", id: "programs", label: "Programs", count: "Web-sourced" },
+    { n: "04", id: "academic", label: "Academics", count: "ELA + Math" },
+    { n: "05", id: "behavior", label: "Discipline", count: "2 charts" },
+    { n: "06", id: "compliance", label: "Disputes", count: "OAH + OCR" },
+    { n: "07", id: "summary", label: "Summary", count: "AI summary" },
+    { n: "08", id: "sources", label: "Sources", count: "Datasets" },
+    { n: "09", id: "schools", label: "Schools", count: `${schools.length} schools` },
   ];
 
   // Peer scaling — PeerDistribution expects natural-scale values.
@@ -273,10 +275,28 @@ export default async function DistrictPage({
         </div>
       </section>
 
-      {/* 03 — Academics */}
-      <section id="academic" className="scroll-mt-24 space-y-5">
+      {/* 03 — Programs */}
+      <section id="programs" className="scroll-mt-24 space-y-5">
         <SectionHead
           num="03"
+          title="What programs and services does the district offer?"
+          sub={
+            <>
+              Autism classrooms, behavior staff, transition programs, and
+              related services this district publishes. Hand-collected from
+              district websites, <Term>SELPA</Term> pages, and public job
+              postings — not from a <Term>CDE</Term> dataset, so coverage is
+              uneven and silence does not mean &ldquo;no.&rdquo;
+            </>
+          }
+        />
+        <ProgramsPanel profile={profile} />
+      </section>
+
+      {/* 04 — Academics */}
+      <section id="academic" className="scroll-mt-24 space-y-5">
+        <SectionHead
+          num="04"
           title="How are students doing on state assessments?"
           sub={
             <>
@@ -305,10 +325,10 @@ export default async function DistrictPage({
         />
       </section>
 
-      {/* 04 — Discipline */}
+      {/* 05 — Discipline */}
       <section id="behavior" className="scroll-mt-24 space-y-5">
         <SectionHead
-          num="04"
+          num="05"
           title="How often are students absent or suspended?"
           sub={
             <>
@@ -352,10 +372,10 @@ export default async function DistrictPage({
         </div>
       </section>
 
-      {/* 05 — Compliance */}
+      {/* 06 — Compliance */}
       <section id="compliance" className="scroll-mt-24 space-y-5">
         <SectionHead
-          num="05"
+          num="06"
           title="Formal disputes &amp; civil-rights investigations"
           sub={
             <>
@@ -369,10 +389,10 @@ export default async function DistrictPage({
         <CompliancePanel profile={profile} />
       </section>
 
-      {/* 06 — Summary */}
+      {/* 07 — Summary */}
       <section id="summary" className="scroll-mt-24 space-y-5">
         <SectionHead
-          num="06"
+          num="07"
           title="What this might mean for parents"
           sub="Always labeled, always paired with a verification note. Editorial review is recommended before quoting."
         />
@@ -386,20 +406,20 @@ export default async function DistrictPage({
         )}
       </section>
 
-      {/* 07 — Sources */}
+      {/* 08 — Sources */}
       <section id="sources" className="scroll-mt-24 space-y-5">
         <SectionHead
-          num="07"
+          num="08"
           title="Sources & dates"
           sub="Every number on this page traces to a public California or federal dataset. Click to expand full provenance with as-of dates."
         />
         <SourcesPanel profile={profile} />
       </section>
 
-      {/* 08 — Schools */}
+      {/* 09 — Schools */}
       <section id="schools" className="scroll-mt-24 space-y-5">
         <SectionHead
-          num="08"
+          num="09"
           title="Schools in this district"
           sub={
             <>

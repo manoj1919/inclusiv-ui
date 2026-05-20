@@ -121,9 +121,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "High School Only",
+  "district_web_research": {
+    "additional_findings": "Substantial transition offering for ages 18-22: Individual Transition Programs delivered at the student's school of residence, WorkAbility I, and the Transition Partnership Project (TPP, a CDE / Dept. of Rehabilitation collaborative). Community businesses and agencies partner on independence and employment. No autism-named classroom surfaced in search (note: this district reports a comparatively high separate-setting share in the CDE data).",
+    "district_website": "https://www.guhsd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.guhsd.net/Departments/Educational-Services/Special-Education/Transition/index.html"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -233,6 +242,15 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.075
+    }
+  },
+  "programs": {
+    "transition_18_22_program": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://www.guhsd.net/Departments/Educational-Services/Special-Education/Transition/index.html",
+      "value": true
     }
   },
   "region": "East",

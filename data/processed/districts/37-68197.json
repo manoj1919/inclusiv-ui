@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-8",
+  "district_web_research": {
+    "additional_findings": "K-8 district (CDE district_type currently mislabeled 'Other'). Member of the East County SELPA. Continuum of program options incl. Special Day Classes staffed with teams for students with significant needs; has experience supporting autism. Early Start program (birth-3) located at Rancho Elementary.",
+    "district_website": "https://www.lmsvschools.org",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.lmsvschools.org/special-education/"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

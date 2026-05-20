@@ -120,9 +120,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Tiny single-school district. Has a special-education teacher; a school annex project aims to add dedicated spaces for the special-ed teacher, school psychologist and speech pathologist. No autism-specific program published. NOTE: Spencer Valley's CDE special-ed counts are dominated by authorized charter schools (see methodology).",
+    "district_website": "https://www.svesd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.svesd.net/",
+      "https://www.svesd.net/staff"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Special-education page exists (alpineschools.net) but no program detail retrievable. NOTE: general web search collided heavily with Alpine School District, Utah \u2014 needs a targeted fetch of the California district's page before any field is filled. K-6 district.",
+    "district_website": "https://www.alpineschools.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.alpineschools.net/page/special-education"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

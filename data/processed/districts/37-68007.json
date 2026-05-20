@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Member of the North Coastal Consortium for Special Education (NCCSE) SELPA. Two-school K-6 district (Cardiff, Ada Harris). In-district models: co-teaching consultation, push-in support, separate reteaching, modified curriculum. Higher-needs students served via regional programs in neighboring districts. (Search collided with Cardiff, Wales \u2014 only CA content used.)",
+    "district_website": "https://www.cardiffschools.com",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.cardiffschools.com/departments/special-education"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

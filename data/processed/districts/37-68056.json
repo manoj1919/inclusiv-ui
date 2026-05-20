@@ -121,9 +121,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Employs Autism Behavior Specialists \u2014 registered behavior technicians (RBTs) who collect data, give direct support, and lead crisis interventions district-wide \u2014 plus behavior support interventionists. Occupational therapy provided. RBT-level behavior staffing present; a BCBA is not explicitly named. K-6 district.",
+    "district_website": "https://www.dmusd.org",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.dmusd.org/Departments/Student-Services/Special-Education/index.html"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -250,5 +259,14 @@
     }
   },
   "region": "North Coast",
+  "related_services": {
+    "ot_available": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://www.dmusd.org/Departments/Student-Services/Special-Education/index.html",
+      "value": true
+    }
+  },
   "schema_version": "0.1.0"
 }

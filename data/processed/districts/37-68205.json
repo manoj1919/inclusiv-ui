@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-8",
+  "district_web_research": {
+    "additional_findings": "K-8 district (CDE district_type currently mislabeled 'Other'). Birth-3 served through a SELPA-wide regional program; preschool-8 served in-district. Adapted Physical Education provided. Social workers deliver counseling, family support, social-emotional learning and mental-health services. No autism-specific program published.",
+    "district_website": "https://www.lemongrovesd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.lemongrovesd.net/apps/pages/index.jsp?uREC_ID=1217854&type=d&pREC_ID=1452182"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

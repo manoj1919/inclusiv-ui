@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Small K-8 district, member of the North Coastal Consortium for Special Education (NCCSE) SELPA. Child Find covers ages 0-21. A Parent Advisory Council (established 2024) collaborates with the special-education department. No autism-specific program published.",
+    "district_website": "https://www.rsfschool.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.rsfschool.net/district/departments/revised-sped"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

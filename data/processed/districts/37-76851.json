@@ -120,9 +120,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Runs an Adult Transition Program (ATP) that supports young adults with disabilities moving from high school to adult life, with a dedicated ATP teacher (basis for transition_18_22_program=true). Program continuum spans Mild/Moderate to Moderate/Severe; district frames general-education access from Pre-K through Adult Transition.",
+    "district_website": "https://www.bonsallusd.com",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://sites.google.com/bonsallusd.com/busd-adult-transition-program/home",
+      "https://www.bonsallusd.com/apps/pages/index.jsp?uREC_ID=1672382&type=d&pREC_ID=1341624"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -246,6 +256,15 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.043
+    }
+  },
+  "programs": {
+    "transition_18_22_program": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://sites.google.com/bonsallusd.com/busd-adult-transition-program/home",
+      "value": true
     }
   },
   "region": "North Inland",

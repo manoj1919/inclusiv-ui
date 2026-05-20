@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Special education sits under Student Support Services and serves all 13 federal disability categories including autism. The CDE directory lists a separate 'Valley Center-Pauma Adult' site, which may indicate an adult/transition program, but no 18-22 special-ed transition program is confirmed by name online.",
+    "district_website": "https://www.vcpusd.org",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.vcpusd.org/page/student-support-services"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

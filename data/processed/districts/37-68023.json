@@ -121,9 +121,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Classroom staff trained in autism strategies (positive behavior supports, visual supports, prompting, discrete trial). Uses an 'Autism and Behavior Support Assistant' role. Member of the South County SELPA, whose specialists provide assistive tech, speech, OT, PT, music therapy and mental-health/behavioral services (basis for ot/pt = true). Parent Handbook in English and Spanish. K-6 district.",
+    "district_website": "https://www.cvesd.org",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.cvesd.org/departments/student-services/special-education"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -250,5 +259,21 @@
     }
   },
   "region": "South",
+  "related_services": {
+    "ot_available": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://www.cvesd.org/departments/student-services/special-education",
+      "value": true
+    },
+    "pt_available": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://www.cvesd.org/departments/student-services/special-education",
+      "value": true
+    }
+  },
   "schema_version": "0.1.0"
 }

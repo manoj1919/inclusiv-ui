@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Very small rural unified district. Special education runs under the Educational Services department; no autism-specific program or related-services detail published online. Likely relies on regional/SELPA placements for higher-needs students.",
+    "district_website": "https://www.bsusd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.bsusd.net/departments/educational_services"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

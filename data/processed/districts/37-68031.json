@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Runs an Adult Transition Program for young adults with disabilities ages 18-22 (basis for transition_18_22_program = true), plus a Transition Education program and WorkAbility I. Staffs an Adult Transition Program Educational Specialist and a WorkAbility Coach. No autism-specific classroom named online.",
+    "district_website": "https://coronadousd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://coronadousd.net/Departments/Student-Services/Special-Education/Transition-Education-and-Workability-Program/Adult-Transition-Program/index.html"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -246,6 +255,15 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.062
+    }
+  },
+  "programs": {
+    "transition_18_22_program": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://coronadousd.net/Departments/Student-Services/Special-Education/Transition-Education-and-Workability-Program/Adult-Transition-Program/index.html",
+      "value": true
     }
   },
   "region": "South Coast",

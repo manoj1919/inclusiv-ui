@@ -121,9 +121,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "K-6 district, member of the North Coastal Consortium for Special Education (NCCSE) SELPA. Regional services (deaf/hard-of-hearing, severe disabilities, social-emotional) are provided across the consortium rather than in-district. Recruits Education Specialist teachers with Autism authorization. Runs a Parent Partners program.",
+    "district_website": "https://www.fuesd.org",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.fuesd.org/parent-partners/"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

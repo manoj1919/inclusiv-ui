@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Single-school K-6 district. Services under Section 504 and IDEA. Notably, the district maintains and publishes records of restraint and seclusion incidents per CA Education Code \u2014 a possible future data field for the site. No autism-specific program published.",
+    "district_website": "https://www.sanpasqualunion.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.sanpasqualunion.net/programs-services/special-education"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

@@ -121,9 +121,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-8",
+  "district_web_research": {
+    "additional_findings": "Education Specialist roles require Mild/Moderate with Autism Authorization. Operates a Behavior Intervention Class. Preschool special education birth-5. Programs sited at Sevick School plus several elementary schools. K-8 district.",
+    "district_website": "https://www.cajonvalley.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.cajonvalley.net/Page/12045",
+      "https://www.edjoin.org/Home/JobPosting/2202166"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -248,6 +258,13 @@
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.075
     }
+  },
+  "programs": {
+    "autism_specific_classrooms": [
+      {
+        "name": "Behavior Intervention Class"
+      }
+    ]
   },
   "region": "East",
   "schema_version": "0.1.0"

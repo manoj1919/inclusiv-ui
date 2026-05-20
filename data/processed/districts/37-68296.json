@@ -121,9 +121,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Transition Partnership Program (career exploration / post-secondary counseling, ages 16-21) and a WorkAbility program. ~4,830 students on IEPs/504 plans. Continuum: Resource Specialist Program and Special Day Classes; moderate/severe autism SDCs emphasize push-in over pullout. Speech, adapted PE, counseling, audiology offered.",
+    "district_website": "https://www.powayusd.com",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.powayusd.com/apps/pages/transition-partnership-program"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -247,6 +256,23 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.031
+    }
+  },
+  "programs": {
+    "autism_specific_classrooms": [
+      {
+        "name": "Moderate/Severe Autism Special Day Class"
+      },
+      {
+        "name": "Critical Skills Special Day Class"
+      }
+    ],
+    "transition_18_22_program": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://www.powayusd.com/apps/pages/transition-partnership-program",
+      "value": true
     }
   },
   "region": "North Inland",

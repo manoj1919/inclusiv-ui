@@ -121,9 +121,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Runs an Adult Transition Program (ATP) providing training and instruction toward adult programs and supported work placements, eligibility set by the IEP team (basis for transition_18_22_program=true). Special-education staff provide specialized academic and behavior support.",
+    "district_website": "https://www.smusd.org",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.smusd.org/departments/special_education/adult_transition_program",
+      "https://www.smusd.org/special-education-home"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -247,6 +257,15 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.043
+    }
+  },
+  "programs": {
+    "transition_18_22_program": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://www.smusd.org/departments/special_education/adult_transition_program",
+      "value": true
     }
   },
   "region": "North Inland",

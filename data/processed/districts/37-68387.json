@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "K-6 district. Services delivered both in the general-education environment and in separate settings per IEP. Early Childhood Special Education (ages 3-5) and a Child Development Center. A Parent Advisory Council with representatives from every school site collaborates with the department. No autism-specific program published.",
+    "district_website": "https://www.sbsd.k12.ca.us",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.sbsd.k12.ca.us/departments/special-education"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

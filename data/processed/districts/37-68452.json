@@ -121,9 +121,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Continuum from full general-ed integration to separate programs; serves ~3,000+ students ages 3-22. Named autism supports: autism program, sensory room, intensive language & behavior clinic, canine companions. OT, PT, speech, adapted PE, nursing, HoH/vision confirmed at California Avenue School. Member of the NCCSE SELPA.",
+    "district_website": "https://www.vistausd.org",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.vistausd.org/departments/educationalexcellence/specialeducation"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -249,6 +258,29 @@
       "value": 0.059
     }
   },
+  "programs": {
+    "autism_specific_classrooms": [
+      {
+        "name": "Autism Program"
+      }
+    ]
+  },
   "region": "North Inland",
+  "related_services": {
+    "ot_available": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://www.vistausd.org/departments/educationalexcellence/specialeducation",
+      "value": true
+    },
+    "pt_available": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://www.vistausd.org/departments/educationalexcellence/specialeducation",
+      "value": true
+    }
+  },
   "schema_version": "0.1.0"
 }

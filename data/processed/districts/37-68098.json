@@ -121,9 +121,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-8",
+  "district_web_research": {
+    "additional_findings": "K-8 district. Special-ed Preschool Diagnostic Team (from age 2y10m). Partners with Vista Hill to deliver early mental-health intervention to at-risk children ages 3-8 across 12 elementary schools, and provides school-based mental-health treatment to special-ed students. CARE Youth Project. No autism-named classroom published.",
+    "district_website": "https://www.eusd.org",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.eusd.org/page/special-education",
+      "https://www.eusd.org/page/special-education-child-find/"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

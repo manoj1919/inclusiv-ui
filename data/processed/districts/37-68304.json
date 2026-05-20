@@ -120,9 +120,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Member of the North Inland Special Education Region (NISER). Runs the Lee Wilkerson Adult Transition Program, based at Ramona High, for transition-age students (basis for transition_18_22_program=true). No autism-specific classroom named.",
+    "district_website": "https://www.ramonausd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://rhs.ramonausd.net/en-US/special-education-ff97f524",
+      "https://www.ramonausd.net/en-US/pupil-services-special-education-32a3e6ef"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -246,6 +256,15 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.057
+    }
+  },
+  "programs": {
+    "transition_18_22_program": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://rhs.ramonausd.net/en-US/special-education-ff97f524",
+      "value": true
     }
   },
   "region": "North Inland",

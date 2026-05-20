@@ -121,9 +121,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Full continuum: Learning Resource Centers at every school plus a variety of Special Day Classes. Autism Behavior Specialists on staff (Master's-degree holders get a 10% stipend). Runs an 'Inclusion in Action' initiative. SDCs are need-based, not autism-named. K-6 district.",
+    "district_website": "https://www.eusd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.eusd.net/departments/student-services-special-education"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

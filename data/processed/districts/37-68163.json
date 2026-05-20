@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Small rural K-6 district. Publishes a general 'full continuum of programs and related services per IEP' statement and ADA-accessible facilities, but no autism-specific program detail. NOTE: Julian Union authorizes Julian Charter School, so its CDE special-ed counts include charter students (see methodology).",
+    "district_website": "https://juesd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://juesd.net/en-US"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

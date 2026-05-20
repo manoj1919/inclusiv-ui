@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "High School Only",
+  "district_web_research": {
+    "additional_findings": "Very small rural high school district. Publishes only a general statement that IEP teams provide required transition services and resource-specialist support; no distinct named transition program or autism classroom.",
+    "district_website": "https://www.juhsd.org",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.juhsd.org/"
+    ]
+  },
   "enrollment": {
     "pct_iep": {
       "as_of": "2024-10-02",

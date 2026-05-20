@@ -154,6 +154,21 @@
         "median_rent_usd": { "$ref": "#/$defs/SourcedInt" }
       }
     },
+    "district_web_research": {
+      "type": "object",
+      "description": "Hand-collected, web-sourced research notes about programs/services. NOT government data — every fact is sourced to a specific district webpage, SELPA page, or job posting. Coverage is uneven; absence of a structured field means 'not stated' in public sources, not 'does not exist'.",
+      "required": ["researched_at", "additional_findings", "sources"],
+      "additionalProperties": false,
+      "properties": {
+        "researched_at": { "type": "string", "format": "date" },
+        "district_website": { "type": "string", "format": "uri" },
+        "additional_findings": { "type": "string" },
+        "sources": {
+          "type": "array",
+          "items": { "type": "string", "format": "uri" }
+        }
+      }
+    },
     "ai_summaries": {
       "type": "object",
       "description": "AI-generated plain-language summaries. Every entry is flagged as ai_generated.",

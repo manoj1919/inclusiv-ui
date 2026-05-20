@@ -121,9 +121,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "High School Only",
+  "district_web_research": {
+    "additional_findings": "Transition Partnership Program (cooperative with the CA Dept. of Rehabilitation) and WorkAbility (pre-employment / worksite training, ages 12-22) \u2014 basis for transition_18_22_program=true. Named supports: Learning Academy supports, Seaside Prep Program, Targeted Academic Instruction. Specialized supports explicitly address behavior, pragmatics, executive functioning and self-regulation.",
+    "district_website": "https://www.sduhsd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.sduhsd.net/Departments/Administrative-Services/Special-Education/Transition-Partnership-Program/",
+      "https://www.sduhsd.net/Departments/Administrative-Services/Special-Education/WorkAbility-Program/index.html"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -247,6 +257,15 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.058
+    }
+  },
+  "programs": {
+    "transition_18_22_program": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://www.sduhsd.net/Departments/Administrative-Services/Special-Education/Transition-Partnership-Program/",
+      "value": true
     }
   },
   "region": "North Coast",

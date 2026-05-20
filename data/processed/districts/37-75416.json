@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Very small, remote rural unified district (Warner Springs). A Special Education Program page exists but publishes no program, staffing or related-services detail. NOTE: Warner authorizes charter schools, which influence its CDE special-ed counts (see methodology).",
+    "district_website": "https://www.warnerusd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.warnerusd.net/page/special-education-program"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

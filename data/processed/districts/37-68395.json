@@ -121,9 +121,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "K-6 district in Imperial Beach, member of the South County SELPA. Points families to the Exceptional Family Resource Center (EFRC) for support and information. No autism-specific program detail published.",
+    "district_website": "https://www.sbusd.org",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.sbusd.org/apps/pages/index.jsp?uREC_ID=2158022&type=d&pREC_ID=2171308"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

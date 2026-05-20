@@ -121,9 +121,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Runs an Adult Transition Program (ATP) for students ages 18-22 across academic, vocational/pre-employment, community-based and independent-living domains (basis for transition_18_22_program=true). Member of the NCCSE SELPA, which partners with CAPTAIN (California Autism Professional Training and Information Network) to promote evidence-based autism practices. District-reported ~2,344 students on IEPs/504 plans (~14.4%).",
+    "district_website": "https://www.oside.us",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.oside.us/departments/special-education/adult-transition-program",
+      "https://www.oside.us/departments/special-education"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -247,6 +257,15 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.057
+    }
+  },
+  "programs": {
+    "transition_18_22_program": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://www.oside.us/departments/special-education/adult-transition-program",
+      "value": true
     }
   },
   "region": "North Coast",

@@ -121,9 +121,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-8",
+  "district_web_research": {
+    "additional_findings": "K-8 district (CDE district_type currently mislabeled 'Other'). Full continuum of special-education services per IEP. The CDE directory lists a 'Santee Success Program' site. Director and Coordinator of Special Education on staff. No autism-specific program detail published.",
+    "district_website": "https://www.santeesd.net",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.santeesd.net/district/department/educational_services/special_education"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

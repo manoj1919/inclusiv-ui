@@ -120,9 +120,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Rural unified district. A registered occupational therapist provides individual and group therapy (basis for ot_available=true). Speech & Language Program and an Adapted Physical Education program. Transition planning is handled in the IEP from age 16 (community experiences, employment objectives, independent-living skills) but no distinct named 18-22 program is published.",
+    "district_website": "https://www.meusd.org",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://www.meusd.org/Departments/Special-Education/Programs/index.html"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -249,5 +258,14 @@
     }
   },
   "region": "East",
+  "related_services": {
+    "ot_available": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://www.meusd.org/Departments/Special-Education/Programs/index.html",
+      "value": true
+    }
+  },
   "schema_version": "0.1.0"
 }

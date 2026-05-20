@@ -121,9 +121,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Special-ed site lists: Adapted PE, Assistive Technology, Audiology, Early Childhood Special Education, OT & PT, School Psychology, Speech & Language, plus programs named 'STARS', 'PPPSS', 'Pathways to Graduation' (none confirmed as an autism classroom from the homepage \u2014 needs a deeper page). bcba_on_staff = true based on a district 'Applied Behavior Analysis Supervisor' job posting; not a roster confirmation.",
+    "district_website": "https://www.sandiegounified.org",
+    "researched_at": "2026-05-17",
+    "sources": [
+      "https://sites.google.com/sandi.net/special-education-public/home",
+      "https://www.edjoin.org/Home/JobPosting/1259473"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -249,6 +259,31 @@
       "value": 0.04
     }
   },
+  "programs": {
+    "bcba_on_staff": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://sites.google.com/sandi.net/special-education-public/home",
+      "value": true
+    }
+  },
   "region": "Central",
+  "related_services": {
+    "ot_available": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://sites.google.com/sandi.net/special-education-public/home",
+      "value": true
+    },
+    "pt_available": {
+      "as_of": "2026-05-17",
+      "fetched_at": "2026-05-20T00:54:40Z",
+      "source": "district_web",
+      "url": "https://sites.google.com/sandi.net/special-education-public/home",
+      "value": true
+    }
+  },
   "schema_version": "0.1.0"
 }
