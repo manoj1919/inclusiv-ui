@@ -1,0 +1,22 @@
+# Heavy raw data (~1.5 GB of OAH PDFs + OCR HTML) — not read at build time.
+# Only data/processed/ is needed by the Next.js loaders.
+data/raw/
+data/manual/
+data/schema/
+
+# Python pipeline + venv — Vercel only runs the Next.js build.
+.venv/
+pipeline/
+tests/
+inclusiv_ui.egg-info/
+*.pyc
+__pycache__/
+
+# Build artifacts that Vercel will rebuild fresh.
+web/frontend/node_modules/
+web/frontend/.next/
+web/frontend/out/
+
+# Docs + misc
+docs/
+*.log
