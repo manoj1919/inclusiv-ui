@@ -5,6 +5,7 @@ import { SiteFooter, SiteHeader } from "@/components/SiteHeader";
 import { CompareProvider } from "@/components/CompareProvider";
 import { CompareTray } from "@/components/CompareTray";
 import { loadAllDistricts } from "@/lib/districts";
+import { Analytics } from "@vercel/analytics/next";
 
 const sans = Plus_Jakarta_Sans({
   variable: "--font-sans",
@@ -49,6 +50,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
           </div>
           <CompareTray names={districtNames} />
         </CompareProvider>
+        <Analytics />
       </body>
     </html>
   );
