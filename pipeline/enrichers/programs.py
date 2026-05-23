@@ -49,8 +49,8 @@ def main() -> int:
         print(f"No research file at {RESEARCH_FILE.relative_to(REPO_ROOT)}", file=sys.stderr)
         return 1
     research = json.loads(RESEARCH_FILE.read_text())
-    as_of = research.get("_researched_on")
-    if not as_of:
+    default_as_of = research.get("_researched_on")
+    if not default_as_of:
         print("Research file missing `_researched_on` date", file=sys.stderr)
         return 1
     fetched_at = utc_now_iso()
@@ -65,6 +65,10 @@ def main() -> int:
             print(f"SKIP  {cds} {profile.get('name', '<unknown>'):<32} (no research entry)")
             continue
 
+        # Per-district `researched_on` overrides the top-level default — lets a
+        # newer batch (e.g. SoCal expansion in 2026-05-23) not retimestamp the
+        # SD batch from 2026-05-17.
+        as_of = entry.get("researched_on") or default_as_of
         first_url = (entry.get("sources") or [None])[0]
 
         # ---- programs ---------------------------------------------------

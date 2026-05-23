@@ -86,9 +86,20 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "One of the most extensively-published autism program inventories in the SoCal pilot. The district names a continuous TK-22 sequence of autism-specific programs: Be Me Preschool (ages 3-5, two campuses); Ladera STARS Academy, Banyan Elementary, Maple Elementary (TK-5 autism programs); Sequoia Middle School autism program (6-8); a LEAP (Learning Essential Academic Program) at each high school; and Conejo Oaks Academy as the post-secondary transition program (ages 18-22, located on the Conejo Valley Adult School campus, 5 days/week, 360 min/day, low ratio with paraeducators per classroom). Board Certified Behavior Analysts are explicitly part of the related-service team, working closely with special education teachers and paraeducators. Programs employ Visual supports, Social Stories, Positive Behavior Supports, and 'highly structured, visual, and language supports' as evidence-based methodologies (no specific mention of ABA or TEACCH by name). Social skills training is referenced as a strategy but not as a discrete group offering. Part of Ventura County SELPA.",
+    "district_website": "https://www.conejousd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.conejousd.org/departments-services/student-services/special-education/special-education-programs-and-supports/autism-specialized-programs",
+      "https://www.conejousd.org/departments-services/student-services/special-education/special-education-programs-and-supports/conejo-oaks-academy-post-secondary-program",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -212,6 +223,58 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.045
+    }
+  },
+  "programs": {
+    "autism_specific_classrooms": [
+      {
+        "grade_range": "Ages 3-5",
+        "name": "Be Me Preschool",
+        "site": "University and Sycamore Canyon campuses"
+      },
+      {
+        "grade_range": "TK-5",
+        "name": "Ladera STARS Academy",
+        "site": "Ladera Elementary"
+      },
+      {
+        "grade_range": "TK-5",
+        "name": "Banyan Elementary Autism Program",
+        "site": "Banyan Elementary"
+      },
+      {
+        "grade_range": "TK-5",
+        "name": "Maple Elementary Autism Program",
+        "site": "Maple Elementary"
+      },
+      {
+        "grade_range": "6-8",
+        "name": "Sequoia Middle School Autism Program",
+        "site": "Sequoia Middle School"
+      },
+      {
+        "grade_range": "9-12",
+        "name": "LEAP Programs (Learning Essential Academic Program)"
+      },
+      {
+        "grade_range": "Ages 18-22",
+        "name": "Conejo Oaks Academy (Post-Secondary)",
+        "site": "Conejo Valley Adult School campus"
+      }
+    ],
+    "bcba_on_staff": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T13:44:20Z",
+      "source": "district_web",
+      "url": "https://www.conejousd.org/departments-services/student-services/special-education/special-education-programs-and-supports/autism-specialized-programs",
+      "value": true
+    },
+    "transition_18_22_program": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T13:44:20Z",
+      "source": "district_web",
+      "url": "https://www.conejousd.org/departments-services/student-services/special-education/special-education-programs-and-supports/autism-specialized-programs",
+      "value": true
     }
   },
   "region": "Unknown",

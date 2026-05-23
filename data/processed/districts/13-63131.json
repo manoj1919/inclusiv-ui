@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Small K-8 elementary district. Publishes a generic Special Education page describing the IEP process (assessment timelines, FAPE) but no specific autism programs, BCBA staffing, transition program, or related-service specifics. Part of Imperial County SELPA.",
+    "district_website": "https://www.hebersd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.hebersd.org/57960_3",
+      "https://www.icoe.org/selpa"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

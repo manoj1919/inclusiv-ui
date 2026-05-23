@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district in city of Imperial. Special Education department led by Dr. Theresa Fernandez (Director). Department staff explicitly includes school psychologists, a behavior specialist, and a mental health counselor \u2014 district-level behavioral support is named, though no BCBA credential is specified publicly. No autism-specific program, transition 18-22, or related-service ratio is listed. Part of Imperial County SELPA.",
+    "district_website": "https://do.imperialusd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://do.imperialusd.org/Departments/Educational-Services/Special-Education/index.html",
+      "https://www.icoe.org/selpa"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

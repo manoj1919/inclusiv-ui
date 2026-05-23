@@ -85,9 +85,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Tiny single-school district east of Brawley. No active district website was found in public search. Part of Imperial County SELPA; any specialized program or related-service support would be coordinated through SELPA/ICOE.",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.icoe.org/about-icoe/school-districts",
+      "https://www.icoe.org/selpa"
+    ]
+  },
   "enrollment": {
     "pct_iep": {
       "as_of": "2024-10-02",

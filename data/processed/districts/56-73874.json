@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Small high-performing unified district on the LA/Ventura County border (Oak Park). Has a Pupil Services & Special Education department but no autism-specific program names, BCBA staffing, or 18-22 transition details published publicly. Part of Ventura County SELPA.",
+    "district_website": "https://www.opusd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.opusd.org/departments/pupil-svcs",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

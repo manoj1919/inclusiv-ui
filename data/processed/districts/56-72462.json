@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "K-8 district serving Port Hueneme and surrounding area. Operates a continuum of special-education placements determined by each student's IEP. District names three Special Education Program Specialists (Joy Epstein, Brian Medel, Amy Smiley) but no autism-specific program, BCBA credential, or transition program is published publicly. Part of Ventura County SELPA.",
+    "district_website": "https://www.huensd.k12.ca.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.huensd.k12.ca.us/o/hueneme-elementary-school-district/page/special-education-and-pupil-support-services",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

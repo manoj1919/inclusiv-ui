@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "High School Only",
+  "district_web_research": {
+    "additional_findings": "District publishes a Special Education page but it lists no specific program names, BCBA staffing, transition program details, or related-service ratios. Part of Imperial County SELPA. Specific autism programming was not found on the public site as of research date.",
+    "district_website": "https://www.brawleyhigh.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.brawleyhigh.org/page/special-education",
+      "https://www.icoe.org/selpa"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

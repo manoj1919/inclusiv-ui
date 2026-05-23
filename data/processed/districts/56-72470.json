@@ -85,9 +85,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Single-school K-8 district in Somis (rural Ventura County). No district-specific special-education content beyond directory info. Part of Ventura County SELPA.",
+    "district_website": "https://mesaschooldistrict.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

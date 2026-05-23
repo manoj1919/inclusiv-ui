@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "High School Only",
+  "district_web_research": {
+    "additional_findings": "High-school-only district in El Centro. Publishes a Special Education directory but no district-specific autism program, BCBA staffing, transition program, or related-service specifics are visible publicly. Part of Imperial County SELPA.",
+    "district_website": "https://www.cuhsd.net",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.cuhsd.net/special-education-directory",
+      "https://www.icoe.org/selpa"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

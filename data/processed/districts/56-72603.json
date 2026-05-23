@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Large unified district. Provides Specialized Academic Instruction (SAI) for students with mild, moderate, and severe disabilities, using the U.N.I.Q.U.E. Curriculum for alternate-curriculum students. Has a Transition Partnership Program (TPP) for older students and a special-education preschool at Justin Early Learners Academy. Speech & Language Services and 'Related Services & Therapies' navigation links exist on the district SPED page but specific staffing, autism-program names, and BCBA credentials are not detailed publicly. Part of Ventura County SELPA.",
+    "district_website": "https://www.simivalleyusd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.simivalleyusd.org/district/educational-services/student-support-services/special-education",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

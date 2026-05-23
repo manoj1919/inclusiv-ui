@@ -85,9 +85,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Mid-sized K-8 district in Oxnard area. Part of Ventura County SELPA; no district-specific autism programs or specialized services published publicly.",
+    "district_website": "https://www.rioschools.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

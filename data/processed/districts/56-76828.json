@@ -85,9 +85,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district in Santa Paula. Part of Ventura County SELPA; no district-specific autism programs, BCBA staffing, or transition 18-22 details published publicly.",
+    "district_website": "https://www.santapaulausd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

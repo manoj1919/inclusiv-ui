@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "District serves approximately 950 students with disabilities across all eligibility categories. Programs offered: Resource Specialist Programs (pull-out model at every site), Special Day Classes for students needing more intensive support, and ICOE-run Center-Based / Community programs at the Imperial Valley Center for Exceptional Children (IVCEC) providing academic, recreational, community-awareness and vocational training (ages 3-22). District-published material explicitly references OT and PT as related services available for SDC/SH students. No autism-specific program is named \u2014 autism is listed as one IDEA category served. Part of Imperial County SELPA (CAPTAIN partner).",
+    "district_website": "https://www.cusdk12.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.cusdk12.org/departments/educational-services/special-education/special-education-programs/index.html",
+      "https://www.icoe.org/selpa"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -215,5 +225,21 @@
     }
   },
   "region": "Unknown",
+  "related_services": {
+    "ot_available": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T13:44:20Z",
+      "source": "district_web",
+      "url": "https://www.cusdk12.org/departments/educational-services/special-education/special-education-programs/index.html",
+      "value": true
+    },
+    "pt_available": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T13:44:20Z",
+      "source": "district_web",
+      "url": "https://www.cusdk12.org/departments/educational-services/special-education/special-education-programs/index.html",
+      "value": true
+    }
+  },
   "schema_version": "0.1.0"
 }

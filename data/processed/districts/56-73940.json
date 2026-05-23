@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district. Provides Specialized Academic Instruction (SAI) per the IEP; Speech and Language and Occupational Therapy are listed as possible related services but no current staffing or autism-specific program is detailed publicly. Part of Ventura County SELPA.",
+    "district_website": "https://www.mrpk.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.mrpk.org/districtoffice/instructional-and-support-services/special-education/programs-and-services",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

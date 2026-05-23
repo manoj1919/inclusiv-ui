@@ -1,7 +1,7 @@
 {
   "_comment": "Hand-collected, web-sourced programs / related-services data and other findings for SD County districts. BEST-EFFORT and incomplete by nature: this is NOT government-dataset data. Each district carries source URLs + a research date. Booleans are `true` only when a source explicitly states it; unconfirmed fields are left null (never guessed). `additional_findings` is free-text for anything useful that does not map to the current schema \u2014 display decisions are deferred. A later pipeline step will fold the schema-mapped subset into profiles as a `district_web` source.",
   "_researched_on": "2026-05-17",
-  "_progress": "42 of 42 districts",
+  "_progress": "42 SD + 16 Imperial + 19 Ventura = 77 of 240 districts (Phase 3 SoCal grind in progress)",
   "37-67967": {
     "name": "Alpine Union Elementary",
     "district_website": "https://www.alpineschools.net",
@@ -841,6 +841,778 @@
     "sources": [
       "https://sites.google.com/bonsallusd.com/busd-adult-transition-program/home",
       "https://www.bonsallusd.com/apps/pages/index.jsp?uREC_ID=1672382&type=d&pREC_ID=1341624"
+    ]
+  },
+  "13-63073": {
+    "name": "Brawley Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.brawleyesd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Per a 2025 Imperial Valley Press article, the district is shifting to an inclusion-oriented co-teaching model for TK-8, with two additional special education teachers and two additional speech pathologists being hired to support the transition. No district-run autism-specific program is named on the public site. Part of Imperial County SELPA (CAPTAIN partner for autism evidence-based practices).",
+    "sources": [
+      "https://www.ivpressonline.com/news/brawley-elementary-launches-new-teaching-model-for-special-education-students/article_f1bcc25e-e678-4af2-aa75-c9f53d7a92df.html",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "13-63081": {
+    "name": "Brawley Union High",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.brawleyhigh.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "District publishes a Special Education page but it lists no specific program names, BCBA staffing, transition program details, or related-service ratios. Part of Imperial County SELPA. Specific autism programming was not found on the public site as of research date.",
+    "sources": [
+      "https://www.brawleyhigh.org/page/special-education",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "13-63099": {
+    "name": "Calexico Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.cusdk12.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": true,
+      "pt_available": true,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "District serves approximately 950 students with disabilities across all eligibility categories. Programs offered: Resource Specialist Programs (pull-out model at every site), Special Day Classes for students needing more intensive support, and ICOE-run Center-Based / Community programs at the Imperial Valley Center for Exceptional Children (IVCEC) providing academic, recreational, community-awareness and vocational training (ages 3-22). District-published material explicitly references OT and PT as related services available for SDC/SH students. No autism-specific program is named \u2014 autism is listed as one IDEA category served. Part of Imperial County SELPA (CAPTAIN partner).",
+    "sources": [
+      "https://www.cusdk12.org/departments/educational-services/special-education/special-education-programs/index.html",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "13-63107": {
+    "name": "Calipatria Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.calipatriahornets.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Small rural unified district (4 schools: Fremont Primary TK-4, Grace Smith K-4, Bill E. Young Jr. Middle 5-8, Calipatria High 9-12) serving Calipatria, Niland, and Bombay Beach. District publishes a generic SELPA page but no autism-specific programs, BCBA staffing, transition program, or related-service specifics are listed publicly. Part of Imperial County SELPA.",
+    "sources": [
+      "https://www.calipatriahornets.org/apps/pages/index.jsp?uREC_ID=286481&type=d&pREC_ID=2182470",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "13-63115": {
+    "name": "Central Union High",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.cuhsd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "High-school-only district in El Centro. Publishes a Special Education directory but no district-specific autism program, BCBA staffing, transition program, or related-service specifics are visible publicly. Part of Imperial County SELPA.",
+    "sources": [
+      "https://www.cuhsd.net/special-education-directory",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "13-63123": {
+    "name": "El Centro Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.ecesd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Largest elementary district in Imperial County (12 schools in El Centro). Part of Imperial County SELPA, which partners with CAPTAIN (California Autism Professional Training and Information Network) for evidence-based autism practices and provides behavior-specialist consultation to district staff. No district-specific autism program is named on the public site.",
+    "sources": [
+      "https://www.ecesd.org/",
+      "https://www.icoe.org/selpa",
+      "https://www.icoe.org/selpa/resources/resources-families-community/resources-serving-students-autism"
+    ]
+  },
+  "13-63131": {
+    "name": "Heber Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.hebersd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Small K-8 elementary district. Publishes a generic Special Education page describing the IEP process (assessment timelines, FAPE) but no specific autism programs, BCBA staffing, transition program, or related-service specifics. Part of Imperial County SELPA.",
+    "sources": [
+      "https://www.hebersd.org/57960_3",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "13-63149": {
+    "name": "Holtville Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.husd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district. Special Education page states the district serves students 'on the autism spectrum' and 'speech and language impaired' students alongside other disability categories, but provides no specific program names, BCBA staffing, transition program, or related-service ratios. Part of Imperial County SELPA.",
+    "sources": [
+      "https://www.husd.net/departments/educational-services/special-education/",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "13-63164": {
+    "name": "Imperial Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://do.imperialusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district in city of Imperial. Special Education department led by Dr. Theresa Fernandez (Director). Department staff explicitly includes school psychologists, a behavior specialist, and a mental health counselor \u2014 district-level behavioral support is named, though no BCBA credential is specified publicly. No autism-specific program, transition 18-22, or related-service ratio is listed. Part of Imperial County SELPA.",
+    "sources": [
+      "https://do.imperialusd.org/Departments/Educational-Services/Special-Education/index.html",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "13-63172": {
+    "name": "Magnolia Union Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.magnoliaunion.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny rural elementary district north of Brawley, single school. No district-specific special education content is published publicly beyond directory information. Part of Imperial County SELPA; specialized programs (autism-specific classrooms, BCBA, OT/PT) for any individual student would be coordinated through SELPA/ICOE rather than at this district level.",
+    "sources": [
+      "https://www.magnoliaunion.org/",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "13-63180": {
+    "name": "McCabe Union Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.muesd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Small rural elementary district near El Centro. No district-specific special education content is published publicly. Part of Imperial County SELPA; specialized programs and related services are likely coordinated through SELPA/ICOE.",
+    "sources": [
+      "https://www.muesd.net/",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "13-63198": {
+    "name": "Meadows Union",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.meadowsunion.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Single-school K-8 district (~370 students). No district-specific special education content published publicly. Part of Imperial County SELPA; specialized programs would be coordinated through SELPA/ICOE.",
+    "sources": [
+      "https://www.meadowsunion.net/",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "13-63206": {
+    "name": "Mulberry Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": null,
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny single-school district east of Brawley. No active district website was found in public search. Part of Imperial County SELPA; any specialized program or related-service support would be coordinated through SELPA/ICOE.",
+    "sources": [
+      "https://www.icoe.org/about-icoe/school-districts",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "13-63214": {
+    "name": "San Pasqual Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.spvusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Small unified district in Winterhaven (eastern Imperial County, near the Arizona border). No special-education-specific content visible publicly beyond contact info. Part of Imperial County SELPA.",
+    "sources": [
+      "https://www.spvusd.org/",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "13-63222": {
+    "name": "Seeley Union Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": null,
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny single-school district in Seeley. No active district website was found in public search. Part of Imperial County SELPA; specialized programs and related services would be coordinated through SELPA/ICOE.",
+    "sources": [
+      "https://www.icoe.org/about-icoe/school-districts",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "13-63230": {
+    "name": "Westmorland Union Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.wued.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny rural elementary district in Westmorland. District site exists but no special-education-specific content is published. Part of Imperial County SELPA.",
+    "sources": [
+      "https://www.wued.org/",
+      "https://www.icoe.org/selpa"
+    ]
+  },
+  "56-72447": {
+    "name": "Briggs Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": null,
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny rural single-school elementary district near Santa Paula. Part of Ventura County SELPA; specialized programs and related services would be coordinated through SELPA/VCOE.",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-72454": {
+    "name": "Fillmore Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.fillmoreusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Small unified district in northeastern Ventura County. Part of Ventura County SELPA; no district-specific autism programs, BCBA staffing, or transition 18-22 details published publicly.",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-72462": {
+    "name": "Hueneme Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.huensd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 district serving Port Hueneme and surrounding area. Operates a continuum of special-education placements determined by each student's IEP. District names three Special Education Program Specialists (Joy Epstein, Brian Medel, Amy Smiley) but no autism-specific program, BCBA credential, or transition program is published publicly. Part of Ventura County SELPA.",
+    "sources": [
+      "https://www.huensd.k12.ca.us/o/hueneme-elementary-school-district/page/special-education-and-pupil-support-services",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-72470": {
+    "name": "Mesa Union Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://mesaschooldistrict.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Single-school K-8 district in Somis (rural Ventura County). No district-specific special-education content beyond directory info. Part of Ventura County SELPA.",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-72504": {
+    "name": "Mupu Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": null,
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny rural single-school district near Santa Paula. Part of Ventura County SELPA; specialized programs would be coordinated through SELPA/VCOE.",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-72512": {
+    "name": "Ocean View",
+    "researched_on": "2026-05-23",
+    "district_website": null,
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Small K-8 district in the Oxnard area. Part of Ventura County SELPA; no district-specific autism programs or specialized services published publicly.",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-72520": {
+    "name": "Ojai Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.ojaiusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district in Ojai with 8 schools (~2,085 students). Part of Ventura County SELPA; no autism-specific program, BCBA staffing, or 18-22 transition details published publicly.",
+    "sources": [
+      "https://www.ojaiusd.org/",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-72538": {
+    "name": "Oxnard",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.oxnardsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large K-8 district in Oxnard. Provides Specialized Academic Instruction (SAI) for students with mild, moderate, and severe disabilities; autism is listed as one IDEA eligibility category. No autism-specific program names, BCBA staffing, or related-service specifics published. Part of Ventura County SELPA.",
+    "sources": [
+      "https://www.oxnardsd.org/departments/special-education/welcome",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-72546": {
+    "name": "Oxnard Union High",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.oxnardunion.org",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "Autism Program",
+          "grade_range": "9-12",
+          "site": "Rio Mesa High School"
+        }
+      ],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large high school district serving ~2,700 students with disabilities district-wide. Rio Mesa High School concentrates the district's specialized SDC programs and is the only site offering programs exclusively for students with Autism, Hearing Impairment, and Orthopedic Impairment \u2014 these are open to students from across the district. Rio Mesa also hosts Severely Handicapped, Specialized Academic Instruction, and non-enhanced Emotionally Disturbed programs, plus Adaptive PE, Speech and Language, and a full-time school psychologist. Most other students with disabilities are served at their neighborhood high school. Part of Ventura County SELPA.",
+    "sources": [
+      "https://www.oxnardunion.org/departments/educational-services/special-education",
+      "https://www.riomesahigh.us/academics/departments/special-education",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-72553": {
+    "name": "Pleasant Valley",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.pleasantvalleysd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 district in Camarillo (14 schools). Offers several special-education service models including Specialized Academic Instruction Courses at middle school sites, Co-Taught Classrooms at specific grade levels and sites, and a Pre-School Early Education Program (PEEP). Staff hold credentials to teach students with language delays, learning disabilities, and autism (preschool through adulthood) but no autism-specific program name, BCBA staffing, or 18-22 transition is published. Part of Ventura County SELPA.",
+    "sources": [
+      "https://www.pleasantvalleysd.org/departments/special-education/special-education",
+      "https://www.pleasantvalleysd.org/departments/special-education/programs",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-72561": {
+    "name": "Rio Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.rioschools.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Mid-sized K-8 district in Oxnard area. Part of Ventura County SELPA; no district-specific autism programs or specialized services published publicly.",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-72579": {
+    "name": "Santa Clara Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": null,
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny rural elementary district. Part of Ventura County SELPA; specialized programs and services would be coordinated through SELPA/VCOE.",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-72603": {
+    "name": "Simi Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.simivalleyusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district. Provides Specialized Academic Instruction (SAI) for students with mild, moderate, and severe disabilities, using the U.N.I.Q.U.E. Curriculum for alternate-curriculum students. Has a Transition Partnership Program (TPP) for older students and a special-education preschool at Justin Early Learners Academy. Speech & Language Services and 'Related Services & Therapies' navigation links exist on the district SPED page but specific staffing, autism-program names, and BCBA credentials are not detailed publicly. Part of Ventura County SELPA.",
+    "sources": [
+      "https://www.simivalleyusd.org/district/educational-services/student-support-services/special-education",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-72611": {
+    "name": "Somis Union",
+    "researched_on": "2026-05-23",
+    "district_website": null,
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny single-school district in Somis. Part of Ventura County SELPA; specialized programs would be coordinated through SELPA/VCOE.",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-72652": {
+    "name": "Ventura Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.venturausd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": true,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": true,
+      "pt_available": true,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district that also serves as a multi-district provider for west-end Ventura County for two low-incidence specializations: Emotional Disturbance programs and Deaf/Hard-of-Hearing programs. Special-education department lists a dedicated Behavior Team of six Board Certified Behavior Analysts (Bailey Iannolo, Gabriela Torres, Dena Kocher, Manuel Morales, Mariah Satnick, Jamie Vaughn). Related services include Occupational Therapy, Physical Therapy, and Speech and Language. Operates a Transition Partnership Program and Workability program with a Career Development Specialist and Work-Based Learning Coordinator. Also runs an Early Intervention Center for ages 3-5 with non-categorical small-group classes serving students with Speech/Language Impairment, Autism, Intellectual Disability, and other low-incidence disabilities. A district-level 'Program Specialist Autism' contact is listed though no autism-specific classroom is named on this page. Part of Ventura County SELPA.",
+    "sources": [
+      "https://www.venturausd.org/services/special-education",
+      "https://www.venturausd.org/schools/other-programs/early-intervention-center",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-73759": {
+    "name": "Conejo Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.conejousd.org",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "Be Me Preschool",
+          "grade_range": "Ages 3-5",
+          "site": "University and Sycamore Canyon campuses"
+        },
+        {
+          "name": "Ladera STARS Academy",
+          "grade_range": "TK-5",
+          "site": "Ladera Elementary"
+        },
+        {
+          "name": "Banyan Elementary Autism Program",
+          "grade_range": "TK-5",
+          "site": "Banyan Elementary"
+        },
+        {
+          "name": "Maple Elementary Autism Program",
+          "grade_range": "TK-5",
+          "site": "Maple Elementary"
+        },
+        {
+          "name": "Sequoia Middle School Autism Program",
+          "grade_range": "6-8",
+          "site": "Sequoia Middle School"
+        },
+        {
+          "name": "LEAP Programs (Learning Essential Academic Program)",
+          "grade_range": "9-12"
+        },
+        {
+          "name": "Conejo Oaks Academy (Post-Secondary)",
+          "grade_range": "Ages 18-22",
+          "site": "Conejo Valley Adult School campus"
+        }
+      ],
+      "bcba_on_staff": true,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "One of the most extensively-published autism program inventories in the SoCal pilot. The district names a continuous TK-22 sequence of autism-specific programs: Be Me Preschool (ages 3-5, two campuses); Ladera STARS Academy, Banyan Elementary, Maple Elementary (TK-5 autism programs); Sequoia Middle School autism program (6-8); a LEAP (Learning Essential Academic Program) at each high school; and Conejo Oaks Academy as the post-secondary transition program (ages 18-22, located on the Conejo Valley Adult School campus, 5 days/week, 360 min/day, low ratio with paraeducators per classroom). Board Certified Behavior Analysts are explicitly part of the related-service team, working closely with special education teachers and paraeducators. Programs employ Visual supports, Social Stories, Positive Behavior Supports, and 'highly structured, visual, and language supports' as evidence-based methodologies (no specific mention of ABA or TEACCH by name). Social skills training is referenced as a strategy but not as a discrete group offering. Part of Ventura County SELPA.",
+    "sources": [
+      "https://www.conejousd.org/departments-services/student-services/special-education/special-education-programs-and-supports/autism-specialized-programs",
+      "https://www.conejousd.org/departments-services/student-services/special-education/special-education-programs-and-supports/conejo-oaks-academy-post-secondary-program",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-73874": {
+    "name": "Oak Park Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.opusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Small high-performing unified district on the LA/Ventura County border (Oak Park). Has a Pupil Services & Special Education department but no autism-specific program names, BCBA staffing, or 18-22 transition details published publicly. Part of Ventura County SELPA.",
+    "sources": [
+      "https://www.opusd.org/departments/pupil-svcs",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-73940": {
+    "name": "Moorpark Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.mrpk.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district. Provides Specialized Academic Instruction (SAI) per the IEP; Speech and Language and Occupational Therapy are listed as possible related services but no current staffing or autism-specific program is detailed publicly. Part of Ventura County SELPA.",
+    "sources": [
+      "https://www.mrpk.org/districtoffice/instructional-and-support-services/special-education/programs-and-services",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "56-76828": {
+    "name": "Santa Paula Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.santapaulausd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district in Santa Paula. Part of Ventura County SELPA; no district-specific autism programs, BCBA staffing, or transition 18-22 details published publicly.",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
     ]
   }
 }

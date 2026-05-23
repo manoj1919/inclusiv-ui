@@ -86,9 +86,20 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Other",
+  "district_web_research": {
+    "additional_findings": "K-8 district in Camarillo (14 schools). Offers several special-education service models including Specialized Academic Instruction Courses at middle school sites, Co-Taught Classrooms at specific grade levels and sites, and a Pre-School Early Education Program (PEEP). Staff hold credentials to teach students with language delays, learning disabilities, and autism (preschool through adulthood) but no autism-specific program name, BCBA staffing, or 18-22 transition is published. Part of Ventura County SELPA.",
+    "district_website": "https://www.pleasantvalleysd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.pleasantvalleysd.org/departments/special-education/special-education",
+      "https://www.pleasantvalleysd.org/departments/special-education/programs",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

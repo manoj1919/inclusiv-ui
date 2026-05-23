@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Small rural unified district (4 schools: Fremont Primary TK-4, Grace Smith K-4, Bill E. Young Jr. Middle 5-8, Calipatria High 9-12) serving Calipatria, Niland, and Bombay Beach. District publishes a generic SELPA page but no autism-specific programs, BCBA staffing, transition program, or related-service specifics are listed publicly. Part of Imperial County SELPA.",
+    "district_website": "https://www.calipatriahornets.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.calipatriahornets.org/apps/pages/index.jsp?uREC_ID=286481&type=d&pREC_ID=2182470",
+      "https://www.icoe.org/selpa"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district. Special Education page states the district serves students 'on the autism spectrum' and 'speech and language impaired' students alongside other disability categories, but provides no specific program names, BCBA staffing, transition program, or related-service ratios. Part of Imperial County SELPA.",
+    "district_website": "https://www.husd.net",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.husd.net/departments/educational-services/special-education/",
+      "https://www.icoe.org/selpa"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

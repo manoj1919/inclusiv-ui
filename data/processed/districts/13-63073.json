@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Per a 2025 Imperial Valley Press article, the district is shifting to an inclusion-oriented co-teaching model for TK-8, with two additional special education teachers and two additional speech pathologists being hired to support the transition. No district-run autism-specific program is named on the public site. Part of Imperial County SELPA (CAPTAIN partner for autism evidence-based practices).",
+    "district_website": "https://www.brawleyesd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.ivpressonline.com/news/brawley-elementary-launches-new-teaching-model-for-special-education-students/article_f1bcc25e-e678-4af2-aa75-c9f53d7a92df.html",
+      "https://www.icoe.org/selpa"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

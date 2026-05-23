@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Single-school K-8 district (~370 students). No district-specific special education content published publicly. Part of Imperial County SELPA; specialized programs would be coordinated through SELPA/ICOE.",
+    "district_website": "https://www.meadowsunion.net",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.meadowsunion.net/",
+      "https://www.icoe.org/selpa"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

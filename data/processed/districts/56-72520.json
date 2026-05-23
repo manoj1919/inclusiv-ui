@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district in Ojai with 8 schools (~2,085 students). Part of Ventura County SELPA; no autism-specific program, BCBA staffing, or 18-22 transition details published publicly.",
+    "district_website": "https://www.ojaiusd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.ojaiusd.org/",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

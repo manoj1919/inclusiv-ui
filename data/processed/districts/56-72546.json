@@ -85,9 +85,20 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "High School Only",
+  "district_web_research": {
+    "additional_findings": "Large high school district serving ~2,700 students with disabilities district-wide. Rio Mesa High School concentrates the district's specialized SDC programs and is the only site offering programs exclusively for students with Autism, Hearing Impairment, and Orthopedic Impairment \u2014 these are open to students from across the district. Rio Mesa also hosts Severely Handicapped, Specialized Academic Instruction, and non-enhanced Emotionally Disturbed programs, plus Adaptive PE, Speech and Language, and a full-time school psychologist. Most other students with disabilities are served at their neighborhood high school. Part of Ventura County SELPA.",
+    "district_website": "https://www.oxnardunion.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.oxnardunion.org/departments/educational-services/special-education",
+      "https://www.riomesahigh.us/academics/departments/special-education",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -198,6 +209,15 @@
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.085
     }
+  },
+  "programs": {
+    "autism_specific_classrooms": [
+      {
+        "grade_range": "9-12",
+        "name": "Autism Program",
+        "site": "Rio Mesa High School"
+      }
+    ]
   },
   "region": "Unknown",
   "schema_version": "0.1.0"

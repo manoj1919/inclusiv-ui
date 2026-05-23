@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Small rural elementary district near El Centro. No district-specific special education content is published publicly. Part of Imperial County SELPA; specialized programs and related services are likely coordinated through SELPA/ICOE.",
+    "district_website": "https://www.muesd.net",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.muesd.net/",
+      "https://www.icoe.org/selpa"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Tiny rural elementary district north of Brawley, single school. No district-specific special education content is published publicly beyond directory information. Part of Imperial County SELPA; specialized programs (autism-specific classrooms, BCBA, OT/PT) for any individual student would be coordinated through SELPA/ICOE rather than at this district level.",
+    "district_website": "https://www.magnoliaunion.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.magnoliaunion.org/",
+      "https://www.icoe.org/selpa"
+    ]
+  },
   "enrollment": {
     "pct_iep": {
       "as_of": "2024-10-02",

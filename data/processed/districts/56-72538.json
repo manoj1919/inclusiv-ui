@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Other",
+  "district_web_research": {
+    "additional_findings": "Large K-8 district in Oxnard. Provides Specialized Academic Instruction (SAI) for students with mild, moderate, and severe disabilities; autism is listed as one IDEA eligibility category. No autism-specific program names, BCBA staffing, or related-service specifics published. Part of Ventura County SELPA.",
+    "district_website": "https://www.oxnardsd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.oxnardsd.org/departments/special-education/welcome",
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

@@ -85,9 +85,20 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Largest elementary district in Imperial County (12 schools in El Centro). Part of Imperial County SELPA, which partners with CAPTAIN (California Autism Professional Training and Information Network) for evidence-based autism practices and provides behavior-specialist consultation to district staff. No district-specific autism program is named on the public site.",
+    "district_website": "https://www.ecesd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.ecesd.org/",
+      "https://www.icoe.org/selpa",
+      "https://www.icoe.org/selpa/resources/resources-families-community/resources-serving-students-autism"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

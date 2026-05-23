@@ -85,9 +85,17 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Tiny rural single-school district near Santa Paula. Part of Ventura County SELPA; specialized programs would be coordinated through SELPA/VCOE.",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
   "enrollment": {
     "pct_iep": {
       "as_of": "2024-10-02",
