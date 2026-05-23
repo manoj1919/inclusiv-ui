@@ -1,0 +1,116 @@
+{
+  "build_provenance": {
+    "built_at": "2026-05-23T08:01:59Z"
+  },
+  "cds_code": "30-73643-6030571",
+  "charter": false,
+  "county": "Orange",
+  "data_sources_used": [
+    "cde_spedps",
+    "cde_enrollment",
+    "ca_dashboard"
+  ],
+  "district_cds": "30-73643",
+  "district_name": "Tustin Unified",
+  "enrollment": {
+    "pct_iep": {
+      "as_of": "2024-10-02",
+      "note": "Derived: all students with disabilities as a share of total school enrollment. School-level data has no autism breakdown \u2014 autism figures are district-level only.",
+      "source": "derived",
+      "value": 0.2256
+    },
+    "students_with_iep": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 125
+    },
+    "total": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_enrollment",
+      "url": "https://www.cde.ca.gov/ds/ad/filesenrcensus.asp",
+      "value": 554
+    }
+  },
+  "inclusion_metrics": {
+    "lre_80pct_plus_gen_ed_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.56
+    },
+    "lre_separate_setting_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.0
+    }
+  },
+  "last_updated": "2026-05-23",
+  "level": "school",
+  "name": "C. E. Utt Middle",
+  "outcome_metrics": {
+    "chronic_absenteeism_rate_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.148
+    },
+    "chronic_absenteeism_rate_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.238
+    },
+    "ela_distance_from_standard_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -21.2
+    },
+    "ela_distance_from_standard_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -92.2
+    },
+    "math_distance_from_standard_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -59.5
+    },
+    "math_distance_from_standard_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -122.7
+    },
+    "suspension_rate_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.037
+    },
+    "suspension_rate_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.034
+    }
+  },
+  "schema_version": "0.1.0",
+  "school_code": "6030571"
+}

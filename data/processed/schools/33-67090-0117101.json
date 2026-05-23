@@ -1,0 +1,44 @@
+{
+  "build_provenance": {
+    "built_at": "2026-05-23T08:01:59Z"
+  },
+  "cds_code": "33-67090-0117101",
+  "charter": false,
+  "county": "Riverside",
+  "data_sources_used": [
+    "cde_spedps"
+  ],
+  "district_cds": "33-67090",
+  "district_name": "Jurupa Unified",
+  "enrollment": {
+    "students_with_iep": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 15
+    }
+  },
+  "inclusion_metrics": {
+    "lre_80pct_plus_gen_ed_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.0
+    },
+    "lre_separate_setting_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.0
+    }
+  },
+  "last_updated": "2026-05-23",
+  "level": "school",
+  "name": "Jurupa Unified Pre-K Readiness Center",
+  "outcome_metrics": {},
+  "schema_version": "0.1.0",
+  "school_code": "0117101"
+}

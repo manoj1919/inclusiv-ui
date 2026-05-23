@@ -1,0 +1,102 @@
+{
+  "build_provenance": {
+    "built_at": "2026-05-23T08:01:59Z"
+  },
+  "cds_code": "30-66514-3037090",
+  "charter": false,
+  "county": "Orange",
+  "data_sources_used": [
+    "cde_spedps",
+    "cde_enrollment",
+    "ca_dashboard"
+  ],
+  "district_cds": "30-66514",
+  "district_name": "Fullerton Joint Union High",
+  "enrollment": {
+    "pct_iep": {
+      "as_of": "2024-10-02",
+      "note": "Derived: all students with disabilities as a share of total school enrollment. School-level data has no autism breakdown \u2014 autism figures are district-level only.",
+      "source": "derived",
+      "value": 0.1175
+    },
+    "students_with_iep": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 209
+    },
+    "total": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_enrollment",
+      "url": "https://www.cde.ca.gov/ds/ad/filesenrcensus.asp",
+      "value": 1779
+    }
+  },
+  "inclusion_metrics": {
+    "lre_80pct_plus_gen_ed_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.373
+    },
+    "lre_separate_setting_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.005
+    }
+  },
+  "last_updated": "2026-05-23",
+  "level": "school",
+  "name": "Sonora High",
+  "outcome_metrics": {
+    "ela_distance_from_standard_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 48.2
+    },
+    "ela_distance_from_standard_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -104.6
+    },
+    "math_distance_from_standard_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -45.2
+    },
+    "math_distance_from_standard_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -199.3
+    },
+    "suspension_rate_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.03
+    },
+    "suspension_rate_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.076
+    }
+  },
+  "schema_version": "0.1.0",
+  "school_code": "3037090"
+}

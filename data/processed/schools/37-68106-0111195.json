@@ -1,6 +1,6 @@
 {
   "build_provenance": {
-    "built_at": "2026-05-18T19:35:34Z"
+    "built_at": "2026-05-23T08:01:59Z"
   },
   "cds_code": "37-68106-0111195",
   "charter": true,
@@ -21,14 +21,14 @@
     },
     "students_with_iep": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-18T19:35:34Z",
+      "fetched_at": "2026-05-23T08:01:59Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 175
     },
     "total": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-18T19:35:34Z",
+      "fetched_at": "2026-05-23T08:01:59Z",
       "source": "cde_enrollment",
       "url": "https://www.cde.ca.gov/ds/ad/filesenrcensus.asp",
       "value": 1336
@@ -37,61 +37,61 @@
   "inclusion_metrics": {
     "lre_80pct_plus_gen_ed_all_disabilities": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-18T19:35:34Z",
+      "fetched_at": "2026-05-23T08:01:59Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 0.977
     },
     "lre_separate_setting_all_disabilities": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-18T19:35:34Z",
+      "fetched_at": "2026-05-23T08:01:59Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 0.006
     }
   },
-  "last_updated": "2026-05-18",
+  "last_updated": "2026-05-23",
   "level": "school",
   "name": "Classical Academy High",
   "outcome_metrics": {
     "ela_distance_from_standard_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-18T19:35:34Z",
+      "fetched_at": "2026-05-23T08:01:59Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 62.2
     },
     "ela_distance_from_standard_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-18T19:35:34Z",
+      "fetched_at": "2026-05-23T08:01:59Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -93.6
     },
     "math_distance_from_standard_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-18T19:35:34Z",
+      "fetched_at": "2026-05-23T08:01:59Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -13.7
     },
     "math_distance_from_standard_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-18T19:35:34Z",
+      "fetched_at": "2026-05-23T08:01:59Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -159.2
     },
     "suspension_rate_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-18T19:35:34Z",
+      "fetched_at": "2026-05-23T08:01:59Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.004
     },
     "suspension_rate_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-18T19:35:34Z",
+      "fetched_at": "2026-05-23T08:01:59Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.011

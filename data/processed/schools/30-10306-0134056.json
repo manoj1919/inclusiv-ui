@@ -1,0 +1,116 @@
+{
+  "build_provenance": {
+    "built_at": "2026-05-23T08:01:59Z"
+  },
+  "cds_code": "30-10306-0134056",
+  "charter": true,
+  "county": "Orange",
+  "data_sources_used": [
+    "cde_spedps",
+    "cde_enrollment",
+    "ca_dashboard"
+  ],
+  "district_cds": "30-10306",
+  "district_name": "Orange County Department of Education",
+  "enrollment": {
+    "pct_iep": {
+      "as_of": "2024-10-02",
+      "note": "Derived: all students with disabilities as a share of total school enrollment. School-level data has no autism breakdown \u2014 autism figures are district-level only.",
+      "source": "derived",
+      "value": 0.1647
+    },
+    "students_with_iep": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 41
+    },
+    "total": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_enrollment",
+      "url": "https://www.cde.ca.gov/ds/ad/filesenrcensus.asp",
+      "value": 249
+    }
+  },
+  "inclusion_metrics": {
+    "lre_80pct_plus_gen_ed_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.976
+    },
+    "lre_separate_setting_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.0
+    }
+  },
+  "last_updated": "2026-05-23",
+  "level": "school",
+  "name": "Orange County Academy of Sciences and Arts",
+  "outcome_metrics": {
+    "chronic_absenteeism_rate_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.124
+    },
+    "chronic_absenteeism_rate_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.214
+    },
+    "ela_distance_from_standard_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 43.8
+    },
+    "ela_distance_from_standard_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 26.4
+    },
+    "math_distance_from_standard_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 31.7
+    },
+    "math_distance_from_standard_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 20.6
+    },
+    "suspension_rate_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.0
+    },
+    "suspension_rate_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T08:01:59Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.0
+    }
+  },
+  "schema_version": "0.1.0",
+  "school_code": "0134056"
+}
