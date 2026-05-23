@@ -1,4 +1,36 @@
 {
+  "ai_summaries": {
+    "overview": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-23T13:56:08Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "cde_enrollment",
+        "ca_dashboard",
+        "ocr",
+        "oah",
+        "district_web"
+      ],
+      "value": "Fallbrook Union High is a small high school district in the North Inland region of San Diego County. About 317 of its students have an IEP, and 34 of them \u2014 roughly 11% \u2014 have an autism (ASD) eligibility. Around 44% of those autistic students spend most of the school day in a general-education classroom."
+    },
+    "what_this_means_for_parents": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-23T13:56:08Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "cde_enrollment",
+        "ca_dashboard",
+        "ocr",
+        "oah",
+        "district_web"
+      ],
+      "value": "About 44% of autistic students here are in a general-education classroom for most of the day, while about 3% are in a fully separate setting. Among all students with disabilities, a broader group than autism alone, 63% are in general-education classrooms most of the day. On 2024-25 state tests, students with disabilities scored about 108 points below standard in English and 177 below in math, while students overall were 14 points above in English and 80 below in math. The suspension rate was about 7% for students with disabilities and 4% for all students."
+    }
+  },
   "build_provenance": {
     "built_at": "2026-05-23T03:10:48Z",
     "pipeline_version": "0.1.0",

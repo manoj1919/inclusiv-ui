@@ -1,4 +1,36 @@
 {
+  "ai_summaries": {
+    "overview": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-23T13:56:08Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "cde_enrollment",
+        "ca_dashboard",
+        "ocr",
+        "oah",
+        "district_web"
+      ],
+      "value": "Alta Loma Elementary is a Elementary K-6 district in San Bernardino County, serving about 5,543 students in 2024\u201325. About 690 students have an Individualized Education Program (IEP), and 135 of them \u2014 roughly 20% \u2014 have an autism (ASD) eligibility. Around 27% of those autistic students spend most of the school day, 80% or more, in a general-education classroom."
+    },
+    "what_this_means_for_parents": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-23T13:56:08Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "cde_enrollment",
+        "ca_dashboard",
+        "ocr",
+        "oah",
+        "district_web"
+      ],
+      "value": "In this district about 27% of autistic students are in a general-education classroom for most of the day, and about 3.0% are in a fully separate setting. Across all students with disabilities \u2014 a broader group that includes autism along with many other categories \u2014 64% are in general-education classrooms most of the day. On 2024\u201325 state tests, students with disabilities scored about 46 points below standard in English and 82 points below in math, while students overall were 34 and 1 points above. Students with disabilities were chronically absent at about 14% (compared with 10% for all students) and suspended at about 2% (compared with 2% for all students)."
+    }
+  },
   "build_provenance": {
     "built_at": "2026-05-23T03:10:48Z",
     "pipeline_version": "0.1.0",

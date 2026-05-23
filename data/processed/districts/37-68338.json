@@ -1,4 +1,36 @@
 {
+  "ai_summaries": {
+    "overview": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-23T13:56:08Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "cde_enrollment",
+        "ca_dashboard",
+        "ocr",
+        "oah",
+        "district_web"
+      ],
+      "value": "San Diego Unified is a very large K-12 district covering the central part of San Diego County. About 20,358 of its students have an IEP, and 4,904 of them \u2014 roughly 24% \u2014 have an autism (ASD) eligibility. Around 49% of those autistic students spend most of the school day in a general-education classroom."
+    },
+    "what_this_means_for_parents": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-23T13:56:08Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "cde_enrollment",
+        "ca_dashboard",
+        "ocr",
+        "oah",
+        "district_web"
+      ],
+      "value": "About 49% of autistic students in this district are in a general-education classroom for most of the day, while about 6% are in a fully separate setting. Among all students with disabilities, a broader group than autism alone, 74% are in general-education classrooms most of the day. On 2024-25 state tests, students with disabilities scored about 68 points below standard in English and 96 below in math, while students overall were 12 points above in English and 19 below in math. Students with disabilities were chronically absent at about 28% (compared with 19% for all students) and suspended at about 4% (compared with 2%)."
+    }
+  },
   "build_provenance": {
     "built_at": "2026-05-23T03:10:48Z",
     "pipeline_version": "0.1.0",

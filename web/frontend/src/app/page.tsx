@@ -12,14 +12,14 @@ export default async function Home() {
     LENS_ORDER.map((id) => [id, applyLens(profiles, id)]),
   ) as Record<LensId, DistrictScore[]>;
 
-  // Phase-3 staging banner — only renders when most profiles are outside SD County.
+  // Phase-3 banner — only renders when profiles span multiple counties.
   const sdCount = profiles.filter((p) => p.county_code === "37").length;
-  const isStaging = sdCount < profiles.length;
+  const isMultiCounty = sdCount < profiles.length;
 
   return (
     <div className="space-y-10">
-      {/* STAGING BANNER — Phase 3 SoCal expansion, uneven data quality across counties */}
-      {isStaging && (
+      {/* PHASE 3 BANNER — honest framing about uneven research depth */}
+      {isMultiCounty && (
         <div
           className="card px-5 py-4 text-[13px] leading-[1.55]"
           style={{
@@ -29,19 +29,18 @@ export default async function Home() {
           }}
         >
           <div className="eyebrow" style={{ color: "var(--accent)" }}>
-            Staging preview · Phase 3 expansion
+            Phase 3 · Southern California expansion
           </div>
           <p className="mt-2 text-[var(--ink-mid)]">
             All {profiles.length} traditional districts across 7 Southern California counties
-            (Imperial, Los Angeles, Orange, Riverside, San Bernardino, San Diego, Ventura).
-            <strong className="text-[var(--ink)]">
-              {" "}Only San Diego County ({sdCount} districts) has hand-collected program
-              details, AI summaries, and per-school pages
-            </strong>{" "}
-            so far — the other 6 counties carry core data only:{" "}
-            <Term>CDE</Term> <Term>SPED</Term>-PS counts and inclusion (<Term>LRE</Term>),
+            (Imperial, Los Angeles, Orange, Riverside, San Bernardino, San Diego, Ventura),
+            with per-school pages for every county. All districts carry the same{" "}
+            government data — <Term>CDE</Term> <Term>SPED</Term>-PS counts and inclusion (<Term>LRE</Term>),
             California School Dashboard outcomes (<Term>DFS</Term>, absenteeism, suspension),
-            and federal compliance (<Term>OCR</Term> + <Term>OAH</Term>). Feedback welcome.
+            and federal compliance (<Term>OCR</Term> + <Term>OAH</Term>) — plus programs research
+            and AI summaries. Heads-up: San Diego County&apos;s ({sdCount} districts) programs research
+            is hand-curated; the other 198 districts use web-search-based research, which is sparser
+            for small/rural districts where SPED details aren&apos;t publicly published. Feedback welcome.
           </p>
         </div>
       )}
@@ -54,13 +53,13 @@ export default async function Home() {
           <span>An open data project</span>
           <span aria-hidden style={{ opacity: 0.5 }}>/</span>
           <span style={{ color: "var(--ink)", fontWeight: 600 }}>
-            {isStaging
+            {isMultiCounty
               ? `Southern California · ${profiles.length} districts`
               : `San Diego County · ${profiles.length} districts`}
           </span>
         </div>
         <h1 className="text-[56px] font-bold leading-[0.95] tracking-[-0.035em] text-[var(--ink)]">
-          {isStaging
+          {isMultiCounty
             ? <>Southern California school districts, indexed for autism &amp; special education.</>
             : <>San Diego County school districts, indexed for autism &amp; special education.</>}
         </h1>

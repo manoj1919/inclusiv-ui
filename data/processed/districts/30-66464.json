@@ -1,4 +1,36 @@
 {
+  "ai_summaries": {
+    "overview": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-23T13:56:08Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "cde_enrollment",
+        "ca_dashboard",
+        "ocr",
+        "oah",
+        "district_web"
+      ],
+      "value": "Capistrano Unified is a Unified K-12 district in Orange County, serving about 46,660 students in 2024\u201325. About 7,279 students have an Individualized Education Program (IEP), and 1,353 of them \u2014 roughly 19% \u2014 have an autism (ASD) eligibility. Around 37% of those autistic students spend most of the school day, 80% or more, in a general-education classroom."
+    },
+    "what_this_means_for_parents": {
+      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
+      "ai_generated": true,
+      "ai_generated_at": "2026-05-23T13:56:08Z",
+      "ai_model": "claude-opus (via Claude Code session)",
+      "based_on_sources": [
+        "cde_spedps",
+        "cde_enrollment",
+        "ca_dashboard",
+        "ocr",
+        "oah",
+        "district_web"
+      ],
+      "value": "In this district about 37% of autistic students are in a general-education classroom for most of the day, and about 3.6% are in a fully separate setting. Across all students with disabilities \u2014 a broader group that includes autism along with many other categories \u2014 62% are in general-education classrooms most of the day. On 2024\u201325 state tests, students with disabilities scored about 39 points below standard in English and 66 points below in math, while students overall were 53 and 26 points above. Students with disabilities were chronically absent at about 19% (compared with 12% for all students) and suspended at about 5% (compared with 2% for all students)."
+    }
+  },
   "build_provenance": {
     "built_at": "2026-05-23T03:10:48Z",
     "pipeline_version": "0.1.0",
