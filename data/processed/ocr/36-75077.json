@@ -1,0 +1,22 @@
+{
+  "_partial": true,
+  "_source": "ocr",
+  "cds_code": "36-75077",
+  "compliance": {
+    "ocr_open_investigations": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-23T03:10:47Z",
+      "note": "Title IX - Procedural Requirements (opened 08/24/2023); Title IX - Retaliation (opened 08/24/2023); Title IX - Sexual Harassment (opened 12/22/2022); Title VI - Discipline (opened 04/12/2024); Title VI - Racial Harassment (opened 09/20/2023); Title VI - Racial Harassment (opened 12/22/2022); Title VI - Retaliation (opened 04/12/2024)",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 7
+    },
+    "ocr_open_investigations_disability": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-23T03:10:47Z",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 0
+    }
+  }
+}

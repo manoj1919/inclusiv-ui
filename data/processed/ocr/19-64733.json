@@ -1,0 +1,22 @@
+{
+  "_partial": true,
+  "_source": "ocr",
+  "cds_code": "19-64733",
+  "compliance": {
+    "ocr_open_investigations": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-23T03:10:47Z",
+      "note": "Disability - Accessibility (opened 10/09/2024); Disability - Denial of Benefits (opened 06/16/2022); Disability - Denial of Benefits (opened 11/22/2022); Disability - Disability Harassment (opened 01/19/2024); Disability - Disability Harassment (opened 03/31/2022); Disability - Disability Harassment (opened 04/21/2023); Disability - Disability Harassment (opened 09/24/2024); Disability - FAPE (opened 01/06/2025); Disability - FAPE (opened 04/21/2023); Disability - FAPE (opened 05/04/2023); Disability - FAPE (opened 06/16/2022); Disability - FAPE (opened 09/24/2024); Disability - FAPE (opened 11/22/2022); Disability - Retaliation (opened 05/04/2023); Disability - Retaliation (opened 06/16/2022); Title IX - Admissions (opened 05/24/2023); Title IX - Discipline (opened 12/13/2022); Title IX - Sexual Harassment (opened 05/02/2023); Title IX - Sexual Harassment (opened 12/13/2022); Title VI - Denial of Benefits (opened 05/24/2023); Title VI - Denial of Benefits (opened 12/13/2023); Title VI - Discipline (opened 05/04/2023); Title VI - English Language Learners (opened 01/25/2022); Title VI - National Origin Discrimination Involving Religion (opened 05/24/2024); Title VI - Racial Harassment (opened 01/25/2022); Title VI - Racial Harassment (opened 03/31/2022); Title VI - Racial Harassment (opened 05/02/2023); Title VI - Racial Harassment (opened 05/24/2023); Title VI - Racial Harassment (opened 07/29/2022); Title VI - Racial Harassment (opened 12/13/2023); Title VI - Retaliation (opened 05/24/2023); Title VI - Retaliation (opened 12/13/2023)",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 32
+    },
+    "ocr_open_investigations_disability": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-23T03:10:47Z",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 15
+    }
+  }
+}

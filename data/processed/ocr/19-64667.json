@@ -1,0 +1,22 @@
+{
+  "_partial": true,
+  "_source": "ocr",
+  "cds_code": "19-64667",
+  "compliance": {
+    "ocr_open_investigations": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-23T03:10:47Z",
+      "note": "Disability - Denial of Benefits (opened 12/06/2024); Disability - FAPE (opened 12/06/2024)",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 2
+    },
+    "ocr_open_investigations_disability": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-23T03:10:47Z",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 2
+    }
+  }
+}

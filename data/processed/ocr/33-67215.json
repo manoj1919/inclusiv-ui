@@ -1,0 +1,22 @@
+{
+  "_partial": true,
+  "_source": "ocr",
+  "cds_code": "33-67215",
+  "compliance": {
+    "ocr_open_investigations": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-23T03:10:47Z",
+      "note": "Disability - Denial of Benefits (opened 08/15/2024); Disability - FAPE (opened 05/04/2022); Disability - FAPE (opened 08/08/2024); Disability - Retaliation (opened 08/08/2024); Title IX - Denial of Benefits (opened 08/15/2024); Title IX - Gender Harassment (opened 09/20/2022); Title IX - Sexual Harassment (opened 01/19/2024); Title IX - Sexual Harassment (opened 03/08/2022); Title IX - Sexual Harassment (opened 09/29/2023); Title VI - Racial Harassment (opened 01/19/2024); Title VI - Racial Harassment (opened 03/08/2022); Title VI - Racial Harassment (opened 09/29/2023)",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 12
+    },
+    "ocr_open_investigations_disability": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-23T03:10:47Z",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 4
+    }
+  }
+}

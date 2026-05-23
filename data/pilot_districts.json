@@ -1,302 +1,2183 @@
 {
-  "_comment": "Phase 2 list (all San Diego County traditional districts). Districts with `auto_added: true` were generated from the CDE SPED-PS file with heuristic region/type classification \u2014 review and correct as needed. State-Board-authorized charters and the County Office of Education are excluded.",
-  "phase": 2,
-  "county": "San Diego",
-  "county_code": "37",
-  "approved_date": "2026-05-16",
+  "_comment": "Phase 3 SoCal expansion. Districts with `auto_added: true` were generated from the CDE SPED-PS file with heuristic type classification \u2014 review and correct as needed. State-Board-authorized charters and County Offices of Education are excluded.",
+  "phase": 3,
+  "counties": [
+    "Imperial",
+    "Los Angeles",
+    "Orange",
+    "Riverside",
+    "San Bernardino",
+    "San Diego",
+    "Ventura"
+  ],
+  "county_codes": [
+    "13",
+    "19",
+    "30",
+    "33",
+    "36",
+    "37",
+    "56"
+  ],
   "districts": [
+    {
+      "name": "Brawley Elementary",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "13-63073",
+      "auto_added": true
+    },
+    {
+      "name": "Brawley Union High",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "High School Only",
+      "cds_code": "13-63081",
+      "auto_added": true
+    },
+    {
+      "name": "Calexico Unified",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "13-63099",
+      "auto_added": true
+    },
+    {
+      "name": "Calipatria Unified",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "13-63107",
+      "auto_added": true
+    },
+    {
+      "name": "Central Union High",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "High School Only",
+      "cds_code": "13-63115",
+      "auto_added": true
+    },
+    {
+      "name": "El Centro Elementary",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "13-63123",
+      "auto_added": true
+    },
+    {
+      "name": "Heber Elementary",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "13-63131",
+      "auto_added": true
+    },
+    {
+      "name": "Holtville Unified",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "13-63149",
+      "auto_added": true
+    },
+    {
+      "name": "Imperial Unified",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "13-63164",
+      "auto_added": true
+    },
+    {
+      "name": "Magnolia Union Elementary",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "13-63172",
+      "auto_added": true
+    },
+    {
+      "name": "McCabe Union Elementary",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "13-63180",
+      "auto_added": true
+    },
+    {
+      "name": "Meadows Union",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "13-63198",
+      "auto_added": true
+    },
+    {
+      "name": "Mulberry Elementary",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "13-63206",
+      "auto_added": true
+    },
+    {
+      "name": "San Pasqual Valley Unified",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "13-63214",
+      "auto_added": true
+    },
+    {
+      "name": "Seeley Union Elementary",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "13-63222",
+      "auto_added": true
+    },
+    {
+      "name": "Westmorland Union Elementary",
+      "county_code": "13",
+      "county_name": "Imperial",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "13-63230",
+      "auto_added": true
+    },
+    {
+      "name": "ABC Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64212",
+      "auto_added": true
+    },
+    {
+      "name": "Antelope Valley Union High",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "High School Only",
+      "cds_code": "19-64246",
+      "auto_added": true
+    },
+    {
+      "name": "Arcadia Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64261",
+      "auto_added": true
+    },
+    {
+      "name": "Azusa Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64279",
+      "auto_added": true
+    },
+    {
+      "name": "Baldwin Park Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64287",
+      "auto_added": true
+    },
+    {
+      "name": "Bassett Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64295",
+      "auto_added": true
+    },
+    {
+      "name": "Bellflower Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64303",
+      "auto_added": true
+    },
+    {
+      "name": "Beverly Hills Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64311",
+      "auto_added": true
+    },
+    {
+      "name": "Bonita Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64329",
+      "auto_added": true
+    },
+    {
+      "name": "Burbank Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64337",
+      "auto_added": true
+    },
+    {
+      "name": "Castaic Union",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-64345",
+      "auto_added": true
+    },
+    {
+      "name": "Centinela Valley Union High",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "High School Only",
+      "cds_code": "19-64352",
+      "auto_added": true
+    },
+    {
+      "name": "Charter Oak Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64378",
+      "auto_added": true
+    },
+    {
+      "name": "Claremont Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64394",
+      "auto_added": true
+    },
+    {
+      "name": "Covina-Valley Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64436",
+      "auto_added": true
+    },
+    {
+      "name": "Culver City Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64444",
+      "auto_added": true
+    },
+    {
+      "name": "Downey Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64451",
+      "auto_added": true
+    },
+    {
+      "name": "Duarte Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64469",
+      "auto_added": true
+    },
+    {
+      "name": "Eastside Union Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-64477",
+      "auto_added": true
+    },
+    {
+      "name": "East Whittier City Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-64485",
+      "auto_added": true
+    },
+    {
+      "name": "El Monte City",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "19-64501",
+      "auto_added": true
+    },
+    {
+      "name": "El Monte Union High",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "High School Only",
+      "cds_code": "19-64519",
+      "auto_added": true
+    },
+    {
+      "name": "El Rancho Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64527",
+      "auto_added": true
+    },
+    {
+      "name": "El Segundo Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64535",
+      "auto_added": true
+    },
+    {
+      "name": "Garvey Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-64550",
+      "auto_added": true
+    },
+    {
+      "name": "Glendale Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64568",
+      "auto_added": true
+    },
+    {
+      "name": "Glendora Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64576",
+      "auto_added": true
+    },
+    {
+      "name": "Gorman Joint",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "19-64584",
+      "auto_added": true
+    },
+    {
+      "name": "Hawthorne",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "19-64592",
+      "auto_added": true
+    },
+    {
+      "name": "Hermosa Beach City Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-64600",
+      "auto_added": true
+    },
+    {
+      "name": "Hughes-Elizabeth Lakes Union Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-64626",
+      "auto_added": true
+    },
+    {
+      "name": "Inglewood Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64634",
+      "auto_added": true
+    },
+    {
+      "name": "Keppel Union Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-64642",
+      "auto_added": true
+    },
+    {
+      "name": "La Canada Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64659",
+      "auto_added": true
+    },
+    {
+      "name": "Lancaster Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-64667",
+      "auto_added": true
+    },
+    {
+      "name": "Las Virgenes Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64683",
+      "auto_added": true
+    },
+    {
+      "name": "Lawndale Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-64691",
+      "auto_added": true
+    },
+    {
+      "name": "Lennox",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "19-64709",
+      "auto_added": true
+    },
+    {
+      "name": "Little Lake City Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-64717",
+      "auto_added": true
+    },
+    {
+      "name": "Long Beach Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64725",
+      "auto_added": true
+    },
+    {
+      "name": "Los Angeles Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64733",
+      "auto_added": true
+    },
+    {
+      "name": "Los Nietos",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "19-64758",
+      "auto_added": true
+    },
+    {
+      "name": "Lynwood Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64774",
+      "auto_added": true
+    },
+    {
+      "name": "Monrovia Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64790",
+      "auto_added": true
+    },
+    {
+      "name": "Montebello Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64808",
+      "auto_added": true
+    },
+    {
+      "name": "Mountain View Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-64816",
+      "auto_added": true
+    },
+    {
+      "name": "Newhall",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "19-64832",
+      "auto_added": true
+    },
+    {
+      "name": "Norwalk-La Mirada Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64840",
+      "auto_added": true
+    },
+    {
+      "name": "Palmdale Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-64857",
+      "auto_added": true
+    },
+    {
+      "name": "Palos Verdes Peninsula Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64865",
+      "auto_added": true
+    },
+    {
+      "name": "Paramount Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64873",
+      "auto_added": true
+    },
+    {
+      "name": "Pasadena Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64881",
+      "auto_added": true
+    },
+    {
+      "name": "Pomona Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64907",
+      "auto_added": true
+    },
+    {
+      "name": "Rosemead Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-64931",
+      "auto_added": true
+    },
+    {
+      "name": "San Marino Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64964",
+      "auto_added": true
+    },
+    {
+      "name": "Santa Monica-Malibu Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-64980",
+      "auto_added": true
+    },
+    {
+      "name": "Saugus Union",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-64998",
+      "auto_added": true
+    },
+    {
+      "name": "South Pasadena Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-65029",
+      "auto_added": true
+    },
+    {
+      "name": "South Whittier Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-65037",
+      "auto_added": true
+    },
+    {
+      "name": "Sulphur Springs Union",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-65045",
+      "auto_added": true
+    },
+    {
+      "name": "Temple City Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-65052",
+      "auto_added": true
+    },
+    {
+      "name": "Torrance Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-65060",
+      "auto_added": true
+    },
+    {
+      "name": "Valle Lindo Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-65078",
+      "auto_added": true
+    },
+    {
+      "name": "West Covina Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-65094",
+      "auto_added": true
+    },
+    {
+      "name": "Westside Union Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-65102",
+      "auto_added": true
+    },
+    {
+      "name": "Whittier City",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "19-65110",
+      "auto_added": true
+    },
+    {
+      "name": "Whittier Union High",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "High School Only",
+      "cds_code": "19-65128",
+      "auto_added": true
+    },
+    {
+      "name": "William S. Hart Union High",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "High School Only",
+      "cds_code": "19-65136",
+      "auto_added": true
+    },
+    {
+      "name": "Wilsona Elementary",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "19-65151",
+      "auto_added": true
+    },
+    {
+      "name": "Compton Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-73437",
+      "auto_added": true
+    },
+    {
+      "name": "Hacienda la Puente Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-73445",
+      "auto_added": true
+    },
+    {
+      "name": "Rowland Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-73452",
+      "auto_added": true
+    },
+    {
+      "name": "Walnut Valley Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-73460",
+      "auto_added": true
+    },
+    {
+      "name": "San Gabriel Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-75291",
+      "auto_added": true
+    },
+    {
+      "name": "Acton-Agua Dulce Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-75309",
+      "auto_added": true
+    },
+    {
+      "name": "Manhattan Beach Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-75333",
+      "auto_added": true
+    },
+    {
+      "name": "Redondo Beach Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-75341",
+      "auto_added": true
+    },
+    {
+      "name": "Alhambra Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-75713",
+      "auto_added": true
+    },
+    {
+      "name": "Wiseburn Unified",
+      "county_code": "19",
+      "county_name": "Los Angeles",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "19-76869",
+      "auto_added": true
+    },
+    {
+      "name": "Orange County Department of Education",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "30-10306",
+      "auto_added": true
+    },
+    {
+      "name": "Lowell Joint",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "30-64766",
+      "auto_added": true
+    },
+    {
+      "name": "Anaheim Elementary",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "30-66423",
+      "auto_added": true
+    },
+    {
+      "name": "Anaheim Union High",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "High School Only",
+      "cds_code": "30-66431",
+      "auto_added": true
+    },
+    {
+      "name": "Brea-Olinda Unified",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "30-66449",
+      "auto_added": true
+    },
+    {
+      "name": "Buena Park Elementary",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "30-66456",
+      "auto_added": true
+    },
+    {
+      "name": "Capistrano Unified",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "30-66464",
+      "auto_added": true
+    },
+    {
+      "name": "Centralia Elementary",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "30-66472",
+      "auto_added": true
+    },
+    {
+      "name": "Cypress Elementary",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "30-66480",
+      "auto_added": true
+    },
+    {
+      "name": "Fountain Valley Elementary",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "30-66498",
+      "auto_added": true
+    },
+    {
+      "name": "Fullerton Elementary",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "30-66506",
+      "auto_added": true
+    },
+    {
+      "name": "Fullerton Joint Union High",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "High School Only",
+      "cds_code": "30-66514",
+      "auto_added": true
+    },
+    {
+      "name": "Garden Grove Unified",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "30-66522",
+      "auto_added": true
+    },
+    {
+      "name": "Huntington Beach City Elementary",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "30-66530",
+      "auto_added": true
+    },
+    {
+      "name": "Huntington Beach Union High",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "High School Only",
+      "cds_code": "30-66548",
+      "auto_added": true
+    },
+    {
+      "name": "Laguna Beach Unified",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "30-66555",
+      "auto_added": true
+    },
+    {
+      "name": "La Habra City Elementary",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "30-66563",
+      "auto_added": true
+    },
+    {
+      "name": "Magnolia Elementary",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "30-66589",
+      "auto_added": true
+    },
+    {
+      "name": "Newport-Mesa Unified",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "30-66597",
+      "auto_added": true
+    },
+    {
+      "name": "Ocean View",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "30-66613",
+      "auto_added": true
+    },
+    {
+      "name": "Orange Unified",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "30-66621",
+      "auto_added": true
+    },
+    {
+      "name": "Placentia-Yorba Linda Unified",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "30-66647",
+      "auto_added": true
+    },
+    {
+      "name": "Santa Ana Unified",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "30-66670",
+      "auto_added": true
+    },
+    {
+      "name": "Savanna Elementary",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "30-66696",
+      "auto_added": true
+    },
+    {
+      "name": "Westminster",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "30-66746",
+      "auto_added": true
+    },
+    {
+      "name": "Saddleback Valley Unified",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "30-73635",
+      "auto_added": true
+    },
+    {
+      "name": "Tustin Unified",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "30-73643",
+      "auto_added": true
+    },
+    {
+      "name": "Irvine Unified",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "30-73650",
+      "auto_added": true
+    },
+    {
+      "name": "Los Alamitos Unified",
+      "county_code": "30",
+      "county_name": "Orange",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "30-73924",
+      "auto_added": true
+    },
+    {
+      "name": "Alvord Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-66977",
+      "auto_added": true
+    },
+    {
+      "name": "Banning Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-66985",
+      "auto_added": true
+    },
+    {
+      "name": "Beaumont Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-66993",
+      "auto_added": true
+    },
+    {
+      "name": "Corona-Norco Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-67033",
+      "auto_added": true
+    },
+    {
+      "name": "Desert Center Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-67041",
+      "auto_added": true
+    },
+    {
+      "name": "Desert Sands Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-67058",
+      "auto_added": true
+    },
+    {
+      "name": "Hemet Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-67082",
+      "auto_added": true
+    },
+    {
+      "name": "Jurupa Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-67090",
+      "auto_added": true
+    },
+    {
+      "name": "Menifee Union",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "33-67116",
+      "auto_added": true
+    },
+    {
+      "name": "Moreno Valley Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-67124",
+      "auto_added": true
+    },
+    {
+      "name": "Nuview Union",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "33-67157",
+      "auto_added": true
+    },
+    {
+      "name": "Palm Springs Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-67173",
+      "auto_added": true
+    },
+    {
+      "name": "Palo Verde Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-67181",
+      "auto_added": true
+    },
+    {
+      "name": "Perris Elementary",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "33-67199",
+      "auto_added": true
+    },
+    {
+      "name": "Perris Union High",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "High School Only",
+      "cds_code": "33-67207",
+      "auto_added": true
+    },
+    {
+      "name": "Riverside Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-67215",
+      "auto_added": true
+    },
+    {
+      "name": "Romoland Elementary",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "33-67231",
+      "auto_added": true
+    },
+    {
+      "name": "San Jacinto Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-67249",
+      "auto_added": true
+    },
+    {
+      "name": "Coachella Valley Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-73676",
+      "auto_added": true
+    },
+    {
+      "name": "Lake Elsinore Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-75176",
+      "auto_added": true
+    },
+    {
+      "name": "Temecula Valley Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-75192",
+      "auto_added": true
+    },
+    {
+      "name": "Murrieta Valley Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-75200",
+      "auto_added": true
+    },
+    {
+      "name": "Val Verde Unified",
+      "county_code": "33",
+      "county_name": "Riverside",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "33-75242",
+      "auto_added": true
+    },
+    {
+      "name": "Adelanto Elementary",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "36-67587",
+      "auto_added": true
+    },
+    {
+      "name": "Alta Loma Elementary",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "36-67595",
+      "auto_added": true
+    },
+    {
+      "name": "Barstow Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-67611",
+      "auto_added": true
+    },
+    {
+      "name": "Bear Valley Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-67637",
+      "auto_added": true
+    },
+    {
+      "name": "Central Elementary",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "36-67645",
+      "auto_added": true
+    },
+    {
+      "name": "Chaffey Joint Union High",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "High School Only",
+      "cds_code": "36-67652",
+      "auto_added": true
+    },
+    {
+      "name": "Chino Valley Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-67678",
+      "auto_added": true
+    },
+    {
+      "name": "Colton Joint Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-67686",
+      "auto_added": true
+    },
+    {
+      "name": "Cucamonga Elementary",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "36-67694",
+      "auto_added": true
+    },
+    {
+      "name": "Etiwanda Elementary",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "36-67702",
+      "auto_added": true
+    },
+    {
+      "name": "Fontana Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-67710",
+      "auto_added": true
+    },
+    {
+      "name": "Helendale Elementary",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "36-67736",
+      "auto_added": true
+    },
+    {
+      "name": "Morongo Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-67777",
+      "auto_added": true
+    },
+    {
+      "name": "Mountain View Elementary",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "36-67785",
+      "auto_added": true
+    },
+    {
+      "name": "Needles Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-67801",
+      "auto_added": true
+    },
+    {
+      "name": "Ontario-Montclair",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "36-67819",
+      "auto_added": true
+    },
+    {
+      "name": "Oro Grande",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "36-67827",
+      "auto_added": true
+    },
+    {
+      "name": "Redlands Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-67843",
+      "auto_added": true
+    },
+    {
+      "name": "Rialto Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-67850",
+      "auto_added": true
+    },
+    {
+      "name": "Rim of the World Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-67868",
+      "auto_added": true
+    },
+    {
+      "name": "San Bernardino City Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-67876",
+      "auto_added": true
+    },
+    {
+      "name": "Trona Joint Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-67892",
+      "auto_added": true
+    },
+    {
+      "name": "Victor Elementary",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "36-67918",
+      "auto_added": true
+    },
+    {
+      "name": "Victor Valley Union High",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "High School Only",
+      "cds_code": "36-67934",
+      "auto_added": true
+    },
+    {
+      "name": "Yucaipa-Calimesa Joint Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-67959",
+      "auto_added": true
+    },
+    {
+      "name": "Baker Valley Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-73858",
+      "auto_added": true
+    },
+    {
+      "name": "Silver Valley Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-73890",
+      "auto_added": true
+    },
+    {
+      "name": "Snowline Joint Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-73957",
+      "auto_added": true
+    },
+    {
+      "name": "Hesperia Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-75044",
+      "auto_added": true
+    },
+    {
+      "name": "Lucerne Valley Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-75051",
+      "auto_added": true
+    },
+    {
+      "name": "Upland Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-75069",
+      "auto_added": true
+    },
+    {
+      "name": "Apple Valley Unified",
+      "county_code": "36",
+      "county_name": "San Bernardino",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "36-75077",
+      "auto_added": true
+    },
     {
       "name": "Alpine Union Elementary",
       "region": "East",
       "type": "Elementary K-6",
       "cds_code": "37-67967",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Borrego Springs Unified",
       "region": "East",
       "type": "Unified K-12",
       "cds_code": "37-67983",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Cajon Valley Union",
       "region": "East",
       "type": "Elementary K-8",
       "cds_code": "37-67991",
-      "rationale": "East county K-8"
+      "rationale": "East county K-8",
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Cardiff Elementary",
       "region": "North Coast",
       "type": "Elementary K-6",
       "cds_code": "37-68007",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Chula Vista Elementary",
       "region": "South",
       "type": "Elementary K-6",
       "cds_code": "37-68023",
-      "rationale": "Tests K-6 elementary district handling"
+      "rationale": "Tests K-6 elementary district handling",
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Coronado Unified",
       "region": "South Coast",
       "type": "Unified K-12",
       "cds_code": "37-68031",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Dehesa Elementary",
       "region": "East",
       "type": "Elementary K-6",
       "cds_code": "37-68049",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Del Mar Union Elementary",
       "region": "North Coast",
       "type": "Elementary K-6",
       "cds_code": "37-68056",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Encinitas Union Elementary",
       "region": "North Coast",
       "type": "Elementary K-6",
       "cds_code": "37-68080",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Escondido Union",
       "region": "North Inland",
       "type": "Elementary K-8",
       "cds_code": "37-68098",
-      "rationale": "Tests K-8 elementary district handling"
+      "rationale": "Tests K-8 elementary district handling",
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Escondido Union High",
       "region": "North Inland",
       "type": "High School Only",
       "cds_code": "37-68106",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Fallbrook Union Elementary",
       "region": "North Inland",
       "type": "Elementary K-6",
       "cds_code": "37-68114",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Fallbrook Union High",
       "region": "North Inland",
       "type": "High School Only",
       "cds_code": "37-68122",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Grossmont Union High",
       "region": "East",
       "type": "High School Only",
       "cds_code": "37-68130",
-      "rationale": "East county HS only"
+      "rationale": "East county HS only",
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Jamul-Dulzura Union Elementary",
       "region": "East",
       "type": "Elementary K-6",
       "cds_code": "37-68155",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Julian Union Elementary",
       "region": "East",
       "type": "Elementary K-6",
       "cds_code": "37-68163",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Julian Union High",
       "region": "East",
       "type": "High School Only",
       "cds_code": "37-68171",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Lakeside Union Elementary",
       "region": "East",
       "type": "Elementary K-6",
       "cds_code": "37-68189",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "La Mesa-Spring Valley",
       "region": "East",
       "type": "Elementary K-8",
       "cds_code": "37-68197",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Lemon Grove",
       "region": "East",
       "type": "Elementary K-8",
       "cds_code": "37-68205",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Mountain Empire Unified",
       "region": "East",
       "type": "Unified K-12",
       "cds_code": "37-68213",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "National Elementary",
       "region": "South",
       "type": "Elementary K-6",
       "cds_code": "37-68221",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Poway Unified",
       "region": "North Inland",
       "type": "Unified K-12",
       "cds_code": "37-68296",
-      "rationale": "Award-winning special education; benchmark district"
+      "rationale": "Award-winning special education; benchmark district",
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Ramona City Unified",
       "region": "North Inland",
       "type": "Unified K-12",
       "cds_code": "37-68304",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Rancho Santa Fe Elementary",
       "region": "North Coast",
       "type": "Elementary K-6",
       "cds_code": "37-68312",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "San Diego Unified",
       "region": "Central",
       "type": "Unified K-12",
       "cds_code": "37-68338",
-      "rationale": "Largest district in county; user's current district"
+      "rationale": "Largest district in county; user's current district",
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "San Dieguito Union High",
       "region": "North Coast",
       "type": "High School Only",
       "cds_code": "37-68346",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "San Pasqual Union Elementary",
       "region": "North Inland",
       "type": "Elementary K-6",
       "cds_code": "37-68353",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Santee",
       "region": "East",
       "type": "Elementary K-8",
       "cds_code": "37-68361",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "San Ysidro Elementary",
       "region": "South",
       "type": "Elementary K-6",
       "cds_code": "37-68379",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Solana Beach Elementary",
       "region": "North Coast",
       "type": "Elementary K-6",
       "cds_code": "37-68387",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "South Bay Union",
       "region": "South",
       "type": "Elementary K-6",
       "cds_code": "37-68395",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Spencer Valley Elementary",
       "region": "East",
       "type": "Elementary K-6",
       "cds_code": "37-68403",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Sweetwater Union High",
       "region": "South",
       "type": "High School Only",
       "cds_code": "37-68411",
-      "rationale": "Tests HS-only district handling in pipeline"
+      "rationale": "Tests HS-only district handling in pipeline",
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Vallecitos Elementary",
       "region": "East",
       "type": "Elementary K-6",
       "cds_code": "37-68437",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Vista Unified",
       "region": "North Inland",
       "type": "Unified K-12",
       "cds_code": "37-68452",
-      "rationale": "Working-class suburban"
+      "rationale": "Working-class suburban",
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Carlsbad Unified",
       "region": "North Coast",
       "type": "Unified K-12",
       "cds_code": "37-73551",
-      "rationale": "Affluent coastal suburban"
+      "rationale": "Affluent coastal suburban",
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Oceanside Unified",
       "region": "North Coast",
       "type": "Unified K-12",
       "cds_code": "37-73569",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "San Marcos Unified",
       "region": "North Inland",
       "type": "Unified K-12",
       "cds_code": "37-73791",
-      "rationale": "Mid-size suburban"
+      "rationale": "Mid-size suburban",
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Warner Unified",
       "region": "North Inland",
       "type": "Unified K-12",
       "cds_code": "37-75416",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Valley Center-Pauma Unified",
       "region": "North Inland",
       "type": "Unified K-12",
       "cds_code": "37-75614",
-      "auto_added": true
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
     },
     {
       "name": "Bonsall Unified",
       "region": "North Inland",
       "type": "Unified K-12",
       "cds_code": "37-76851",
+      "auto_added": true,
+      "county_code": "37",
+      "county_name": "San Diego"
+    },
+    {
+      "name": "Briggs Elementary",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "56-72447",
+      "auto_added": true
+    },
+    {
+      "name": "Fillmore Unified",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "56-72454",
+      "auto_added": true
+    },
+    {
+      "name": "Hueneme Elementary",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "56-72462",
+      "auto_added": true
+    },
+    {
+      "name": "Mesa Union Elementary",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "56-72470",
+      "auto_added": true
+    },
+    {
+      "name": "Mupu Elementary",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "56-72504",
+      "auto_added": true
+    },
+    {
+      "name": "Ocean View",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "56-72512",
+      "auto_added": true
+    },
+    {
+      "name": "Ojai Unified",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "56-72520",
+      "auto_added": true
+    },
+    {
+      "name": "Oxnard",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "56-72538",
+      "auto_added": true
+    },
+    {
+      "name": "Oxnard Union High",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "High School Only",
+      "cds_code": "56-72546",
+      "auto_added": true
+    },
+    {
+      "name": "Pleasant Valley",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Other",
+      "cds_code": "56-72553",
+      "auto_added": true
+    },
+    {
+      "name": "Rio Elementary",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "56-72561",
+      "auto_added": true
+    },
+    {
+      "name": "Santa Clara Elementary",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "56-72579",
+      "auto_added": true
+    },
+    {
+      "name": "Simi Valley Unified",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "56-72603",
+      "auto_added": true
+    },
+    {
+      "name": "Somis Union",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Elementary K-6",
+      "cds_code": "56-72611",
+      "auto_added": true
+    },
+    {
+      "name": "Ventura Unified",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "56-72652",
+      "auto_added": true
+    },
+    {
+      "name": "Conejo Valley Unified",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "56-73759",
+      "auto_added": true
+    },
+    {
+      "name": "Oak Park Unified",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "56-73874",
+      "auto_added": true
+    },
+    {
+      "name": "Moorpark Unified",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "56-73940",
+      "auto_added": true
+    },
+    {
+      "name": "Santa Paula Unified",
+      "county_code": "56",
+      "county_name": "Ventura",
+      "region": "Unknown",
+      "type": "Unified K-12",
+      "cds_code": "56-76828",
       "auto_added": true
     }
   ]

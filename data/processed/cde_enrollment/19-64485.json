@@ -1,0 +1,17 @@
+{
+  "_academic_year": "2024-25",
+  "_partial": true,
+  "_source": "cde_enrollment",
+  "cds_code": "19-64485",
+  "county": "Los Angeles",
+  "enrollment": {
+    "total": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T03:10:42Z",
+      "source": "cde_enrollment",
+      "url": "https://www.cde.ca.gov/ds/ad/filesenrcensus.asp",
+      "value": 7524
+    }
+  },
+  "name": "East Whittier City Elementary"
+}

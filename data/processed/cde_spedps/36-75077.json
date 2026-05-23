@@ -1,0 +1,54 @@
+{
+  "_academic_year": "2024-25",
+  "_partial": true,
+  "_source": "cde_spedps",
+  "cds_code": "36-75077",
+  "county": "San Bernardino",
+  "enrollment": {
+    "students_with_autism": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T03:10:41Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 392
+    },
+    "students_with_iep": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T03:10:41Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 2153
+    }
+  },
+  "inclusion_metrics": {
+    "lre_80pct_plus_gen_ed_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T03:10:41Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.477
+    },
+    "lre_80pct_plus_gen_ed_autism": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T03:10:41Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.258
+    },
+    "lre_separate_setting_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T03:10:41Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.027
+    },
+    "lre_separate_setting_autism": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T03:10:41Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.054
+    }
+  },
+  "name": "Apple Valley Unified"
+}

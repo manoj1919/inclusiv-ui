@@ -1,76 +1,41 @@
 {
-  "ai_summaries": {
-    "overview": {
-      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
-      "ai_generated": true,
-      "ai_generated_at": "2026-05-18T18:47:16Z",
-      "ai_model": "claude-opus (via Claude Code session)",
-      "based_on_sources": [
-        "cde_spedps",
-        "cde_enrollment",
-        "ca_dashboard",
-        "ocr",
-        "oah"
-      ],
-      "value": "Lemon Grove is a small school district in eastern San Diego County. About 586 of its students have an IEP, and 155 of them \u2014 roughly 26% \u2014 have an autism (ASD) eligibility. Around 30% of those autistic students spend most of the school day in a general-education classroom."
-    },
-    "what_this_means_for_parents": {
-      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
-      "ai_generated": true,
-      "ai_generated_at": "2026-05-18T18:47:16Z",
-      "ai_model": "claude-opus (via Claude Code session)",
-      "based_on_sources": [
-        "cde_spedps",
-        "cde_enrollment",
-        "ca_dashboard",
-        "ocr",
-        "oah"
-      ],
-      "value": "About 30% of autistic students here are in a general-education classroom for most of the day, with around 1% in a fully separate setting, so many spend part of the day in specialized settings. Among all students with disabilities, a broader group than autism alone, 57% are in general-education classrooms most of the day. On 2024-25 state tests, students with disabilities scored about 97 points below standard in English and 113 below in math, while students overall were 31 and 56 points below. Students with disabilities were chronically absent at about 30% (compared with 26% for all students) and suspended at about 6% (compared with 4%)."
-    }
-  },
   "build_provenance": {
-    "built_at": "2026-05-18T18:47:16Z",
+    "built_at": "2026-05-23T03:10:48Z",
     "pipeline_version": "0.1.0",
     "raw_snapshots": [
       {
-        "path": "data/raw/ca_dashboard/2026-05-16/chronicdownload2025.txt",
+        "path": "data/raw/ca_dashboard/2026-05-23/chronicdownload2025.txt",
         "sha256": "81ef3fe82b8bf486ab9e014c77a12c1e6e86879264132993af9be3faf369d15d",
         "source": "ca_dashboard"
       },
       {
-        "path": "data/raw/ca_dashboard/2026-05-16/eladownload2025.txt",
+        "path": "data/raw/ca_dashboard/2026-05-23/eladownload2025.txt",
         "sha256": "3ed9b3f9af3f55bc8ba5390ef0532b0bf594e1c835d655520c0f0ab76c66fd04",
         "source": "ca_dashboard"
       },
       {
-        "path": "data/raw/ca_dashboard/2026-05-16/mathdownload2025.txt",
+        "path": "data/raw/ca_dashboard/2026-05-23/mathdownload2025.txt",
         "sha256": "5e9137a1698f645a511f4b1bf23fbfe64782df87af8aabeecc4f4552bdb2332b",
         "source": "ca_dashboard"
       },
       {
-        "path": "data/raw/ca_dashboard/2026-05-16/suspdownload2025.txt",
+        "path": "data/raw/ca_dashboard/2026-05-23/suspdownload2025.txt",
         "sha256": "7f670baff136aa79ed797cfa13de7bb824ef09e496d306410e36ae1055571e43",
         "source": "ca_dashboard"
       },
       {
-        "path": "data/raw/cde_enrollment/2026-05-18/cdenroll2425.txt",
+        "path": "data/raw/cde_enrollment/2026-05-23/cdenroll2425.txt",
         "sha256": "ff65bf6e2c4a0928dc1533106af29716a2cefb71e2e521e5c0e174fa737f8bbc",
         "source": "cde_enrollment"
       },
       {
-        "path": "data/raw/cde_spedps/2026-05-17/spedps.tsv",
+        "path": "data/raw/cde_spedps/2026-05-23/spedps.tsv",
         "sha256": "0ff89ec8eaa97afc2eea71543b5454f18ba5e857a5289357a697ccbfb1e53d22",
         "source": "cde_spedps"
       },
       {
-        "path": "data/raw/oah/2026-05-18/manifest.json",
+        "path": "data/raw/oah/2026-05-23/manifest.json",
         "sha256": "6582b633f46aecd61fb3d2412ec6b519ec8b666b0d4d7b647e00ead4572d7716",
-        "source": "oah"
-      },
-      {
-        "path": "data/raw/oah/2026-05-18/text_cache.json",
-        "sha256": "6de7bcd61537a6687fbc1ab840ca8d5cdbe0d9c97449cd8b386571f98c6d5597",
         "source": "oah"
       },
       {
@@ -83,16 +48,16 @@
   "cds_code": "37-68205",
   "compliance": {
     "oah_cases_5yr_autism": {
-      "as_of": "2026-05-18",
-      "fetched_at": "2026-05-18T05:51:20Z",
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T03:09:08Z",
       "note": "Keyword heuristic \u2014 see oah_cases_5yr_total note.",
       "source": "oah",
       "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
       "value": 0
     },
     "oah_cases_5yr_total": {
-      "as_of": "2026-05-18",
-      "fetched_at": "2026-05-18T05:51:20Z",
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T03:09:08Z",
       "note": "OAH special-education decisions naming this district, 2022-2026. All-time published total: 1. Autism count is a keyword heuristic (decision text mentions autism/ASD).",
       "source": "oah",
       "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
@@ -100,14 +65,14 @@
     },
     "ocr_open_investigations": {
       "as_of": "2025-01-14",
-      "fetched_at": "2026-05-18T03:24:29Z",
+      "fetched_at": "2026-05-23T03:10:47Z",
       "source": "ocr",
       "url": "https://ocrcas.ed.gov/open-investigations",
       "value": 0
     },
     "ocr_open_investigations_disability": {
       "as_of": "2025-01-14",
-      "fetched_at": "2026-05-18T03:24:29Z",
+      "fetched_at": "2026-05-23T03:10:47Z",
       "source": "ocr",
       "url": "https://ocrcas.ed.gov/open-investigations",
       "value": 0
@@ -147,21 +112,21 @@
     },
     "students_with_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-17T18:26:49Z",
+      "fetched_at": "2026-05-23T03:10:41Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 155
     },
     "students_with_iep": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-17T18:26:49Z",
+      "fetched_at": "2026-05-23T03:10:41Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 586
     },
     "total": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-18T15:27:59Z",
+      "fetched_at": "2026-05-23T03:10:42Z",
       "source": "cde_enrollment",
       "url": "https://www.cde.ca.gov/ds/ad/filesenrcensus.asp",
       "value": 3053
@@ -170,88 +135,88 @@
   "inclusion_metrics": {
     "lre_80pct_plus_gen_ed_all_disabilities": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-17T18:26:49Z",
+      "fetched_at": "2026-05-23T03:10:41Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 0.572
     },
     "lre_80pct_plus_gen_ed_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-17T18:26:49Z",
+      "fetched_at": "2026-05-23T03:10:41Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 0.297
     },
     "lre_separate_setting_all_disabilities": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-17T18:26:49Z",
+      "fetched_at": "2026-05-23T03:10:41Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 0.012
     },
     "lre_separate_setting_autism": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-17T18:26:49Z",
+      "fetched_at": "2026-05-23T03:10:41Z",
       "source": "cde_spedps",
       "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
       "value": 0.013
     }
   },
-  "last_updated": "2026-05-18",
+  "last_updated": "2026-05-23",
   "name": "Lemon Grove",
   "outcome_metrics": {
     "chronic_absenteeism_rate_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-23T03:10:42Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.256
     },
     "chronic_absenteeism_rate_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-23T03:10:42Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.297
     },
     "ela_distance_from_standard_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-23T03:10:42Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -31.2
     },
     "ela_distance_from_standard_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-23T03:10:42Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -97.0
     },
     "math_distance_from_standard_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-23T03:10:42Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -55.5
     },
     "math_distance_from_standard_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-23T03:10:42Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": -112.6
     },
     "suspension_rate_all": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-23T03:10:42Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.044
     },
     "suspension_rate_swd": {
       "as_of": "2025-06-30",
-      "fetched_at": "2026-05-16T06:55:46Z",
+      "fetched_at": "2026-05-23T03:10:42Z",
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.06

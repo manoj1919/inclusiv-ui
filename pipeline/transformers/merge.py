@@ -116,6 +116,13 @@ def derive_enrollment_percentages(profile: dict) -> None:
         count = (enr.get(count_field) or {}).get("value")
         if count is None:
             return
+        # SPED-PS counts ages 3-22; Census Day counts TK-12. For state
+        # special schools and adult-transition-heavy districts the SPED-PS
+        # count can exceed the TK-12 enrollment, yielding pct > 1. Skip the
+        # derivation in that case — the underlying counts are still on the
+        # page; we just can't compute a meaningful rate.
+        if count > total:
+            return
         enr[out_field] = {
             "value": round(count / total, 4),
             "source": "derived",
@@ -130,12 +137,16 @@ def derive_enrollment_percentages(profile: dict) -> None:
 def build_profile(district: dict, partials: list[tuple[str, dict]],
                   raw_snapshots: list[dict]) -> dict:
     """Construct the final profile from district metadata + per-source partials."""
+    # County: prefer per-district fields (Phase-3 multi-county pilot file),
+    # fall back to the legacy SD-only constants for back-compat.
+    county_code = district.get("county_code") or district["cds_code"].split("-")[0]
+    county_name = district.get("county_name") or "San Diego"
     profile: dict = {
         "schema_version": "0.1.0",
         "cds_code": district["cds_code"],
         "name": district["name"],
-        "county": "San Diego",
-        "county_code": "37",
+        "county": county_name,
+        "county_code": county_code,
         "district_type": district["type"],
         "region": district["region"],
     }

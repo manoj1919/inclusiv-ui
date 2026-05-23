@@ -5,7 +5,7 @@
   "compliance": {
     "ocr_open_investigations": {
       "as_of": "2025-01-14",
-      "fetched_at": "2026-05-18T03:24:29Z",
+      "fetched_at": "2026-05-23T03:10:47Z",
       "note": "Disability - Denial of Benefits (opened 08/01/2024); Disability - Denial of Benefits (opened 08/16/2024); Disability - Denial of Benefits (opened 10/08/2024); Disability - Denial of Benefits (opened 12/13/2024); Disability - Disability Harassment (opened 02/16/2023); Disability - FAPE (opened 01/09/2020); Disability - FAPE (opened 07/12/2024); Disability - FAPE (opened 08/16/2024); Disability - FAPE (opened 12/09/2024); Disability - Retaliation (opened 02/16/2023); Disability - Retaliation (opened 07/12/2024); Disability - Service Animal (opened 12/18/2023); Title IX - Sexual Harassment (opened 10/27/2022); Title VI - Racial Harassment (opened 02/16/2023); Title VI - Resource Comparability (opened 09/27/2016); Title VI - Retaliation (opened 02/16/2023)",
       "source": "ocr",
       "url": "https://ocrcas.ed.gov/open-investigations",
@@ -13,7 +13,7 @@
     },
     "ocr_open_investigations_disability": {
       "as_of": "2025-01-14",
-      "fetched_at": "2026-05-18T03:24:29Z",
+      "fetched_at": "2026-05-23T03:10:47Z",
       "source": "ocr",
       "url": "https://ocrcas.ed.gov/open-investigations",
       "value": 12

@@ -5,7 +5,7 @@
   "compliance": {
     "ocr_open_investigations": {
       "as_of": "2025-01-14",
-      "fetched_at": "2026-05-18T03:24:29Z",
+      "fetched_at": "2026-05-23T03:10:47Z",
       "note": "Title VI - Denial of Benefits (opened 08/27/2024)",
       "source": "ocr",
       "url": "https://ocrcas.ed.gov/open-investigations",
@@ -13,7 +13,7 @@
     },
     "ocr_open_investigations_disability": {
       "as_of": "2025-01-14",
-      "fetched_at": "2026-05-18T03:24:29Z",
+      "fetched_at": "2026-05-23T03:10:47Z",
       "source": "ocr",
       "url": "https://ocrcas.ed.gov/open-investigations",
       "value": 0

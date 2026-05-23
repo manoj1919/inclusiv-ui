@@ -7,7 +7,7 @@
   "enrollment": {
     "total": {
       "as_of": "2024-10-02",
-      "fetched_at": "2026-05-18T15:27:59Z",
+      "fetched_at": "2026-05-23T03:10:42Z",
       "source": "cde_enrollment",
       "url": "https://www.cde.ca.gov/ds/ad/filesenrcensus.asp",
       "value": 4402

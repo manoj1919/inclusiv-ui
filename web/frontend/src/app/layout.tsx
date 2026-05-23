@@ -20,9 +20,9 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "inclusiv·ui — San Diego County school districts for autism & special ed",
+  title: "inclusiv·ui — Southern California school districts for autism & special ed",
   description:
-    "Open data on autism inclusion, special education outcomes, and compliance across San Diego County school districts.",
+    "Open data on autism inclusion, special education outcomes, and compliance across Southern California school districts.",
   // Friends-feedback beta — shareable URL, but kept out of search indexes.
   robots: { index: false, follow: false },
 };

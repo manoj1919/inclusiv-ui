@@ -1,0 +1,22 @@
+{
+  "_partial": true,
+  "_source": "ocr",
+  "cds_code": "19-64451",
+  "compliance": {
+    "ocr_open_investigations": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-23T03:10:47Z",
+      "note": "Disability - Denial of Benefits (opened 09/13/2021); Disability - Effective Communication (opened 09/13/2021); Disability - FAPE (opened 01/09/2024); Disability - FAPE (opened 02/22/2024); Disability - FAPE (opened 09/13/2021); Title VI - Discipline (opened 01/09/2024)",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 6
+    },
+    "ocr_open_investigations_disability": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-23T03:10:47Z",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 5
+    }
+  }
+}

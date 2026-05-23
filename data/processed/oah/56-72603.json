@@ -1,0 +1,23 @@
+{
+  "_partial": true,
+  "_source": "oah",
+  "cds_code": "56-72603",
+  "compliance": {
+    "oah_cases_5yr_autism": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T03:09:08Z",
+      "note": "Keyword heuristic \u2014 see oah_cases_5yr_total note.",
+      "source": "oah",
+      "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
+      "value": 2
+    },
+    "oah_cases_5yr_total": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T03:09:08Z",
+      "note": "OAH special-education decisions naming this district, 2022-2026. All-time published total: 11. Autism count is a keyword heuristic (decision text mentions autism/ASD).",
+      "source": "oah",
+      "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
+      "value": 5
+    }
+  }
+}

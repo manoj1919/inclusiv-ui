@@ -1,0 +1,219 @@
+{
+  "build_provenance": {
+    "built_at": "2026-05-23T03:10:48Z",
+    "pipeline_version": "0.1.0",
+    "raw_snapshots": [
+      {
+        "path": "data/raw/ca_dashboard/2026-05-23/chronicdownload2025.txt",
+        "sha256": "81ef3fe82b8bf486ab9e014c77a12c1e6e86879264132993af9be3faf369d15d",
+        "source": "ca_dashboard"
+      },
+      {
+        "path": "data/raw/ca_dashboard/2026-05-23/eladownload2025.txt",
+        "sha256": "3ed9b3f9af3f55bc8ba5390ef0532b0bf594e1c835d655520c0f0ab76c66fd04",
+        "source": "ca_dashboard"
+      },
+      {
+        "path": "data/raw/ca_dashboard/2026-05-23/mathdownload2025.txt",
+        "sha256": "5e9137a1698f645a511f4b1bf23fbfe64782df87af8aabeecc4f4552bdb2332b",
+        "source": "ca_dashboard"
+      },
+      {
+        "path": "data/raw/ca_dashboard/2026-05-23/suspdownload2025.txt",
+        "sha256": "7f670baff136aa79ed797cfa13de7bb824ef09e496d306410e36ae1055571e43",
+        "source": "ca_dashboard"
+      },
+      {
+        "path": "data/raw/cde_enrollment/2026-05-23/cdenroll2425.txt",
+        "sha256": "ff65bf6e2c4a0928dc1533106af29716a2cefb71e2e521e5c0e174fa737f8bbc",
+        "source": "cde_enrollment"
+      },
+      {
+        "path": "data/raw/cde_spedps/2026-05-23/spedps.tsv",
+        "sha256": "0ff89ec8eaa97afc2eea71543b5454f18ba5e857a5289357a697ccbfb1e53d22",
+        "source": "cde_spedps"
+      },
+      {
+        "path": "data/raw/oah/2026-05-23/manifest.json",
+        "sha256": "6582b633f46aecd61fb3d2412ec6b519ec8b666b0d4d7b647e00ead4572d7716",
+        "source": "oah"
+      },
+      {
+        "path": "data/raw/ocr/2026-05-18/open_investigations_ca_ese.html",
+        "sha256": "aa17c6f06d5da6cea824710bec96778e45c4722bc2e864a7c2a79b6847109555",
+        "source": "ocr"
+      }
+    ]
+  },
+  "cds_code": "33-67082",
+  "compliance": {
+    "oah_cases_5yr_autism": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T03:09:08Z",
+      "note": "Keyword heuristic \u2014 see oah_cases_5yr_total note.",
+      "source": "oah",
+      "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
+      "value": 1
+    },
+    "oah_cases_5yr_total": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T03:09:08Z",
+      "note": "OAH special-education decisions naming this district, 2022-2026. All-time published total: 3. Autism count is a keyword heuristic (decision text mentions autism/ASD).",
+      "source": "oah",
+      "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
+      "value": 1
+    },
+    "ocr_open_investigations": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-23T03:10:47Z",
+      "note": "Disability - Denial of Benefits (opened 11/12/2024); Disability - FAPE (opened 03/07/2024); Disability - FAPE (opened 05/17/2024); Disability - Retaliation (opened 11/12/2024); Title VI - Racial Harassment (opened 03/07/2024); Title VI - Racial Harassment (opened 05/17/2024)",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 6
+    },
+    "ocr_open_investigations_disability": {
+      "as_of": "2025-01-14",
+      "fetched_at": "2026-05-23T03:10:47Z",
+      "source": "ocr",
+      "url": "https://ocrcas.ed.gov/open-investigations",
+      "value": 4
+    }
+  },
+  "county": "Riverside",
+  "county_code": "33",
+  "data_sources_used": [
+    "cde_spedps",
+    "cde_enrollment",
+    "ca_dashboard",
+    "ocr",
+    "oah"
+  ],
+  "district_type": "Unified K-12",
+  "enrollment": {
+    "pct_autism": {
+      "as_of": "2024-10-02",
+      "note": "Derived: special-education / autism enrollment (CDE SPED-PS, ages 3-22) as a share of TK-12 census enrollment (CDE Census Day Enrollment). Both are district aggregates that include authorized charter schools.",
+      "source": "derived",
+      "value": 0.0348
+    },
+    "pct_iep": {
+      "as_of": "2024-10-02",
+      "note": "Derived: special-education / autism enrollment (CDE SPED-PS, ages 3-22) as a share of TK-12 census enrollment (CDE Census Day Enrollment). Both are district aggregates that include authorized charter schools.",
+      "source": "derived",
+      "value": 0.1761
+    },
+    "students_with_autism": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T03:10:41Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 796
+    },
+    "students_with_iep": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T03:10:41Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 4031
+    },
+    "total": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T03:10:42Z",
+      "source": "cde_enrollment",
+      "url": "https://www.cde.ca.gov/ds/ad/filesenrcensus.asp",
+      "value": 22891
+    }
+  },
+  "inclusion_metrics": {
+    "lre_80pct_plus_gen_ed_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T03:10:41Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.536
+    },
+    "lre_80pct_plus_gen_ed_autism": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T03:10:41Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.234
+    },
+    "lre_separate_setting_all_disabilities": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T03:10:41Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.015
+    },
+    "lre_separate_setting_autism": {
+      "as_of": "2024-10-02",
+      "fetched_at": "2026-05-23T03:10:41Z",
+      "source": "cde_spedps",
+      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+      "value": 0.018
+    }
+  },
+  "last_updated": "2026-05-23",
+  "name": "Hemet Unified",
+  "outcome_metrics": {
+    "chronic_absenteeism_rate_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T03:10:42Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.323
+    },
+    "chronic_absenteeism_rate_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T03:10:42Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.385
+    },
+    "ela_distance_from_standard_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T03:10:42Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -49.5
+    },
+    "ela_distance_from_standard_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T03:10:42Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -121.3
+    },
+    "math_distance_from_standard_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T03:10:42Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -98.5
+    },
+    "math_distance_from_standard_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T03:10:42Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": -161.3
+    },
+    "suspension_rate_all": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T03:10:42Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.034
+    },
+    "suspension_rate_swd": {
+      "as_of": "2025-06-30",
+      "fetched_at": "2026-05-23T03:10:42Z",
+      "source": "ca_dashboard",
+      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+      "value": 0.067
+    }
+  },
+  "region": "Unknown",
+  "schema_version": "0.1.0"
+}
