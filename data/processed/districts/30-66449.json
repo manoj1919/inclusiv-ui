@@ -85,9 +85,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Small unified district. Part of Northeast Orange County SELPA. No district-specific autism programs, BCBA staffing, or transition details published.",
+    "district_website": "https://www.bousd.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.bousd.us/apps/pages/Northeast_OC_SELPA"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

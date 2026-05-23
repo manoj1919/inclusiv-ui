@@ -85,9 +85,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "Prek-6 elementary district in Buena Park. Provides school-based special education oversight; no autism-specific programs, BCBA staffing, or specifics published publicly.",
+    "district_website": "https://www.cesd.k12.ca.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.cesd.k12.ca.us/apps/pages/index.jsp?uREC_ID=1547021&type=d&pREC_ID=1165151"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

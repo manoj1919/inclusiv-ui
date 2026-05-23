@@ -86,9 +86,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Large unified district. Publishes a dedicated 'Autism Specific Programs and Behavior Support' page describing a continuum of Autism Specific Classrooms from preschool through adult transition (ages 3-22). District-employed Behavior Intervention Specialists (BIS) provide site supervision, consultation, training, and programming assistance using evidence-based practices. Named contacts: Sean Viney (Autism Coordinator) and Jenny Bailey (Administrative Assistant). District is part of its own Irvine SELPA, which partners with CAPTAIN for evidence-based autism practices. Specific autism classroom locations (site by site) are not published on this page. BCBA credential is not explicitly stated for the Behavior Intervention Specialists.",
+    "district_website": "https://iusd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://iusd.org/about/departments/education-services/special-education/autism-specific-programs-and-behavior-support"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -212,6 +221,21 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.029
+    }
+  },
+  "programs": {
+    "autism_specific_classrooms": [
+      {
+        "grade_range": "Ages 3-22 (preschool through Adult Transition)",
+        "name": "Irvine Unified Autism Specific Classrooms"
+      }
+    ],
+    "transition_18_22_program": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T13:50:47Z",
+      "source": "district_web",
+      "url": "https://iusd.org/about/departments/education-services/special-education/autism-specific-programs-and-behavior-support",
+      "value": true
     }
   },
   "region": "Unknown",

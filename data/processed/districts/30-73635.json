@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Large unified district in southern OC. Operates an Early Childhood Center providing special education and related services for ages 3-5. Esperanza Education Center hosts the district's Adult Transition Program (18-22) for students with moderate-to-severe disabilities, along with the Career Start program that builds independence through community-partnership work experiences. Part of South Orange County SELPA. No autism-specific classroom name (separate from the ATP) or BCBA credential is detailed publicly.",
+    "district_website": "https://www.svusd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.svusd.org/departments/student-support-services/special-education",
+      "https://www.svusd.org/departments/student-support-services/special-education/south-orange-county-selpa"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -211,6 +221,22 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.031
+    }
+  },
+  "programs": {
+    "autism_specific_classrooms": [
+      {
+        "grade_range": "Ages 18-22 (moderate-to-severe)",
+        "name": "Esperanza Education Center \u2014 Adult Transition Program (Career Start)",
+        "site": "Esperanza Education Center"
+      }
+    ],
+    "transition_18_22_program": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T13:50:47Z",
+      "source": "district_web",
+      "url": "https://www.svusd.org/departments/student-support-services/special-education",
+      "value": true
     }
   },
   "region": "Unknown",

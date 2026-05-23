@@ -86,9 +86,20 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Large unified district in southern OC. Provides special education for ages 3 through 21 per IDEA. Has a Family Resource Center for autism resources. Adult Transition Program operates collaboratively with Laguna Beach USD. No autism-specific classroom name or BCBA credential detailed publicly. Part of South Orange County SELPA.",
+    "district_website": "https://www.capousd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.capousd.org/subsites/Education--Support-Services/Special-Education/index.html",
+      "https://www.capousd.org/subsites/Education--Support-Services/Family-Resource-Center/Autism/index.html",
+      "https://www.svusd.org/departments/student-support-services/special-education/south-orange-county-selpa"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -212,6 +223,15 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.05
+    }
+  },
+  "programs": {
+    "transition_18_22_program": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T13:50:47Z",
+      "source": "district_web",
+      "url": "https://www.capousd.org/subsites/Education--Support-Services/Special-Education/index.html",
+      "value": true
     }
   },
   "region": "Unknown",

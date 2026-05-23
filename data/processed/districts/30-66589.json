@@ -85,9 +85,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "K-6 elementary district in Anaheim. No district-specific autism programs published publicly.",
+    "district_website": "https://www.magnoliasd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://directory.ocde.us/"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "High School Only",
+  "district_web_research": {
+    "additional_findings": "Large high school district. Publishes its SPED program structure as four lanes: SDC (subdivided by CH, MM, HI, OH/OHI, ED, VI), LH/S, SH (Severely Handicapped), and RSP. No autism-specific classroom name, BCBA credential, or 18-22 transition program description is published publicly. Part of Greater Anaheim SELPA.",
+    "district_website": "https://www.auhsd.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://anaheimhs.org/Anaheim/Department/11759-Special-Education",
+      "https://gaselpa.org/"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

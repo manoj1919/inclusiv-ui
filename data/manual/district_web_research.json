@@ -1,7 +1,7 @@
 {
   "_comment": "Hand-collected, web-sourced programs / related-services data and other findings for SD County districts. BEST-EFFORT and incomplete by nature: this is NOT government-dataset data. Each district carries source URLs + a research date. Booleans are `true` only when a source explicitly states it; unconfirmed fields are left null (never guessed). `additional_findings` is free-text for anything useful that does not map to the current schema \u2014 display decisions are deferred. A later pipeline step will fold the schema-mapped subset into profiles as a `district_web` source.",
   "_researched_on": "2026-05-17",
-  "_progress": "42 SD + 16 Imperial + 19 Ventura + 23 Riverside = 100 of 240 districts (Phase 3 SoCal grind in progress)",
+  "_progress": "42 SD + 16 Imperial + 19 Ventura + 23 Riverside + 29 Orange = 129 of 240 districts (Phase 3 SoCal grind in progress)",
   "37-67967": {
     "name": "Alpine Union Elementary",
     "district_website": "https://www.alpineschools.net",
@@ -2118,6 +2118,606 @@
     "sources": [
       "https://www.valverde.edu/en-US/special-education-40dba92a",
       "https://rcselpa.org/about"
+    ]
+  },
+  "30-10306": {
+    "name": "Orange County Department of Education",
+    "researched_on": "2026-05-23",
+    "district_website": "https://ocde.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "ALERT: This is the Orange County Department of Education itself, not a traditional residential school district. OCDE operates ACCESS (Alternative, Community, and Correctional Education Schools and Services), runs juvenile court schools, and provides special education services for low-incidence populations on behalf of OC districts. Families do not 'attend' OCDE \u2014 they attend a traditional district that may rely on OCDE for some specialized placements. The enrollment, IEP, and autism numbers here reflect OCDE-direct-serve students, mostly in alternative/court schools and county-operated SPED programs.",
+    "sources": [
+      "https://ocde.us",
+      "https://directory.ocde.us/access/"
+    ]
+  },
+  "30-64766": {
+    "name": "Lowell Joint",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.ljsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Small K-8 joint elementary district straddling the LA/OC county line (Whittier/La Habra area). No district-specific autism programs, BCBA staffing, or transition details published publicly.",
+    "sources": [
+      "https://directory.ocde.us/"
+    ]
+  },
+  "30-66423": {
+    "name": "Anaheim Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://anaheimelementary.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": true,
+      "pt_available": true,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large K-6 district in Anaheim. Continuum of program options explicitly includes: speech and language therapy, specialized academic instruction (RSP or SDC), occupational therapy, physical therapy, and counseling (OT and PT confirmed). No autism-specific program names, BCBA credentials, or 18-22 transition (since K-6 only) published. Part of Greater Anaheim SELPA.",
+    "sources": [
+      "https://anaheimelementary.org/special-services/",
+      "https://gaselpa.org/"
+    ]
+  },
+  "30-66431": {
+    "name": "Anaheim Union High",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.auhsd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large high school district. Publishes its SPED program structure as four lanes: SDC (subdivided by CH, MM, HI, OH/OHI, ED, VI), LH/S, SH (Severely Handicapped), and RSP. No autism-specific classroom name, BCBA credential, or 18-22 transition program description is published publicly. Part of Greater Anaheim SELPA.",
+    "sources": [
+      "https://anaheimhs.org/Anaheim/Department/11759-Special-Education",
+      "https://gaselpa.org/"
+    ]
+  },
+  "30-66449": {
+    "name": "Brea-Olinda Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.bousd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Small unified district. Part of Northeast Orange County SELPA. No district-specific autism programs, BCBA staffing, or transition details published.",
+    "sources": [
+      "https://www.bousd.us/apps/pages/Northeast_OC_SELPA"
+    ]
+  },
+  "30-66456": {
+    "name": "Buena Park Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.bpsd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 elementary district in Buena Park. No district-specific autism programs published publicly.",
+    "sources": [
+      "https://directory.ocde.us/"
+    ]
+  },
+  "30-66464": {
+    "name": "Capistrano Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.capousd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district in southern OC. Provides special education for ages 3 through 21 per IDEA. Has a Family Resource Center for autism resources. Adult Transition Program operates collaboratively with Laguna Beach USD. No autism-specific classroom name or BCBA credential detailed publicly. Part of South Orange County SELPA.",
+    "sources": [
+      "https://www.capousd.org/subsites/Education--Support-Services/Special-Education/index.html",
+      "https://www.capousd.org/subsites/Education--Support-Services/Family-Resource-Center/Autism/index.html",
+      "https://www.svusd.org/departments/student-support-services/special-education/south-orange-county-selpa"
+    ]
+  },
+  "30-66472": {
+    "name": "Centralia Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.cesd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Prek-6 elementary district in Buena Park. Provides school-based special education oversight; no autism-specific programs, BCBA staffing, or specifics published publicly.",
+    "sources": [
+      "https://www.cesd.k12.ca.us/apps/pages/index.jsp?uREC_ID=1547021&type=d&pREC_ID=1165151"
+    ]
+  },
+  "30-66480": {
+    "name": "Cypress Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.cypsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-6 elementary district in Cypress. No district-specific autism programs published publicly.",
+    "sources": [
+      "https://directory.ocde.us/"
+    ]
+  },
+  "30-66498": {
+    "name": "Fountain Valley Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.fvsd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 district in Fountain Valley. No autism-specific program details published publicly.",
+    "sources": [
+      "https://directory.ocde.us/"
+    ]
+  },
+  "30-66506": {
+    "name": "Fullerton Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.fsd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 elementary district. No autism-specific program details published publicly.",
+    "sources": [
+      "https://directory.ocde.us/"
+    ]
+  },
+  "30-66514": {
+    "name": "Fullerton Joint Union High",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.fjuhsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "High school district. No autism-specific programs, BCBA credentials, or 18-22 transition details published publicly.",
+    "sources": [
+      "https://directory.ocde.us/"
+    ]
+  },
+  "30-66522": {
+    "name": "Garden Grove Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.ggusd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district. No autism-specific program names, BCBA credentials, or 18-22 transition details published publicly.",
+    "sources": [
+      "https://directory.ocde.us/"
+    ]
+  },
+  "30-66530": {
+    "name": "Huntington Beach City Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.hbcsd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 elementary district in Huntington Beach. No autism-specific program details published publicly. Part of West Orange County Consortium for Special Education (WOCCSE).",
+    "sources": [
+      "https://woccse.hbuhsd.edu/apps/pages/index.jsp?uREC_ID=686361&type=d&pREC_ID=1163359"
+    ]
+  },
+  "30-66548": {
+    "name": "Huntington Beach Union High",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.hbuhsd.edu",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "High school district. Hosts the West Orange County Consortium for Special Education (WOCCSE) administrative site. No autism-specific classroom names, BCBA credentials, or specific 18-22 transition program details published publicly.",
+    "sources": [
+      "https://woccse.hbuhsd.edu/apps/pages/index.jsp?uREC_ID=686361&type=d&pREC_ID=1163359"
+    ]
+  },
+  "30-66555": {
+    "name": "Laguna Beach Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.lbusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Small unified district. Provides facilities and staff for students on the autism spectrum and other disabilities. Adult Transition Programs operate collaboratively with Capistrano USD. No autism-specific classroom name or BCBA credential detailed publicly. Part of South Orange County SELPA.",
+    "sources": [
+      "https://www.lbusd.org/departments/special-education",
+      "https://www.lbusd.org/departments/special-education/about",
+      "https://www.svusd.org/departments/student-support-services/special-education/south-orange-county-selpa"
+    ]
+  },
+  "30-66563": {
+    "name": "La Habra City Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.lhcsd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 elementary district. No district-specific autism programs published publicly.",
+    "sources": [
+      "https://directory.ocde.us/"
+    ]
+  },
+  "30-66589": {
+    "name": "Magnolia Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.magnoliasd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-6 elementary district in Anaheim. No district-specific autism programs published publicly.",
+    "sources": [
+      "https://directory.ocde.us/"
+    ]
+  },
+  "30-66597": {
+    "name": "Newport-Mesa Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://web.nmusd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district covering Newport Beach and Costa Mesa. Has a Special Services / Special Education department. No autism-specific classroom names, BCBA credentials, or 18-22 transition details published publicly.",
+    "sources": [
+      "https://web.nmusd.us/departments/special-services/special-education"
+    ]
+  },
+  "30-66613": {
+    "name": "Ocean View",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.ovsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 elementary district in Huntington Beach. Part of West Orange County Consortium for Special Education. No district-specific autism programs published publicly.",
+    "sources": [
+      "https://woccse.hbuhsd.edu/apps/pages/index.jsp?uREC_ID=686361&type=d&pREC_ID=1163359"
+    ]
+  },
+  "30-66621": {
+    "name": "Orange Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.orangeusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district in city of Orange. No autism-specific classroom names, BCBA credentials, or 18-22 transition details published publicly.",
+    "sources": [
+      "https://www.orangeusd.org/departments/educational-services/special-education"
+    ]
+  },
+  "30-66647": {
+    "name": "Placentia-Yorba Linda Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.pylusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district. Has a Special Education department focused on inclusive education. No autism-specific classroom names, BCBA credentials, or 18-22 transition details published publicly.",
+    "sources": [
+      "https://www.pylusd.org/apps/pages/index.jsp?uREC_ID=198909&type=d&pREC_ID=454014"
+    ]
+  },
+  "30-66670": {
+    "name": "Santa Ana Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.sausd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district. Special Education department serves students from Early Start (infant) through age 22 in Adult Transition and WorkAbility programs. No autism-specific classroom name or BCBA credential detailed publicly.",
+    "sources": [
+      "https://www.sausd.us/departments/educational-services/special-education"
+    ]
+  },
+  "30-66696": {
+    "name": "Savanna Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.savsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny K-6 elementary district in Anaheim. No district-specific autism programs published publicly.",
+    "sources": [
+      "https://directory.ocde.us/"
+    ]
+  },
+  "30-66746": {
+    "name": "Westminster",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.wsdk12.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 elementary district. No district-specific autism programs published publicly.",
+    "sources": [
+      "https://directory.ocde.us/"
+    ]
+  },
+  "30-73635": {
+    "name": "Saddleback Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.svusd.org",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "Esperanza Education Center \u2014 Adult Transition Program (Career Start)",
+          "grade_range": "Ages 18-22 (moderate-to-severe)",
+          "site": "Esperanza Education Center"
+        }
+      ],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district in southern OC. Operates an Early Childhood Center providing special education and related services for ages 3-5. Esperanza Education Center hosts the district's Adult Transition Program (18-22) for students with moderate-to-severe disabilities, along with the Career Start program that builds independence through community-partnership work experiences. Part of South Orange County SELPA. No autism-specific classroom name (separate from the ATP) or BCBA credential is detailed publicly.",
+    "sources": [
+      "https://www.svusd.org/departments/student-support-services/special-education",
+      "https://www.svusd.org/departments/student-support-services/special-education/south-orange-county-selpa"
+    ]
+  },
+  "30-73643": {
+    "name": "Tustin Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.tustin.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district in Tustin. Has a Special Education department. No autism-specific classroom names, BCBA credentials, or 18-22 transition details published publicly.",
+    "sources": [
+      "https://www.tustin.k12.ca.us/departments/special-education"
+    ]
+  },
+  "30-73650": {
+    "name": "Irvine Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://iusd.org",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "Irvine Unified Autism Specific Classrooms",
+          "grade_range": "Ages 3-22 (preschool through Adult Transition)"
+        }
+      ],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district. Publishes a dedicated 'Autism Specific Programs and Behavior Support' page describing a continuum of Autism Specific Classrooms from preschool through adult transition (ages 3-22). District-employed Behavior Intervention Specialists (BIS) provide site supervision, consultation, training, and programming assistance using evidence-based practices. Named contacts: Sean Viney (Autism Coordinator) and Jenny Bailey (Administrative Assistant). District is part of its own Irvine SELPA, which partners with CAPTAIN for evidence-based autism practices. Specific autism classroom locations (site by site) are not published on this page. BCBA credential is not explicitly stated for the Behavior Intervention Specialists.",
+    "sources": [
+      "https://iusd.org/about/departments/education-services/special-education/autism-specific-programs-and-behavior-support"
+    ]
+  },
+  "30-73924": {
+    "name": "Los Alamitos Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.losal.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district. Member of Greater Anaheim SELPA (6 member districts). No district-specific autism program names, BCBA credentials, or 18-22 transition details published publicly.",
+    "sources": [
+      "https://www.losal.org/departments/special-education/selpa",
+      "https://gaselpa.org/"
     ]
   }
 }

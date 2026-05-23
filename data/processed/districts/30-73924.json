@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district. Member of Greater Anaheim SELPA (6 member districts). No district-specific autism program names, BCBA credentials, or 18-22 transition details published publicly.",
+    "district_website": "https://www.losal.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.losal.org/departments/special-education/selpa",
+      "https://gaselpa.org/"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

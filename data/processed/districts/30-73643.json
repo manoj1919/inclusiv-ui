@@ -86,9 +86,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district in Tustin. Has a Special Education department. No autism-specific classroom names, BCBA credentials, or 18-22 transition details published publicly.",
+    "district_website": "https://www.tustin.k12.ca.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.tustin.k12.ca.us/departments/special-education"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

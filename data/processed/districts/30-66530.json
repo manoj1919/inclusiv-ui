@@ -85,9 +85,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "K-8 elementary district in Huntington Beach. No autism-specific program details published publicly. Part of West Orange County Consortium for Special Education (WOCCSE).",
+    "district_website": "https://www.hbcsd.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://woccse.hbuhsd.edu/apps/pages/index.jsp?uREC_ID=686361&type=d&pREC_ID=1163359"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

@@ -86,9 +86,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district. Has a Special Education department focused on inclusive education. No autism-specific classroom names, BCBA credentials, or 18-22 transition details published publicly.",
+    "district_website": "https://www.pylusd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.pylusd.org/apps/pages/index.jsp?uREC_ID=198909&type=d&pREC_ID=454014"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

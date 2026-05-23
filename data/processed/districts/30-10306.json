@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Other",
+  "district_web_research": {
+    "additional_findings": "ALERT: This is the Orange County Department of Education itself, not a traditional residential school district. OCDE operates ACCESS (Alternative, Community, and Correctional Education Schools and Services), runs juvenile court schools, and provides special education services for low-incidence populations on behalf of OC districts. Families do not 'attend' OCDE \u2014 they attend a traditional district that may rely on OCDE for some specialized placements. The enrollment, IEP, and autism numbers here reflect OCDE-direct-serve students, mostly in alternative/court schools and county-operated SPED programs.",
+    "district_website": "https://ocde.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://ocde.us",
+      "https://directory.ocde.us/access/"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

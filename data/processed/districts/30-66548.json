@@ -86,9 +86,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "High School Only",
+  "district_web_research": {
+    "additional_findings": "High school district. Hosts the West Orange County Consortium for Special Education (WOCCSE) administrative site. No autism-specific classroom names, BCBA credentials, or specific 18-22 transition program details published publicly.",
+    "district_website": "https://www.hbuhsd.edu",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://woccse.hbuhsd.edu/apps/pages/index.jsp?uREC_ID=686361&type=d&pREC_ID=1163359"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
