@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district in Riverside/Corona area. Offers a continuum of programs for students with exceptional needs but no autism-specific program names, BCBA staffing, or transition 18-22 details published publicly. Part of Riverside County SELPA (the largest multi-district SELPA in California, 25 LEAs).",
+    "district_website": "https://www.alvordschools.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.alvordschools.org/10062_4",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

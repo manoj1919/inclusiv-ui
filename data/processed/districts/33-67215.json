@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Large unified district in Riverside city. Lists a Transition department with subsections for Business Affiliations, Transition Resources, and Community Linkages \u2014 though specific 18-22 program details, autism-specific classrooms, and BCBA credentials are not enumerated publicly. Lists psychologists and program specialists as support staff. Part of Riverside County SELPA.",
+    "district_website": "https://www.riversideunified.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.riversideunified.org/departments/special-education",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

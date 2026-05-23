@@ -86,9 +86,20 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Large unified district with an explicitly-staffed Autism Department. Partners with CAPTAIN and the Region 10 Autism Committee to align programs with evidence-based practices. Named Board Certified Behavior Analysts on staff: Tara Boland and Samantha Sellars; the team also includes an Autism Coordinator and Autism Specialists. The LEAPS (Linking Emerging Adults Preparing for Success) program serves the 18-22 age group with ABA-based instruction in a structured center, focused on behavior reduction and skill acquisition for post-school transition. Additional roles named publicly: Transition Services Specialist (Bridget Denton) and Dean of Special Education for the Adult Transition Program (Richard Price). Part of Riverside County SELPA.",
+    "district_website": "https://www.tvusd.k12.ca.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.tvusd.k12.ca.us/student-support-services/special-education/autism",
+      "https://www.tvusd.k12.ca.us/student-support-services/special-education/special-education-overview",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -212,6 +223,28 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.041
+    }
+  },
+  "programs": {
+    "autism_specific_classrooms": [
+      {
+        "grade_range": "Ages 18-22",
+        "name": "LEAPS (Linking Emerging Adults Preparing for Success)"
+      }
+    ],
+    "bcba_on_staff": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T13:47:52Z",
+      "source": "district_web",
+      "url": "https://www.tvusd.k12.ca.us/student-support-services/special-education/autism",
+      "value": true
+    },
+    "transition_18_22_program": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T13:47:52Z",
+      "source": "district_web",
+      "url": "https://www.tvusd.k12.ca.us/student-support-services/special-education/autism",
+      "value": true
     }
   },
   "region": "Unknown",

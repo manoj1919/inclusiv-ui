@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Large unified district in eastern Coachella Valley (Coachella, Thermal, Mecca). Has a Special Education department but no autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Riverside County SELPA.",
+    "district_website": "https://www.cvusd.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.cvusd.us/departments/educational-services/special-education/special-education-programs",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

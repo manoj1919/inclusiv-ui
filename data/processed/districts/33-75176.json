@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Large unified district covering Lake Elsinore, Canyon Lake, and Wildomar (~144 sq mi of southwestern Riverside County). No autism-specific classroom names, BCBA credentials, or 18-22 transition details published publicly. Part of Riverside County SELPA.",
+    "district_website": "https://www.leusd.k12.ca.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.leusd.k12.ca.us/apps/pages/index.jsp?uREC_ID=325300&type=d&pREC_ID=733479",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

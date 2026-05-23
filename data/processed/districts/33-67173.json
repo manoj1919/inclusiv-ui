@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Large unified district serving Cathedral City, Desert Hot Springs, Palm Desert, Palm Springs, Rancho Mirage, Sky Valley, and Thousand Palms. Provides early intervention, special education, related services, and transition services for ages 3-21 across all IDEA disability categories including autism. Partners with the Coachella Valley Autism Society for parent resources. No specific autism-classroom names, BCBA credentials, or 18-22 transition program details published. Part of Riverside County SELPA.",
+    "district_website": "https://www.psusd.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.psusd.us/Page/365",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

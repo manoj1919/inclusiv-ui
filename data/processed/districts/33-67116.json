@@ -86,9 +86,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "K-8 district feeding into Perris Union High School District at grades 9-12. No autism-specific programs or BCBA staffing published. Part of Riverside County SELPA.",
+    "district_website": "https://www.menifeeusd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

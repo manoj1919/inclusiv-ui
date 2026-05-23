@@ -85,9 +85,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Tiny remote-rural unified district between Indio and Blythe (Chuckwalla Valley). No active public district website found in search. Part of Riverside County SELPA; specialized programs would be coordinated through SELPA/RCOE rather than at district level.",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://rcselpa.org/about",
+      "https://www.rcoe.us/schools/district-listing-and-locator/"
+    ]
+  },
   "enrollment": {
     "pct_iep": {
       "as_of": "2024-10-02",

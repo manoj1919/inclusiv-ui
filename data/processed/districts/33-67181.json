@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Small unified district in Blythe (eastern Riverside County). Has a Special Education department in Student Services. No district-specific autism programs, BCBA staffing, or transition 18-22 details published. Part of Riverside County SELPA.",
+    "district_website": "https://www.pvusd.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.pvusd.us/Departments/Student-Services/Special-Education/index.html",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

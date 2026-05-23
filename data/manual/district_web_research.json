@@ -1,7 +1,7 @@
 {
   "_comment": "Hand-collected, web-sourced programs / related-services data and other findings for SD County districts. BEST-EFFORT and incomplete by nature: this is NOT government-dataset data. Each district carries source URLs + a research date. Booleans are `true` only when a source explicitly states it; unconfirmed fields are left null (never guessed). `additional_findings` is free-text for anything useful that does not map to the current schema \u2014 display decisions are deferred. A later pipeline step will fold the schema-mapped subset into profiles as a `district_web` source.",
   "_researched_on": "2026-05-17",
-  "_progress": "42 SD + 16 Imperial + 19 Ventura = 77 of 240 districts (Phase 3 SoCal grind in progress)",
+  "_progress": "42 SD + 16 Imperial + 19 Ventura + 23 Riverside = 100 of 240 districts (Phase 3 SoCal grind in progress)",
   "37-67967": {
     "name": "Alpine Union Elementary",
     "district_website": "https://www.alpineschools.net",
@@ -1613,6 +1613,511 @@
     "additional_findings": "Unified district in Santa Paula. Part of Ventura County SELPA; no district-specific autism programs, BCBA staffing, or transition 18-22 details published publicly.",
     "sources": [
       "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "33-66977": {
+    "name": "Alvord Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.alvordschools.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district in Riverside/Corona area. Offers a continuum of programs for students with exceptional needs but no autism-specific program names, BCBA staffing, or transition 18-22 details published publicly. Part of Riverside County SELPA (the largest multi-district SELPA in California, 25 LEAs).",
+    "sources": [
+      "https://www.alvordschools.org/10062_4",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-66985": {
+    "name": "Banning Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.banning.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": true,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district. Offers a continuum: general education with support, Resource Specialist Programs (RSP), Special Day Classes (SDC), out-of-district placements for higher-need students. Related services explicitly include speech and occupational therapy (OT confirmed). No autism-specific program or BCBA credential is published publicly. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.banning.k12.ca.us/administration-services/special-education",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-66993": {
+    "name": "Beaumont Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.beaumontusd.us",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "Autism Program (significantly-impacted students)",
+          "grade_range": "TK-12"
+        },
+        {
+          "name": "5-Day Autism Early Childhood Special Education Program",
+          "grade_range": "Preschool"
+        }
+      ],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district. Publishes two dedicated autism programs: a K-12 Autism Program for students 'significantly impacted by autism' with deficits in communication, social skills, behavior, self-regulation, learning-to-learn, and adaptive skills; and a 5-Day Autism Early Childhood Special Education Program for preschoolers, taught by a special education teacher with paraprofessional support using 'applied behavior analysis principles and research-based strategies'. No BCBA credential is explicitly named for staff. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.beaumontusd.us/apps/pages/index.jsp?uREC_ID=980487&type=d&pREC_ID=2138050",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-67033": {
+    "name": "Corona-Norco Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.cnusd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district. Publishes a dedicated Adult Transition Program for students ages 18-22, helping students move from high school to a community-contributing adult role, working with community resources and state agencies. Also runs WorkAbility for school-to-work transition skills. No autism-specific classroom is named publicly, and no BCBA credential is identified on the special-ed department page. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.cnusd.k12.ca.us/departments/instructional_support/special_education/adult_transition_and_workability",
+      "https://www.cnusd.k12.ca.us/student_programs/special_education",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-67041": {
+    "name": "Desert Center Unified",
+    "researched_on": "2026-05-23",
+    "district_website": null,
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny remote-rural unified district between Indio and Blythe (Chuckwalla Valley). No active public district website found in search. Part of Riverside County SELPA; specialized programs would be coordinated through SELPA/RCOE rather than at district level.",
+    "sources": [
+      "https://rcselpa.org/about",
+      "https://www.rcoe.us/schools/district-listing-and-locator/"
+    ]
+  },
+  "33-67058": {
+    "name": "Desert Sands Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.dsusd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district serving ~29,000 students in Indio, La Quinta, Palm Desert, Indian Wells, Bermuda Dunes, and parts of Rancho Mirage and Coachella. Runs a virtual support program for moderate-severe students with significant cognitive needs. No autism-specific classroom names, BCBA staffing, or 18-22 transition details published. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.dsusd.us/",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-67082": {
+    "name": "Hemet Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.hemetusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district. No autism-specific programs, BCBA staffing, or transition 18-22 details published publicly. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.hemetusd.org/apps/pages/index.jsp?uREC_ID=255242&type=d&pREC_ID=582598",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-67090": {
+    "name": "Jurupa Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.jusd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district. No autism-specific programs, BCBA staffing, or transition 18-22 details published publicly. Part of Riverside County SELPA.",
+    "sources": [
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-67116": {
+    "name": "Menifee Union",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.menifeeusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 district feeding into Perris Union High School District at grades 9-12. No autism-specific programs or BCBA staffing published. Part of Riverside County SELPA.",
+    "sources": [
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-67124": {
+    "name": "Moreno Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.mvusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district. References WorkAbility and 'Transition Services to Students' on the special-ed department page but no specific 18-22 program description, autism-specific classrooms, or BCBA credentials are detailed publicly. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.mvusd.net/departments/educational-services/special-education",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-67157": {
+    "name": "Nuview Union",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.nuviewusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 district feeding Perris Union High School District at grades 9-12. Offers programs in special education and federal/state categorical programs. No district-specific autism programs published. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.nuviewusd.org/apps/pages/index.jsp?uREC_ID=344945&type=d&pREC_ID=1932756",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-67173": {
+    "name": "Palm Springs Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.psusd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district serving Cathedral City, Desert Hot Springs, Palm Desert, Palm Springs, Rancho Mirage, Sky Valley, and Thousand Palms. Provides early intervention, special education, related services, and transition services for ages 3-21 across all IDEA disability categories including autism. Partners with the Coachella Valley Autism Society for parent resources. No specific autism-classroom names, BCBA credentials, or 18-22 transition program details published. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.psusd.us/Page/365",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-67181": {
+    "name": "Palo Verde Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.pvusd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Small unified district in Blythe (eastern Riverside County). Has a Special Education department in Student Services. No district-specific autism programs, BCBA staffing, or transition 18-22 details published. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.pvusd.us/Departments/Student-Services/Special-Education/index.html",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-67199": {
+    "name": "Perris Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.perrisesd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-6 elementary district feeding Perris Union High School District at grades 7-12. No autism-specific programs published. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.perrisesd.org/",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-67207": {
+    "name": "Perris Union High",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.puhsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "High school district receiving 7-12 students from Perris Elementary, and 9-12 students from Menifee Union, Nuview Union, and Romoland feeders. No specific autism program, BCBA staffing, or 18-22 transition details published publicly. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.puhsd.org/about",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-67215": {
+    "name": "Riverside Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.riversideunified.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district in Riverside city. Lists a Transition department with subsections for Business Affiliations, Transition Resources, and Community Linkages \u2014 though specific 18-22 program details, autism-specific classrooms, and BCBA credentials are not enumerated publicly. Lists psychologists and program specialists as support staff. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.riversideunified.org/departments/special-education",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-67231": {
+    "name": "Romoland Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.romoland.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "K-8 elementary district feeding Perris Union High School District at grades 9-12. No district-specific autism programs published. Part of Riverside County SELPA.",
+    "sources": [
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-67249": {
+    "name": "San Jacinto Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.sanjacinto.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district. Recognizes the 14 IDEA eligibility categories including autism. Most students with disabilities are served through district-run RSP, SDC, and Specialized Academic Instruction (SAI) programs plus related services. No autism-specific classroom or BCBA staffing detailed publicly. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.sanjacinto.k12.ca.us/apps/pages/index.jsp?uREC_ID=330824&type=d&pREC_ID=738920",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-73676": {
+    "name": "Coachella Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.cvusd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district in eastern Coachella Valley (Coachella, Thermal, Mecca). Has a Special Education department but no autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.cvusd.us/departments/educational-services/special-education/special-education-programs",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-75176": {
+    "name": "Lake Elsinore Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.leusd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district covering Lake Elsinore, Canyon Lake, and Wildomar (~144 sq mi of southwestern Riverside County). No autism-specific classroom names, BCBA credentials, or 18-22 transition details published publicly. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.leusd.k12.ca.us/apps/pages/index.jsp?uREC_ID=325300&type=d&pREC_ID=733479",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-75192": {
+    "name": "Temecula Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.tvusd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "LEAPS (Linking Emerging Adults Preparing for Success)",
+          "grade_range": "Ages 18-22"
+        }
+      ],
+      "bcba_on_staff": true,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district with an explicitly-staffed Autism Department. Partners with CAPTAIN and the Region 10 Autism Committee to align programs with evidence-based practices. Named Board Certified Behavior Analysts on staff: Tara Boland and Samantha Sellars; the team also includes an Autism Coordinator and Autism Specialists. The LEAPS (Linking Emerging Adults Preparing for Success) program serves the 18-22 age group with ABA-based instruction in a structured center, focused on behavior reduction and skill acquisition for post-school transition. Additional roles named publicly: Transition Services Specialist (Bridget Denton) and Dean of Special Education for the Adult Transition Program (Richard Price). Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.tvusd.k12.ca.us/student-support-services/special-education/autism",
+      "https://www.tvusd.k12.ca.us/student-support-services/special-education/special-education-overview",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-75200": {
+    "name": "Murrieta Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.murrieta.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Third-largest district in Riverside County. Serves children ages 2y6m through 21 with suspected or identified disabilities. No autism-specific classroom names, BCBA credentials, or specific 18-22 transition program details published publicly. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.murrieta.k12.ca.us/families/special-education",
+      "https://rcselpa.org/about"
+    ]
+  },
+  "33-75242": {
+    "name": "Val Verde Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.valverde.edu",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "Autism Program (ABA-based)",
+          "grade_range": "TK-12"
+        },
+        {
+          "name": "Bridges to Adulthood Program",
+          "grade_range": "Post-secondary / transition"
+        }
+      ],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district with explicitly-staffed autism support. Support staff named publicly includes a Program Specialist, an Autism Specialist, and a Behavior Specialist (BCBA credential is not specified). Program options listed for students with ASD: general education with Resource Support, Special Day Class, Life Skills, or 'a more specially designed Autism program focusing and utilizing ABA strategies'. Runs the Bridges to Adulthood Program \u2014 a vocational-based program for students with intellectual disabilities and/or autism, focusing on transition planning and workforce entry. Part of Riverside County SELPA.",
+    "sources": [
+      "https://www.valverde.edu/en-US/special-education-40dba92a",
+      "https://rcselpa.org/about"
     ]
   }
 }

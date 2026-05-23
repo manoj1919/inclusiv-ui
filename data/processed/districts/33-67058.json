@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Large unified district serving ~29,000 students in Indio, La Quinta, Palm Desert, Indian Wells, Bermuda Dunes, and parts of Rancho Mirage and Coachella. Runs a virtual support program for moderate-severe students with significant cognitive needs. No autism-specific classroom names, BCBA staffing, or 18-22 transition details published. Part of Riverside County SELPA.",
+    "district_website": "https://www.dsusd.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.dsusd.us/",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

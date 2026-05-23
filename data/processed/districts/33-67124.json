@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Large unified district. References WorkAbility and 'Transition Services to Students' on the special-ed department page but no specific 18-22 program description, autism-specific classrooms, or BCBA credentials are detailed publicly. Part of Riverside County SELPA.",
+    "district_website": "https://www.mvusd.net",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.mvusd.net/departments/educational-services/special-education",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

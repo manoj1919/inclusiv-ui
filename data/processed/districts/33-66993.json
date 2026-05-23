@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district. Publishes two dedicated autism programs: a K-12 Autism Program for students 'significantly impacted by autism' with deficits in communication, social skills, behavior, self-regulation, learning-to-learn, and adaptive skills; and a 5-Day Autism Early Childhood Special Education Program for preschoolers, taught by a special education teacher with paraprofessional support using 'applied behavior analysis principles and research-based strategies'. No BCBA credential is explicitly named for staff. Part of Riverside County SELPA.",
+    "district_website": "https://www.beaumontusd.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.beaumontusd.us/apps/pages/index.jsp?uREC_ID=980487&type=d&pREC_ID=2138050",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -212,6 +222,18 @@
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.04
     }
+  },
+  "programs": {
+    "autism_specific_classrooms": [
+      {
+        "grade_range": "TK-12",
+        "name": "Autism Program (significantly-impacted students)"
+      },
+      {
+        "grade_range": "Preschool",
+        "name": "5-Day Autism Early Childhood Special Education Program"
+      }
+    ]
   },
   "region": "Unknown",
   "schema_version": "0.1.0"

@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Third-largest district in Riverside County. Serves children ages 2y6m through 21 with suspected or identified disabilities. No autism-specific classroom names, BCBA credentials, or specific 18-22 transition program details published publicly. Part of Riverside County SELPA.",
+    "district_website": "https://www.murrieta.k12.ca.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.murrieta.k12.ca.us/families/special-education",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

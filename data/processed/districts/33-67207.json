@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "High School Only",
+  "district_web_research": {
+    "additional_findings": "High school district receiving 7-12 students from Perris Elementary, and 9-12 students from Menifee Union, Nuview Union, and Romoland feeders. No specific autism program, BCBA staffing, or 18-22 transition details published publicly. Part of Riverside County SELPA.",
+    "district_website": "https://www.puhsd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.puhsd.org/about",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

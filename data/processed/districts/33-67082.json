@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Large unified district. No autism-specific programs, BCBA staffing, or transition 18-22 details published publicly. Part of Riverside County SELPA.",
+    "district_website": "https://www.hemetusd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.hemetusd.org/apps/pages/index.jsp?uREC_ID=255242&type=d&pREC_ID=582598",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

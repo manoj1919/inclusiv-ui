@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district with explicitly-staffed autism support. Support staff named publicly includes a Program Specialist, an Autism Specialist, and a Behavior Specialist (BCBA credential is not specified). Program options listed for students with ASD: general education with Resource Support, Special Day Class, Life Skills, or 'a more specially designed Autism program focusing and utilizing ABA strategies'. Runs the Bridges to Adulthood Program \u2014 a vocational-based program for students with intellectual disabilities and/or autism, focusing on transition planning and workforce entry. Part of Riverside County SELPA.",
+    "district_website": "https://www.valverde.edu",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.valverde.edu/en-US/special-education-40dba92a",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -211,6 +221,25 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.045
+    }
+  },
+  "programs": {
+    "autism_specific_classrooms": [
+      {
+        "grade_range": "TK-12",
+        "name": "Autism Program (ABA-based)"
+      },
+      {
+        "grade_range": "Post-secondary / transition",
+        "name": "Bridges to Adulthood Program"
+      }
+    ],
+    "transition_18_22_program": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T13:47:52Z",
+      "source": "district_web",
+      "url": "https://www.valverde.edu/en-US/special-education-40dba92a",
+      "value": true
     }
   },
   "region": "Unknown",

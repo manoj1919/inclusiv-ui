@@ -85,9 +85,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district. Recognizes the 14 IDEA eligibility categories including autism. Most students with disabilities are served through district-run RSP, SDC, and Specialized Academic Instruction (SAI) programs plus related services. No autism-specific classroom or BCBA staffing detailed publicly. Part of Riverside County SELPA.",
+    "district_website": "https://www.sanjacinto.k12.ca.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.sanjacinto.k12.ca.us/apps/pages/index.jsp?uREC_ID=330824&type=d&pREC_ID=738920",
+      "https://rcselpa.org/about"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
