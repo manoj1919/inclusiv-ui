@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "High School Only",
+  "district_web_research": {
+    "additional_findings": "Large high school district (~24,000 students, 8 comprehensive HS + continuation/online/community-day/adult school) serving Ontario, Montclair, Rancho Cucamonga, and portions of Fontana, Upland, Chino, and Mount Baldy. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published. Part of West End SELPA.",
+    "district_website": "https://cjuhsd.net",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://cjuhsd.net/",
+      "https://www.weselpa.net/"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

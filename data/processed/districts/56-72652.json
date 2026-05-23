@@ -227,14 +227,14 @@
   "programs": {
     "bcba_on_staff": {
       "as_of": "2026-05-23",
-      "fetched_at": "2026-05-23T13:50:47Z",
+      "fetched_at": "2026-05-23T13:52:10Z",
       "source": "district_web",
       "url": "https://www.venturausd.org/services/special-education",
       "value": true
     },
     "transition_18_22_program": {
       "as_of": "2026-05-23",
-      "fetched_at": "2026-05-23T13:50:47Z",
+      "fetched_at": "2026-05-23T13:52:10Z",
       "source": "district_web",
       "url": "https://www.venturausd.org/services/special-education",
       "value": true
@@ -244,14 +244,14 @@
   "related_services": {
     "ot_available": {
       "as_of": "2026-05-23",
-      "fetched_at": "2026-05-23T13:50:47Z",
+      "fetched_at": "2026-05-23T13:52:10Z",
       "source": "district_web",
       "url": "https://www.venturausd.org/services/special-education",
       "value": true
     },
     "pt_available": {
       "as_of": "2026-05-23",
-      "fetched_at": "2026-05-23T13:50:47Z",
+      "fetched_at": "2026-05-23T13:52:10Z",
       "source": "district_web",
       "url": "https://www.venturausd.org/services/special-education",
       "value": true

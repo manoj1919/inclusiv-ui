@@ -1,7 +1,7 @@
 {
   "_comment": "Hand-collected, web-sourced programs / related-services data and other findings for SD County districts. BEST-EFFORT and incomplete by nature: this is NOT government-dataset data. Each district carries source URLs + a research date. Booleans are `true` only when a source explicitly states it; unconfirmed fields are left null (never guessed). `additional_findings` is free-text for anything useful that does not map to the current schema \u2014 display decisions are deferred. A later pipeline step will fold the schema-mapped subset into profiles as a `district_web` source.",
   "_researched_on": "2026-05-17",
-  "_progress": "42 SD + 16 Imperial + 19 Ventura + 23 Riverside + 29 Orange = 129 of 240 districts (Phase 3 SoCal grind in progress)",
+  "_progress": "42 SD + 16 Imperial + 19 Ventura + 23 Riverside + 29 Orange + 32 San Bernardino = 161 of 240 districts",
   "37-67967": {
     "name": "Alpine Union Elementary",
     "district_website": "https://www.alpineschools.net",
@@ -2718,6 +2718,649 @@
     "sources": [
       "https://www.losal.org/departments/special-education/selpa",
       "https://gaselpa.org/"
+    ]
+  },
+  "36-67587": {
+    "name": "Adelanto Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.aesd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67595": {
+    "name": "Alta Loma Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.alsd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of West End SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67611": {
+    "name": "Barstow Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.barstowusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67637": {
+    "name": "Bear Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.bearvalleyusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67645": {
+    "name": "Central Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.cesd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of West End SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67652": {
+    "name": "Chaffey Joint Union High",
+    "researched_on": "2026-05-23",
+    "district_website": "https://cjuhsd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large high school district (~24,000 students, 8 comprehensive HS + continuation/online/community-day/adult school) serving Ontario, Montclair, Rancho Cucamonga, and portions of Fontana, Upland, Chino, and Mount Baldy. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published. Part of West End SELPA.",
+    "sources": [
+      "https://cjuhsd.net/",
+      "https://www.weselpa.net/"
+    ]
+  },
+  "36-67678": {
+    "name": "Chino Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.chino.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district. Special Education Department coordinates designated services, supports, programs, and specialized placements. No autism-specific classroom names, BCBA credentials, or 18-22 transition details published publicly. Part of West End SELPA.",
+    "sources": [
+      "https://www.chino.k12.ca.us/specialeducation",
+      "https://www.weselpa.net/"
+    ]
+  },
+  "36-67686": {
+    "name": "Colton Joint Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.cjusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Member of East Valley SELPA (5 districts), which employs a dedicated autism program specialist supporting member-district staff and families. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of East Valley SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67694": {
+    "name": "Cucamonga Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.cucamongaesd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of West End SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67702": {
+    "name": "Etiwanda Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.etiwanda.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of West End SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67710": {
+    "name": "Fontana Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.fusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district. No autism-specific classroom names, BCBA credentials, or 18-22 transition details published publicly.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67736": {
+    "name": "Helendale Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.helendaleschool.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67777": {
+    "name": "Morongo Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.morongo.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67785": {
+    "name": "Mountain View Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.mtnviewsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of West End SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67801": {
+    "name": "Needles Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.needlesusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67819": {
+    "name": "Ontario-Montclair",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.omsd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of West End SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67827": {
+    "name": "Oro Grande",
+    "researched_on": "2026-05-23",
+    "district_website": null,
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny rural district. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67843": {
+    "name": "Redlands Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.redlandsusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Member of East Valley SELPA (5 districts), which employs a dedicated autism program specialist. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of East Valley SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67850": {
+    "name": "Rialto Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.rialto.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Member of East Valley SELPA (5 districts), which employs a dedicated autism program specialist. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of East Valley SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67868": {
+    "name": "Rim of the World Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://rimsd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Member of East Valley SELPA (5 districts), which employs a dedicated autism program specialist. Mountain-resort district. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of East Valley SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67876": {
+    "name": "San Bernardino City Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.sbcusd.com",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Largest district in San Bernardino County. Has a dedicated Special Education department under Educational Services Division. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details detailed publicly.",
+    "sources": [
+      "https://www.sbcusd.com/departments/educational-services-division/special-education",
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67892": {
+    "name": "Trona Joint Unified",
+    "researched_on": "2026-05-23",
+    "district_website": null,
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny remote-rural mining-town district. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67918": {
+    "name": "Victor Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.vesd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67934": {
+    "name": "Victor Valley Union High",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.vvuhsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-67959": {
+    "name": "Yucaipa-Calimesa Joint Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.ycjusd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Member of East Valley SELPA (5 districts), which employs a dedicated autism program specialist. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of East Valley SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-73858": {
+    "name": "Baker Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": null,
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny remote-desert district. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-73890": {
+    "name": "Silver Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://silvervalley.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-73957": {
+    "name": "Snowline Joint Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.snowlineschools.com",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-75044": {
+    "name": "Hesperia Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.hesperiausd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-75051": {
+    "name": "Lucerne Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.lvusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-75069": {
+    "name": "Upland Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.upland.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of West End SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
+  "36-75077": {
+    "name": "Apple Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.avusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
+    "sources": [
+      "https://www.sbcss.net/selpa"
     ]
   }
 }

@@ -85,9 +85,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Elementary K-6",
+  "district_web_research": {
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of West End SELPA structure.",
+    "district_website": "https://www.alsd.k12.ca.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.sbcss.net/selpa"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
