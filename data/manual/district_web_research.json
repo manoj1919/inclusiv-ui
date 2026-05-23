@@ -1,7 +1,7 @@
 {
   "_comment": "Hand-collected, web-sourced programs / related-services data and other findings for SD County districts. BEST-EFFORT and incomplete by nature: this is NOT government-dataset data. Each district carries source URLs + a research date. Booleans are `true` only when a source explicitly states it; unconfirmed fields are left null (never guessed). `additional_findings` is free-text for anything useful that does not map to the current schema \u2014 display decisions are deferred. A later pipeline step will fold the schema-mapped subset into profiles as a `district_web` source.",
   "_researched_on": "2026-05-17",
-  "_progress": "42 SD + 16 Imperial + 19 Ventura + 23 Riverside + 29 Orange + 32 San Bernardino = 161 of 240 districts",
+  "_progress": "240 of 240 districts (Phase 3 SoCal grind COMPLETE)",
   "37-67967": {
     "name": "Alpine Union Elementary",
     "district_website": "https://www.alpineschools.net",
@@ -3361,6 +3361,1616 @@
     "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Part of Desert/Mountain SELPA structure.",
     "sources": [
       "https://www.sbcss.net/selpa"
+    ]
+  },
+  "19-64212": {
+    "name": "ABC Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.abcusd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district covering Artesia, Cerritos, Hawaiian Gardens, and parts of Lakewood, Long Beach, and Norwalk. SPED page references CAPTAIN (California Autism Professional Training and Information Network) \u2014 partner for evidence-based autism practices. No autism-specific classroom names, BCBA credentials, or 18-22 transition details published publicly.",
+    "sources": [
+      "https://www.abcusd.us/apps/pages/index.jsp?uREC_ID=1179475&type=d&pREC_ID=1413947"
+    ]
+  },
+  "19-64246": {
+    "name": "Antelope Valley Union High",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.avhsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Hosts eight comprehensive HS plus alternative programs in Palmdale/Lancaster area. AV SELPA provides Adapted PE, Speech and Language, Deaf/HOH, OT, PT, and intensive counseling across member districts. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Antelope Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64261": {
+    "name": "Arcadia Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.ausd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64279": {
+    "name": "Azusa Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.azusa.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64287": {
+    "name": "Baldwin Park Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.bpusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64295": {
+    "name": "Bassett Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.bassettusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64303": {
+    "name": "Bellflower Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.busd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of ABC region (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64311": {
+    "name": "Beverly Hills Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.bhusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of LA County single-district SELPA SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64329": {
+    "name": "Bonita Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.bonita.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64337": {
+    "name": "Burbank Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.burbankusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district. Member of Foothill SELPA. Some students with moderate-severe disabilities are served at College View School (a Foothill SELPA campus shared with Glendale and La Ca\u00f1ada) which provides functional academics, life skills, communication, socialization, and motor skills, plus speech, adaptive equipment, swimming therapy, and canine therapy. No district-specific autism classroom names, BCBA credentials, or 18-22 transition details published publicly.",
+    "sources": [
+      "https://www.burbankusd.org/departments/special-education",
+      "https://collegeview.gusd.net/12012_2"
+    ]
+  },
+  "19-64345": {
+    "name": "Castaic Union",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.castaicusd.com",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Santa Clarita Valley (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64352": {
+    "name": "Centinela Valley Union High",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.centinela.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of South Bay (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64378": {
+    "name": "Charter Oak Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.charteroakusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64394": {
+    "name": "Claremont Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.cusd.claremont.edu",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64436": {
+    "name": "Covina-Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.c-vusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Has a published Adult Transition Program (ATP) page. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64444": {
+    "name": "Culver City Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.ccusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "The Help Group operates two LA campuses (Culver City and Sherman Oaks) as the largest non-public autism education provider in CA \u2014 districts often place high-needs students there. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of LA County SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64451": {
+    "name": "Downey Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.dusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Downey/Montebello SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64469": {
+    "name": "Duarte Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.duarteusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64477": {
+    "name": "Eastside Union Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.eastside.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Antelope Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64485": {
+    "name": "East Whittier City Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.ewcsd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Whittier Area SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64501": {
+    "name": "El Monte City",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.emcsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64519": {
+    "name": "El Monte Union High",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.emuhsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64527": {
+    "name": "El Rancho Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.erusd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of LA County SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64535": {
+    "name": "El Segundo Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.esusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of South Bay (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64550": {
+    "name": "Garvey Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.garvey.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64568": {
+    "name": "Glendale Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.gusd.net",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "College View School (Foothill SELPA \u2014 moderate/severe + autism continuum)",
+          "grade_range": "K-12+ (moderate-severe focus)",
+          "site": "Glendale"
+        }
+      ],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Large unified district. Member of Foothill SELPA. Hosts College View School (a Foothill SELPA campus opened 1977) which serves moderate-severe students from Glendale, Burbank, and La Ca\u00f1ada in functional academics, life skills, communication, socialization, and motor skills, with speech therapy, adaptive equipment, swimming therapy, and canine therapy. No autism-specific classroom name within the standard district sites, no BCBA credential, and no 18-22 transition program detailed publicly.",
+    "sources": [
+      "https://www.gusd.net/8323_3",
+      "https://collegeview.gusd.net/12012_2"
+    ]
+  },
+  "19-64576": {
+    "name": "Glendora Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.glendora.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64584": {
+    "name": "Gorman Joint",
+    "researched_on": "2026-05-23",
+    "district_website": null,
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny rural single-school district. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Antelope Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64592": {
+    "name": "Hawthorne",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.hawthorne.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of South Bay (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64600": {
+    "name": "Hermosa Beach City Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.hbcsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of South Bay (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64626": {
+    "name": "Hughes-Elizabeth Lakes Union Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": null,
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Tiny rural district. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Antelope Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64634": {
+    "name": "Inglewood Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.inglewoodusd.com",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of LA County SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64642": {
+    "name": "Keppel Union Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.keppel.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Antelope Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64659": {
+    "name": "La Canada Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.lcusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Member of Foothill SELPA \u2014 shares College View School with Glendale and Burbank for moderate-severe placements. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Foothill SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64667": {
+    "name": "Lancaster Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.lancsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Antelope Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64683": {
+    "name": "Las Virgenes Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.lvusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Unified district in the LA/Ventura County border area (Calabasas, Agoura Hills, Hidden Hills). Despite being in LA County, Las Virgenes is a member of the Ventura County SELPA. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly.",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
+  "19-64691": {
+    "name": "Lawndale Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.lawndalesd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of South Bay (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64709": {
+    "name": "Lennox",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.lennox.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of LA County SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64717": {
+    "name": "Little Lake City Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.littlelake.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Whittier Area SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64725": {
+    "name": "Long Beach Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.lbschools.net",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "S.U.C.S.E.S.S. Program (Systematic Utilization of Comprehensive Strategies for Ensuring Student Success)",
+          "grade_range": "K-12 (autism/behavior/communication needs)"
+        }
+      ],
+      "bcba_on_staff": true,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Second-largest district in LA County. Runs the S.U.C.S.E.S.S. program for students with significant behavioral, socialization, and communication needs in a 2:1 student-to-adult specialized separate setting, with staff trained in Applied Behavior Analysis (ABA) for autism, communication, and behavior. Partners with ChanceLight Education for an autism-spectrum program emphasizing functional/applied skills via hands-on classroom activities. Behavior Intervention Supervisor job descriptions explicitly require BCBA certification (or a master's + 2 yrs experience), confirming BCBAs on staff. CIP Long Beach (Community Independence Program) is a separate adjacent transition program for young adults with learning differences (college/employment/independent living).",
+    "sources": [
+      "https://www.lbschools.net/departments/special-education/services/special-education-programs",
+      "https://www.lbschools.net/departments/special-education/services/related-services",
+      "https://www.governmentjobs.com/careers/longbeachusd/jobs/newprint/1646792",
+      "https://cipworldwide.org/cip-long-beach/"
+    ]
+  },
+  "19-64733": {
+    "name": "Los Angeles Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.lausd.org",
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "Autism Core Program (Special Day Program with peer pairing for communication skills)"
+        },
+        {
+          "name": "High Functioning Autism Core Program (general-ed with communication-skills support)"
+        },
+        {
+          "name": "Adult Transition Programs (Alternate Curriculum)",
+          "grade_range": "Ages 18-22"
+        }
+      ],
+      "bcba_on_staff": null,
+      "transition_18_22_program": true
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Largest school district in California and second-largest in the United States. Division of Special Education publishes a multi-tier autism program structure: an Autism Core Program (Special Day Program model that pairs students with autism with peers for communication-skills development) and a High Functioning Autism Core Program (supports students with HFA in general-ed classes while building communication skills). District-wide Career and Transition Centers provide Adult Transition Programs (employment preparation, independent living skills, social skills) to students ages 18-22 on the alternate curriculum. District also has a Positive Behavior Training arm. BCBA credentials are not explicitly named on the public Division of Special Education pages.",
+    "sources": [
+      "https://www.lausd.org/Page/17143",
+      "https://www.lausd.org/Page/17048",
+      "https://www.lausd.org/Page/9599",
+      "https://sped.lausd.org/"
+    ]
+  },
+  "19-64758": {
+    "name": "Los Nietos",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.losnietos.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Whittier Area SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64774": {
+    "name": "Lynwood Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.mylusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of LA County SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64790": {
+    "name": "Monrovia Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.monroviaschools.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64808": {
+    "name": "Montebello Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.montebello.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Downey/Montebello SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64816": {
+    "name": "Mountain View Elementary (El Monte)",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.mtnviewschools.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64832": {
+    "name": "Newhall",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.newhallschooldistrict.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Santa Clarita Valley (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64840": {
+    "name": "Norwalk-La Mirada Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.nlmusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Downey/Montebello SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64857": {
+    "name": "Palmdale Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.palmdalesd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "AV SELPA provides Adapted PE, SLP, Deaf/HOH, OT, PT, and intensive counseling across member districts. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Antelope Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64865": {
+    "name": "Palos Verdes Peninsula Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.pvpusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of South Bay (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64873": {
+    "name": "Paramount Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.paramount.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of ABC region (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64881": {
+    "name": "Pasadena Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.pusd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "Member of Foothill SELPA. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Foothill SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64907": {
+    "name": "Pomona Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.pusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64931": {
+    "name": "Rosemead Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.rosemead.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of West San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64964": {
+    "name": "San Marino Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.smusd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of West San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64980": {
+    "name": "Santa Monica-Malibu Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.smmusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Tri-City SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-64998": {
+    "name": "Saugus Union",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.saugususd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Santa Clarita Valley (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-65029": {
+    "name": "South Pasadena Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.spusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of West San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-65037": {
+    "name": "South Whittier Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.swhittier.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Whittier Area SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-65045": {
+    "name": "Sulphur Springs Union",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.sssd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Santa Clarita Valley (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-65052": {
+    "name": "Temple City Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.tcusd.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of West San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-65060": {
+    "name": "Torrance Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.tusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of South Bay (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-65078": {
+    "name": "Valle Lindo Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.vallelindo.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-65094": {
+    "name": "West Covina Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.wcusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-65102": {
+    "name": "Westside Union Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.westside.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Antelope Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-65110": {
+    "name": "Whittier City",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.whittiercity.net",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Whittier Area SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-65128": {
+    "name": "Whittier Union High",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.wuhsd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Whittier Area SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-65136": {
+    "name": "William S. Hart Union High",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.hartdistrict.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Santa Clarita Valley (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-65151": {
+    "name": "Wilsona Elementary",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.wilsona.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Antelope Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-73437": {
+    "name": "Compton Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.compton.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Compton single-district SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-73445": {
+    "name": "Hacienda la Puente Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.hlpusd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-73452": {
+    "name": "Rowland Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.rowlandschools.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-73460": {
+    "name": "Walnut Valley Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.wvusd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of East San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-75291": {
+    "name": "San Gabriel Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.sgusd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of West San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-75309": {
+    "name": "Acton-Agua Dulce Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.aadusd.k12.ca.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Antelope Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-75333": {
+    "name": "Manhattan Beach Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.mbusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of South Bay (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-75341": {
+    "name": "Redondo Beach Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.rbusd.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of South Bay (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-75713": {
+    "name": "Alhambra Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.ausd.us",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of West San Gabriel Valley SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
+  "19-76869": {
+    "name": "Wiseburn Unified",
+    "researched_on": "2026-05-23",
+    "district_website": "https://www.wiseburn.org",
+    "programs": {
+      "autism_specific_classrooms": [],
+      "bcba_on_staff": null,
+      "transition_18_22_program": null
+    },
+    "related_services": {
+      "ot_available": null,
+      "pt_available": null,
+      "social_skills_groups": null,
+      "slp_caseload_ratio": null
+    },
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of South Bay (LA County) SELPA.",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
     ]
   }
 }

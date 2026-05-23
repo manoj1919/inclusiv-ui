@@ -86,9 +86,21 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Second-largest district in LA County. Runs the S.U.C.S.E.S.S. program for students with significant behavioral, socialization, and communication needs in a 2:1 student-to-adult specialized separate setting, with staff trained in Applied Behavior Analysis (ABA) for autism, communication, and behavior. Partners with ChanceLight Education for an autism-spectrum program emphasizing functional/applied skills via hands-on classroom activities. Behavior Intervention Supervisor job descriptions explicitly require BCBA certification (or a master's + 2 yrs experience), confirming BCBAs on staff. CIP Long Beach (Community Independence Program) is a separate adjacent transition program for young adults with learning differences (college/employment/independent living).",
+    "district_website": "https://www.lbschools.net",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.lbschools.net/departments/special-education/services/special-education-programs",
+      "https://www.lbschools.net/departments/special-education/services/related-services",
+      "https://www.governmentjobs.com/careers/longbeachusd/jobs/newprint/1646792",
+      "https://cipworldwide.org/cip-long-beach/"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -212,6 +224,21 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.063
+    }
+  },
+  "programs": {
+    "autism_specific_classrooms": [
+      {
+        "grade_range": "K-12 (autism/behavior/communication needs)",
+        "name": "S.U.C.S.E.S.S. Program (Systematic Utilization of Comprehensive Strategies for Ensuring Student Success)"
+      }
+    ],
+    "bcba_on_staff": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T13:54:51Z",
+      "source": "district_web",
+      "url": "https://www.lbschools.net/departments/special-education/services/special-education-programs",
+      "value": true
     }
   },
   "region": "Unknown",

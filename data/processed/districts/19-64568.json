@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Large unified district. Member of Foothill SELPA. Hosts College View School (a Foothill SELPA campus opened 1977) which serves moderate-severe students from Glendale, Burbank, and La Ca\u00f1ada in functional academics, life skills, communication, socialization, and motor skills, with speech therapy, adaptive equipment, swimming therapy, and canine therapy. No autism-specific classroom name within the standard district sites, no BCBA credential, and no 18-22 transition program detailed publicly.",
+    "district_website": "https://www.gusd.net",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.gusd.net/8323_3",
+      "https://collegeview.gusd.net/12012_2"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -213,6 +223,15 @@
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.051
     }
+  },
+  "programs": {
+    "autism_specific_classrooms": [
+      {
+        "grade_range": "K-12+ (moderate-severe focus)",
+        "name": "College View School (Foothill SELPA \u2014 moderate/severe + autism continuum)",
+        "site": "Glendale"
+      }
+    ]
   },
   "region": "Unknown",
   "schema_version": "0.1.0"

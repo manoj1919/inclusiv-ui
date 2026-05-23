@@ -86,9 +86,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Downey/Montebello SELPA.",
+    "district_website": "https://www.dusd.net",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

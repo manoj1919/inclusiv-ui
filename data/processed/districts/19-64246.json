@@ -85,9 +85,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "High School Only",
+  "district_web_research": {
+    "additional_findings": "Hosts eight comprehensive HS plus alternative programs in Palmdale/Lancaster area. AV SELPA provides Adapted PE, Speech and Language, Deaf/HOH, OT, PT, and intensive counseling across member districts. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Antelope Valley SELPA.",
+    "district_website": "https://www.avhsd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

@@ -86,9 +86,21 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Largest school district in California and second-largest in the United States. Division of Special Education publishes a multi-tier autism program structure: an Autism Core Program (Special Day Program model that pairs students with autism with peers for communication-skills development) and a High Functioning Autism Core Program (supports students with HFA in general-ed classes while building communication skills). District-wide Career and Transition Centers provide Adult Transition Programs (employment preparation, independent living skills, social skills) to students ages 18-22 on the alternate curriculum. District also has a Positive Behavior Training arm. BCBA credentials are not explicitly named on the public Division of Special Education pages.",
+    "district_website": "https://www.lausd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.lausd.org/Page/17143",
+      "https://www.lausd.org/Page/17048",
+      "https://www.lausd.org/Page/9599",
+      "https://sped.lausd.org/"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -212,6 +224,27 @@
       "source": "ca_dashboard",
       "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
       "value": 0.006
+    }
+  },
+  "programs": {
+    "autism_specific_classrooms": [
+      {
+        "name": "Autism Core Program (Special Day Program with peer pairing for communication skills)"
+      },
+      {
+        "name": "High Functioning Autism Core Program (general-ed with communication-skills support)"
+      },
+      {
+        "grade_range": "Ages 18-22",
+        "name": "Adult Transition Programs (Alternate Curriculum)"
+      }
+    ],
+    "transition_18_22_program": {
+      "as_of": "2026-05-23",
+      "fetched_at": "2026-05-23T13:54:51Z",
+      "source": "district_web",
+      "url": "https://www.lausd.org/Page/17143",
+      "value": true
     }
   },
   "region": "Unknown",

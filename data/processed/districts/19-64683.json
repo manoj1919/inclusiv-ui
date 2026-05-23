@@ -86,9 +86,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district in the LA/Ventura County border area (Calabasas, Agoura Hills, Hidden Hills). Despite being in LA County, Las Virgenes is a member of the Ventura County SELPA. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly.",
+    "district_website": "https://www.lvusd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.vcselpa.org/Our-SELPA/Member-Districts"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

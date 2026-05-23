@@ -85,9 +85,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district covering Artesia, Cerritos, Hawaiian Gardens, and parts of Lakewood, Long Beach, and Norwalk. SPED page references CAPTAIN (California Autism Professional Training and Information Network) \u2014 partner for evidence-based autism practices. No autism-specific classroom names, BCBA credentials, or 18-22 transition details published publicly.",
+    "district_website": "https://www.abcusd.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.abcusd.us/apps/pages/index.jsp?uREC_ID=1179475&type=d&pREC_ID=1413947"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

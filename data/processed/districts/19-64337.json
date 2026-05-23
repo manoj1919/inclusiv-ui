@@ -86,9 +86,19 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Unified district. Member of Foothill SELPA. Some students with moderate-severe disabilities are served at College View School (a Foothill SELPA campus shared with Glendale and La Ca\u00f1ada) which provides functional academics, life skills, communication, socialization, and motor skills, plus speech, adaptive equipment, swimming therapy, and canine therapy. No district-specific autism classroom names, BCBA credentials, or 18-22 transition details published publicly.",
+    "district_website": "https://www.burbankusd.org",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.burbankusd.org/departments/special-education",
+      "https://collegeview.gusd.net/12012_2"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",

@@ -85,9 +85,18 @@
     "cde_enrollment",
     "ca_dashboard",
     "ocr",
-    "oah"
+    "oah",
+    "district_web"
   ],
   "district_type": "Unified K-12",
+  "district_web_research": {
+    "additional_findings": "Member of Foothill SELPA. No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Foothill SELPA.",
+    "district_website": "https://www.pusd.us",
+    "researched_at": "2026-05-23",
+    "sources": [
+      "https://www.lacoe.edu/SpecialEd"
+    ]
+  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
