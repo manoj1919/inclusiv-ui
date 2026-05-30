@@ -50,3 +50,4 @@ data/raw/*/
 *.log
 logs/
 .vercel
+data/raw/cde_staff/
