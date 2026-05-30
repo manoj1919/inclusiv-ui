@@ -1,0 +1,47 @@
+{
+  "_academic_year": "2024-25",
+  "_partial": true,
+  "_source": "cde_staff",
+  "cds_code": "19-64725",
+  "county": "Los Angeles",
+  "name": "Long Beach Unified",
+  "structure": {
+    "staffing": {
+      "administrators": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 313
+      },
+      "all_certificated": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 3801
+      },
+      "other_certificated": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 533
+      },
+      "pupil_services": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 379
+      },
+      "teachers": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 2740
+      }
+    }
+  }
+}

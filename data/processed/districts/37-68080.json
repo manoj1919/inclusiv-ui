@@ -1,38 +1,6 @@
 {
-  "ai_summaries": {
-    "overview": {
-      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
-      "ai_generated": true,
-      "ai_generated_at": "2026-05-23T13:56:08Z",
-      "ai_model": "claude-opus (via Claude Code session)",
-      "based_on_sources": [
-        "cde_spedps",
-        "cde_enrollment",
-        "ca_dashboard",
-        "ocr",
-        "oah",
-        "district_web"
-      ],
-      "value": "Encinitas Union Elementary is a mid-sized elementary (K-6) district on the North Coast of San Diego County. About 669 of its students have an IEP, and 102 of them \u2014 roughly 15% \u2014 have an autism (ASD) eligibility. Around 54% of those autistic students spend most of the school day in a general-education classroom."
-    },
-    "what_this_means_for_parents": {
-      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
-      "ai_generated": true,
-      "ai_generated_at": "2026-05-23T13:56:08Z",
-      "ai_model": "claude-opus (via Claude Code session)",
-      "based_on_sources": [
-        "cde_spedps",
-        "cde_enrollment",
-        "ca_dashboard",
-        "ocr",
-        "oah",
-        "district_web"
-      ],
-      "value": "About 54% of autistic students here are in a general-education classroom for most of the day, and none are reported in a fully separate setting. Among all students with disabilities, a broader group than autism alone, 73% are in general-education classrooms most of the day. On 2024-25 state tests, students overall scored above standard \u2014 47 points above in English and 32 above in math \u2014 while students with disabilities scored 25 points below in English and 39 below in math. Students with disabilities were chronically absent at about 11% (compared with 8% for all students) and suspended at about 1%."
-    }
-  },
   "build_provenance": {
-    "built_at": "2026-05-23T03:10:48Z",
+    "built_at": "2026-05-30T08:21:13Z",
     "pipeline_version": "0.1.0",
     "raw_snapshots": [
       {
@@ -66,6 +34,11 @@
         "source": "cde_spedps"
       },
       {
+        "path": "data/raw/cde_staff/2026-05-30/stre2425.txt",
+        "sha256": "f1e95ef32cd86a40ec10f6a382f4f489ab1c285ba4053a7d621316e3549f3793",
+        "source": "cde_staff"
+      },
+      {
         "path": "data/raw/oah/2026-05-23/manifest.json",
         "sha256": "6582b633f46aecd61fb3d2412ec6b519ec8b666b0d4d7b647e00ead4572d7716",
         "source": "oah"
@@ -78,58 +51,18 @@
     ]
   },
   "cds_code": "37-68080",
-  "compliance": {
-    "oah_cases_5yr_autism": {
-      "as_of": "2026-05-23",
-      "fetched_at": "2026-05-23T03:09:08Z",
-      "note": "Keyword heuristic \u2014 see oah_cases_5yr_total note.",
-      "source": "oah",
-      "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
-      "value": 1
-    },
-    "oah_cases_5yr_total": {
-      "as_of": "2026-05-23",
-      "fetched_at": "2026-05-23T03:09:08Z",
-      "note": "OAH special-education decisions naming this district, 2022-2026. All-time published total: 3. Autism count is a keyword heuristic (decision text mentions autism/ASD).",
-      "source": "oah",
-      "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
-      "value": 1
-    },
-    "ocr_open_investigations": {
-      "as_of": "2025-01-14",
-      "fetched_at": "2026-05-23T03:10:47Z",
-      "note": "Disability - Disability Harassment (opened 03/18/2024); Disability - Discipline (opened 03/18/2024); Disability - FAPE (opened 03/18/2024); Disability - Restraint and Seclusion (opened 03/18/2024)",
-      "source": "ocr",
-      "url": "https://ocrcas.ed.gov/open-investigations",
-      "value": 4
-    },
-    "ocr_open_investigations_disability": {
-      "as_of": "2025-01-14",
-      "fetched_at": "2026-05-23T03:10:47Z",
-      "source": "ocr",
-      "url": "https://ocrcas.ed.gov/open-investigations",
-      "value": 4
-    }
-  },
   "county": "San Diego",
   "county_code": "37",
   "data_sources_used": [
     "cde_spedps",
     "cde_enrollment",
+    "cde_staff",
     "ca_dashboard",
     "ocr",
     "oah",
     "district_web"
   ],
   "district_type": "Elementary K-6",
-  "district_web_research": {
-    "additional_findings": "Full continuum: Learning Resource Centers at every school plus a variety of Special Day Classes. Autism Behavior Specialists on staff (Master's-degree holders get a 10% stipend). Runs an 'Inclusion in Action' initiative. SDCs are need-based, not autism-named. K-6 district.",
-    "district_website": "https://www.eusd.net",
-    "researched_at": "2026-05-17",
-    "sources": [
-      "https://www.eusd.net/departments/student-services-special-education"
-    ]
-  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -165,96 +98,200 @@
       "value": 4298
     }
   },
-  "inclusion_metrics": {
-    "lre_80pct_plus_gen_ed_all_disabilities": {
-      "as_of": "2024-10-02",
-      "fetched_at": "2026-05-23T03:10:41Z",
-      "source": "cde_spedps",
-      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.734
+  "last_updated": "2026-05-30",
+  "name": "Encinitas Union Elementary",
+  "outcome": {
+    "academics": {
+      "ela_distance_from_standard_all": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 46.9
+      },
+      "ela_distance_from_standard_swd": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": -25.1
+      },
+      "math_distance_from_standard_all": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 31.9
+      },
+      "math_distance_from_standard_swd": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": -39.4
+      }
     },
-    "lre_80pct_plus_gen_ed_autism": {
-      "as_of": "2024-10-02",
-      "fetched_at": "2026-05-23T03:10:41Z",
-      "source": "cde_spedps",
-      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.539
-    },
-    "lre_separate_setting_all_disabilities": {
-      "as_of": "2024-10-02",
-      "fetched_at": "2026-05-23T03:10:41Z",
-      "source": "cde_spedps",
-      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.0
-    },
-    "lre_separate_setting_autism": {
-      "as_of": "2024-10-02",
-      "fetched_at": "2026-05-23T03:10:41Z",
-      "source": "cde_spedps",
-      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.0
+    "behavior": {
+      "chronic_absenteeism_rate_all": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 0.085
+      },
+      "chronic_absenteeism_rate_swd": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 0.11
+      },
+      "suspension_rate_all": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 0.003
+      },
+      "suspension_rate_swd": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 0.011
+      }
     }
   },
-  "last_updated": "2026-05-23",
-  "name": "Encinitas Union Elementary",
-  "outcome_metrics": {
-    "chronic_absenteeism_rate_all": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 0.085
+  "process": {
+    "disputes": {
+      "oah_cases_5yr_autism": {
+        "as_of": "2026-05-23",
+        "fetched_at": "2026-05-23T03:09:08Z",
+        "note": "Keyword heuristic \u2014 see oah_cases_5yr_total note.",
+        "source": "oah",
+        "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
+        "value": 1
+      },
+      "oah_cases_5yr_total": {
+        "as_of": "2026-05-23",
+        "fetched_at": "2026-05-23T03:09:08Z",
+        "note": "OAH special-education decisions naming this district, 2022-2026. All-time published total: 3. Autism count is a keyword heuristic (decision text mentions autism/ASD).",
+        "source": "oah",
+        "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
+        "value": 1
+      },
+      "ocr_open_investigations": {
+        "as_of": "2025-01-14",
+        "fetched_at": "2026-05-23T03:10:47Z",
+        "note": "Disability - Disability Harassment (opened 03/18/2024); Disability - Discipline (opened 03/18/2024); Disability - FAPE (opened 03/18/2024); Disability - Restraint and Seclusion (opened 03/18/2024)",
+        "source": "ocr",
+        "url": "https://ocrcas.ed.gov/open-investigations",
+        "value": 4
+      },
+      "ocr_open_investigations_disability": {
+        "as_of": "2025-01-14",
+        "fetched_at": "2026-05-23T03:10:47Z",
+        "source": "ocr",
+        "url": "https://ocrcas.ed.gov/open-investigations",
+        "value": 4
+      }
     },
-    "chronic_absenteeism_rate_swd": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 0.11
-    },
-    "ela_distance_from_standard_all": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 46.9
-    },
-    "ela_distance_from_standard_swd": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": -25.1
-    },
-    "math_distance_from_standard_all": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 31.9
-    },
-    "math_distance_from_standard_swd": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": -39.4
-    },
-    "suspension_rate_all": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 0.003
-    },
-    "suspension_rate_swd": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 0.011
+    "lre": {
+      "lre_80pct_plus_gen_ed_all_disabilities": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-23T03:10:41Z",
+        "source": "cde_spedps",
+        "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+        "value": 0.734
+      },
+      "lre_80pct_plus_gen_ed_autism": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-23T03:10:41Z",
+        "source": "cde_spedps",
+        "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+        "value": 0.539
+      },
+      "lre_separate_setting_all_disabilities": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-23T03:10:41Z",
+        "source": "cde_spedps",
+        "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+        "value": 0.0
+      },
+      "lre_separate_setting_autism": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-23T03:10:41Z",
+        "source": "cde_spedps",
+        "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+        "value": 0.0
+      }
     }
   },
   "region": "North Coast",
-  "schema_version": "0.1.0"
+  "schema_version": "0.2.0",
+  "structure": {
+    "district_web_research": {
+      "additional_findings": "Full continuum: Learning Resource Centers at every school plus a variety of Special Day Classes. Autism Behavior Specialists on staff (Master's-degree holders get a 10% stipend). Runs an 'Inclusion in Action' initiative. SDCs are need-based, not autism-named. K-6 district.",
+      "district_website": "https://www.eusd.net",
+      "researched_at": "2026-05-17",
+      "sources": [
+        "https://www.eusd.net/departments/student-services-special-education"
+      ]
+    },
+    "staffing": {
+      "administrators": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 20
+      },
+      "all_certificated": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 324
+      },
+      "other_certificated": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 21
+      },
+      "pupil_services": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 27
+      },
+      "pupil_services_per_100_iep": {
+        "as_of": "2024-10-02",
+        "note": "Derived: certificated staff count (CDE Staff Race/Ethnicity, Census Day) normalized to enrollment (Census Day) or IEP count (SPED-PS, ages 3-22). PSV (pupil services) bundles counselors, psychologists, SLPs, social workers, and nurses \u2014 CDE no longer publishes role-granular district-level staff counts.",
+        "source": "derived",
+        "value": 4.04
+      },
+      "pupil_services_per_1k_students": {
+        "as_of": "2024-10-02",
+        "note": "Derived: certificated staff count (CDE Staff Race/Ethnicity, Census Day) normalized to enrollment (Census Day) or IEP count (SPED-PS, ages 3-22). PSV (pupil services) bundles counselors, psychologists, SLPs, social workers, and nurses \u2014 CDE no longer publishes role-granular district-level staff counts.",
+        "source": "derived",
+        "value": 6.28
+      },
+      "teachers": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 257
+      },
+      "teachers_per_100_iep": {
+        "as_of": "2024-10-02",
+        "note": "Derived: certificated staff count (CDE Staff Race/Ethnicity, Census Day) normalized to enrollment (Census Day) or IEP count (SPED-PS, ages 3-22). PSV (pupil services) bundles counselors, psychologists, SLPs, social workers, and nurses \u2014 CDE no longer publishes role-granular district-level staff counts.",
+        "source": "derived",
+        "value": 38.42
+      }
+    }
+  }
 }

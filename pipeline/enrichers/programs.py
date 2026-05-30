@@ -71,8 +71,13 @@ def main() -> int:
         as_of = entry.get("researched_on") or default_as_of
         first_url = (entry.get("sources") or [None])[0]
 
+        # All these fields live under structure.* in schema 0.2.0 — see
+        # docs/framework.md (programs and related services are Structure
+        # measures: what the district has in place).
+        structure = profile.get("structure") or {}
+
         # ---- programs ---------------------------------------------------
-        programs = dict(profile.get("programs") or {})
+        programs = dict(structure.get("programs") or {})
         prog_in = entry.get("programs") or {}
         classrooms = prog_in.get("autism_specific_classrooms") or []
         if classrooms:
@@ -82,10 +87,10 @@ def main() -> int:
         if prog_in.get("transition_18_22_program") is True:
             programs["transition_18_22_program"] = _sourced(True, as_of=as_of, url=first_url, fetched_at=fetched_at)
         if programs:
-            profile["programs"] = programs
+            structure["programs"] = programs
 
         # ---- related services -------------------------------------------
-        rs = dict(profile.get("related_services") or {})
+        rs = dict(structure.get("related_services") or {})
         rs_in = entry.get("related_services") or {}
         for k in ("ot_available", "pt_available", "social_skills_groups"):
             if rs_in.get(k) is True:
@@ -94,7 +99,7 @@ def main() -> int:
         if slp is not None:
             rs["slp_caseload_ratio"] = _sourced(slp, as_of=as_of, url=first_url, fetched_at=fetched_at)
         if rs:
-            profile["related_services"] = rs
+            structure["related_services"] = rs
 
         # ---- research block ---------------------------------------------
         block: dict = {
@@ -104,7 +109,8 @@ def main() -> int:
         }
         if entry.get("district_website"):
             block["district_website"] = entry["district_website"]
-        profile["district_web_research"] = block
+        structure["district_web_research"] = block
+        profile["structure"] = structure
 
         # ---- record the source ------------------------------------------
         srcs = list(profile.get("data_sources_used") or [])

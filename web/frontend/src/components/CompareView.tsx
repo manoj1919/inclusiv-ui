@@ -94,7 +94,7 @@ export function CompareView({
       unit: "%",
       scale: 100,
       dist: peers.autism_inclusion,
-      get: (p) => p.inclusion_metrics?.lre_80pct_plus_gen_ed_autism?.value ?? null,
+      get: (p) => p.process?.lre?.lre_80pct_plus_gen_ed_autism?.value ?? null,
       footnote: (
         <>Higher share = more time alongside non-disabled peers. Source: <Term>CDE</Term>{" "}
         Special Education enrollment by program setting · 2024–25.</>
@@ -108,7 +108,7 @@ export function CompareView({
       dfsLike: true,
       scale: 1,
       dist: peers.ela_dfs_swd,
-      get: (p) => p.outcome_metrics?.ela_distance_from_standard_swd?.value ?? null,
+      get: (p) => p.outcome?.academics?.ela_distance_from_standard_swd?.value ?? null,
       footnote: <>Zero is grade level; negative is below. Source: California School Dashboard · 2024–25.</>,
     },
     {
@@ -119,7 +119,7 @@ export function CompareView({
       dfsLike: true,
       scale: 1,
       dist: peers.math_dfs_swd,
-      get: (p) => p.outcome_metrics?.math_distance_from_standard_swd?.value ?? null,
+      get: (p) => p.outcome?.academics?.math_distance_from_standard_swd?.value ?? null,
       footnote: <>Zero is grade level; negative is below. Source: California School Dashboard · 2024–25.</>,
     },
     {
@@ -129,7 +129,7 @@ export function CompareView({
       unit: "%",
       scale: 100,
       dist: peers.chronic_absent_swd,
-      get: (p) => p.outcome_metrics?.chronic_absenteeism_rate_swd?.value ?? null,
+      get: (p) => p.outcome?.behavior?.chronic_absenteeism_rate_swd?.value ?? null,
       footnote: <>Descriptive, not evaluated as better or worse. Source: <Term>CDE</Term> · 2024–25.</>,
     },
     {
@@ -139,7 +139,7 @@ export function CompareView({
       unit: "%",
       scale: 100,
       dist: peers.suspension_swd,
-      get: (p) => p.outcome_metrics?.suspension_rate_swd?.value ?? null,
+      get: (p) => p.outcome?.behavior?.suspension_rate_swd?.value ?? null,
       footnote: <>Descriptive, not evaluated as better or worse. Source: <Term>CDE</Term> · 2024–25.</>,
     },
   ];
@@ -331,17 +331,17 @@ function NumbersGrid({ picked }: { picked: Picked[] }) {
     { label: <>With disabilities (<Term>IEP</Term>)</>, cell: (p) => num(p.enrollment?.students_with_iep?.value) },
     { label: <>Autism (<Term>ASD</Term>)</>, cell: (p) => num(p.enrollment?.students_with_autism?.value) },
     { label: <>Autism · share of <Term>IEP</Term>s</>, cell: (p) => pct(autismShare(p), 0) },
-    { label: <>Autism · 80%+ gen-ed (<Term>LRE</Term>)</>, cell: (p) => pct(p.inclusion_metrics?.lre_80pct_plus_gen_ed_autism?.value, 0) },
-    { label: <>All <Term>SWD</Term> · 80%+ gen-ed</>, cell: (p) => pct(p.inclusion_metrics?.lre_80pct_plus_gen_ed_all_disabilities?.value, 0) },
-    { label: "Autism · separate setting", cell: (p) => pct(p.inclusion_metrics?.lre_separate_setting_autism?.value, 1) },
-    { label: <><Term>ELA</Term> · <Term>DFS</Term> · all students</>, cell: (p) => dfs(p.outcome_metrics?.ela_distance_from_standard_all?.value) },
-    { label: <><Term>ELA</Term> · <Term>DFS</Term> · <Term>SWD</Term></>, cell: (p) => dfs(p.outcome_metrics?.ela_distance_from_standard_swd?.value) },
-    { label: <>Math · <Term>DFS</Term> · all students</>, cell: (p) => dfs(p.outcome_metrics?.math_distance_from_standard_all?.value) },
-    { label: <>Math · <Term>DFS</Term> · <Term>SWD</Term></>, cell: (p) => dfs(p.outcome_metrics?.math_distance_from_standard_swd?.value) },
-    { label: "Chronic absenteeism · all", cell: (p) => pct(p.outcome_metrics?.chronic_absenteeism_rate_all?.value, 1) },
-    { label: <>Chronic absenteeism · <Term>SWD</Term></>, cell: (p) => pct(p.outcome_metrics?.chronic_absenteeism_rate_swd?.value, 1) },
-    { label: "Suspension rate · all", cell: (p) => pct(p.outcome_metrics?.suspension_rate_all?.value, 1) },
-    { label: <>Suspension rate · <Term>SWD</Term></>, cell: (p) => pct(p.outcome_metrics?.suspension_rate_swd?.value, 1) },
+    { label: <>Autism · 80%+ gen-ed (<Term>LRE</Term>)</>, cell: (p) => pct(p.process?.lre?.lre_80pct_plus_gen_ed_autism?.value, 0) },
+    { label: <>All <Term>SWD</Term> · 80%+ gen-ed</>, cell: (p) => pct(p.process?.lre?.lre_80pct_plus_gen_ed_all_disabilities?.value, 0) },
+    { label: "Autism · separate setting", cell: (p) => pct(p.process?.lre?.lre_separate_setting_autism?.value, 1) },
+    { label: <><Term>ELA</Term> · <Term>DFS</Term> · all students</>, cell: (p) => dfs(p.outcome?.academics?.ela_distance_from_standard_all?.value) },
+    { label: <><Term>ELA</Term> · <Term>DFS</Term> · <Term>SWD</Term></>, cell: (p) => dfs(p.outcome?.academics?.ela_distance_from_standard_swd?.value) },
+    { label: <>Math · <Term>DFS</Term> · all students</>, cell: (p) => dfs(p.outcome?.academics?.math_distance_from_standard_all?.value) },
+    { label: <>Math · <Term>DFS</Term> · <Term>SWD</Term></>, cell: (p) => dfs(p.outcome?.academics?.math_distance_from_standard_swd?.value) },
+    { label: "Chronic absenteeism · all", cell: (p) => pct(p.outcome?.behavior?.chronic_absenteeism_rate_all?.value, 1) },
+    { label: <>Chronic absenteeism · <Term>SWD</Term></>, cell: (p) => pct(p.outcome?.behavior?.chronic_absenteeism_rate_swd?.value, 1) },
+    { label: "Suspension rate · all", cell: (p) => pct(p.outcome?.behavior?.suspension_rate_all?.value, 1) },
+    { label: <>Suspension rate · <Term>SWD</Term></>, cell: (p) => pct(p.outcome?.behavior?.suspension_rate_swd?.value, 1) },
   ];
 
   const cols = `minmax(170px, 1.5fr) repeat(${picked.length}, minmax(0, 1fr))`;

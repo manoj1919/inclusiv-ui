@@ -2,10 +2,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AISummary } from "@/components/AISummary";
 import { CompliancePanel } from "@/components/CompliancePanel";
+import { NotMeasured } from "@/components/NotMeasured";
 import { ProgramsPanel } from "@/components/ProgramsPanel";
 import { SectionHead } from "@/components/SectionHead";
 import { SectionNav, type Chapter } from "@/components/SectionNav";
 import { SourcesPanel } from "@/components/SourcesPanel";
+import { StaffingPanel } from "@/components/StaffingPanel";
 import { StatTile } from "@/components/StatTile";
 import { Term } from "@/components/Term";
 import { DFSDivergence } from "@/components/charts/DFSDivergence";
@@ -36,35 +38,36 @@ export default async function DistrictPage({
   const schools = await loadSchoolsForDistrict(cds);
   const peers = buildPeerSummary(all);
 
+  // Population context.
   const enroll = profile.enrollment ?? {};
-  const incl = profile.inclusion_metrics ?? {};
-  const outc = profile.outcome_metrics ?? {};
   const ai = profile.ai_summaries ?? {};
   const totalEnroll = enroll.total?.value ?? null;
   const iepValue = enroll.students_with_iep?.value ?? null;
   const autismValue = enroll.students_with_autism?.value ?? null;
-  // Percentages come from the pipeline's derived enrollment.pct_* fields
-  // (sourced + documented) — stored as 0-1 fractions, shown as percentages.
-  const iepPct =
-    enroll.pct_iep?.value != null ? enroll.pct_iep.value * 100 : null;
-  const autismPct =
-    enroll.pct_autism?.value != null ? enroll.pct_autism.value * 100 : null;
+  const iepPct = enroll.pct_iep?.value != null ? enroll.pct_iep.value * 100 : null;
+  const autismPct = enroll.pct_autism?.value != null ? enroll.pct_autism.value * 100 : null;
   const autismShareOfIep =
     autismValue !== null && iepValue ? (autismValue / iepValue) * 100 : null;
 
-  const autismIncl = incl.lre_80pct_plus_gen_ed_autism?.value ?? null;
-  const swdIncl = incl.lre_80pct_plus_gen_ed_all_disabilities?.value ?? null;
-  const autismSep = incl.lre_separate_setting_autism?.value ?? null;
+  // PROCESS — Least Restrictive Environment (SPP Indicator 5).
+  const lre = profile.process?.lre ?? {};
+  const autismIncl = lre.lre_80pct_plus_gen_ed_autism?.value ?? null;
+  const swdIncl = lre.lre_80pct_plus_gen_ed_all_disabilities?.value ?? null;
+  const autismSep = lre.lre_separate_setting_autism?.value ?? null;
 
-  const elaAll = outc.ela_distance_from_standard_all?.value ?? null;
-  const elaSwd = outc.ela_distance_from_standard_swd?.value ?? null;
-  const mathAll = outc.math_distance_from_standard_all?.value ?? null;
-  const mathSwd = outc.math_distance_from_standard_swd?.value ?? null;
+  // OUTCOME — academics (SPP Indicator 3).
+  const ac = profile.outcome?.academics ?? {};
+  const elaAll = ac.ela_distance_from_standard_all?.value ?? null;
+  const elaSwd = ac.ela_distance_from_standard_swd?.value ?? null;
+  const mathAll = ac.math_distance_from_standard_all?.value ?? null;
+  const mathSwd = ac.math_distance_from_standard_swd?.value ?? null;
 
-  const absAll = outc.chronic_absenteeism_rate_all?.value ?? null;
-  const absSwd = outc.chronic_absenteeism_rate_swd?.value ?? null;
-  const suspAll = outc.suspension_rate_all?.value ?? null;
-  const suspSwd = outc.suspension_rate_swd?.value ?? null;
+  // OUTCOME — behavior (SPP Indicator 4 + chronic absenteeism).
+  const beh = profile.outcome?.behavior ?? {};
+  const absAll = beh.chronic_absenteeism_rate_all?.value ?? null;
+  const absSwd = beh.chronic_absenteeism_rate_swd?.value ?? null;
+  const suspAll = beh.suspension_rate_all?.value ?? null;
+  const suspSwd = beh.suspension_rate_swd?.value ?? null;
 
   // Pulse charts take values in natural % scale (28.1 not 0.281).
   const to100 = (v: number | null) => (v === null ? null : v * 100);
@@ -81,16 +84,16 @@ export default async function DistrictPage({
     : 60;
   const dfsRange = Math.max(60, Math.ceil((dfsExtreme + 10) / 10) * 10);
 
+  // Three Donabedian chapters + Overview wrapper + Sources + Schools appendix.
+  // The chapter count is fixed at three forever; see docs/framework.md
+  // for the closure principle.
   const chapters: Chapter[] = [
-    { n: "01", id: "overview", label: "Overview", count: "AI summary" },
-    { n: "02", id: "inclusion", label: "Inclusion", count: "1 chart · 2 stats" },
-    { n: "03", id: "programs", label: "Programs", count: "Web-sourced" },
-    { n: "04", id: "academic", label: "Academics", count: "ELA + Math" },
-    { n: "05", id: "behavior", label: "Discipline", count: "2 charts" },
-    { n: "06", id: "compliance", label: "Disputes", count: "OAH + OCR" },
-    { n: "07", id: "summary", label: "Summary", count: "AI summary" },
-    { n: "08", id: "sources", label: "Sources", count: "Datasets" },
-    { n: "09", id: "schools", label: "Schools", count: `${schools.length} schools` },
+    { n: "—", id: "overview", label: "Overview", count: "AI summary" },
+    { n: "01", id: "structure", label: "Structure", count: "What's in place" },
+    { n: "02", id: "process", label: "Process", count: "What happens" },
+    { n: "03", id: "outcome", label: "Outcome", count: "What results" },
+    { n: "—", id: "sources", label: "Sources", count: "Datasets" },
+    { n: "—", id: "schools", label: "Schools", count: `${schools.length} schools` },
   ];
 
   // Peer scaling — PeerDistribution expects natural-scale values.
@@ -169,7 +172,7 @@ export default async function DistrictPage({
         </div>
       </header>
 
-      {/* KPI Grid */}
+      {/* KPI Grid (population context — not quality measures) */}
       <section className="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-4">
         <StatTile
           label="Enrollment"
@@ -201,10 +204,10 @@ export default async function DistrictPage({
 
       <SectionNav sections={chapters} />
 
-      {/* 01 — Overview */}
+      {/* Overview — AI summary if available */}
       <section id="overview" className="scroll-mt-24 space-y-5">
         <SectionHead
-          num="01"
+          num="—"
           title="In brief"
           sub={
             <>
@@ -217,30 +220,90 @@ export default async function DistrictPage({
           <AISummary summary={ai.overview} />
         ) : (
           <EmptyCard>
-            No AI overview generated for this district yet. The numbers below are still authoritative.
+            No AI overview generated for this district yet. The chapters below are still authoritative.
           </EmptyCard>
         )}
       </section>
 
-      {/* 02 — Inclusion */}
-      <section id="inclusion" className="scroll-mt-24 space-y-5">
+      {/* ============================================================== */}
+      {/* CHAPTER 01 — STRUCTURE: what the district has in place            */}
+      {/* ============================================================== */}
+      <section id="structure" className="scroll-mt-24 space-y-5">
         <SectionHead
-          num="02"
-          title="Where do autistic students spend the day?"
+          num="01"
+          title="Structure"
           sub={
             <>
-              Federal law (<Term>IDEA</Term>) favors the regular classroom whenever appropriate.
-              The standard reporting threshold is whether a student is in a regular classroom for
-              at least 80% of the school day.
+              What this district has <strong>in place</strong> to deliver
+              special education: staffing density, named programs, and
+              related services. Donabedian&apos;s Structure layer — the
+              precondition for service quality. See{" "}
+              <Link href="/glossary" className="font-medium" style={{ color: "var(--accent)" }}>
+                framework
+              </Link>{" "}
+              for the closure principle that fixes this chapter set at three.
             </>
           }
         />
+
+        <StaffingPanel
+          profile={profile}
+          pupilServicesPer1k={peers.pupil_services_per_1k_students}
+          teachersPer100Iep={peers.teachers_per_100_iep}
+          pupilServicesPer100Iep={peers.pupil_services_per_100_iep}
+        />
+
+        <ProgramsPanel profile={profile} />
+
+        <NotMeasured
+          items={[
+            {
+              label: "Special‑education teachers, SLPs, OTs, BCBAs by role",
+              why: "CDE discontinued the granular CBEDS Staff Assignment file after 2018-19; the per-role district counts are no longer published.",
+            },
+            {
+              label: "Special‑education expenditure per SWD",
+              why: "Available in SACS unaudited actuals — not yet ingested.",
+            },
+            {
+              label: "FCMAT and CDE compliance review findings",
+              why: "FCMAT publishes reviews per district in PDF form — not yet scraped.",
+            },
+            {
+              label: "Staff turnover and retention",
+              why: "Sometimes appears in LCAP narratives, not in a structured statewide file.",
+            },
+            {
+              label: "Caseload ratios (students per SLP, students per OT)",
+              why: "Only inferable when both role counts and IEP receipts are published; uneven district-by-district.",
+            },
+          ]}
+        />
+      </section>
+
+      {/* ============================================================== */}
+      {/* CHAPTER 02 — PROCESS: what happens during service delivery        */}
+      {/* ============================================================== */}
+      <section id="process" className="scroll-mt-24 space-y-5">
+        <SectionHead
+          num="02"
+          title="Process"
+          sub={
+            <>
+              What this district <strong>does</strong> with that structure:
+              where students with disabilities spend the day and how formal
+              disputes are reaching agencies. Donabedian&apos;s Process layer.
+            </>
+          }
+        />
+
+        {/* Placement — SPP Indicator 5 */}
         {inclusionDist ? (
           <PeerDistribution
             eyebrow={<>
               2024–25 · <Term>SWD</Term> · {inclusionDist.count} OF {all.length} DISTRICTS REPORTING
             </>}
-            title="Time in general-education classrooms (80%+ of day)"
+            title="Autism — time in general-education classrooms (80%+ of day)"
             dist={inclusionDist}
             ours={autismIncl === null ? null : autismIncl * 100}
             districtName={profile.name}
@@ -250,8 +313,10 @@ export default async function DistrictPage({
             footnote={
               <>
                 Each dot is one district&apos;s autism inclusion rate. The marker shows where{" "}
-                {profile.name} sits — not a rank. Source: <Term>CDE</Term> Special Education
-                Enrollment by Program Setting · 2024–25.
+                {profile.name} sits — not a rank. High inclusion is{" "}
+                <strong>not</strong> the same as good program — tiny rural districts often have
+                very high inclusion percentages because they don&apos;t have specialized
+                placement options. Source: <Term>CDE</Term> SPED-PS · 2024–25.
               </>
             }
           />
@@ -273,40 +338,49 @@ export default async function DistrictPage({
             sub="Self-contained classroom or separate school for most of the day."
           />
         </div>
+
+        {/* Disputes — process volume measure */}
+        <CompliancePanel profile={profile} />
+
+        <NotMeasured
+          items={[
+            {
+              label: "Parent‑involvement survey (SPP Indicator 8)",
+              why: "CDE publishes statewide rollups; district‑level access requires CDE Special Education Division contact and is not yet ingested.",
+            },
+            {
+              label: "Secondary‑transition IEPs with measurable post‑secondary goals (SPP Indicator 13)",
+              why: "CDE compliance‑monitoring data; not yet ingested.",
+            },
+            {
+              label: "Preschool LRE (SPP Indicator 6)",
+              why: "CDE DataQuest district‑level; not yet ingested.",
+            },
+            {
+              label: "Service intensity (minutes/week of OT/PT/SLP per student)",
+              why: "Typically only in district plans, not state datasets.",
+            },
+          ]}
+        />
       </section>
 
-      {/* 03 — Programs */}
-      <section id="programs" className="scroll-mt-24 space-y-5">
+      {/* ============================================================== */}
+      {/* CHAPTER 03 — OUTCOME: what results for students                   */}
+      {/* ============================================================== */}
+      <section id="outcome" className="scroll-mt-24 space-y-5">
         <SectionHead
           num="03"
-          title="What programs and services does the district offer?"
+          title="Outcome"
           sub={
             <>
-              Autism classrooms, behavior staff, transition programs, and
-              related services this district publishes. Hand-collected from
-              district websites, <Term>SELPA</Term> pages, and public job
-              postings — not from a <Term>CDE</Term> dataset, so coverage is
-              uneven and silence does not mean &ldquo;no.&rdquo;
+              What <strong>results</strong> for students with disabilities — academic proficiency
+              and behavior. Donabedian&apos;s Outcome layer. Read the gap to{" "}
+              <em>all students</em>, not the absolute level, since district baselines vary
+              dramatically.
             </>
           }
         />
-        <ProgramsPanel profile={profile} />
-      </section>
 
-      {/* 04 — Academics */}
-      <section id="academic" className="scroll-mt-24 space-y-5">
-        <SectionHead
-          num="04"
-          title="How are students doing on state assessments?"
-          sub={
-            <>
-              <Term>DFS</Term> (Distance From Standard) is the California School Dashboard&apos;s
-              grade-level measure. Zero is at grade level; positive is above, negative is below.
-              The gap between &ldquo;All students&rdquo; and the <Term>SWD</Term> subgroup is the
-              within-district disparity.
-            </>
-          }
-        />
         <DFSDivergence
           eyebrow={<>DISTANCE FROM STANDARD · <Term>CAASPP</Term></>}
           title="Points from grade-level expectation"
@@ -318,26 +392,14 @@ export default async function DistrictPage({
           ariaLabel={`${profile.name}: ELA and math Distance From Standard for all students vs SWD subgroup`}
           footnote={
             <>
-              Same color extends in both directions — direction encodes the signal (above vs.
-              below grade level), not quality. Source: California School Dashboard · 2024–25.
+              The gap between the all‑students line and the SWD subgroup is what the framework
+              calls the within‑district outcome disparity. Same color extends in both directions
+              — direction encodes the signal (above vs. below grade level), not quality. Source:
+              California School Dashboard · 2024–25.
             </>
           }
         />
-      </section>
 
-      {/* 05 — Discipline */}
-      <section id="behavior" className="scroll-mt-24 space-y-5">
-        <SectionHead
-          num="05"
-          title="How often are students absent or suspended?"
-          sub={
-            <>
-              Chronic absenteeism is missing 10% or more of school days (about 18 days). The gap
-              between the <Term>SWD</Term> subgroup and all students reflects whether supports are
-              working for disabled students in this district.
-            </>
-          }
-        />
         <div className="grid gap-3.5 lg:grid-cols-2">
           <MetricBars
             eyebrow="CHRONIC ABSENTEEISM"
@@ -370,56 +432,51 @@ export default async function DistrictPage({
             }
           />
         </div>
-      </section>
 
-      {/* 06 — Compliance */}
-      <section id="compliance" className="scroll-mt-24 space-y-5">
-        <SectionHead
-          num="06"
-          title="Formal disputes &amp; civil-rights investigations"
-          sub={
-            <>
-              This district&apos;s record of special-education due-process decisions
-              (<Term>OAH</Term>) and open federal civil-rights investigations (<Term>OCR</Term>).
-              Read the caveats below — these counts track district size, not quality, and the
-              directory does not rank districts on them.
-            </>
-          }
-        />
-        <CompliancePanel profile={profile} />
-      </section>
-
-      {/* 07 — Summary */}
-      <section id="summary" className="scroll-mt-24 space-y-5">
-        <SectionHead
-          num="07"
-          title="What this might mean for parents"
-          sub="Always labeled, always paired with a verification note. Editorial review is recommended before quoting."
-        />
-        {ai.what_this_means_for_parents ? (
+        {ai.what_this_means_for_parents && (
           <AISummary summary={ai.what_this_means_for_parents} />
-        ) : (
-          <EmptyCard>
-            No interpretive AI summary generated for this district yet — only the source data is
-            available above.
-          </EmptyCard>
         )}
+
+        <NotMeasured
+          items={[
+            {
+              label: "Graduation rate for SWD (SPP Indicator 1)",
+              why: "CDE DataQuest district‑level; not yet ingested.",
+            },
+            {
+              label: "Dropout rate for SWD (SPP Indicator 2)",
+              why: "CDE DataQuest district‑level; not yet ingested.",
+            },
+            {
+              label: "Post‑school employment / education / training (SPP Indicator 14)",
+              why: "CDE publishes district aggregates with a one‑year delay; not yet ingested.",
+            },
+            {
+              label: "Disproportionate representation by race/ethnicity (SPP Indicators 9, 10)",
+              why: "CDE special‑education data files; not yet ingested.",
+            },
+            {
+              label: "Individual progress on IEP goals",
+              why: "Not measurable from public data — only the IEP team and family know.",
+            },
+          ]}
+        />
       </section>
 
-      {/* 08 — Sources */}
+      {/* Sources appendix */}
       <section id="sources" className="scroll-mt-24 space-y-5">
         <SectionHead
-          num="08"
+          num="—"
           title="Sources & dates"
           sub="Every number on this page traces to a public California or federal dataset. Click to expand full provenance with as-of dates."
         />
         <SourcesPanel profile={profile} />
       </section>
 
-      {/* 09 — Schools */}
+      {/* Schools appendix */}
       <section id="schools" className="scroll-mt-24 space-y-5">
         <SectionHead
-          num="09"
+          num="—"
           title="Schools in this district"
           sub={
             <>

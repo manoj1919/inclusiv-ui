@@ -53,7 +53,7 @@ export const LENSES: Record<LensId, LensDefinition> = {
       {
         id: "autism_inclusion",
         label: "Autism · time in general-ed classrooms (80%+ of day)",
-        getter: (p) => num(p.inclusion_metrics?.lre_80pct_plus_gen_ed_autism?.value),
+        getter: (p) => num(p.process?.lre?.lre_80pct_plus_gen_ed_autism?.value),
         direction: "higher",
         weight: 0.5,
       },
@@ -62,8 +62,8 @@ export const LENSES: Record<LensId, LensDefinition> = {
         label: "Chronic-absenteeism gap (SWD vs all)",
         getter: (p) =>
           gap(
-            num(p.outcome_metrics?.chronic_absenteeism_rate_swd?.value),
-            num(p.outcome_metrics?.chronic_absenteeism_rate_all?.value),
+            num(p.outcome?.behavior?.chronic_absenteeism_rate_swd?.value),
+            num(p.outcome?.behavior?.chronic_absenteeism_rate_all?.value),
           ),
         direction: "lower",
         weight: 0.25,
@@ -73,8 +73,8 @@ export const LENSES: Record<LensId, LensDefinition> = {
         label: "Suspension-rate gap (SWD vs all)",
         getter: (p) =>
           gap(
-            num(p.outcome_metrics?.suspension_rate_swd?.value),
-            num(p.outcome_metrics?.suspension_rate_all?.value),
+            num(p.outcome?.behavior?.suspension_rate_swd?.value),
+            num(p.outcome?.behavior?.suspension_rate_all?.value),
           ),
         direction: "lower",
         weight: 0.25,
@@ -93,14 +93,14 @@ export const LENSES: Record<LensId, LensDefinition> = {
       {
         id: "ela_dfs_swd",
         label: "ELA · Distance From Standard (SWD)",
-        getter: (p) => num(p.outcome_metrics?.ela_distance_from_standard_swd?.value),
+        getter: (p) => num(p.outcome?.academics?.ela_distance_from_standard_swd?.value),
         direction: "higher",
         weight: 0.4,
       },
       {
         id: "math_dfs_swd",
         label: "Math · Distance From Standard (SWD)",
-        getter: (p) => num(p.outcome_metrics?.math_distance_from_standard_swd?.value),
+        getter: (p) => num(p.outcome?.academics?.math_distance_from_standard_swd?.value),
         direction: "higher",
         weight: 0.4,
       },
@@ -108,10 +108,10 @@ export const LENSES: Record<LensId, LensDefinition> = {
         id: "dfs_gap",
         label: "ELA + Math DFS gap (all vs SWD)",
         getter: (p) => {
-          const elaAll = num(p.outcome_metrics?.ela_distance_from_standard_all?.value);
-          const elaSwd = num(p.outcome_metrics?.ela_distance_from_standard_swd?.value);
-          const mathAll = num(p.outcome_metrics?.math_distance_from_standard_all?.value);
-          const mathSwd = num(p.outcome_metrics?.math_distance_from_standard_swd?.value);
+          const elaAll = num(p.outcome?.academics?.ela_distance_from_standard_all?.value);
+          const elaSwd = num(p.outcome?.academics?.ela_distance_from_standard_swd?.value);
+          const mathAll = num(p.outcome?.academics?.math_distance_from_standard_all?.value);
+          const mathSwd = num(p.outcome?.academics?.math_distance_from_standard_swd?.value);
           const gaps: number[] = [];
           if (elaAll !== null && elaSwd !== null) gaps.push(elaAll - elaSwd);
           if (mathAll !== null && mathSwd !== null) gaps.push(mathAll - mathSwd);
@@ -135,21 +135,21 @@ export const LENSES: Record<LensId, LensDefinition> = {
       {
         id: "suspension_swd",
         label: "Suspension rate (SWD)",
-        getter: (p) => num(p.outcome_metrics?.suspension_rate_swd?.value),
+        getter: (p) => num(p.outcome?.behavior?.suspension_rate_swd?.value),
         direction: "lower",
         weight: 0.4,
       },
       {
         id: "absenteeism_swd",
         label: "Chronic-absenteeism rate (SWD)",
-        getter: (p) => num(p.outcome_metrics?.chronic_absenteeism_rate_swd?.value),
+        getter: (p) => num(p.outcome?.behavior?.chronic_absenteeism_rate_swd?.value),
         direction: "lower",
         weight: 0.3,
       },
       {
         id: "autism_separate",
         label: "Autism · separate-setting share",
-        getter: (p) => num(p.inclusion_metrics?.lre_separate_setting_autism?.value),
+        getter: (p) => num(p.process?.lre?.lre_separate_setting_autism?.value),
         direction: "lower",
         weight: 0.3,
       },

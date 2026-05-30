@@ -15,12 +15,12 @@ import { Term } from "./Term";
  */
 
 const _STRUCTURED: Array<[label: string, get: (p: DistrictProfile) => boolean]> = [
-  ["BCBA on staff", (p) => p.programs?.bcba_on_staff?.value === true],
-  ["18-22 transition program", (p) => p.programs?.transition_18_22_program?.value === true],
-  ["Occupational therapy", (p) => p.related_services?.ot_available?.value === true],
-  ["Physical therapy", (p) => p.related_services?.pt_available?.value === true],
-  ["Social-skills groups", (p) => p.related_services?.social_skills_groups?.value === true],
-  ["SLP caseload ratio", (p) => p.related_services?.slp_caseload_ratio?.value != null],
+  ["BCBA on staff", (p) => p.structure?.programs?.bcba_on_staff?.value === true],
+  ["18-22 transition program", (p) => p.structure?.programs?.transition_18_22_program?.value === true],
+  ["Occupational therapy", (p) => p.structure?.related_services?.ot_available?.value === true],
+  ["Physical therapy", (p) => p.structure?.related_services?.pt_available?.value === true],
+  ["Social-skills groups", (p) => p.structure?.related_services?.social_skills_groups?.value === true],
+  ["SLP caseload ratio", (p) => p.structure?.related_services?.slp_caseload_ratio?.value != null],
 ];
 
 function hostOf(url: string): string {
@@ -32,11 +32,11 @@ function hostOf(url: string): string {
 }
 
 export function ProgramsPanel({ profile }: { profile: DistrictProfile }) {
-  const classrooms = profile.programs?.autism_specific_classrooms ?? [];
+  const classrooms = profile.structure?.programs?.autism_specific_classrooms ?? [];
   const confirmed = _STRUCTURED.filter(([, get]) => get(profile));
   const notStated = _STRUCTURED.filter(([, get]) => !get(profile)).map(([label]) => label);
-  const research = profile.district_web_research;
-  const slpRatio = profile.related_services?.slp_caseload_ratio?.value;
+  const research = profile.structure?.district_web_research;
+  const slpRatio = profile.structure?.related_services?.slp_caseload_ratio?.value;
 
   return (
     <div className="space-y-4">

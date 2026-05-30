@@ -34,7 +34,7 @@ PILOT_FILE = REPO_ROOT / "data" / "pilot_districts.json"
 SCHEMA_PATH = REPO_ROOT / "data" / "schema" / "district.schema.json"
 
 # Sources in priority order (earlier wins on conflict)
-SOURCE_PRIORITY = ["cde_spedps", "cde_enrollment", "ca_dashboard", "ocr", "oah"]
+SOURCE_PRIORITY = ["cde_spedps", "cde_enrollment", "cde_staff", "ca_dashboard", "ocr", "oah"]
 
 # Markers stripped from partial profiles during merge
 PARTIAL_MARKERS = {"_source", "_partial", "_academic_year"}
@@ -134,6 +134,118 @@ def derive_enrollment_percentages(profile: dict) -> None:
     pct("students_with_autism", "pct_autism")
 
 
+_STAFFING_NOTE = (
+    "Derived: certificated staff count (CDE Staff Race/Ethnicity, Census Day) "
+    "normalized to enrollment (Census Day) or IEP count (SPED-PS, ages 3-22). "
+    "PSV (pupil services) bundles counselors, psychologists, SLPs, social "
+    "workers, and nurses — CDE no longer publishes role-granular district-level "
+    "staff counts."
+)
+
+
+def derive_staffing_ratios(profile: dict) -> None:
+    """Compute density ratios for the Structure / staffing chapter.
+
+    Reads structure.staffing.{teachers, pupil_services} + enrollment.{total,
+    students_with_iep}; writes structure.staffing.{teachers_per_100_iep,
+    pupil_services_per_1k_students, pupil_services_per_100_iep}.
+    """
+    staffing = (profile.get("structure") or {}).get("staffing")
+    enr = profile.get("enrollment") or {}
+    if not staffing:
+        return
+    total_enr = (enr.get("total") or {}).get("value")
+    iep = (enr.get("students_with_iep") or {}).get("value")
+    as_of = (staffing.get("all_certificated") or staffing.get("teachers") or {}).get("as_of")
+    if not as_of:
+        return
+
+    def ratio(numer_field: str, denom: int | None, denom_per: int, out_field: str) -> None:
+        num = (staffing.get(numer_field) or {}).get("value")
+        if num is None or not denom or denom <= 0:
+            return
+        staffing[out_field] = {
+            "value": round(num * denom_per / denom, 2),
+            "source": "derived",
+            "as_of": as_of,
+            "note": _STAFFING_NOTE,
+        }
+
+    ratio("teachers", iep, 100, "teachers_per_100_iep")
+    ratio("pupil_services", total_enr, 1000, "pupil_services_per_1k_students")
+    ratio("pupil_services", iep, 100, "pupil_services_per_100_iep")
+
+
+def migrate_to_v0_2_schema(profile: dict) -> None:
+    """Move legacy top-level fields into structure / process / outcome buckets.
+
+    The scrapers still write to legacy paths (e.g. `inclusion_metrics`,
+    `compliance`, `outcome_metrics`, `programs`, `related_services`). This
+    function runs once per profile after merge to relocate them, so the
+    final profile validates against schema 0.2.0.
+    """
+    programs = profile.pop("programs", None)
+    related_services = profile.pop("related_services", None)
+    inclusion_metrics = profile.pop("inclusion_metrics", None)
+    compliance = profile.pop("compliance", None)
+    outcome_metrics = profile.pop("outcome_metrics", None)
+    district_web_research = profile.pop("district_web_research", None)
+
+    structure = profile.get("structure") or {}
+    process = profile.get("process") or {}
+    outcome = profile.get("outcome") or {}
+
+    if programs:
+        structure["programs"] = programs
+    if related_services:
+        structure["related_services"] = related_services
+    if district_web_research:
+        structure["district_web_research"] = district_web_research
+
+    # Compliance splits across buckets: state_audit_findings → Structure.reviews;
+    # OAH + OCR → Process.disputes.
+    if compliance:
+        reviews = {}
+        disputes = {}
+        for k in ("state_audit_findings_5yr",):
+            if k in compliance:
+                reviews[k] = compliance[k]
+        for k in ("oah_cases_5yr_total", "oah_cases_5yr_autism",
+                  "ocr_open_investigations", "ocr_open_investigations_disability"):
+            if k in compliance:
+                disputes[k] = compliance[k]
+        if reviews:
+            structure["reviews"] = reviews
+        if disputes:
+            process["disputes"] = disputes
+
+    if inclusion_metrics:
+        process["lre"] = inclusion_metrics
+
+    if outcome_metrics:
+        academics = {}
+        behavior = {}
+        for k in ("ela_distance_from_standard_swd", "ela_distance_from_standard_all",
+                  "math_distance_from_standard_swd", "math_distance_from_standard_all"):
+            if k in outcome_metrics:
+                academics[k] = outcome_metrics[k]
+        for k in ("chronic_absenteeism_rate_swd", "chronic_absenteeism_rate_all",
+                  "suspension_rate_swd", "suspension_rate_all"):
+            if k in outcome_metrics:
+                behavior[k] = outcome_metrics[k]
+        if academics:
+            outcome["academics"] = academics
+        if behavior:
+            outcome["behavior"] = behavior
+
+    if structure:
+        profile["structure"] = structure
+    if process:
+        profile["process"] = process
+    if outcome:
+        profile["outcome"] = outcome
+
+
 def build_profile(district: dict, partials: list[tuple[str, dict]],
                   raw_snapshots: list[dict]) -> dict:
     """Construct the final profile from district metadata + per-source partials."""
@@ -142,7 +254,7 @@ def build_profile(district: dict, partials: list[tuple[str, dict]],
     county_code = district.get("county_code") or district["cds_code"].split("-")[0]
     county_name = district.get("county_name") or "San Diego"
     profile: dict = {
-        "schema_version": "0.1.0",
+        "schema_version": "0.2.0",
         "cds_code": district["cds_code"],
         "name": district["name"],
         "county": county_name,
@@ -155,6 +267,8 @@ def build_profile(district: dict, partials: list[tuple[str, dict]],
         profile = deep_merge_priority(profile, partial)
 
     derive_enrollment_percentages(profile)
+    migrate_to_v0_2_schema(profile)
+    derive_staffing_ratios(profile)
 
     profile["data_sources_used"] = [s for s, _ in partials]
     profile["build_provenance"] = {

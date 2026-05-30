@@ -78,12 +78,19 @@ export function metricSeries(
  * here has a matching chart somewhere. Add entries as the chart set grows.
  */
 export type PeerKey =
+  // Structure — staffing density
+  | "teachers_per_100_iep"
+  | "pupil_services_per_1k_students"
+  | "pupil_services_per_100_iep"
+  // Process — LRE
   | "autism_inclusion"
   | "all_swd_inclusion"
+  // Outcome — academics
   | "ela_dfs_all"
   | "ela_dfs_swd"
   | "math_dfs_all"
   | "math_dfs_swd"
+  // Outcome — behavior
   | "chronic_absent_all"
   | "chronic_absent_swd"
   | "suspension_all"
@@ -94,29 +101,38 @@ export type PeerSummary = Partial<Record<PeerKey, Distribution>>;
 export function buildPeerSummary(profiles: DistrictProfile[]): PeerSummary {
   const get = (k: PeerKey) => {
     switch (k) {
+      case "teachers_per_100_iep":
+        return (p: DistrictProfile) => p.structure?.staffing?.teachers_per_100_iep?.value;
+      case "pupil_services_per_1k_students":
+        return (p: DistrictProfile) => p.structure?.staffing?.pupil_services_per_1k_students?.value;
+      case "pupil_services_per_100_iep":
+        return (p: DistrictProfile) => p.structure?.staffing?.pupil_services_per_100_iep?.value;
       case "autism_inclusion":
-        return (p: DistrictProfile) => p.inclusion_metrics?.lre_80pct_plus_gen_ed_autism?.value;
+        return (p: DistrictProfile) => p.process?.lre?.lre_80pct_plus_gen_ed_autism?.value;
       case "all_swd_inclusion":
-        return (p: DistrictProfile) => p.inclusion_metrics?.lre_80pct_plus_gen_ed_all_disabilities?.value;
+        return (p: DistrictProfile) => p.process?.lre?.lre_80pct_plus_gen_ed_all_disabilities?.value;
       case "ela_dfs_all":
-        return (p: DistrictProfile) => p.outcome_metrics?.ela_distance_from_standard_all?.value;
+        return (p: DistrictProfile) => p.outcome?.academics?.ela_distance_from_standard_all?.value;
       case "ela_dfs_swd":
-        return (p: DistrictProfile) => p.outcome_metrics?.ela_distance_from_standard_swd?.value;
+        return (p: DistrictProfile) => p.outcome?.academics?.ela_distance_from_standard_swd?.value;
       case "math_dfs_all":
-        return (p: DistrictProfile) => p.outcome_metrics?.math_distance_from_standard_all?.value;
+        return (p: DistrictProfile) => p.outcome?.academics?.math_distance_from_standard_all?.value;
       case "math_dfs_swd":
-        return (p: DistrictProfile) => p.outcome_metrics?.math_distance_from_standard_swd?.value;
+        return (p: DistrictProfile) => p.outcome?.academics?.math_distance_from_standard_swd?.value;
       case "chronic_absent_all":
-        return (p: DistrictProfile) => p.outcome_metrics?.chronic_absenteeism_rate_all?.value;
+        return (p: DistrictProfile) => p.outcome?.behavior?.chronic_absenteeism_rate_all?.value;
       case "chronic_absent_swd":
-        return (p: DistrictProfile) => p.outcome_metrics?.chronic_absenteeism_rate_swd?.value;
+        return (p: DistrictProfile) => p.outcome?.behavior?.chronic_absenteeism_rate_swd?.value;
       case "suspension_all":
-        return (p: DistrictProfile) => p.outcome_metrics?.suspension_rate_all?.value;
+        return (p: DistrictProfile) => p.outcome?.behavior?.suspension_rate_all?.value;
       case "suspension_swd":
-        return (p: DistrictProfile) => p.outcome_metrics?.suspension_rate_swd?.value;
+        return (p: DistrictProfile) => p.outcome?.behavior?.suspension_rate_swd?.value;
     }
   };
   const keys: PeerKey[] = [
+    "teachers_per_100_iep",
+    "pupil_services_per_1k_students",
+    "pupil_services_per_100_iep",
     "autism_inclusion",
     "all_swd_inclusion",
     "ela_dfs_all",

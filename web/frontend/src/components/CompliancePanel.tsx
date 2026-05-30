@@ -62,11 +62,11 @@ function RecordCard({
 }
 
 export function CompliancePanel({ profile }: { profile: DistrictProfile }) {
-  const c = profile.compliance ?? {};
-  const oah = c.oah_cases_5yr_total as Sourced<number> | undefined;
-  const oahAutism = c.oah_cases_5yr_autism as Sourced<number> | undefined;
-  const ocr = c.ocr_open_investigations as Sourced<number> | undefined;
-  const ocrDis = c.ocr_open_investigations_disability as Sourced<number> | undefined;
+  const d = profile.process?.disputes ?? {};
+  const oah = d.oah_cases_5yr_total as Sourced<number> | undefined;
+  const oahAutism = d.oah_cases_5yr_autism as Sourced<number> | undefined;
+  const ocr = d.ocr_open_investigations as Sourced<number> | undefined;
+  const ocrDis = d.ocr_open_investigations_disability as Sourced<number> | undefined;
 
   return (
     <div className="space-y-3.5">

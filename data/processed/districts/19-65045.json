@@ -1,38 +1,6 @@
 {
-  "ai_summaries": {
-    "overview": {
-      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
-      "ai_generated": true,
-      "ai_generated_at": "2026-05-23T13:56:08Z",
-      "ai_model": "claude-opus (via Claude Code session)",
-      "based_on_sources": [
-        "cde_spedps",
-        "cde_enrollment",
-        "ca_dashboard",
-        "ocr",
-        "oah",
-        "district_web"
-      ],
-      "value": "Sulphur Springs Union is a Elementary K-6 district in Los Angeles County, serving about 5,157 students in 2024\u201325. About 949 students have an Individualized Education Program (IEP), and 267 of them \u2014 roughly 28% \u2014 have an autism (ASD) eligibility. Around 17% of those autistic students spend most of the school day, 80% or more, in a general-education classroom."
-    },
-    "what_this_means_for_parents": {
-      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
-      "ai_generated": true,
-      "ai_generated_at": "2026-05-23T13:56:08Z",
-      "ai_model": "claude-opus (via Claude Code session)",
-      "based_on_sources": [
-        "cde_spedps",
-        "cde_enrollment",
-        "ca_dashboard",
-        "ocr",
-        "oah",
-        "district_web"
-      ],
-      "value": "In this district about 17% of autistic students are in a general-education classroom for most of the day, and about 0.0% are in a fully separate setting. Across all students with disabilities \u2014 a broader group that includes autism along with many other categories \u2014 48% are in general-education classrooms most of the day. On 2024\u201325 state tests, students with disabilities scored about 69 points below standard in English and 90 points below in math, while students overall were 2 and 22 points below. Students with disabilities were chronically absent at about 20% (compared with 13% for all students) and suspended at about 3% (compared with 2% for all students)."
-    }
-  },
   "build_provenance": {
-    "built_at": "2026-05-23T03:10:48Z",
+    "built_at": "2026-05-30T08:21:12Z",
     "pipeline_version": "0.1.0",
     "raw_snapshots": [
       {
@@ -66,6 +34,11 @@
         "source": "cde_spedps"
       },
       {
+        "path": "data/raw/cde_staff/2026-05-30/stre2425.txt",
+        "sha256": "f1e95ef32cd86a40ec10f6a382f4f489ab1c285ba4053a7d621316e3549f3793",
+        "source": "cde_staff"
+      },
+      {
         "path": "data/raw/oah/2026-05-23/manifest.json",
         "sha256": "6582b633f46aecd61fb3d2412ec6b519ec8b666b0d4d7b647e00ead4572d7716",
         "source": "oah"
@@ -78,57 +51,18 @@
     ]
   },
   "cds_code": "19-65045",
-  "compliance": {
-    "oah_cases_5yr_autism": {
-      "as_of": "2026-05-23",
-      "fetched_at": "2026-05-23T03:09:08Z",
-      "note": "Keyword heuristic \u2014 see oah_cases_5yr_total note.",
-      "source": "oah",
-      "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
-      "value": 0
-    },
-    "oah_cases_5yr_total": {
-      "as_of": "2026-05-23",
-      "fetched_at": "2026-05-23T03:09:08Z",
-      "note": "OAH special-education decisions naming this district, 2022-2026. All-time published total: 0. Autism count is a keyword heuristic (decision text mentions autism/ASD).",
-      "source": "oah",
-      "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
-      "value": 0
-    },
-    "ocr_open_investigations": {
-      "as_of": "2025-01-14",
-      "fetched_at": "2026-05-23T03:10:47Z",
-      "source": "ocr",
-      "url": "https://ocrcas.ed.gov/open-investigations",
-      "value": 0
-    },
-    "ocr_open_investigations_disability": {
-      "as_of": "2025-01-14",
-      "fetched_at": "2026-05-23T03:10:47Z",
-      "source": "ocr",
-      "url": "https://ocrcas.ed.gov/open-investigations",
-      "value": 0
-    }
-  },
   "county": "Los Angeles",
   "county_code": "19",
   "data_sources_used": [
     "cde_spedps",
     "cde_enrollment",
+    "cde_staff",
     "ca_dashboard",
     "ocr",
     "oah",
     "district_web"
   ],
   "district_type": "Elementary K-6",
-  "district_web_research": {
-    "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Santa Clarita Valley (LA County) SELPA.",
-    "district_website": "https://www.sssd.k12.ca.us",
-    "researched_at": "2026-05-23",
-    "sources": [
-      "https://www.lacoe.edu/SpecialEd"
-    ]
-  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -164,96 +98,199 @@
       "value": 5157
     }
   },
-  "inclusion_metrics": {
-    "lre_80pct_plus_gen_ed_all_disabilities": {
-      "as_of": "2024-10-02",
-      "fetched_at": "2026-05-23T03:10:41Z",
-      "source": "cde_spedps",
-      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.479
+  "last_updated": "2026-05-30",
+  "name": "Sulphur Springs Union",
+  "outcome": {
+    "academics": {
+      "ela_distance_from_standard_all": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 1.9
+      },
+      "ela_distance_from_standard_swd": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": -69.0
+      },
+      "math_distance_from_standard_all": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": -22.1
+      },
+      "math_distance_from_standard_swd": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": -90.3
+      }
     },
-    "lre_80pct_plus_gen_ed_autism": {
-      "as_of": "2024-10-02",
-      "fetched_at": "2026-05-23T03:10:41Z",
-      "source": "cde_spedps",
-      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.169
-    },
-    "lre_separate_setting_all_disabilities": {
-      "as_of": "2024-10-02",
-      "fetched_at": "2026-05-23T03:10:41Z",
-      "source": "cde_spedps",
-      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.0
-    },
-    "lre_separate_setting_autism": {
-      "as_of": "2024-10-02",
-      "fetched_at": "2026-05-23T03:10:41Z",
-      "source": "cde_spedps",
-      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.0
+    "behavior": {
+      "chronic_absenteeism_rate_all": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 0.127
+      },
+      "chronic_absenteeism_rate_swd": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 0.199
+      },
+      "suspension_rate_all": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 0.019
+      },
+      "suspension_rate_swd": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 0.027
+      }
     }
   },
-  "last_updated": "2026-05-23",
-  "name": "Sulphur Springs Union",
-  "outcome_metrics": {
-    "chronic_absenteeism_rate_all": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 0.127
+  "process": {
+    "disputes": {
+      "oah_cases_5yr_autism": {
+        "as_of": "2026-05-23",
+        "fetched_at": "2026-05-23T03:09:08Z",
+        "note": "Keyword heuristic \u2014 see oah_cases_5yr_total note.",
+        "source": "oah",
+        "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
+        "value": 0
+      },
+      "oah_cases_5yr_total": {
+        "as_of": "2026-05-23",
+        "fetched_at": "2026-05-23T03:09:08Z",
+        "note": "OAH special-education decisions naming this district, 2022-2026. All-time published total: 0. Autism count is a keyword heuristic (decision text mentions autism/ASD).",
+        "source": "oah",
+        "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
+        "value": 0
+      },
+      "ocr_open_investigations": {
+        "as_of": "2025-01-14",
+        "fetched_at": "2026-05-23T03:10:47Z",
+        "source": "ocr",
+        "url": "https://ocrcas.ed.gov/open-investigations",
+        "value": 0
+      },
+      "ocr_open_investigations_disability": {
+        "as_of": "2025-01-14",
+        "fetched_at": "2026-05-23T03:10:47Z",
+        "source": "ocr",
+        "url": "https://ocrcas.ed.gov/open-investigations",
+        "value": 0
+      }
     },
-    "chronic_absenteeism_rate_swd": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 0.199
-    },
-    "ela_distance_from_standard_all": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 1.9
-    },
-    "ela_distance_from_standard_swd": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": -69.0
-    },
-    "math_distance_from_standard_all": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": -22.1
-    },
-    "math_distance_from_standard_swd": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": -90.3
-    },
-    "suspension_rate_all": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 0.019
-    },
-    "suspension_rate_swd": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 0.027
+    "lre": {
+      "lre_80pct_plus_gen_ed_all_disabilities": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-23T03:10:41Z",
+        "source": "cde_spedps",
+        "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+        "value": 0.479
+      },
+      "lre_80pct_plus_gen_ed_autism": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-23T03:10:41Z",
+        "source": "cde_spedps",
+        "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+        "value": 0.169
+      },
+      "lre_separate_setting_all_disabilities": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-23T03:10:41Z",
+        "source": "cde_spedps",
+        "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+        "value": 0.0
+      },
+      "lre_separate_setting_autism": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-23T03:10:41Z",
+        "source": "cde_spedps",
+        "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+        "value": 0.0
+      }
     }
   },
   "region": "Unknown",
-  "schema_version": "0.1.0"
+  "schema_version": "0.2.0",
+  "structure": {
+    "district_web_research": {
+      "additional_findings": "No autism-specific classroom names, BCBA credentials, or 18-22 transition program details published publicly. Member of Santa Clarita Valley (LA County) SELPA.",
+      "district_website": "https://www.sssd.k12.ca.us",
+      "researched_at": "2026-05-23",
+      "sources": [
+        "https://www.lacoe.edu/SpecialEd"
+      ]
+    },
+    "staffing": {
+      "administrators": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 23
+      },
+      "all_certificated": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 341
+      },
+      "other_certificated": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 48
+      },
+      "pupil_services": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 47
+      },
+      "pupil_services_per_100_iep": {
+        "as_of": "2024-10-02",
+        "note": "Derived: certificated staff count (CDE Staff Race/Ethnicity, Census Day) normalized to enrollment (Census Day) or IEP count (SPED-PS, ages 3-22). PSV (pupil services) bundles counselors, psychologists, SLPs, social workers, and nurses \u2014 CDE no longer publishes role-granular district-level staff counts.",
+        "source": "derived",
+        "value": 4.95
+      },
+      "pupil_services_per_1k_students": {
+        "as_of": "2024-10-02",
+        "note": "Derived: certificated staff count (CDE Staff Race/Ethnicity, Census Day) normalized to enrollment (Census Day) or IEP count (SPED-PS, ages 3-22). PSV (pupil services) bundles counselors, psychologists, SLPs, social workers, and nurses \u2014 CDE no longer publishes role-granular district-level staff counts.",
+        "source": "derived",
+        "value": 9.11
+      },
+      "teachers": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 226
+      },
+      "teachers_per_100_iep": {
+        "as_of": "2024-10-02",
+        "note": "Derived: certificated staff count (CDE Staff Race/Ethnicity, Census Day) normalized to enrollment (Census Day) or IEP count (SPED-PS, ages 3-22). PSV (pupil services) bundles counselors, psychologists, SLPs, social workers, and nurses \u2014 CDE no longer publishes role-granular district-level staff counts.",
+        "source": "derived",
+        "value": 23.81
+      }
+    }
+  }
 }

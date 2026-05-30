@@ -1,0 +1,47 @@
+{
+  "_academic_year": "2024-25",
+  "_partial": true,
+  "_source": "cde_staff",
+  "cds_code": "30-66514",
+  "county": "Orange",
+  "name": "Fullerton Joint Union High",
+  "structure": {
+    "staffing": {
+      "administrators": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 47
+      },
+      "all_certificated": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 699
+      },
+      "other_certificated": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 95
+      },
+      "pupil_services": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 63
+      },
+      "teachers": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 566
+      }
+    }
+  }
+}

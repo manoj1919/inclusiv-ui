@@ -1,38 +1,6 @@
 {
-  "ai_summaries": {
-    "overview": {
-      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
-      "ai_generated": true,
-      "ai_generated_at": "2026-05-23T13:56:08Z",
-      "ai_model": "claude-opus (via Claude Code session)",
-      "based_on_sources": [
-        "cde_spedps",
-        "cde_enrollment",
-        "ca_dashboard",
-        "ocr",
-        "oah",
-        "district_web"
-      ],
-      "value": "Los Angeles Unified is a Unified K-12 district in Los Angeles County, serving about 516,685 students in 2024\u201325. About 85,792 students have an Individualized Education Program (IEP), and 23,718 of them \u2014 roughly 28% \u2014 have an autism (ASD) eligibility. Around 36% of those autistic students spend most of the school day, 80% or more, in a general-education classroom."
-    },
-    "what_this_means_for_parents": {
-      "ai_disclaimer": "This summary was written by an AI model from the data points in this profile. The underlying numbers come from public California government sources, but the narrative is AI-written and may contain inaccuracies. Verify specific claims directly with the school district before making decisions.",
-      "ai_generated": true,
-      "ai_generated_at": "2026-05-23T13:56:08Z",
-      "ai_model": "claude-opus (via Claude Code session)",
-      "based_on_sources": [
-        "cde_spedps",
-        "cde_enrollment",
-        "ca_dashboard",
-        "ocr",
-        "oah",
-        "district_web"
-      ],
-      "value": "In this district about 36% of autistic students are in a general-education classroom for most of the day, and about 5.7% are in a fully separate setting. Across all students with disabilities \u2014 a broader group that includes autism along with many other categories \u2014 62% are in general-education classrooms most of the day. On 2024\u201325 state tests, students with disabilities scored about 94 points below standard in English and 122 points below in math, while students overall were 18 and 49 points below. Students with disabilities were chronically absent at about 29% (compared with 22% for all students) and suspended at about 1% (compared with 0% for all students)."
-    }
-  },
   "build_provenance": {
-    "built_at": "2026-05-23T03:10:48Z",
+    "built_at": "2026-05-30T08:21:12Z",
     "pipeline_version": "0.1.0",
     "raw_snapshots": [
       {
@@ -66,6 +34,11 @@
         "source": "cde_spedps"
       },
       {
+        "path": "data/raw/cde_staff/2026-05-30/stre2425.txt",
+        "sha256": "f1e95ef32cd86a40ec10f6a382f4f489ab1c285ba4053a7d621316e3549f3793",
+        "source": "cde_staff"
+      },
+      {
         "path": "data/raw/oah/2026-05-23/manifest.json",
         "sha256": "6582b633f46aecd61fb3d2412ec6b519ec8b666b0d4d7b647e00ead4572d7716",
         "source": "oah"
@@ -78,61 +51,18 @@
     ]
   },
   "cds_code": "19-64733",
-  "compliance": {
-    "oah_cases_5yr_autism": {
-      "as_of": "2026-05-23",
-      "fetched_at": "2026-05-23T03:09:08Z",
-      "note": "Keyword heuristic \u2014 see oah_cases_5yr_total note.",
-      "source": "oah",
-      "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
-      "value": 6
-    },
-    "oah_cases_5yr_total": {
-      "as_of": "2026-05-23",
-      "fetched_at": "2026-05-23T03:09:08Z",
-      "note": "OAH special-education decisions naming this district, 2022-2026. All-time published total: 169. Autism count is a keyword heuristic (decision text mentions autism/ASD).",
-      "source": "oah",
-      "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
-      "value": 19
-    },
-    "ocr_open_investigations": {
-      "as_of": "2025-01-14",
-      "fetched_at": "2026-05-23T03:10:47Z",
-      "note": "Disability - Accessibility (opened 10/09/2024); Disability - Denial of Benefits (opened 06/16/2022); Disability - Denial of Benefits (opened 11/22/2022); Disability - Disability Harassment (opened 01/19/2024); Disability - Disability Harassment (opened 03/31/2022); Disability - Disability Harassment (opened 04/21/2023); Disability - Disability Harassment (opened 09/24/2024); Disability - FAPE (opened 01/06/2025); Disability - FAPE (opened 04/21/2023); Disability - FAPE (opened 05/04/2023); Disability - FAPE (opened 06/16/2022); Disability - FAPE (opened 09/24/2024); Disability - FAPE (opened 11/22/2022); Disability - Retaliation (opened 05/04/2023); Disability - Retaliation (opened 06/16/2022); Title IX - Admissions (opened 05/24/2023); Title IX - Discipline (opened 12/13/2022); Title IX - Sexual Harassment (opened 05/02/2023); Title IX - Sexual Harassment (opened 12/13/2022); Title VI - Denial of Benefits (opened 05/24/2023); Title VI - Denial of Benefits (opened 12/13/2023); Title VI - Discipline (opened 05/04/2023); Title VI - English Language Learners (opened 01/25/2022); Title VI - National Origin Discrimination Involving Religion (opened 05/24/2024); Title VI - Racial Harassment (opened 01/25/2022); Title VI - Racial Harassment (opened 03/31/2022); Title VI - Racial Harassment (opened 05/02/2023); Title VI - Racial Harassment (opened 05/24/2023); Title VI - Racial Harassment (opened 07/29/2022); Title VI - Racial Harassment (opened 12/13/2023); Title VI - Retaliation (opened 05/24/2023); Title VI - Retaliation (opened 12/13/2023)",
-      "source": "ocr",
-      "url": "https://ocrcas.ed.gov/open-investigations",
-      "value": 32
-    },
-    "ocr_open_investigations_disability": {
-      "as_of": "2025-01-14",
-      "fetched_at": "2026-05-23T03:10:47Z",
-      "source": "ocr",
-      "url": "https://ocrcas.ed.gov/open-investigations",
-      "value": 15
-    }
-  },
   "county": "Los Angeles",
   "county_code": "19",
   "data_sources_used": [
     "cde_spedps",
     "cde_enrollment",
+    "cde_staff",
     "ca_dashboard",
     "ocr",
     "oah",
     "district_web"
   ],
   "district_type": "Unified K-12",
-  "district_web_research": {
-    "additional_findings": "Largest school district in California and second-largest in the United States. Division of Special Education publishes a multi-tier autism program structure: an Autism Core Program (Special Day Program model that pairs students with autism with peers for communication-skills development) and a High Functioning Autism Core Program (supports students with HFA in general-ed classes while building communication skills). District-wide Career and Transition Centers provide Adult Transition Programs (employment preparation, independent living skills, social skills) to students ages 18-22 on the alternate curriculum. District also has a Positive Behavior Training arm. BCBA credentials are not explicitly named on the public Division of Special Education pages.",
-    "district_website": "https://www.lausd.org",
-    "researched_at": "2026-05-23",
-    "sources": [
-      "https://www.lausd.org/Page/17143",
-      "https://www.lausd.org/Page/17048",
-      "https://www.lausd.org/Page/9599",
-      "https://sped.lausd.org/"
-    ]
-  },
   "enrollment": {
     "pct_autism": {
       "as_of": "2024-10-02",
@@ -168,117 +98,224 @@
       "value": 516685
     }
   },
-  "inclusion_metrics": {
-    "lre_80pct_plus_gen_ed_all_disabilities": {
-      "as_of": "2024-10-02",
-      "fetched_at": "2026-05-23T03:10:41Z",
-      "source": "cde_spedps",
-      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.623
-    },
-    "lre_80pct_plus_gen_ed_autism": {
-      "as_of": "2024-10-02",
-      "fetched_at": "2026-05-23T03:10:41Z",
-      "source": "cde_spedps",
-      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.364
-    },
-    "lre_separate_setting_all_disabilities": {
-      "as_of": "2024-10-02",
-      "fetched_at": "2026-05-23T03:10:41Z",
-      "source": "cde_spedps",
-      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.039
-    },
-    "lre_separate_setting_autism": {
-      "as_of": "2024-10-02",
-      "fetched_at": "2026-05-23T03:10:41Z",
-      "source": "cde_spedps",
-      "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
-      "value": 0.057
-    }
-  },
-  "last_updated": "2026-05-23",
+  "last_updated": "2026-05-30",
   "name": "Los Angeles Unified",
-  "outcome_metrics": {
-    "chronic_absenteeism_rate_all": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 0.219
+  "outcome": {
+    "academics": {
+      "ela_distance_from_standard_all": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": -17.8
+      },
+      "ela_distance_from_standard_swd": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": -94.2
+      },
+      "math_distance_from_standard_all": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": -48.9
+      },
+      "math_distance_from_standard_swd": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": -122.0
+      }
     },
-    "chronic_absenteeism_rate_swd": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 0.287
-    },
-    "ela_distance_from_standard_all": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": -17.8
-    },
-    "ela_distance_from_standard_swd": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": -94.2
-    },
-    "math_distance_from_standard_all": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": -48.9
-    },
-    "math_distance_from_standard_swd": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": -122.0
-    },
-    "suspension_rate_all": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 0.003
-    },
-    "suspension_rate_swd": {
-      "as_of": "2025-06-30",
-      "fetched_at": "2026-05-23T03:10:42Z",
-      "source": "ca_dashboard",
-      "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
-      "value": 0.006
+    "behavior": {
+      "chronic_absenteeism_rate_all": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 0.219
+      },
+      "chronic_absenteeism_rate_swd": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 0.287
+      },
+      "suspension_rate_all": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 0.003
+      },
+      "suspension_rate_swd": {
+        "as_of": "2025-06-30",
+        "fetched_at": "2026-05-23T03:10:42Z",
+        "source": "ca_dashboard",
+        "url": "https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp",
+        "value": 0.006
+      }
     }
   },
-  "programs": {
-    "autism_specific_classrooms": [
-      {
-        "name": "Autism Core Program (Special Day Program with peer pairing for communication skills)"
+  "process": {
+    "disputes": {
+      "oah_cases_5yr_autism": {
+        "as_of": "2026-05-23",
+        "fetched_at": "2026-05-23T03:09:08Z",
+        "note": "Keyword heuristic \u2014 see oah_cases_5yr_total note.",
+        "source": "oah",
+        "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
+        "value": 6
       },
-      {
-        "name": "High Functioning Autism Core Program (general-ed with communication-skills support)"
+      "oah_cases_5yr_total": {
+        "as_of": "2026-05-23",
+        "fetched_at": "2026-05-23T03:09:08Z",
+        "note": "OAH special-education decisions naming this district, 2022-2026. All-time published total: 169. Autism count is a keyword heuristic (decision text mentions autism/ASD).",
+        "source": "oah",
+        "url": "https://www.dgs.ca.gov/OAH/Case-Types/Special-Education/Services/Decisions",
+        "value": 19
       },
-      {
-        "grade_range": "Ages 18-22",
-        "name": "Adult Transition Programs (Alternate Curriculum)"
+      "ocr_open_investigations": {
+        "as_of": "2025-01-14",
+        "fetched_at": "2026-05-23T03:10:47Z",
+        "note": "Disability - Accessibility (opened 10/09/2024); Disability - Denial of Benefits (opened 06/16/2022); Disability - Denial of Benefits (opened 11/22/2022); Disability - Disability Harassment (opened 01/19/2024); Disability - Disability Harassment (opened 03/31/2022); Disability - Disability Harassment (opened 04/21/2023); Disability - Disability Harassment (opened 09/24/2024); Disability - FAPE (opened 01/06/2025); Disability - FAPE (opened 04/21/2023); Disability - FAPE (opened 05/04/2023); Disability - FAPE (opened 06/16/2022); Disability - FAPE (opened 09/24/2024); Disability - FAPE (opened 11/22/2022); Disability - Retaliation (opened 05/04/2023); Disability - Retaliation (opened 06/16/2022); Title IX - Admissions (opened 05/24/2023); Title IX - Discipline (opened 12/13/2022); Title IX - Sexual Harassment (opened 05/02/2023); Title IX - Sexual Harassment (opened 12/13/2022); Title VI - Denial of Benefits (opened 05/24/2023); Title VI - Denial of Benefits (opened 12/13/2023); Title VI - Discipline (opened 05/04/2023); Title VI - English Language Learners (opened 01/25/2022); Title VI - National Origin Discrimination Involving Religion (opened 05/24/2024); Title VI - Racial Harassment (opened 01/25/2022); Title VI - Racial Harassment (opened 03/31/2022); Title VI - Racial Harassment (opened 05/02/2023); Title VI - Racial Harassment (opened 05/24/2023); Title VI - Racial Harassment (opened 07/29/2022); Title VI - Racial Harassment (opened 12/13/2023); Title VI - Retaliation (opened 05/24/2023); Title VI - Retaliation (opened 12/13/2023)",
+        "source": "ocr",
+        "url": "https://ocrcas.ed.gov/open-investigations",
+        "value": 32
+      },
+      "ocr_open_investigations_disability": {
+        "as_of": "2025-01-14",
+        "fetched_at": "2026-05-23T03:10:47Z",
+        "source": "ocr",
+        "url": "https://ocrcas.ed.gov/open-investigations",
+        "value": 15
       }
-    ],
-    "transition_18_22_program": {
-      "as_of": "2026-05-23",
-      "fetched_at": "2026-05-23T13:54:51Z",
-      "source": "district_web",
-      "url": "https://www.lausd.org/Page/17143",
-      "value": true
+    },
+    "lre": {
+      "lre_80pct_plus_gen_ed_all_disabilities": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-23T03:10:41Z",
+        "source": "cde_spedps",
+        "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+        "value": 0.623
+      },
+      "lre_80pct_plus_gen_ed_autism": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-23T03:10:41Z",
+        "source": "cde_spedps",
+        "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+        "value": 0.364
+      },
+      "lre_separate_setting_all_disabilities": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-23T03:10:41Z",
+        "source": "cde_spedps",
+        "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+        "value": 0.039
+      },
+      "lre_separate_setting_autism": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-23T03:10:41Z",
+        "source": "cde_spedps",
+        "url": "https://www.cde.ca.gov/ds/ad/filesspedps.asp",
+        "value": 0.057
+      }
     }
   },
   "region": "Unknown",
-  "schema_version": "0.1.0"
+  "schema_version": "0.2.0",
+  "structure": {
+    "district_web_research": {
+      "additional_findings": "Largest school district in California and second-largest in the United States. Division of Special Education publishes a multi-tier autism program structure: an Autism Core Program (Special Day Program model that pairs students with autism with peers for communication-skills development) and a High Functioning Autism Core Program (supports students with HFA in general-ed classes while building communication skills). District-wide Career and Transition Centers provide Adult Transition Programs (employment preparation, independent living skills, social skills) to students ages 18-22 on the alternate curriculum. District also has a Positive Behavior Training arm. BCBA credentials are not explicitly named on the public Division of Special Education pages.",
+      "district_website": "https://www.lausd.org",
+      "researched_at": "2026-05-23",
+      "sources": [
+        "https://www.lausd.org/Page/17143",
+        "https://www.lausd.org/Page/17048",
+        "https://www.lausd.org/Page/9599",
+        "https://sped.lausd.org/"
+      ]
+    },
+    "programs": {
+      "autism_specific_classrooms": [
+        {
+          "name": "Autism Core Program (Special Day Program with peer pairing for communication skills)"
+        },
+        {
+          "name": "High Functioning Autism Core Program (general-ed with communication-skills support)"
+        },
+        {
+          "grade_range": "Ages 18-22",
+          "name": "Adult Transition Programs (Alternate Curriculum)"
+        }
+      ],
+      "transition_18_22_program": {
+        "as_of": "2026-05-23",
+        "fetched_at": "2026-05-30T08:21:58Z",
+        "source": "district_web",
+        "url": "https://www.lausd.org/Page/17143",
+        "value": true
+      }
+    },
+    "staffing": {
+      "administrators": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 3164
+      },
+      "all_certificated": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 41004
+      },
+      "other_certificated": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 6333
+      },
+      "pupil_services": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 5258
+      },
+      "pupil_services_per_100_iep": {
+        "as_of": "2024-10-02",
+        "note": "Derived: certificated staff count (CDE Staff Race/Ethnicity, Census Day) normalized to enrollment (Census Day) or IEP count (SPED-PS, ages 3-22). PSV (pupil services) bundles counselors, psychologists, SLPs, social workers, and nurses \u2014 CDE no longer publishes role-granular district-level staff counts.",
+        "source": "derived",
+        "value": 6.13
+      },
+      "pupil_services_per_1k_students": {
+        "as_of": "2024-10-02",
+        "note": "Derived: certificated staff count (CDE Staff Race/Ethnicity, Census Day) normalized to enrollment (Census Day) or IEP count (SPED-PS, ages 3-22). PSV (pupil services) bundles counselors, psychologists, SLPs, social workers, and nurses \u2014 CDE no longer publishes role-granular district-level staff counts.",
+        "source": "derived",
+        "value": 10.18
+      },
+      "teachers": {
+        "as_of": "2024-10-02",
+        "fetched_at": "2026-05-30T08:18:52Z",
+        "source": "cde_staff",
+        "url": "https://www.cde.ca.gov/ds/ad/filesstre.asp",
+        "value": 26873
+      },
+      "teachers_per_100_iep": {
+        "as_of": "2024-10-02",
+        "note": "Derived: certificated staff count (CDE Staff Race/Ethnicity, Census Day) normalized to enrollment (Census Day) or IEP count (SPED-PS, ages 3-22). PSV (pupil services) bundles counselors, psychologists, SLPs, social workers, and nurses \u2014 CDE no longer publishes role-granular district-level staff counts.",
+        "source": "derived",
+        "value": 31.32
+      }
+    }
+  }
 }

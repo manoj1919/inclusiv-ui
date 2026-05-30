@@ -14,14 +14,32 @@ function collect(profile: DistrictProfile): { source: string; url?: string; as_o
     if (!seen.has(key)) seen.set(key, { source: s.source, url: s.url, as_of: s.as_of });
   };
   for (const v of Object.values(profile.enrollment ?? {})) walk(v as Sourced<unknown>);
-  for (const v of Object.values(profile.inclusion_metrics ?? {})) walk(v as Sourced<unknown>);
-  for (const v of Object.values(profile.outcome_metrics ?? {})) walk(v as Sourced<unknown>);
+  // Walk the three Donabedian buckets — Structure (staffing + programs + reviews),
+  // Process (LRE + disputes), Outcome (academics + behavior).
+  const sBlocks = [
+    profile.structure?.staffing,
+    profile.structure?.programs,
+    profile.structure?.related_services,
+    profile.structure?.reviews,
+    profile.process?.lre,
+    profile.process?.disputes,
+    profile.outcome?.academics,
+    profile.outcome?.behavior,
+  ];
+  for (const block of sBlocks) {
+    if (!block) continue;
+    for (const v of Object.values(block)) walk(v as Sourced<unknown>);
+  }
   return [...seen.values()].sort((a, b) => a.source.localeCompare(b.source));
 }
 
 const SOURCE_LABELS: Record<string, string> = {
   cde_spedps:
     "California Department of Education — Special Education Enrollment by Program Setting",
+  cde_enrollment:
+    "California Department of Education — Census Day Enrollment file",
+  cde_staff:
+    "California Department of Education — Staff Race/Ethnicity (StRE) file (CBEDS)",
   ca_dashboard:
     "California School Dashboard — annual indicator files (ELA, math, absenteeism, suspension)",
   oah: "Office of Administrative Hearings — special-education due-process decisions",
